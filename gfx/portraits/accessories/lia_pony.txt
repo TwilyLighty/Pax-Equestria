@@ -1,0 +1,193 @@
+﻿# 여기는 이제 gfx\models\portraits\attachments\props\lia_pony의
+# lia_pony.asset 파일에서 지정된 엔티티들을 받는 곳인데,
+# 아래에 보다시피 겜 안에서 이 엔티티들이 뭐라고 인식될지를 적고,
+# 그 내부 오른쪽에 있는 entity = ""안에다가 .asset파일에서 달아준 이름을 똑같이 적는식
+# 그리고 이건 다시 common/genes/LIA_genes_pony.txt 로 넘겨져서
+# 이제 그곳에서 이 이미지들이 어떤 유전 탬플릿으로 불릴지 가공 될 것
+
+# 틀 #
+
+lia_pony_test_portrait_full = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_test_portrait_full_entity" }
+}
+lia_pony_test_portrait_base_cloak = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_test_portrait_base_cloak_entity" }
+}
+lia_pony_test_portrait_accessory = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_test_portrait_accessory_entity" }
+}
+
+lia_pony_test_portrait_twilight_base = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_test_portrait_twilight_base_entity" }
+}
+lia_pony_test_portrait_twilight_crown = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_test_portrait_twilight_crown_entity" }
+}
+
+# 실제 파일 #
+
+## 실루엣 ##
+
+lia_pony_test_silhouette_base_earthpony = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_test_silhouette_base_earthpony_entity" }
+}
+lia_pony_test_silhouette_base_pegasus = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_test_silhouette_base_pegasus_entity" }
+}
+lia_pony_test_silhouette_base_unicorn = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_test_silhouette_base_unicorn_entity" }
+}
+lia_pony_test_silhouette_base_alicorn = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_test_silhouette_base_alicorn_entity" }
+}
+lia_pony_test_silhouette_base_batpony = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_test_silhouette_base_batpony_entity" }
+}
+
+lia_pony_test_silhouette_base_earthponyMale = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_test_silhouette_base_earthponyMale_entity" }
+}
+lia_pony_test_silhouette_base_pegasusMale = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_test_silhouette_base_pegasusMale_entity" }
+}
+lia_pony_test_silhouette_base_unicornMale = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_test_silhouette_base_unicornMale_entity" }
+}
+lia_pony_test_silhouette_base_alicornMale = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_test_silhouette_base_alicornMale_entity" }
+}
+lia_pony_test_silhouette_base_batponyMale = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_test_silhouette_base_batponyMale_entity" }
+}
+
+## 큐티 마크 ##
+
+lia_pony_CM_Applejack = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_CM_Applejack_entity" }
+}
+lia_pony_CM_Fluttershy = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_CM_Fluttershy_entity" }
+}
+lia_pony_CM_PinkiePie = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_CM_PinkiePie_entity" }
+}
+lia_pony_CM_RainbowDash = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_CM_RainbowDash_entity" }
+}
+lia_pony_CM_Rarity = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_CM_Rarity_entity" }
+}
+lia_pony_CM_StarlightGlimmer = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_CM_StarlightGlimmer_entity" }
+}
+lia_pony_CM_TwilightSparkle = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_CM_TwilightSparkle_entity" }
+}
+lia_pony_CM_DiamondTiara = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_CM_DiamondTiara_entity" }
+}
+lia_pony_CM_FancyPants = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_CM_FancyPants_entity" }
+}
+lia_pony_CM_Cadence = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_CM_Cadence_entity" }
+}
+lia_pony_CM_ShiningArmor = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_CM_ShiningArmor_entity" }
+}
+lia_pony_CM_Sandbar = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_CM_Sandbar_entity" }
+}
+lia_pony_CM_Neighsay = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_CM_Neighsay_entity" }
+}
+lia_pony_CM_Generic = {
+	entity = {
+		required_tags = ""
+		node = "bn_h_head_mid"
+		entity = "lia_pony_CM_Generic_entity" }
+}

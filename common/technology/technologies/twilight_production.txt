@@ -1,0 +1,9 @@
+﻿
+## ERA 1 ##
+crystalline_buildings = {
+	# Unlocks Crystal Architecture PM on Construction Sectors
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/crystal_glass.dds"
+	category = production
+	can_research = no
+}

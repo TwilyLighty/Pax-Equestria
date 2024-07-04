@@ -1,0 +1,121 @@
+texticon = {
+	icon = weather
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/clouds.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = weather_service
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/twilight_weather.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = crystals
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/twilight_crystals.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = spells
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/twilight_spells.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = jewelry
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/twilight_jewelry.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = flightponies
+	iconsize = {
+		offset = { 0 50 }
+		texture = "gfx/interface/icons/pops_icons/laborers.dds"
+		fontsize = 250
+	}
+}
+
+texticon = {
+	icon = flightponies
+	iconsize = {
+		offset = { 0 5 }
+		texture = "gfx/interface/icons/pops_icons/laborers_15.dds"
+		fontsize = 30
+	}
+}
+
+texticon = {
+	icon = weatherponies
+	iconsize = {
+		offset = { 0 50 }
+		texture = "gfx/interface/icons/pops_icons/machinists.dds"
+		fontsize = 250
+	}
+}
+
+texticon = {
+	icon = weatherponies
+	iconsize = {
+		offset = { 0 5 }
+		texture = "gfx/interface/icons/pops_icons/machinists_15.dds"
+		fontsize = 30
+	}
+}
+
+texticon = {
+	icon = mages
+	iconsize = {
+		offset = { 0 50 }
+		texture = "gfx/interface/icons/pops_icons/clerks.dds"
+		fontsize = 250
+	}
+}
+
+texticon = {
+	icon = mages
+	iconsize = {
+		offset = { 0 5 }
+		texture = "gfx/interface/icons/pops_icons/clerks_15.dds"
+		fontsize = 30
+	}
+}
+
+texticon = {
+	icon = archmages
+	iconsize = {
+		offset = { 0 50 }
+		texture = "gfx/interface/icons/pops_icons/bureaucrats.dds"
+		fontsize = 250
+	}
+}
+
+texticon = {
+	icon = archmages
+	iconsize = {
+		offset = { 0 5 }
+		texture = "gfx/interface/icons/pops_icons/bureaucrats_15.dds"
+		fontsize = 30
+	}
+}

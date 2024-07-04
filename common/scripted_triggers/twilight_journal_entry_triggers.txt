@@ -1,0 +1,16 @@
+﻿# Scope is country
+
+trigger_je_trigger_hidden = {
+	custom_tooltip = {
+		text = trigger_je_trigger_hidden_tt
+		always = no
+	}
+}
+
+trigger_je_grand_tomorrow_complete = {
+	custom_tooltip = {
+		text = je_grand_tomorrow_complete_tt
+		has_variable = var_je_grand_tomorrow_complete
+	}
+	NOT = { has_journal_entry = je_grand_tomorrow }
+}

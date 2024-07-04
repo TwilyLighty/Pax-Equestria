@@ -1,0 +1,15 @@
+﻿# Disabled options triggered by vanilla
+
+flotilla_prefix = {
+    type = country
+    random_valid = no
+
+    ### generic fallback
+
+    text = {
+        trigger = {
+            always = yes
+        }
+        localization_key = flotilla_prefix_blank # Many countries used no prefix at all
+    }
+}

@@ -1,0 +1,173 @@
+﻿PRODUCTION_METHODS = {
+	c:CRY = {
+		# Urban Center #
+
+		# Urban Center
+		activate_production_method = {
+			building_type = building_urban_center
+			production_method = pm_magic_streetlights
+		}
+		activate_production_method = {
+			building_type = building_urban_center
+			production_method = pm_weather_teams_services
+		}
+
+		# Government #
+
+		# Government Administration
+		activate_production_method = {
+			building_type = building_government_administration
+			production_method = pm_horizontal_drawer_cabinets
+		}
+		activate_production_method = {
+			building_type = building_government_administration
+			production_method = pm_air_mail
+		}
+
+		# Construction Sector
+		activate_production_method = {
+			building_type = building_construction_sector
+			production_method = pm_iron_frame_buildings
+		}
+		activate_production_method = {
+			building_type = building_construction_sector
+			production_method = pm_crystal_architecture
+		}
+
+		# University
+		activate_production_method = {
+			building_type = building_university
+			production_method = pm_clover_thaumatology_department
+		}
+
+		# Industry #
+
+		# Furniture Manufacturies
+		activate_production_method = {
+			building_type = building_furniture_manufacturies
+			production_method = pm_precision_tools
+		}
+		activate_production_method = {
+			building_type = building_furniture_manufacturies
+			production_method = pm_telekinesis_automation
+		}
+
+		# Magic Industries
+		activate_production_method = {
+			building_type = building_magic_industry
+			production_method = pm_mage_hierarchy
+		}
+		activate_production_method = {
+			building_type = building_magic_industry
+			production_method = pm_spellbooks
+		}
+		activate_production_method = {
+			building_type = building_magic_industry
+			production_method = pm_mage_guilds_building_magic_industry
+		}
+
+		# Jewelers
+		activate_production_method = {
+			building_type = building_jeweler
+			production_method = pm_precison_tools_building_jeweler
+		}
+		activate_production_method = {
+			building_type = building_jeweler
+			production_method = pm_complex_enchantments_building_jeweler
+		}
+		activate_production_method = {
+			building_type = building_jeweler
+			production_method = pm_telekinesis_automation
+		}
+
+		# Paper Mills
+		activate_production_method = {
+			building_type = building_paper_mills
+			production_method = pm_bleached_paper
+		}
+		activate_production_method = {
+			building_type = building_paper_mills
+			production_method = pm_telekinesis_automation
+		}
+
+		# Textile Mills
+		activate_production_method = {
+			building_type = building_textile_mills
+			production_method = pm_sewing_machines
+		}
+		activate_production_method = {
+			building_type = building_textile_mills
+			production_method = pm_telekinesis_automation
+		}
+
+		# Tooling workshops
+		activate_production_method = {
+			building_type = building_tooling_workshops
+			production_method = pm_pig_iron
+		}
+		activate_production_method = {
+			building_type = building_tooling_workshops
+			production_method = pm_enchanted_crystals_building_tooling_workshops
+		}
+		activate_production_method = {
+			building_type = building_tooling_workshops
+			production_method = pm_telekinesis_automation
+		}
+
+		# Resources #
+
+		# Coal Mines
+		activate_production_method = {
+			building_type = building_coal_mine
+			production_method = pm_atmospheric_engine_pump_building_coal_mine
+		}
+
+		# Crystal Mines
+		activate_production_method = {
+			building_type = building_crystal_mine
+			production_method = pm_atmospheric_engine_pump_building_crystal_mine
+		}
+
+		# Sulfur Mines
+		activate_production_method = {
+			building_type = building_sulfur_mine
+			production_method = pm_atmospheric_engine_pump_building_sulfur_mine
+		}
+
+		# Logging Camps
+		activate_production_method = {
+			building_type = building_logging_camp
+			production_method = pm_hardwood
+		}
+
+		# Agriculture #
+
+		# Crystal Corn Farm
+		# activate_production_method = {
+		# 	building_type = building_crystal_corn_farm
+		# 	production_method = pm_weather_teams_grain
+		# }
+		activate_production_method = {
+			building_type = building_crystal_corn_farm
+			production_method = pm_crystalberry_orchards
+		}
+		activate_production_method = {
+			building_type = building_crystal_corn_farm
+			production_method = pm_tools
+		}
+
+		# Tobacco Plantation
+		activate_production_method = {
+			building_type = building_tobacco_plantation
+			production_method = pm_weather_teams_tobacco
+		}
+
+		# Infrastructure #
+
+		# Port
+		activate_production_method = {
+			building_type = building_port
+			production_method = pm_basic_port
+		}
+	}
+}

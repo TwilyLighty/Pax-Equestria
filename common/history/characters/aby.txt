@@ -1,0 +1,36 @@
+﻿CHARACTERS = {
+	c:ABY = {
+		create_character = {
+			first_name = Gomez_cat
+			last_name = no_last_name
+			ruler = yes
+			birth_date = 1789.1.1
+			female = no
+			culture = cu:cat
+			noble = yes
+			ideology = ideology_pacifist
+			interest_group = ig_devout
+			traits = {
+				trait_no_culture_effects
+				cautious
+			}
+		}
+
+		create_character = {
+			first_name = Meowmeow
+			last_name = no_last_name
+			heir = yes
+			birth_date = 1820.1.1
+			female = no
+			culture = cu:cat
+			noble = yes
+			ideology = ideology_royalist  # Antimagic
+			interest_group = ig_landowners
+			traits = {
+				trait_no_culture_effects
+				bigoted
+				arrogant
+			}
+		}
+	}
+}

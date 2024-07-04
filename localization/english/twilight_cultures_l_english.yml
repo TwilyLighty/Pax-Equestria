@@ -1,0 +1,69 @@
+﻿l_english:
+ # Cultures #
+
+ ## Majors ##
+ pony: "Pony"
+ crystal_pony: "Crystal Pony"
+ alicorn: "Alicorn"
+ earth_pony: "Earth Pony"
+ pegasus: "Pegasus"
+ unicorn: "Unicorn"
+ crystal_earth_pony: "Crystal Earth Pony"
+ crystal_pegasus: "Crystal Pegasus"
+ crystal_unicorn: "Crystal Unicorn"
+ bat_pony: "Bat Pony"
+ cat: "Cat"
+ changeling: "Changeling"
+ reformed_changeling: "Reformed Changeling"
+ hollow_changeling: "Hollow Changeling"
+ diamond_dog: "Diamond Dog"
+ dragon: "Dragon"
+ griffon: "Griffon"
+ hippogriff: "Hippogriff"
+ kirin: "Kirin"
+ yak: "Yak"
+
+ ## Minors ##
+ buffalo: "Buffalo"
+ equus_minors: "Equus Minors"
+
+ # Cultural Traits #
+
+ ## Heritage ##
+ pony_heritage: "Pony Heritage"
+ cat_heritage: "Cat Heritage"
+ changeling_heritage: "Changeling Heritage"
+ diamond_dog_heritage: "Diamond Dog Heritage"
+ dragon_heritage: "Dragon Heritage"
+ griffon_heritage: "Griffon Heritage"
+ hippogriff_heritage: "Hippogriff Heritage"
+ yak_heritage: "Yak Heritage"
+ buffalo_heritage: "Buffalo Heritage"
+ no_heritage: "No Heritage"
+
+ ## Family ##
+ equine_family: "Equine Family"
+ insectoid_family: "Insectoid Family"
+ reptilian_family: "Reptilian Family"
+ avian_family: "Avian Family"
+ bovine_family: "Bovine Family"
+ canine_family: "Canine Family"
+ feline_family: "Feline Family"
+ no_family: "No Family"
+
+ ## Homeland ##
+ northern_equus_homeland: "Northern Equus Homeland"
+ southern_equus_homeland: "Southern Equus Homeland"
+ griffonia_homeland: "Griffonia Homeland"
+ no_homeland: "No Homeland"
+
+ ## Other ##
+ patriarchal: "Patriarchal"
+ matriarchal: "Matriarchal"
+ crystalline: "Crystalline"
+ cutie_mark: "Cutie Marks"
+ flight: "Flight"
+ weather_magic: "Weather Magic"
+ low_magic: "Low Magic"
+ high_magic: "High Magic"
+ nocturnal: "Nocturnal"

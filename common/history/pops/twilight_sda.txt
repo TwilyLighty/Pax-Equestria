@@ -1,0 +1,82 @@
+﻿# 10.0 M
+
+POPS = {
+	# SDA: 10.0 M
+	s:STATE_HAYJAZ = {
+		region_state:SDA = {
+			create_pop = {
+				culture = pony
+				split_religion = {
+					pony = {
+						desert_legend = 0.9
+						magic_of_friendship = 0.1
+					}
+				}
+				size = 4000000
+			}
+		}
+	}
+	s:STATE_NIGHTMARE_CLIFFS = {
+		region_state:SDA = {
+			create_pop = {
+				culture = pony
+				split_religion = {
+					pony = {
+						desert_legend = 0.9
+						magic_of_friendship = 0.1
+					}
+				}
+				size = 3000000
+			}
+		}
+	}
+	s:STATE_NEIGHJID = {
+		region_state:SDA = {
+			create_pop = {
+				cultures = {
+					pony = 0.9
+					equus_minors = 0.1
+				}
+				religion = desert_legend
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_CAVES_OF_CONUNDRUM = {
+		region_state:SDA = {
+			create_pop = {
+				culture = pony
+				religion = desert_legend
+				size = 1000000
+			}
+		}
+	}
+	s:STATE_WEST_DESERT = {
+		region_state:SDA = {
+			create_pop = {
+				cultures = {
+					pony = 0.8
+					equus_minors = 0.1
+					cat = 0.1
+				}
+				split_religion = {
+					pony = {
+						desert_legend = 1
+					}
+				}
+				split_religion = {
+					equus_minors = {
+						materialism = 1
+					}
+				}
+				split_religion = {
+					cat = {
+						desert_legend = 0.5
+						materialism = 0.5
+					}
+				}
+				size = 1000000
+			}
+		}
+	}
+}

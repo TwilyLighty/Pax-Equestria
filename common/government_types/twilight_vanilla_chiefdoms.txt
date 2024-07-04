@@ -1,0 +1,3 @@
+﻿gov_decentralized_sultanate = {
+	possible = { always = no }
+}

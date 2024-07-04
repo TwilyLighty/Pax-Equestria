@@ -1,0 +1,149 @@
+﻿# Subsistence Pastures #
+
+## Base ##
+
+grain_building_subsistence_pastures = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_grain_add = 2.0  # 40
+			building_output_fabric_add = 1.0  # 20
+			building_output_wood_add = 0.25  # 5
+			building_output_services_add = 0.5  # 15
+
+			# 80
+		}
+
+		level_scaled = {
+			building_employment_peasants_add = 4750
+		}
+
+		unscaled = {
+			building_aristocrats_shares_add = 10
+			building_clergymen_shares_add = 2
+		}
+	}
+}
+
+## Serfdom ##
+
+# Overwritten
+pm_serfdom_building_subsistence_pastures = {
+	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
+
+	unlocking_laws = {
+		law_serfdom
+	}
+
+	unlocking_production_methods = {
+		default_building_subsistence_pastures
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_meat_add = 0.33  # 10
+		}
+
+		unscaled = {
+			building_subsistence_output_add = 3
+		}
+	}
+}
+
+pm_grain_serfdom_building_subsistence_pastures = {
+	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
+
+	unlocking_laws = {
+		law_serfdom
+	}
+
+	unlocking_production_methods = {
+		grain_building_subsistence_pastures
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_grain_add = 0.5  # 10
+		}
+
+		unscaled = {
+			building_subsistence_output_add = 3
+		}
+	}
+}
+
+# Fishing Villages #
+
+## Base ##
+
+grain_building_subsistence_fishing_villages = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_grain_add = 2 # 40
+			building_output_fabric_add = 0.25 # 5
+			building_output_wood_add = 0.75 # 15
+			building_output_services_add = 0.5 # 15
+
+			# 75
+		}
+
+		level_scaled = {
+			building_employment_peasants_add = 4750
+		}
+
+		unscaled = {
+			building_aristocrats_shares_add = 10
+			building_clergymen_shares_add = 2
+		}
+	}
+}
+
+## Serfdom ##
+
+# Overwritten
+pm_serfdom_building_subsistence_fishing_villages = {
+	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
+
+	unlocking_laws = {
+		law_serfdom
+	}
+
+	unlocking_production_methods = {
+		default_building_subsistence_fishing_villages
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_fish_add = 0.5  # 10
+		}
+
+		unscaled = {
+			building_subsistence_output_add = 3
+		}
+	}
+}
+
+pm_grain_serfdom_building_subsistence_fishing_villages = {
+	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
+
+	unlocking_laws = {
+		law_serfdom
+	}
+
+	unlocking_production_methods = {
+		grain_building_subsistence_fishing_villages
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_grain_add = 0.5  # 10
+		}
+
+		unscaled = {
+			building_subsistence_output_add = 3
+		}
+	}
+}

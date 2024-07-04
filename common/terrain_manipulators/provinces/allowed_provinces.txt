@@ -1,0 +1,9 @@
+﻿mask_dynamic_farmland={
+	checksum="b4499f74ce409cdd01617a69e56f079e"
+}
+mask_dynamic_mining={
+	checksum="b4499f74ce409cdd01617a69e56f079e"
+}
+mask_dynamic_forestry={
+	checksum="b4499f74ce409cdd01617a69e56f079e"
+}

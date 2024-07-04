@@ -1,0 +1,294 @@
+﻿# TODO: Calculate the profit of each pm
+
+# General #
+
+## Weather Teams ##
+
+pm_weather_teams_coffee = {
+	texture = "gfx/interface/icons/production_method_icons/twilight_weather.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_weather_service_add = 5  # x30 = 150
+
+			# output goods
+			building_output_coffee_add = 10  # x50 = 500
+
+			# profit = 350
+		}
+	}
+}
+
+pm_weather_teams_fabric = {
+	texture = "gfx/interface/icons/production_method_icons/twilight_weather.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_weather_service_add = 5  # x30 = 150
+
+			# output goods
+			building_output_fabric_add = 20  # x20 = 400
+
+			# profit = 250
+		}
+	}
+}
+
+pm_weather_teams_dye = {
+	texture = "gfx/interface/icons/production_method_icons/twilight_weather.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_weather_service_add = 5  # x30 = 150
+
+			# output goods
+			building_output_dye_add = 10  # x40 = 400
+
+			# profit = 250
+		}
+	}
+}
+
+pm_weather_teams_opium = {
+	texture = "gfx/interface/icons/production_method_icons/twilight_weather.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_weather_service_add = 5  # x30 = 150
+
+			# output goods
+			building_output_opium_add = 10  # x50 = 500
+
+			# profit = 350
+		}
+	}
+}
+
+pm_weather_teams_tea = {
+	texture = "gfx/interface/icons/production_method_icons/twilight_weather.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_weather_service_add = 5  # x30 = 150
+
+			# output goods
+			building_output_tea_add = 10  # x50 = 500
+
+			# profit = 350
+		}
+	}
+}
+
+pm_weather_teams_tobacco = {
+	texture = "gfx/interface/icons/production_method_icons/twilight_weather.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_weather_service_add = 5  # x30 = 150
+
+			# output goods
+			building_output_tobacco_add = 10  # x40 = 400
+
+			# profit = 250
+		}
+	}
+}
+
+pm_weather_teams_sugar = {
+	texture = "gfx/interface/icons/production_method_icons/twilight_weather.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_weather_service_add = 5  # x30 = 150
+
+			# output goods
+			building_output_sugar_add = 15  # x30 = 450
+
+			# profit = 300
+		}
+	}
+}
+
+pm_weather_teams_fruit = {
+	texture = "gfx/interface/icons/production_method_icons/twilight_weather.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_weather_service_add = 5  # x30 = 150
+
+			# output goods
+			building_output_fruit_add = 15  # x30 = 450
+
+			# profit = 300
+		}
+	}
+}
+
+pm_weather_teams_silk = {
+	texture = "gfx/interface/icons/production_method_icons/twilight_weather.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_weather_service_add = 5  # x30 = 150
+
+			# output goods
+			building_output_silk_add = 10  # x40 = 400
+
+			# profit = 250
+		}
+	}
+}
+
+# Apple Plantation #
+
+## Base ##
+
+default_building_apple_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_fruit_add = 25  # x30 = 750
+
+			# profit = 750
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+
+automatic_irrigation_building_apple_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
+
+	pollution_generation = 5
+
+	unlocking_technologies = {
+		pumpjacks
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_engines_add = 5  # x60 = 300
+
+			# output goods
+			building_output_fruit_add = 55  # x30 = 1650
+
+			# profit = 1350
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_farmers_add = 1700
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+
+## Secondary ##
+
+pm_cornfields = {
+	texture = "gfx/interface/icons/production_method_icons/open_air_stockyards.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_fruit_add = -15  # x30 = -450
+			building_output_grain_add = 25  # x20 = 500
+
+			# profit = 50
+		}
+	}
+}
+
+pm_apple_jam = {
+	texture = "gfx/interface/icons/production_method_icons/bone_china.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_fruit_add = -15  # x30 = -450
+			building_output_sugar_add = 15  # x30 = 450
+
+			# profit = 0
+		}
+	}
+}
+
+pm_apple_cider = {
+	texture = "gfx/interface/icons/production_method_icons/patent_stills.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_fruit_add = -15  # x30 = -450
+			building_output_liquor_add = 15  # x30 = 450
+
+			# profit = 0
+		}
+	}
+}
+
+# Mango Plantation #
+
+## Base ##
+
+default_building_mango_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_fruit_add = 30  # x30 = 900
+
+			# profit = 900
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 800
+			building_employment_clergymen_add = 100
+		}
+	}
+}
+
+automatic_irrigation_building_mango_plantation = {
+	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
+
+	pollution_generation = 5
+
+	unlocking_technologies = {
+		pumpjacks
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_input_engines_add = 5  # x60 = 300
+			building_output_fruit_add = 60  # x30 = 1800
+
+			# profit = 1500
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_farmers_add = 1200
+			building_employment_machinists_add = 500
+			building_employment_clergymen_add = 100
+		}
+	}
+}

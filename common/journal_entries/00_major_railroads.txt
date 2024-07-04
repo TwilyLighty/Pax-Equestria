@@ -1,0 +1,16 @@
+﻿# Disabled
+
+je_trans_siberian_railway = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}
+
+je_trans_continental_railway = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}
+
+je_canada_pacific_railway = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}

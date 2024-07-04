@@ -1,0 +1,188 @@
+﻿# **Laughter: Better Together**
+# Diplomacy
+# TODO: Add some sort of Pan-Continent Union JE
+
+# TODO: Remove the v0.1 code
+je_grand_tomorrow_laughter = {
+	icon = "gfx/interface/icons/event_icons/twilight_event_laughter.dds"
+
+	immediate = {
+		set_variable = {
+			name = var_je_grand_tomorrow_laughter_value
+			value = 0
+		}
+	}
+
+	on_monthly_pulse = {
+		# # Temporarily disabled for v0.1
+		# effect = {
+		# 	random_list = {
+		# 		11 = {}
+		# 		1 = {
+		# 			random_list = {
+		# 				# je_grand_tomorrow_laughter_alliance
+		# 				1 = {
+		# 					trigger_event = {
+		# 						id = twilight_grand_tomorrow_events.410
+		# 						popup = yes
+		# 					}
+		# 				}
+		# 				0 = {}
+		# 			}
+		# 		}
+		# 	}
+		# }
+	}
+
+	current_value = {
+		value = var:var_je_grand_tomorrow_laughter_value
+	}
+
+	goal_add_value = {
+		add = 1
+	}
+
+	complete = {
+		# # Temporarily disabled for v0.1
+		# scope:journal_entry = {
+		# 	is_goal_complete = yes
+		# }
+		is_at_war = no
+
+		# Temporarily added for v0.1
+		any_country = {
+			country_is_in_equus = yes
+			OR = {
+				has_diplomatic_pact = {
+					who = ROOT
+					type = alliance
+				}
+				has_diplomatic_pact = {
+					who = ROOT
+					type = protectorate
+				}
+			}
+		}
+		any_country = {
+			filter = {
+				is_country_type = recognized
+				country_is_in_equus = yes
+			}
+			relations:root >= relations_threshold:amicable
+			percent >= 0.75
+		}
+	}
+
+	on_complete = {
+		effect_je_grand_tomorrow_advance = yes
+		effect_country_reduce_slumber_of_the_giant_effect = yes
+		trigger_event = {
+			id = twilight_grand_tomorrow_events.401
+			popup = yes
+		}
+	}
+
+	invalid = {
+		trigger_je_grand_tomorrow_complete = yes
+	}
+
+	progressbar = yes
+
+	weight = 5000
+
+	inheritable = no
+}
+
+je_grand_tomorrow_laughter_alliance = {
+	icon = "gfx/interface/icons/event_icons/twilight_event_laughter.dds"
+
+	immediate = {
+		set_variable = {
+			name = var_je_grand_tomorrow_laughter_alliance_months
+			value = 0
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			if = {
+				limit = {
+					any_country = {
+						country_is_in_equus = yes
+						OR = {
+							has_diplomatic_pact = {
+								who = ROOT
+								type = alliance
+							}
+							has_diplomatic_pact = {
+								who = ROOT
+								type = protectorate
+							}
+						}
+					}
+					any_country = {
+						filter = {
+							is_country_type = recognized
+							country_is_in_equus = yes
+						}
+						relations:root >= relations_threshold:amicable
+						percent >= 0.75
+					}
+				}
+				change_variable = {
+					name = var_je_grand_tomorrow_laughter_alliance_months
+					add = 1
+				}
+			}
+		}
+	}
+
+	current_value = {
+		value = var:var_je_grand_tomorrow_laughter_alliance_months
+	}
+
+	goal_add_value = {
+		# 10 years
+		add = 120
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+		any_country = {
+			country_is_in_equus = yes
+			has_diplomatic_pact = {
+				who = ROOT
+				type = alliance
+			}
+		}
+		any_country = {
+			filter = {
+				is_country_type = recognized
+				country_is_in_equus = yes
+			}
+			relations:root >= relations_threshold:amicable
+			percent >= 0.75
+		}
+	}
+
+	on_complete = {
+		effect_je_grand_tomorrow_laughter_advance = yes
+		remove_variable = var_je_grand_tomorrow_laughter_alliance_months
+		trigger_event = {
+			id = twilight_grand_tomorrow_events.411
+			popup = yes
+		}
+	}
+
+	invalid = {
+		trigger_je_grand_tomorrow_complete = yes
+	}
+
+	weight = 1000
+
+	inheritable = no
+
+	should_be_pinned_by_default = yes
+}

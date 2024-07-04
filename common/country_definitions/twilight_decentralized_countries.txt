@@ -1,0 +1,103 @@
+﻿# Badlands Nomads
+BDN = {
+	color = hsv360 { 30 50 50 }
+
+	country_type = decentralized
+
+	tier = principality
+
+	cultures = { equus_minors }
+	religion = materialism
+	capital = STATE_BADLANDS
+}
+
+# Buffalo Territory
+BFL = {
+    color = hsv360 { 40 60 85 }
+
+    country_type = decentralized
+
+    tier = principality
+
+    cultures = { buffalo }
+	religion = buffalo_legend
+    capital = STATE_DODGE_CITY
+}
+
+# Black Skull Island
+BSI = {
+    color = hsv360 { 101 25 50 }
+
+    country_type = decentralized
+
+    tier = principality
+
+    cultures = { equus_minors }
+	religion = animist
+    capital = STATE_BLACK_SKULL_ISLAND
+}
+
+# Equus Minors #
+EQM = {
+    color = hsv360 { 202 25 50 }
+
+    country_type = decentralized
+
+    tier = principality
+
+    cultures = { equus_minors }
+	religion = animist
+    capital = STATE_MOUNT_EVERHOOF
+}
+
+# Mau
+MAU = {
+    color = hsv360 { 303 25 50 }
+
+    country_type = decentralized
+
+    tier = principality
+
+    cultures = { cat }
+	religion = desert_legend
+    capital = STATE_NORTH_DESERT
+}
+
+# Tenochitlan
+TCL = {
+    color = hsv360 { 44 25 50 }
+
+    country_type = decentralized
+
+    tier = principality
+
+    cultures = { equus_minors }
+	religion = animist
+    capital = STATE_EASTERN_JUNGLE
+}
+
+# Tlatelolco
+TLT = {
+    color = hsv360 { 145 25 50 }
+
+    country_type = decentralized
+
+    tier = principality
+
+    cultures = { equus_minors }
+	religion = animist
+    capital = STATE_WESTERN_JUNGLE
+}
+
+# Timbucktu
+TMB = {
+    color = hsv360 { 246 25 50 }
+
+    country_type = decentralized
+
+    tier = principality
+
+    cultures = { pony }
+	religion = desert_legend
+    capital = STATE_NORTHWEST_DESERT
+}

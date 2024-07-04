@@ -1,0 +1,43 @@
+﻿BUILDINGS = {
+	s:STATE_GRIFFISH_ISLES = {
+		region_state:GRF = {
+			# Industry
+			create_building = {
+				building = building_textile_mills
+				level = 1
+			}
+
+			# Resources
+			create_building = {
+				building = building_coal_mine
+				level = 3
+			}
+			create_building = {
+				building = building_logging_camp
+				level = 3
+			}
+
+			# Agriculture
+			create_building = {
+				building = building_tea_plantation
+				level = 2
+			}
+
+			# Infrastructure
+			create_building = {
+				building = building_construction_sector
+				level = 1
+			}
+			create_building = {
+				building = building_port
+				level = 2
+			}
+
+			# Military
+			create_building = {
+				building = building_naval_base
+				level = 10
+			}
+		}
+	}
+}

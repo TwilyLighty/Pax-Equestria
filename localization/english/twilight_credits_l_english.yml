@@ -1,0 +1,11 @@
+﻿l_english:
+ TITLE_PROJECT_TWILIGHT: "#credits_title Project Twilight#!"
+ HEADER_HEAD_DEVELOPER: "#credits_header HEAD DEVELOPER#!"
+ HEADER_SCRIPTER: "#credits_header SCRIPTERS#!"
+ HEADER_WRITERS: "#credits_header WRITERS#!"
+ HEADER_ARTISTS: "#credits_header ARTISTS#!"
+ HEADER_TECHNICAL_SUPPORT: "#credits_header TECHNICAL SUPPORT#!"
+ HEADER_SPECIAL_THANKS: "#credits_header SPECIAL THANKS#!"
+ HEADER_DISCLAIMER: "#credits_header Disclaimer#!"
+ EMPTY_PAGE: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+ CREDITS_DELIMITER: "\n\n\n\n@divider_start!@divider_mid!@divider_mid!@divider_mid!@divider_mid!@divider_mid!@divider_mid!@divider_mid!@divider_mid!@divider_mid!@divider_end!\n\n\n\n"

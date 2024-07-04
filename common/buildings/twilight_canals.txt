@@ -1,0 +1,11 @@
+﻿# Vanilla buildings for silencing errors
+
+building_suez_canal = {
+    building_group = bg_canals
+    buildable = no
+}
+
+building_panama_canal = {
+    building_group = bg_canals
+    buildable = no
+}

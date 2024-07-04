@@ -1,0 +1,231 @@
+﻿BUILDINGS = {
+	s:STATE_PANTHERA = {
+		region_state:ABY = {
+			# Government
+			create_building = {
+				building = building_government_administration
+				level = 5
+			}
+			create_building = {
+				building = building_university
+				level = 2
+			}
+
+			# Industry
+			create_building = {
+				building = building_furniture_manufacturies
+				level = 1
+			}
+			create_building = {
+				building = building_food_industry
+				level = 2
+			}
+			create_building = {
+				building = building_paper_mills
+				level = 2
+			}
+			create_building = {
+				building = building_shipyards
+				level = 1
+			}
+			create_building = {
+				building = building_textile_mills
+				level = 1
+			}
+			create_building = {
+				building = building_tooling_workshops
+				level = 1
+			}
+
+			# Resources
+			create_building = {
+				building = building_logging_camp
+				level = 1
+			}
+
+			# Agriculture
+			create_building = {
+				building = building_maize_farm
+				level = 1
+			}
+			create_building = {
+				building = building_silk_plantation
+				level = 5
+			}
+			create_building = {
+				building = building_tea_plantation
+				level = 1
+			}
+
+			# Infrastructure
+			create_building = {
+				building = building_construction_sector
+				level = 5
+			}
+			create_building = {
+				building = building_port
+				level = 2
+			}
+
+			# Military
+			create_building = {
+				building = building_barracks
+				level = 20
+			}
+			create_building = {
+				building = building_naval_base
+				level = 10
+			}
+		}
+	}
+
+	s:STATE_SIAMESE_DELTA = {
+		region_state:ABY = {
+			# Government
+			create_building = {
+				building = building_government_administration
+				level = 1
+			}
+
+			# Industry
+			create_building = {
+				building = building_furniture_manufacturies
+				level = 1
+			}
+			create_building = {
+				building = building_food_industry
+				level = 1
+			}
+			create_building = {
+				building = building_paper_mills
+				level = 1
+			}
+			create_building = {
+				building = building_textile_mills
+				level = 1
+			}
+
+			# Resources
+			create_building = {
+				building = building_coal_mine
+				level = 2
+			}
+			create_building = {
+				building = building_logging_camp
+				level = 1
+			}
+			create_building = {
+				building = building_fishing_wharf
+				level = 1
+			}
+
+			# Agriculture
+			create_building = {
+				building = building_maize_farm
+				level = 1
+			}
+			create_building = {
+				building = building_sugar_plantation
+				level = 2
+			}
+			create_building = {
+				building = building_tea_plantation
+				level = 3
+			}
+
+			# Infrastructure
+			create_building = {
+				building = building_port
+				level = 1
+			}
+
+			# Military
+			create_building = {
+				building = building_barracks
+				level = 10
+			}
+		}
+	}
+
+	s:STATE_TABBYTOWN = {
+		region_state:ABY = {
+			# Government
+			create_building = {
+				building = building_government_administration
+				level = 1
+			}
+
+			# Industry
+			create_building = {
+				building = building_food_industry
+				level = 1
+			}
+			create_building = {
+				building = building_textile_mills
+				level = 1
+			}
+
+			# Military
+			create_building = {
+				building = building_barracks
+				level = 5
+			}
+		}
+	}
+
+	s:STATE_UPPER_SIAM = {
+		region_state:ABY = {
+			# Government
+			create_building = {
+				building = building_government_administration
+				level = 1
+			}
+
+			# Industry
+			create_building = {
+				building = building_food_industry
+				level = 1
+			}
+			create_building = {
+				building = building_furniture_manufacturies
+				level = 1
+			}
+			create_building = {
+				building = building_paper_mills
+				level = 1
+			}
+
+			# Resources
+			create_building = {
+				building = building_coal_mine
+				level = 1
+			}
+			create_building = {
+				building = building_logging_camp
+				level = 1
+			}
+
+			# Agriculture
+			create_building = {
+				building = building_tea_plantation
+				level = 2
+			}
+
+			# Military
+			create_building = {
+				building = building_barracks
+				level = 5
+			}
+		}
+	}
+
+	s:STATE_LITTERBOX_RIDGE = {
+		region_state:ABY = {
+			# Government
+			create_building = {
+				building = building_government_administration
+				level = 1
+			}
+		}
+	}
+}

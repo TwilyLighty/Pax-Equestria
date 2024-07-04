@@ -1,0 +1,23 @@
+﻿l_english:
+ # **Common Macros**
+ # | Macro                                               | Output              | Output Type       |
+ # | --------------------------------------------------- | ------------------- | ----------------- |
+ # | [InterestGroup.GetNameNoIcon]                       | "Philiologists"     | Tooltip available |
+ # | [InterestGroup.GetCountry.GetNameNoFlag]            | "Equestria"         | Tooltip available |
+ # | [InterestGroup.GetCountry.GetNameNoFormatting]      | "Equestria"         | Plain text        |
+ # | [InterestGroup.GetCountry.GetAdjectiveNoFlag]       | "Equestrian"        | Tooltip available |
+ # | [InterestGroup.GetCountry.GetAdjectiveNoFormatting] | "Equestrian"        | Plain text        |
+
+ ig_royal_guards: "Royal Guards"
+ # TODO: Discuss
+ ig_royal_guards_desc: "The most loyal group to the monarch, the [InterestGroup.GetNameNoIcon] are perhaps the only group that has influence in every part of [InterestGroup.GetCountry.GetAdjectiveNoFlag] society, be it big or small. No matter which group comes into power, they will be the ones pulling the strings for the [InterestGroup.GetCountry.GetRuler.GetPrimaryRoleTitle], as long as [InterestGroup.GetCountry.GetRuler.GetSheHe] remains the \"rightful\" ruler to salute to."
+ ig_defense_forces: "Defense Forces"
+ # This is simply meant to be a different name of armed forces (as of now)
+ ig_defense_forces_desc: "$ig_armed_forces$"
+ # ig_defense_forces_desc: "While making a very small amount of the population,  the [InterestGroup.GetNameNoIcon] are perhaps the only hope for defence in times of war and turmoil. And are most important group for Twilight to keep happy and if she fails to do so the ramifactions could be catastrophic for Equestria."
+ ig_elites: "Elites"
+ ig_elites_desc: "The [InterestGroup.GetNameNoIcon] are made up of various groups including aristocrats, nobles, and various members of the royal family. As custodians of the old way, they were and will be the most loyal to the alicorns, as long as their tradition and interests are not interfered with."
+ ig_philiologists: "Philiologists"
+ ig_philiologists_desc: "While many creatures agree that the ethics of Friendship could be beneficial in daily lives, the [InterestGroup.GetNameNoIcon] are particularly dedicated to studying and theorizing [Concept('concept_religion', 'Friendship')] and will attempt to apply its teachings extensively, from politics to civil rights. Rumors say that a tiny minority of them might even be worshipping the alicorns as living deities of Friendship."
+ ig_chartists: "Chartists"
+ ig_chartists_desc: "Championing the ideas of liberty, democracy and constitutionalism in opposition to an autocratic regime of immortal alicorns, the [InterestGroup.GetNameNoIcon] are one of the harshest critics to Alicorn rule. While failing to acquire major support from fellow ponies, the ascension of the new monarch could be a turning point, as their [InterestGroup.GetCountry.GetRuler.GetPrimaryRoleTitle] may attempt to find common ground with their reforms or drive them further into opposition."

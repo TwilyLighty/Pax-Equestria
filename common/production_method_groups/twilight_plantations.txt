@@ -1,0 +1,158 @@
+﻿# Typical #
+
+pmg_weather_coffee = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_no_weather
+		pm_weather_teams_coffee
+	}
+}
+
+pmg_weather_fabric = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_no_weather
+		pm_weather_teams_fabric
+	}
+}
+
+pmg_weather_dye = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_no_weather
+		pm_weather_teams_dye
+	}
+}
+
+pmg_weather_opium = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_no_weather
+		pm_weather_teams_opium
+	}
+}
+
+pmg_weather_tea = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_no_weather
+		pm_weather_teams_tea
+	}
+}
+
+pmg_weather_tobacco = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_weather
+		pm_weather_teams_tobacco
+	}
+}
+
+pmg_weather_sugar = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_no_weather
+		pm_weather_teams_sugar
+	}
+}
+
+pmg_weather_silk = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_no_weather
+		pm_weather_teams_silk
+	}
+}
+
+# Fruit Plantations #
+
+## Generic ##
+
+pmg_weather_fruit = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_no_weather
+		pm_weather_teams_fruit
+	}
+}
+
+## Mango Plantations ##
+
+pmg_base_building_mango_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		default_building_mango_plantation
+		automatic_irrigation_building_mango_plantation
+	}
+}
+
+pmg_train_automation_building_mango_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+	}
+}
+
+pmg_ownership_land_building_mango_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+
+	production_methods = {
+		pm_privately_owned
+		pm_publicly_traded
+		pm_government_run
+		pm_worker_cooperative_plantation
+	}
+}
+
+## Apple Plantations ##
+
+pmg_base_building_apple_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		default_building_apple_plantation
+		automatic_irrigation_building_apple_plantation
+	}
+}
+
+pmg_secondary_building_apple_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+
+	production_methods = {
+		pm_no_secondary
+		pm_cornfields
+		pm_apple_jam
+		pm_apple_cider
+	}
+}
+
+pmg_train_automation_building_apple_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+	}
+}
+
+pmg_ownership_land_building_apple_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+
+	production_methods = {
+		pm_privately_owned
+		pm_publicly_traded
+		pm_government_run
+		pm_worker_cooperative_plantation
+	}
+}

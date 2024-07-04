@@ -1,0 +1,180 @@
+﻿building_canterlot_castle = {
+    building_group = bg_monuments
+    texture = "gfx/interface/icons/building_icons/twilight_canterlot_castle.dds"
+    expandable = no
+    buildable = no
+    downsizeable = no
+    unique = yes
+    locator = "caterlot_castle_locator"
+
+    entity_not_constructed = {}
+    entity_under_construction = {}
+    entity_constructed = {}
+
+    city_gfx_interactions = {
+        clear_size_area = no
+    }
+
+    production_method_groups = {
+        pmg_base_building_canterlot_castle
+    }
+
+    required_construction = construction_cost_monument
+
+    possible = {
+        error_check = {
+            severity = invalid
+            this = {
+                state_region = s:STATE_CANTERLOT
+            }
+        }
+    }
+
+    ai_value = 10000
+}
+
+building_crystal_heart = {
+    building_group = bg_monuments
+	texture = "gfx/interface/icons/building_icons/twilight_crystal_heart.dds"
+    expandable = no
+    buildable = no
+    downsizeable = no
+    unique = yes
+    locator = "crystal_heart_locator"
+
+    entity_not_constructed = {}
+    entity_under_construction = {}
+    entity_constructed = {}
+
+    city_gfx_interactions = {
+        clear_size_area = no
+    }
+
+    production_method_groups = {
+        pmg_base_building_crystal_heart
+    }
+
+    required_construction = construction_cost_monument
+
+    possible = {
+        error_check = {
+            severity = invalid
+            this = {
+                state_region = s:STATE_CRYSTAL_CITY
+            }
+        }
+    }
+
+    ai_value = 10000
+}
+
+# Vanilla buildings for silencing errors
+
+building_eiffel_tower = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_angkor_wat = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_big_ben = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_forbidden_city = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_hagia_sophia = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_mosque_of_djenne = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_saint_basils_cathedral = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_statue_of_liberty = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_taj_mahal = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_vatican_city = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_white_house = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+# Decorative only
+
+building_machu_picchu = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_argebam = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_chichen_itza = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_easter_island_heads = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_eye_of_sahara = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_giza_necropolis = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_khaju_bridge = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_petra = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+### American Buildings DLC - models not present in basegame ###
+
+building_capitol_hill = {
+    building_group = bg_monuments
+    buildable = no
+}
+
+building_central_park = {
+    building_group = bg_monuments
+    buildable = no
+}

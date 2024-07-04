@@ -1,0 +1,3 @@
+﻿l_english:
+ error_disabled_event.t: "Disbled event triggered!"
+ error_disabled_event.d: "This should not happen, please contact the developers!"

@@ -1,0 +1,21 @@
+﻿# Disabled
+
+je_canada_can = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}
+
+je_canada_gbr = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}
+
+je_australia_aus = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}
+
+je_australia_gbr = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}

@@ -1,0 +1,175 @@
+﻿# Scope is culture
+
+# scope:target_culture is culture
+shares_heritage_trait_with_target_culture = {
+	custom_tooltip = {
+		text = shares_heritage_trait_with_target_culture_tt
+		OR = {
+			AND = {
+				has_discrimination_trait = pony_heritage
+				scope:target_culture = { has_discrimination_trait = pony_heritage }
+			}
+			AND = {
+				has_discrimination_trait = cat_heritage
+				scope:target_culture = { has_discrimination_trait = cat_heritage }
+			}
+			AND = {
+				has_discrimination_trait = changeling_heritage
+				scope:target_culture = { has_discrimination_trait = changeling_heritage }
+			}
+			AND = {
+				has_discrimination_trait = diamond_dog_heritage
+				scope:target_culture = { has_discrimination_trait = diamond_dog_heritage }
+			}
+			AND = {
+				has_discrimination_trait = dragon_heritage
+				scope:target_culture = { has_discrimination_trait = dragon_heritage }
+			}
+			AND = {
+				has_discrimination_trait = griffon_heritage
+				scope:target_culture = { has_discrimination_trait = griffon_heritage }
+			}
+			AND = {
+				has_discrimination_trait = hippogriff_heritage
+				scope:target_culture = { has_discrimination_trait = hippogriff_heritage }
+			}
+			AND = {
+				has_discrimination_trait = yak_heritage
+				scope:target_culture = { has_discrimination_trait = yak_heritage }
+			}
+			AND = {
+				has_discrimination_trait = buffalo_heritage
+				scope:target_culture = { has_discrimination_trait = buffalo_heritage }
+			}
+			AND = {
+				has_discrimination_trait = no_heritage
+				scope:target_culture = { has_discrimination_trait = no_heritage }
+			}
+		}
+	}
+}
+
+# scope:target_culture is culture
+shares_family_trait_with_target_culture = {
+	custom_tooltip = {
+		text = shares_family_trait_with_target_culture_tt
+		OR = {
+			AND = {
+				has_discrimination_trait = equine_family
+				scope:target_culture = { has_discrimination_trait = equine_family }
+			}
+			AND = {
+				has_discrimination_trait = insectoid_family
+				scope:target_culture = { has_discrimination_trait = insectoid_family }
+			}
+			AND = {
+				has_discrimination_trait = reptilian_family
+				scope:target_culture = { has_discrimination_trait = reptilian_family }
+			}
+			AND = {
+				has_discrimination_trait = avian_family
+				scope:target_culture = { has_discrimination_trait = avian_family }
+			}
+			AND = {
+				has_discrimination_trait = bovine_family
+				scope:target_culture = { has_discrimination_trait = bovine_family }
+			}
+			AND = {
+				has_discrimination_trait = canine_family
+				scope:target_culture = { has_discrimination_trait = canine_family }
+			}
+			AND = {
+				has_discrimination_trait = feline_family
+				scope:target_culture = { has_discrimination_trait = feline_family }
+			}
+			AND = {
+				has_discrimination_trait = no_family
+				scope:target_culture = { has_discrimination_trait = no_family }
+			}
+		}
+	}
+}
+
+# scope:target_culture is culture
+shares_homeland_trait_with_target_culture = {
+	custom_tooltip = {
+		text = shares_homeland_trait_with_target_culture_tt
+		OR = {
+			AND = {
+				has_discrimination_trait = northern_equus_homeland
+				scope:target_culture = { has_discrimination_trait = northern_equus_homeland }
+			}
+			AND = {
+				has_discrimination_trait = southern_equus_homeland
+				scope:target_culture = { has_discrimination_trait = southern_equus_homeland }
+			}
+			AND = {
+				has_discrimination_trait = griffonia_homeland
+				scope:target_culture = { has_discrimination_trait = griffonia_homeland }
+			}
+			AND = {
+				has_discrimination_trait = no_homeland
+				scope:target_culture = { has_discrimination_trait = no_homeland }
+			}
+		}
+	}
+}
+
+culture_accepted_under_law_ethnostate = {
+	exists = scope:country
+	is_primary_culture_of = scope:country
+}
+
+culture_accepted_under_law_national_supremacy = {
+	save_temporary_scope_as = target_culture
+	scope:country ?= {
+		any_primary_culture = {
+			shares_heritage_trait_with_target_culture = yes
+			shares_homeland_trait_with_target_culture = yes
+		}
+	}
+}
+
+culture_accepted_under_law_racial_segregation = {
+	save_temporary_scope_as = target_culture
+	scope:country ?= {
+		any_primary_culture = {
+			OR = {
+				shares_heritage_trait_with_target_culture = yes
+				AND = {
+					shares_family_trait_with_target_culture = yes
+					shares_homeland_trait_with_target_culture = yes
+				}
+			}
+		}
+	}
+}
+
+culture_accepted_under_law_cultural_exclusion = {
+	save_temporary_scope_as = target_culture
+	scope:country ?= {
+		any_primary_culture = {
+			OR = {
+				shares_heritage_trait_with_target_culture = yes
+				shares_family_trait_with_target_culture = yes
+				shares_homeland_trait_with_target_culture = yes
+			}
+		}
+	}
+}
+
+culture_accepted_under_law_multicultural = {
+	always = yes
+}
+
+culture_is_true_pony_culture = {
+	NOT = { cu:kirin = this }
+	has_discrimination_trait = pony_heritage
+}
+
+culture_has_generic_magic_trait = {
+	OR = {
+		has_discrimination_trait = low_magic
+		has_discrimination_trait = high_magic
+	}
+}

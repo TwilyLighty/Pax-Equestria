@@ -1,0 +1,50 @@
+﻿COUNTRIES = {
+	c:BDN = {
+		effect_starting_technology_equus_tier_7_tech = yes
+
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_womens_suffrage
+	}
+	c:BFL = {
+		effect_starting_technology_equus_tier_7_tech = yes
+
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_womens_suffrage
+	}
+	c:BSI = {
+		effect_starting_technology_equus_tier_7_tech = yes
+
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_womens_suffrage
+	}
+	c:EQM = {
+		effect_starting_technology_equus_tier_7_tech = yes
+
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_womens_suffrage
+	}
+	c:TCL = {
+		effect_starting_technology_equus_tier_7_tech = yes
+
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_womens_suffrage
+	}
+	c:TLT = {
+		effect_starting_technology_equus_tier_7_tech = yes
+
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_womens_suffrage
+	}
+	c:TMB = {
+		effect_starting_technology_equus_tier_7_tech = yes
+
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_womens_suffrage
+	}
+	c:MAU = {
+		effect_starting_technology_equus_tier_7_tech = yes
+
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_womens_suffrage
+	}
+}

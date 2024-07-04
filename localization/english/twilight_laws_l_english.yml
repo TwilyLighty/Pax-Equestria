@@ -1,0 +1,9 @@
+﻿l_english:
+ # Gender Restrictions group #
+
+ law_men_in_the_workplace: "[Localize('male_plural_loc')|U] in the Workplace"
+ law_men_in_the_workplace_desc: "How will we be able to keep the furnaces of progress aflame with only half the potential workforce?"
+ law_men_own_property: "Propertied [Localize('male_plural_loc')|U]"
+ law_men_own_property_desc: "Whether inherited or otherwise earned, even $male_plural_loc$ have the right and duty to own and cherish their possessions."
+ law_no_mens_rights: "[Localize('male_loc')|U] Guardianship"
+ law_no_mens_rights_desc: "[Localize('male_plural_loc')|U] are legally under the guardianship of $female_plural_loc$ and enjoy very few rights."

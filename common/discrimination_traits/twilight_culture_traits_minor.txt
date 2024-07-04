@@ -1,0 +1,20 @@
+﻿# Included in country_is_patriarchal_society
+patriarchal = {}
+
+# included in country_is_matriarchal_society
+matriarchal = {}
+
+# Crystal Ponies
+crystalline = {}
+
+cutie_mark = {}
+
+flight = {}
+
+weather_magic = {}
+
+low_magic = {}
+
+high_magic = {}
+
+nocturnal = {}

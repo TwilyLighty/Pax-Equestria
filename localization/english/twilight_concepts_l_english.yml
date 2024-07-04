@@ -1,0 +1,14 @@
+﻿l_english:
+ concept_cultural_family_trait: "Family Cultural Trait"
+ concept_cultural_family_traits: "Family Cultural Traits"
+ concept_cultural_family_trait_desc: "A type of [concept_cultural_trait] that specifies the general shape of the [concept_culture]'s body. Certain [SelectLocalization(GetPlayer.IsValid,'concept_accepted_culture_desc_added','Citizenship')] [Concept('concept_law','$concept_laws$')] consider $concept_cultural_family_traits$ to be more important than other $concept_cultural_traits$ when determining whether a [concept_pop] should be [Concept('concept_discrimination','$concept_discriminated_against$')] or not."
+ concept_cultural_family_trait_desc_added: "[GetLawType('law_national_supremacy').GetGroup.GetName]"
+
+ concept_cultural_homeland_trait: "Homeland Cultural Trait"
+ concept_cultural_homeland_traits: "Homeland Cultural Traits"
+ concept_cultural_homeland_trait_desc: "A type of [concept_cultural_trait] that specifies the general region of the world where the [concept_culture] originated. Certain [SelectLocalization(GetPlayer.IsValid,'concept_accepted_culture_desc_added','Citizenship')] [Concept('concept_law','$concept_laws$')] consider $concept_cultural_homeland_traits$ to be more important than other $concept_cultural_traits$ when determining whether a [concept_pop] should be [Concept('concept_discrimination','$concept_discriminated_against$')] or not."
+ concept_cultural_homeland_trait_desc_added: "[GetLawType('law_national_supremacy').GetGroup.GetName]"
+
+ concept_religious_heritage_trait: "Heritage Religious Trait"
+ concept_religious_heritage_traits: "Heritage Religious Traits"
+ concept_religious_heritage_trait_desc: "TBA"

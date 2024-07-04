@@ -1,0 +1,71 @@
+﻿# Disabled options triggered by vanilla
+
+place_event = {
+    type = country
+    random_valid = yes
+    text = {
+        trigger = {
+            has_law = law_type:law_monarchy
+        }
+        localization_key = place_event_palace
+    }
+
+    text = {
+        localization_key = place_event_parade
+    }
+
+    text = {
+        trigger = {
+            has_law = law_type:law_parliamentary_republic
+        }
+        localization_key = place_event_parliament
+    }
+
+    text = {
+        localization_key = place_event_townsquare
+    }
+
+    text = {
+        trigger = {
+            has_technology_researched = military_aviation
+        }
+        localization_key = place_event_airfield
+    }
+
+    text = {
+        
+        localization_key = place_event_hospital
+    }
+
+    text = {
+        
+        localization_key = place_event_opera
+    }
+
+    text = {
+        trigger = {
+            has_technology_researched = destroyer
+        }
+        localization_key = place_event_destroyer
+    }
+}
+
+assassin_description = {
+    type = country
+    random_valid = yes
+    text = {
+        localization_key = assassin_description_young_man
+    }
+
+    text = {
+        localization_key = assassin_description_young_woman
+    }
+
+    text = {
+        localization_key = assassin_description_unemployed
+    }
+
+    text = {
+        localization_key = assassin_description_angry_man
+    }
+}

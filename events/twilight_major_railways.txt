@@ -1,0 +1,68 @@
+﻿namespace = twilight_major_railways
+
+# Trans-Equestrian
+twilight_major_railways.1 = {
+	type = country_event
+	event_image = {
+		video = "gfx/event_pictures/unspecific_trains.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/trains"
+
+	duration = 3
+	placement = scope:canterlot_scope
+	title = twilight_major_railways.1.t
+	desc = twilight_major_railways.1.d
+	flavor = twilight_major_railways.1.f
+
+	trigger = {}  # Triggered by je_trans_equestrian_railway
+
+	immediate = {
+		random_scope_state = {
+			limit = { state_region = s:STATE_MANEHATTAN }
+			save_scope_as = manehattan_scope
+		}
+		random_scope_state = {
+			limit = { state_region = s:STATE_CANTERLOT }
+			save_scope_as = canterlot_scope
+		}
+		random_scope_state = {
+			limit = { state_region = s:STATE_LAS_PEGASUS }
+			save_scope_as = las_pegasus_scope
+		}
+	}
+
+	# Passenger
+	option = {
+		name = twilight_major_railways.1.a
+		default_option = yes
+		# custom_tooltip = trans_equestrian_tt
+		# random_scope_state = {
+		# 	limit = {
+		# 		regrion = sr:region_equestria
+		# 		has_building = building_railway
+		# 	}
+		# 	add_modifier = {
+		# 		name = railway_passenger
+		# 		months = normal_modifier_time
+		# 	}
+		# }
+	}
+
+	# # Infrastructure
+	# option = {
+	# 	name = twilight_major_railways.2.a
+	# 	default_option = yes
+	# 	custom_tooltip = trans_equestrian_tt
+	# 	random_scope_state = {
+	# 		limit = {
+	# 			regrion = sr:region_equestria
+	# 			has_building = building_railway
+	# 		}
+	# 		add_modifier = {
+	# 			name = railway_infrastructure
+	# 			months = normal_modifier_time
+	# 		}
+	# 	}
+	# }
+}

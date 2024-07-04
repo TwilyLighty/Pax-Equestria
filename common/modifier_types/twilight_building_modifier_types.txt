@@ -1,0 +1,69 @@
+﻿building_input_weather_add = {
+	good = no
+	percent = no	
+}
+
+building_output_weather_add = {
+	good = yes
+	percent = no	
+}
+
+building_input_weather_service_add = {
+	good = no
+	percent = no	
+}
+
+building_output_weather_service_add = {
+	good = yes
+	percent = no	
+}
+
+building_input_crystals_add = {
+	good = no
+	percent = no	
+}
+
+building_output_crystals_add = {
+	good = yes
+	percent = no	
+}
+
+building_input_spells_add = {
+	good = no
+	percent = no	
+}
+
+building_output_spells_add = {
+	good = yes
+	percent = no	
+}
+
+building_input_jewelry_add = {
+	good = no
+	percent = no	
+}
+
+building_output_jewelry_add = {
+	good = yes
+	percent = no	
+}
+
+building_crystal_mine_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_weather_factory_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_apple_plantation_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_weather_bureau_throughput_mult = {
+	good = yes
+	percent = yes
+}

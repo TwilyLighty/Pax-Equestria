@@ -1,0 +1,8 @@
+﻿DIPLOMACY = {
+	c:EQS = {
+		create_diplomatic_pact = {
+			country = c:CRY
+			type = defensive_pact
+		}
+	}
+}

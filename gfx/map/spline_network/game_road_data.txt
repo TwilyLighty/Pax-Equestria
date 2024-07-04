@@ -1,0 +1,3 @@
+state_region_road_strips={}
+
+state_region_adjacency_strips={}

@@ -1,0 +1,32 @@
+﻿COUNTRIES = {
+	c:KLG = {
+		effect_starting_technology_equus_tier_3_tech = yes
+		add_technology_researched = law_enforcement
+		add_technology_researched = stock_exchange
+		add_technology_researched = central_archives
+		add_technology_researched = egalitarianism
+		add_technology_researched = empiricism
+
+		activate_law = law_type:law_presidential_republic  # Free city
+		activate_law = law_type:law_wealth_voting  # Free city
+		activate_law = law_type:law_racial_segregation  # Free city
+		activate_law = law_type:law_total_separation  # Free city
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_secret_police
+		activate_law = law_type:law_laissez_faire  # Advanced economic system
+		activate_law = law_type:law_free_trade  # Advanced economic system
+		activate_law = law_type:law_per_capita_based_taxation  # Advanced economic system
+		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_local_police  # Corrupted police force
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_no_health_system
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_serfdom_banned  # Free City
+		activate_law = law_type:law_child_labor_allowed
+		activate_law = law_type:law_womens_suffrage
+		activate_law = law_type:law_no_social_security
+		activate_law = law_type:law_no_migration_controls  # Free City
+		activate_law = law_type:law_slave_trade  # A townscreature tried to sell the Mane Six (The Movie)
+	}
+}

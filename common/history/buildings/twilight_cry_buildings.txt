@@ -1,0 +1,76 @@
+﻿BUILDINGS = {
+	s:STATE_CRYSTAL_CITY = {
+		region_state:CRY = {
+			# Monument
+			create_building = {
+				building = building_crystal_heart
+				level = 1
+			}
+
+			# Government
+			create_building = {
+				building = building_government_administration
+				level = 5
+			}
+			create_building = {
+				building = building_university
+				level = 3
+			}
+
+			# Industry
+			create_building = {
+				building = building_magic_industry
+				level = 1
+			}
+			create_building = {
+				building = building_paper_mills
+				level = 2
+			}
+			create_building = {
+				building = building_textile_mills
+				level = 1
+			}
+			create_building = {
+				building = building_tooling_workshops
+				level = 1
+			}
+
+			# Ariculture
+			create_building = {
+				building = building_crystal_corn_farm
+				level = 1
+			}
+
+			# Infrastructure
+			create_building = {
+				building = building_construction_sector
+				level = 3
+			}
+			create_building = {
+				building = building_weather_bureau
+				level = 1
+			}
+		}
+	}
+	s:STATE_CRYSTAL_PLAINS = {
+		region_state:CRY = {
+			# Resources
+			create_building = {
+				building = building_coal_mine
+				level = 1
+			}
+			create_building = {
+				building = building_crystal_mine
+				level = 2
+			}
+			create_building = {
+				building = building_iron_mine
+				level = 1
+			}
+			create_building = {
+				building = building_sulfur_mine
+				level = 1
+			}
+		}
+	}
+}

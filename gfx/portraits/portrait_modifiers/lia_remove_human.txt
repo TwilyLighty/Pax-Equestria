@@ -1,0 +1,65 @@
+﻿##이거는 인간 포트레잇 지우는 역할. common/genes/LIA_genes_remove_human.txt 에서 받아오는것들이 좀 있다.
+##대략적인 원리는 한 유전타입엔 한가지 탬플릿만 있을수 있다는걸 이용해서, 아예 모든 캐릭터와 모든 팝의 표현형을 싹 다 투명으로 대체시켜 버리는 것.
+
+lia_remove_human = {	#<<이건 임의로 지정해준 이름
+	remove_human = {	#<<이것도 마찬가지.
+		dna_modifiers = {
+			morph = {	#<<이 바로 아래의 4개는 바닐라엔 없는 탬플릿들이므로, LIA_genes_remove_human.txt에서 직접 만들어서 끼워넣어야 했음.
+				mode = replace				
+				gene = gene_bs_body_type	#<<몸체 삭제
+				template = lia_no_body_type
+				value = 1.0
+			}
+			morph = {
+				mode = replace				
+				gene = gene_complexion	#<<머리 삭제
+				template = lia_no_face
+				value = 1.0
+			}
+			accessory = {
+				mode = modify
+				gene = eye_accessory	#<<눈알 삭제
+				template = lia_no_eyes
+				value = 0.5
+			}
+			accessory = {
+				mode = modify				
+				gene = eye_lashes_accessory	#<<속눈썹 삭제
+				template = lia_no_eyelashes
+				value = 1.0
+			}
+			
+			accessory = {	#<<이 아래부터는 이미 바닐라 템플릿으로 존재하는 것들이라 따로 설정해줄 필요가 없었음.
+				mode = replace				
+				gene = hairstyles
+				template = no_hairstyles
+				value = 1.0
+			}						
+			accessory = {
+				mode = replace
+				gene = beards
+				template = no_beard
+				value = 1.0
+			}
+			accessory = {
+				mode = replace
+				gene = mustaches
+				template = no_mustache
+				value = 1.0
+			}
+			accessory = {
+				mode = modify				
+				gene = teeth_accessory
+				template = no_teeth
+				value = 1.0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				always = yes	#<<이렇게 해 두면 모든 캐릭터들은 전부 적용되고, 오직 우리가 쓸 악세서리 레이어 역할의 유전타입만 살아남게 되는 거지!
+			}
+		}
+	}
+}

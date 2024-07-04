@@ -1,0 +1,21 @@
+﻿
+building_crystal_mine = {
+	building_group = bg_crystal_mining
+	texture = "gfx/interface/icons/building_icons/twilight_crystal_mine.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	city_type = mine
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_crystal_mine
+		pmg_explosives_building_crystal_mine
+		pmg_steam_automation_building_crystal_mine
+		pmg_train_automation_building_crystal_mine
+		pmg_ownership_building_crystal_mine
+	}
+}

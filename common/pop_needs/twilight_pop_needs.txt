@@ -1,0 +1,127 @@
+﻿popneed_services = {
+	default = services
+
+	entry = {
+		goods = services
+
+		weight = 1
+		max_weight = 5.0  # Maxes out at 100% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = spells
+
+		weight = 1
+		max_weight = 1.0  # Maxes out at 20% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_intoxicants = {
+	default = liquor
+
+	entry = {
+		goods = liquor
+
+		weight = 1
+		max_weight = 4.0  # Maxes out at 80% of supply share, Was 3.0
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = tobacco
+
+		weight = 1
+		max_weight = 3.0  # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = opium
+
+		weight = 1
+		max_weight = 3.0  # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_luxury_food = {
+	default = fruit
+
+	entry = {
+		goods = fruit
+
+		weight = 1
+		max_weight = 2.0  # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = meat
+
+		weight = 1
+		max_weight = 2.0  # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = groceries
+
+		weight = 1
+		max_weight = 2.0  # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = sugar
+
+		weight = 0.5
+		max_weight = 2.0  # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_luxury_items = {
+	default = luxury_clothes
+
+	entry = {
+		goods = luxury_clothes
+
+		weight = 1
+		max_weight = 2.0  # Maxes out at 40% of supply share
+		min_weight = 0.25
+	}
+
+	entry = {
+		goods = luxury_furniture
+
+		weight = 1
+		max_weight = 2.0  # Maxes out at 40% of supply share
+		min_weight = 0.25
+	}
+
+	entry = {
+		goods = porcelain
+
+		weight = 1
+		max_weight = 2.0  # Maxes out at 40% of supply share
+		min_weight = 0.25
+	}
+
+	entry = {
+		goods = jewelry
+
+		weight = 1
+		max_weight = 2.0  # Maxes out at 40% of supply share
+		min_weight = 0.25
+	}
+
+	entry = {
+		goods = radios
+
+		weight = 1
+		max_weight = 2.0  # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+}

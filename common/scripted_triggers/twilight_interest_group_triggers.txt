@@ -1,0 +1,12 @@
+﻿# Scope is interest group
+
+has_gender_ideology = {
+	OR = {
+		has_ideology = ideology_patriarchal
+		has_ideology = ideology_patriarchal_suffrage
+		has_ideology = ideology_traditionalist_ig
+		has_ideology = ideology_matriarchal_suffrage
+		has_ideology = ideology_matriarchal
+		has_ideology = ideology_feminist_ig
+	}
+}

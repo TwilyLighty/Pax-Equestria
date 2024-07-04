@@ -1,0 +1,6 @@
+﻿l_english:
+ STATE_NORTH_CELESTIAL_SEA: "North Celestial Sea"
+ STATE_SOUTH_CELESTIAL_SEA: "South Celestial Sea"
+ STATE_NORTH_LUNA_OCEAN: "North Luna Ocean"
+ STATE_SOUTH_LUNA_OCEAN: "South Luna Ocean"
+ STATE_FROZEN_SEA: "Frozen Sea"

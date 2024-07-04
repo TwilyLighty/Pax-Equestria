@@ -1,0 +1,80 @@
+﻿COUNTRIES = {
+	c:EQS = {
+		set_variable = alicornarchy
+		set_variable = old_flag
+
+		effect_starting_technology_eqs = yes
+
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_elected_bureaucrats
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_no_home_affairs
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_charitable_health_system
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_serfdom_banned
+		activate_law = law_type:law_child_labor_allowed
+		activate_law = law_type:law_womens_suffrage
+		activate_law = law_type:law_no_social_security
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_slavery_banned
+
+		ig:ig_armed_forces = {
+			add_ruling_interest_group = no
+			set_interest_group_name = ig_royal_guards
+		}
+
+		# TODO: Automate this for Alicorn realms
+		ig:ig_devout = {
+			add_ruling_interest_group = yes
+			add_ideology = ideology_royalist_ig
+		}
+
+		ig:ig_industrialists = {
+			add_ruling_interest_group = no
+		}
+
+		# TODO: Automate this for Alicorn realms
+		ig:ig_intelligentsia = {
+			set_interest_group_name = ig_chartists
+			remove_ideology = ideology_republican
+			add_ideology = ideology_constitutionalism
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+			set_interest_group_name = ig_elites
+		}
+
+		ig:ig_petty_bourgeoisie = {
+			add_ruling_interest_group = no
+		}
+
+		ig:ig_rural_folk = {
+			add_ruling_interest_group = no
+		}
+
+		ig:ig_trade_unions = {
+			add_ruling_interest_group = no
+		}
+
+		set_market_capital = STATE_MANEHATTAN
+
+		add_modifier = {
+			name = modifier_slumber_of_the_giant
+		}
+
+		trigger_event = {
+			id = twilight_grand_tomorrow_events.1
+			popup = yes
+		}
+	}
+}

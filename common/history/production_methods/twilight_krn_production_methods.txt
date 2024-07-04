@@ -1,0 +1,61 @@
+﻿PRODUCTION_METHODS = {
+	c:KRN = {
+		# Urban Center #
+
+		# Urban Center
+		activate_production_method = {
+			building_type = building_urban_center
+			production_method = pm_magic_streetlights
+		}
+
+		# Government #
+
+		# Government Administration
+		activate_production_method = {
+			building_type = building_government_administration
+			production_method = pm_horizontal_drawer_cabinets
+		}
+
+		# Industry #
+
+		# Furniture Manufacturies
+		activate_production_method = {
+			building_type = building_furniture_manufacturies
+			production_method = pm_luxury_furniture
+		}
+		activate_production_method = {
+			building_type = building_furniture_manufacturies
+			production_method = pm_telekinesis_automation
+		}
+
+		# Glassworks
+		activate_production_method = {
+			building_type = building_glassworks
+			production_method = pm_ceramics
+		}
+
+		# Paper Mills
+		activate_production_method = {
+			building_type = building_paper_mills
+			production_method = pm_telekinesis_automation
+		}
+
+		# Textile Mills
+		activate_production_method = {
+			building_type = building_textile_mills
+			production_method = pm_craftsman_sewing
+		}
+		activate_production_method = {
+			building_type = building_textile_mills
+			production_method = pm_telekinesis_automation
+		}
+
+		# Resources #
+
+		# Logging Camps
+		activate_production_method = {
+			building_type = building_logging_camp
+			production_method = pm_hardwood
+		}
+	}
+}

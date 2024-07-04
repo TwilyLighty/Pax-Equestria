@@ -1,0 +1,29 @@
+﻿# Overwritten
+monument_effects = {
+	default = allow_monument_effects
+
+	allow_monument_effects = {
+		flag = disable_pm_monument_prestige_only
+		flag = disable_pm_monument_no_effects
+	}
+
+	prestige_only_monument_effects = {
+		flag = force_pm_monument_prestige_only
+
+		flag = disable_pm_default_building_canterlot_castle
+		flag = disable_pm_prestige_only_building_canterlot_castle
+		flag = disable_pm_default_building_crystal_heart
+
+		flag = disable_pm_monument_no_effects
+	}
+
+	no_monument_effects = {
+		flag = force_pm_monument_no_effects
+
+		flag = disable_pm_default_building_canterlot_castle
+		flag = disable_pm_prestige_only_building_canterlot_castle
+		flag = disable_pm_default_building_crystal_heart
+
+		flag = disable_pm_monument_prestige_only
+	}
+}

@@ -1,0 +1,37 @@
+﻿# University #
+
+pmg_thaumatology_department = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_thaumatology_department
+		pm_clover_thaumatology_department
+		pm_theoretical_thaumatology_department
+	}
+}
+
+# Government Administration #
+
+# Overwritten
+pmg_base_building_government_administration = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_simple_organization
+		pm_horizontal_drawer_cabinets
+		pm_vertical_filing_cabinets
+	}
+}
+
+pmg_communication_building_government_administration = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_simple_communication
+		pm_air_mail
+		pm_switch_boards
+	}
+}

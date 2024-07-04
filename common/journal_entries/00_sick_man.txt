@@ -1,0 +1,57 @@
+﻿# Disabled
+# TODO: Reimplement these as Grand Tomorrow JE?
+
+je_sick_man_main = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+}
+
+je_sick_man_syria = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}
+
+je_sick_man_egypt = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}
+
+je_sick_man_economy = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}
+
+je_sick_man_education = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+}
+
+je_sick_man_separatism = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+}
+
+je_sick_man_army = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}
+
+je_sick_man_bureaucracy = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}

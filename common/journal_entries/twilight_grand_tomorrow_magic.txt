@@ -1,0 +1,339 @@
+﻿# **Magic: The Spark of Knowledge**
+# Government, Bureaucracy, Technology
+
+# TODO: Remove the v0.1 code
+je_grand_tomorrow_magic = {
+	icon = "gfx/interface/icons/event_icons/twilight_event_magic.dds"
+
+	immediate = {
+		set_variable = {
+			name = var_je_grand_tomorrow_magic_value
+			value = 0
+		}
+	}
+
+	on_monthly_pulse = {
+		# # Temporarily disabled for v0.1
+		# effect = {
+		# 	random_list = {
+		# 		11 = {}
+		# 		1 = {
+		# 			random_list = {
+		# 				# je_grand_tomorrow_magic_bureaucracy
+		# 				1 = {
+		# 					trigger_event = {
+		# 						id = twilight_grand_tomorrow_events.110
+		# 						popup = yes
+		# 					}
+		# 				}
+		# 				# je_grand_tomorrow_magic_education
+		# 				1 = {
+		# 					trigger_event = {
+		# 						id = twilight_grand_tomorrow_events.120
+		# 						popup = yes
+		# 					}
+		# 				}
+		# 				# je_grand_tomorrow_magic_standardization
+		# 				1 = {
+		# 					trigger_event = {
+		# 						id = twilight_grand_tomorrow_events.130
+		# 						popup = yes
+		# 					}
+		# 				}
+		# 			}
+		# 		}
+		# 	}
+		# }
+	}
+
+	current_value = {
+		value = var:var_je_grand_tomorrow_magic_value
+	}
+
+	goal_add_value = {
+		add = 2
+	}
+
+	complete = {
+		# Temporarily disabled for v0.1
+		# scope:journal_entry = {
+		# 	is_goal_complete = yes
+		# }
+		is_at_war = no
+
+		# Temporarily added for v0.1
+		any_scope_state = {
+			filter = {
+				is_incorporated = yes
+			}
+			has_enough_tax_capacity = yes
+			percent >= 0.75
+		}
+		institution_investment_level = {
+			institution = institution_schools
+			value >= 2
+		}
+		trigger_if = {
+			limit = {
+				has_variable = var_education_vertical_expansion
+			}
+			any_scope_state = {
+				filter = {
+					is_incorporated = yes
+				}
+				any_scope_building = {
+					is_building_type = building_university
+					occupancy > 0.9
+					level >= 5
+				}
+				percent >= 0.25
+			}
+		}
+		trigger_else_if = {
+			limit = {
+				has_variable = var_education_horizontal_expansion
+			}
+			any_scope_state = {
+				filter = {
+					is_incorporated = yes
+				}
+				any_scope_building = {
+					is_building_type = building_university
+					occupancy > 0.9
+				}
+				percent = 1.0
+			}
+		}
+		trigger_else = {
+			any_scope_state = {
+				filter = {
+					is_incorporated = yes
+				}
+				any_scope_building = {
+					is_building_type = building_university
+					occupancy > 0.9
+					level >= 3
+				}
+				percent >= 0.5
+			}
+		}
+		literacy_rate >= 0.5
+	}
+
+	on_complete = {
+		effect_je_grand_tomorrow_advance = yes
+		effect_country_reduce_slumber_of_the_giant_effect = yes
+		trigger_event = {
+			id = twilight_grand_tomorrow_events.101
+			popup = yes
+		}
+	}
+
+	invalid = {
+		trigger_je_grand_tomorrow_complete = yes
+	}
+
+	progressbar = yes
+
+	weight = 5000
+
+	inheritable = no
+}
+
+je_grand_tomorrow_magic_bureaucracy = {
+	icon = "gfx/interface/icons/event_icons/twilight_event_magic.dds"
+
+	on_monthly_pulse = {}
+
+	complete = {
+		any_scope_state = {
+			filter = {
+				is_incorporated = yes
+			}
+			has_enough_tax_capacity = yes
+			percent >= 0.75
+		}
+	}
+
+	on_complete = {
+		effect_je_grand_tomorrow_magic_advance = yes
+		trigger_event = {
+			id = twilight_grand_tomorrow_events.111
+			popup = yes
+		}
+	}
+
+	invalid = {
+		trigger_je_grand_tomorrow_complete = yes
+	}
+
+	weight = 1000
+
+	inheritable = no
+
+	should_be_pinned_by_default = yes
+}
+
+je_grand_tomorrow_magic_education = {
+	icon = "gfx/interface/icons/event_icons/twilight_event_magic.dds"
+
+	on_monthly_pulse = {
+		effect = {
+			random_list = {
+				2 = {}
+				1 = {
+					random_list = {
+						1 = {
+							trigger_event = {
+								id = twilight_grand_tomorrow_events.122
+								popup = yes
+							}
+						}
+						0 = {}
+					}
+				}
+			}
+		}
+	}
+
+	complete = {
+		institution_investment_level = {
+			institution = institution_schools
+			value >= 2
+		}
+		trigger_if = {
+			limit = {
+				has_variable = var_education_vertical_expansion
+			}
+			any_scope_state = {
+				filter = {
+					is_incorporated = yes
+				}
+				any_scope_building = {
+					is_building_type = building_university
+					occupancy > 0.9
+					level >= 5
+				}
+				percent >= 0.25
+			}
+		}
+		trigger_else_if = {
+			limit = {
+				has_variable = var_education_horizontal_expansion
+			}
+			any_scope_state = {
+				filter = {
+					is_incorporated = yes
+				}
+				any_scope_building = {
+					is_building_type = building_university
+					occupancy > 0.9
+				}
+				percent = 1.0
+			}
+		}
+		trigger_else = {
+			any_scope_state = {
+				filter = {
+					is_incorporated = yes
+				}
+				any_scope_building = {
+					is_building_type = building_university
+					occupancy > 0.9
+					level >= 3
+				}
+				percent >= 0.5
+			}
+		}
+		literacy_rate >= 0.5
+	}
+
+	on_complete = {
+		effect_je_grand_tomorrow_magic_advance = yes
+		remove_variable = var_education_vertical_expansion
+		remove_variable = var_education_horizontal_expansion
+		trigger_event = {
+			id = twilight_grand_tomorrow_events.121
+			popup = yes
+		}
+	}
+
+	invalid = {
+		trigger_je_grand_tomorrow_complete = yes
+	}
+
+	weight = 1000
+
+	inheritable = no
+
+	should_be_pinned_by_default = yes
+}
+
+# TODO: WIP
+je_grand_tomorrow_magic_standardization = {
+	icon = "gfx/interface/icons/event_icons/twilight_event_magic.dds"
+
+	immediate = {
+		set_variable = {
+			name = var_je_grand_tomorrow_magic_standardization_months
+			value = 0
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			if = {
+				limit = {
+					institution_investment_level = {
+						institution = institution_schools
+						value >= 2
+					}
+				}
+				change_variable = {
+					name = var_je_grand_tomorrow_magic_standardization_months
+					add = 1
+				}
+			}
+		}
+	}
+
+	current_value = {
+		value = var:var_je_grand_tomorrow_magic_standardization_months
+	}
+
+	goal_add_value = {
+		add = 120
+	}
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+		institution_investment_level = {
+			institution = institution_schools
+			value >= 2
+		}
+	}
+
+	on_complete = {
+		effect_je_grand_tomorrow_magic_advance = yes
+		add_modifier = {
+			name = modifier_country_standard_units
+			years = 10
+		}
+		trigger_event = {
+			id = twilight_grand_tomorrow_events.131
+			popup = yes
+		}
+	}
+
+	invalid = {
+		trigger_je_grand_tomorrow_complete = yes
+	}
+
+	weight = 1000
+
+	inheritable = no
+
+	should_be_pinned_by_default = yes
+}

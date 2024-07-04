@@ -1,0 +1,10 @@
+﻿l_english:
+ pm_automation_disabled: "[Localize('manipulator_loc')|U] Assembly"
+ pm_handsewn_clothes: "[Localize('manipulator_loc')|U]sewn Clothes"
+ pm_handcrafted_furniture: "[Localize('manipulator_loc')|U]crafted Furniture"
+ pm_no_steam_automation: "[Localize('manipulator_loc')|U] Cranked Crane"
+ default_building_subsistence_pastures: "Meat Production"
+ pm_telephones: "Electric Telephones"
+ pm_radios: "Electric Radios"
+ pm_cavalry_scouts: "Foot Scouts"
+ pm_bessemer_process: "Converter Process"

@@ -1,0 +1,4 @@
+﻿friendship_blossoming = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	interest_group_approval_add = 1
+}

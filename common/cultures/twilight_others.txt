@@ -1,0 +1,617 @@
+﻿# Changelings #
+
+changeling = {
+	color = hsv360 { 110 60 50 }
+	religion = harmonism
+	traits = {
+		changeling_heritage
+		insectoid_family
+		southern_equus_homeland
+		matriarchal
+		flight
+	}
+
+	# **Changeling Naming Schema**
+	# - All names are based off of (insect) anatomy
+	# - No last names
+	# - No distinct names based off of gender or rank
+
+	male_common_first_names = {
+		Antonymph Arista
+		Carapace Cornicle Coxa
+		Epiproct
+		Frenulum
+		Ganglia
+		Labium Lucidum
+		Mandible Maxilla Mesosoma Metamorphosis
+		Nymphamos
+		Patagium Petiole Pleurite
+		Remigium
+		Sclerite Spiracle Synovial
+		Tapetum Tarsus Trachea Trochanter Tymbal
+		Urtica
+
+		# **Disabled**
+		# Ceras Chrysalis
+		# Ocellus
+		# Pharynx Ptera
+		# Thorax
+	}
+	female_common_first_names = {
+		Antonymph Arista
+		Carapace Cornicle Coxa
+		Epiproct
+		Frenulum
+		Ganglia
+		Labium Lucidum
+		Mandible Maxilla Mesosoma Metamorphosis
+		Nymphamos
+		Patagium Petiole Pleurite Ptera
+		Remigium
+		Sclerite Spiracle Synovial
+		Tapetum Tarsus Trachea Trochanter Tymbal
+		Urtica
+
+		# **Disabled**
+		# Ceras Chrysalis
+		# Ocellus
+		# Pharynx Ptera
+		# Thorax
+	}
+	common_last_names = {
+		no_last_name
+	}
+
+	graphics = generic
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+# TODO: Add Reformed Changelings and Hollow Changelings
+
+# Others #
+# At least one centralized nation
+
+cat = {
+	color = hsv360 { 280 50 60 }
+	religion = magic_of_friendship  # TODO
+	traits = {
+		cat_heritage
+		feline_family
+		southern_equus_homeland
+	}
+
+	obsessions = {
+		groceries  # Milk
+	}
+
+	# **Cat Naming Schema (WIP)**
+	# - Cats are named mostly after pet names, cat traits, cat puns, cat species, Egyptian cat dieties, and stealthiness
+	# - No last names
+
+	male_common_first_names = {
+		Bob Boris Bubbles
+		Capper Chummer Claw Copper
+		Leo
+		Max
+		Nox
+		Paw
+		Saber Sam
+		Tigger Tom
+		Whiskers
+	}
+	female_common_first_names = {
+		Alley
+		Bela
+		Cheetah Cougar
+		Fondant
+		Lacey
+		Mina Molly
+		Serval Shadow Sweeps
+		Tiger
+	}
+	common_last_names = {
+		no_last_name
+	}
+
+	male_noble_first_names = {
+		Dapperpaws
+		Fluffington
+		Gomez_cat
+		Lionel
+		Meowmeow
+		Roarman
+	}
+	female_noble_first_names = {
+		Baast
+		Catalina Caterina Catherine Cathleen Caitlin
+		Menhit Morticia
+		Sekhmet
+		Tabitha
+	}
+
+	graphics = generic
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+diamond_dog = {
+	color = hsv360 { 240 40 70 }
+	religion = magic_of_friendship  # TODO
+	traits = {
+		diamond_dog_heritage
+		canine_family
+		southern_equus_homeland
+	}
+
+	obsessions = {
+		jewelry  # Collars with crystals
+	}
+
+	# **Diamond Dog Naming Schema (WIP)**
+	# - Various pet dog names and canon names
+	# - Last names are 'adjective' + 'body part'
+
+	male_common_first_names = {
+		Bear Boulder Buddy Bullseye Bungee
+		Carter Cash Chalupa Champ Chandler Charlie Cooper
+		Dab Dallas Dawson Doug Dozer Duffy Duke
+		Fido Fletcher Frisco Fry
+		Giga Gizmo
+		Harper Henry
+		Jack Jackson James Jersey Jim Jock Julian
+		Kain Keaton Ken Kendrick Kermit Khan King Kona
+		Landon Largo Liam Logan Louie Lucky
+		Major Max Milo
+		Peanut
+		Riley Rocky Rover
+		Spot
+		Tank Toby Tucker
+		Winston
+		Xander
+		Zeus
+	}
+	female_common_first_names = {
+		Ambrosia Autumn
+		Bailey Bella Bonnie Brandy
+		Chloe
+		Daisy Deanna Diamond
+		Fiona
+		Gidget
+		Hannah Hazel Heidi Honey
+		Indiana
+		Jennino
+		Katherina
+		Latte Lilly Lola Lucy Luna
+		Macy Maggie Marley Mila Mimi Mocha Molly Moonbeam
+		Nala
+		Pearl Penny Pepper Piper
+		Rosie Roxy
+		Sadie Salty Sophie Stella Summer
+		Tani Trixie
+		Willow Winter
+		Zoe
+	}
+	common_last_names = {
+		Blackears Blackeyes Blackfangs Blackfur Blackheart Blackjaw Blacklegs Blacknose Blackpaws Blacksnout Blacktail Blueears Blueeyes Bluefangs Bluefur Blueheart Bluejaw Bluelegs Bluenose Bluepaws Bluesnout Bluetail Braveears Braveeyes Bravefangs Bravefur Braveheart Bravejaw Bravelegs Bravenose Bravepaws Bravesnout Bravetail
+		Floppyeyes Floppyfangs Floppyfur Floppyheart Floppyjaw Floppylegs Floppynose Floppypaws Floppysnout Floppytail
+		Gleamingears Gleamingeyes Gleamingfangs Gleamingfur Gleamingheart Gleamingjaw Gleaminglegs Gleamingnose Gleamingpaws Gleamingsnout Gleamingtail Glowingears Glowingeyes Glowingfangs Glowingfur Glowingheart Glowingjaw Glowinglegs Glowingnose Glowingpaws Glowingsnout Glowingtail Greenears Greeneyes Greenfangs Greenfur Greenheart Greenjaw Greenlegs Greennose Greenpaws Greensnout Greentail
+		Happyears Happyeyes Happyfangs Happyfur Happyheart Happyjaw Happylegs Happynose Happypaws Happysnout Happytail Highears Higheyes Highfangs Highfur Highheart Highjaw Highlegs Highnose Highpaws Highsnout Hightail
+		Mightyears Mightyeyes Mightyfangs Mightyfur Mightyheart Mightyjaw Mightylegs Mightynose Mightypaws Mightysnout Mightytail Muffinears Muffineyes Muffinfangs Muffinfur Muffinheart Muffinjaw Muffinlegs Muffinnose Muffinpaws Muffinsnout Muffintail
+		Nobleears Nobleeyes Noblefangs Noblefur Nobleheart Noblejaw Noblelegs Noblenose Noblepaws Noblesnout Nobletail
+		Proudears Proudeyes Proudfangs Proudfur Proudheart Proudjaw Proudlegs Proudnose Proudsnout Proudtail Purpleears Purpleeyes Purplefangs Purplefur Purpleheart Purplejaw Purplelegs Purplenose Purplepaws Purplesnout Purpletail
+		Redears Redeyes Redfangs Redfur Redheart Redjaw Redlegs Rednose Redpaws Redsnout Redtail
+		Shiningears Shiningeyes Shiningfangs Shiningfur Shiningheart Shiningjaw Shininglegs Shiningnose Shiningpaws Shiningsnout Shiningtail
+		Twinkleears Twinkleeyes Twinklefangs Twinklefur Twinkleheart Twinklejaw Twinklelegs Twinklenose Twinklepaws Twinklesnout
+		Whiteears Whiteeyes Whitefangs Whitefur Whiteheart Whitejaw Whitelegs Whitenose Whitepaws Whitesnout Whitetail
+	}
+
+	graphics = generic
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+dragon = {
+	color = hsv360 { 10 80 60 }
+	religion = magic_of_friendship  # TODO
+	traits = {
+		dragon_heritage
+		reptilian_family
+		griffonia_homeland
+		flight
+	}
+
+	obsessions = {
+		crystals
+	}
+
+	male_common_first_names = {
+		Albert
+	}
+	female_common_first_names = {
+		Amanda
+	}
+	common_last_names = {
+		Arthur
+	}
+
+	graphics = generic
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+griffon = {
+	color = hsv360 { 355 60 50 }
+	religion = magic_of_friendship  # TODO
+	traits = {
+		griffon_heritage
+		avian_family
+		griffonia_homeland
+		flight
+		weather_magic
+	}
+
+	# **Griffon Naming Schema**
+	# - All first names start with the letter G
+	# - Last names only start with another letter if they're associated with a location
+	# - Commoners lack a last name
+	# - Noble last names are associated with lesser titles, titular and landed
+	# - Regal last names are associated with kingdoms
+
+	male_common_first_names = {
+		Garin Garner Garth Gaston Gavin Gerard Gordon Graff Gruff Gregor Grizzy Gunter Gustave
+
+		# **Disabled**
+		# Gallus
+	}
+	female_common_first_names = {
+		Gabriella Gertie Gigi Gimme Giovanna Giorno Giselle Glenda Gracie Greta Gretchen Gretchy Griselda Grizelda
+
+		# **Disabled**
+		# Gabby Gilda
+	}
+	common_last_names = {
+		no_last_name
+	}
+
+	noble_last_names = {
+		Geinert Gestal Ghoshel Gold Goldstone Grande Griffonstone Gutenberg
+		no_last_name
+	}
+
+	male_regal_first_names = {
+		Galen George Grover Guto
+	}
+	female_regal_first_names = {
+		Galena Georgia Ginger Grace
+	}
+	regal_last_names = {
+		Griffonstone Trottingham
+		no_last_name
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+hippogriff = {
+	color = hsv360 { 190 10 75 }
+	religion = vegetarian
+	traits = {
+		hippogriff_heritage
+		equine_family
+		avian_family
+		southern_equus_homeland
+		flight
+		weather_magic
+	}
+
+	# **Hippogriff Naming Schema**
+	# - Commoner and noble names are composed of two sea nouns
+	# - Some noble last names are composed of two nouns put together
+	# - Regal names are the same as noble names, with three exceptions
+	#   - Regal names lack a space between them
+	#   - Regal names don't use noble last names composed of two parts
+	#   - There are some regal names which are single nouns, like Novo
+
+	male_common_first_names = {
+		Bubble
+		Cerulean
+		Flash
+		Golden
+		Jelly
+		Rising
+		Sea
+	}
+	female_common_first_names = {
+		Coral Crystal
+		Flutter
+		Haven
+		Lily
+		Salina Salt Sea Sparkle Sun
+	}
+	common_last_names = {
+		Air
+		Bay Bee Blue
+		Cloud
+		Drop
+		Feather Fin Foam
+		Gem
+		Pearl Poppy
+		Rose
+		Splash
+		Tide Twist
+		Wave
+	}
+
+	male_noble_first_names = {
+		Cobalt
+		Sea Sky Stratus
+	}
+	female_noble_first_names = {
+		Ocean
+		Sea Silver Sky
+	}
+	noble_last_names = {
+		Beak
+		Cloudhunter
+		Flow
+		Skyranger Spray Star Stream
+	}
+
+	# Silverstream is Skystar's cousin
+	male_regal_first_names = {
+		Terramar
+		Vetera
+
+		Cobaltbeak Cobaltflow Cobaltspray Cobaltstar Cobaltstream
+		Seabeak Seaflow Seaspray Seastar Seastream
+		Skybeak Skyflow Skyspray Skystar Skystream
+		Stratusbeak Stratusflow Stratusspray Stratusstar Stratusstream
+	}
+	female_regal_first_names = {
+		Novo
+
+		Oceanbeak Oceanflow Oceanspray Oceanstar Oceanstream
+		Seabeak Seaflow Seaspray Seastar Seastream
+		Silverbeak Silverflow Silverspray Silverstar Silverstream
+		Skybeak Skyflow Skyspray Skystar Skystream
+	}
+	regal_last_names = {
+		no_last_name
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+kirin = {
+	color = hsv360 { 5 55 75 }
+	religion = vegetarian
+	traits = {
+		pony_heritage
+		equine_family
+		southern_equus_homeland
+		matriarchal
+		low_magic
+	}
+
+	# **Kirin Naming Schema**
+	# - Composed of two parts
+	# - Kirin names tend to be associated with fire, the seasons, and celestial objects
+	# - Stallions are associated with summer and winter, while mares are associated with spring and fall
+
+	male_common_first_names = {
+		Dreaming
+		Harvest Hibernal
+		Oak
+		Pine Pumpkin
+		Scorching Sidereal Silver Smoldering Solar Solstice Star Summer Sun Sweet
+		Winter Wood
+	}
+	female_common_first_names = {
+		Autumn
+		Blooming Blossom Bonfire
+		Cinder
+		Equinox Ethereal
+		Fall Fern
+		Lunar
+		Moon
+		Opal
+		Rain Restoration
+		Spring
+		Vernal
+		Wildfire
+		Zealous
+	}
+	common_last_names = {
+		Beacon Blaze Bonfire Breeze Burst
+		Coals
+		Discharge
+		Flames Flare Flourish
+		Glow
+		Hearth
+		Ignition Inferno
+		Pyre
+		Radiance Revel
+		Shine Smoke
+		Tempest Thrill
+	}
+
+	graphics = asian
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+yak = {
+	color = hsv360 { 0 50 50 }
+	religion = vegetarian
+	traits = {
+		yak_heritage
+		bovine_family
+		northern_equus_homeland
+		patriarchal
+	}
+
+	# **Yak Naming Schema**
+	# - Most names, but not all, contain the letter Y
+	# - Last names are patronymics, consisting of the father's name and the suffix -calf
+	# - Regal names don't have a last name and don't use the patronymics
+	# - Male rulers have a unique set of regal names
+
+	male_common_first_names = {
+		Alastair Archibald
+		Boomer Byorn
+		Dougal
+		Grimhorn
+		Horwitz
+		Leroy
+		Mikhail
+		Roughhorn
+		Snilldar
+		Tormand
+		Vindhov
+		Yack Yake Yakob Yaktodon Yeth Yksler Yojan Yoseph
+	}
+	female_common_first_names = {
+		Agnes
+		Ingville Irvine
+		Pelagia
+		Tass
+		Viola
+		Yacklyn Yakmina Yana Yasmin Yelena Yigrid Yisahn Yngvlid Yona Yuli Yulianna Yvette
+	}
+	common_last_names = {
+		Alastaircalf Archibaldcalf
+		Boomercalf Byorncalf
+		Dougalcalf
+		Grimhorncalf
+		Horwitzcalf
+		Leroycalf
+		Mikhailcalf
+		Roughhorncalf
+		Snilldarcalf
+		Tormandcalf
+		Vindhovcalf
+		Yackcalf Yakecalf Yakobcalf Yaktodoncalf Yethcalf Ykslercalf Yojancalf Yosephcalf
+	}
+
+	male_regal_first_names = {
+		Bradford Buudal
+		Crompus
+		Dromius
+		Gruntwig
+		Rutherford
+		Ulysses
+	}
+	regal_last_names = {
+		no_last_name
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+# Minors #
+# No centralized nation
+
+buffalo = {
+	color = hsv360 { 40 60 85 }
+	religion = vegetarian
+	traits = {
+		buffalo_heritage
+		bovine_family
+		northern_equus_homeland
+		patriarchal
+	}
+
+	obsessions = {
+		sugar
+	}
+
+	# **Buffalo Naming Schema**
+	# - Composed of two parts
+	# - Bulls are named mostly after animals, storms, and adjectives
+	# - Cows are named mostly after plants and celestial/spiritual objects
+	# - Last names consist of body parts and agent nouns
+
+	male_common_first_names = {
+		Big Brave
+		Cloud Crow
+		Eagle
+		Falcon
+		Flood
+		Ghost
+		Iron
+		Lightning
+		Raven
+		Serpent Storm Stormy Strong Swift
+		Thunder
+	}
+	female_common_first_names = {
+		Big
+		Cactus
+		Light
+		Mist Moon
+		Night
+		Painted
+		Rainbow
+		Saguaro Shadow Shining Sky Smoke Spirit Star Sun
+		Whisper Wind
+	}
+	common_last_names = {
+		Bringer
+		Caller Chanter Chaser
+		Dancer Dreamer
+		Eyes
+		Heart Hoof Hooves Horn Hunter
+		Feather
+		Rider Runner
+		Scars Singer
+		Tamer
+		Weaver
+	}
+
+	graphics = generic
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+# Debug #
+
+equus_minors = {
+	color = hsv360 { 50 20 40 }
+	religion = animist  # TODO
+	traits = {
+		no_heritage
+		no_family
+		no_homeland
+	}
+
+	male_common_first_names = {
+		Albert
+	}
+	female_common_first_names = {
+		Amanda
+	}
+	common_last_names = {
+		Arthur
+	}
+
+	graphics = generic
+	ethnicities = {
+		1 = caucasian
+	}
+}

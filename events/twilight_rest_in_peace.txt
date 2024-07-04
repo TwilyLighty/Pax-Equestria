@@ -1,0 +1,191 @@
+﻿# TODO: Rework these into exposed events
+
+namespace = twilight_rest_in_peace
+
+twilight_rest_in_peace.1 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		owner = {
+			set_variable = twilight_is_dead
+		}
+	}
+
+	# option = {
+	# 	kill_character = yes
+	# }
+}
+
+twilight_rest_in_peace.2 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		owner = {
+			set_variable = applejack_is_dead
+		}
+	}
+
+	# option = {
+	# 	kill_character = yes
+	# }
+}
+
+twilight_rest_in_peace.3 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		owner = {
+			set_variable = fluttershy_is_dead
+		}
+	}
+
+	# option = {
+	# 	kill_character = yes
+	# }
+}
+
+twilight_rest_in_peace.4 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		owner = {
+			set_variable = pinkie_is_dead
+		}
+	}
+
+	# option = {
+	# 	kill_character = yes
+	# }
+}
+
+twilight_rest_in_peace.5 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		owner = {
+			set_variable = rainbow_is_dead
+		}
+	}
+}
+
+twilight_rest_in_peace.6 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		owner = {
+			set_variable = rarity_is_dead
+		}
+	}
+
+	# option = {
+	# 	kill_character = yes
+	# }
+}
+
+twilight_rest_in_peace.7 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		owner = {
+			set_variable = starlight_is_dead
+		}
+	}
+
+	# option = {
+	# 	kill_character = yes
+	# }
+}
+
+# Twilight is alone
+twilight_rest_in_peace.100 = {
+	type = character_event
+
+	title = twilight_rest_in_peace.100.t
+	desc = twilight_rest_in_peace.100.d
+	flavor = twilight_rest_in_peace.100.f
+
+	placement = ROOT
+
+	duration = 3
+
+	gui_window = event_window_1char_tabloid
+	left_icon = scope:characer_twilight
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/devastation"
+
+	trigger = {
+		# TODO: Reenable this event once we have proper localization
+		# has_variable = is_twilight
+		# NOT = {
+		# 	has_variable = twilight_rest_in_peace_100
+		# }
+		# owner = {
+		# 	has_variable = applejack_is_dead
+		# 	has_variable = fluttershy_is_dead
+		# 	has_variable = pinkie_is_dead
+		# 	has_variable = rainbow_is_dead
+		# 	has_variable = rarity_is_dead
+		# }
+		always = no
+	}
+
+	immediate = {
+		ROOT = {
+			set_variable = twilight_rest_in_peace_100
+			save_scope_as = characer_twilight
+		}
+	}
+
+	option = {
+		name = twilight_rest_in_peace.100.a
+		default_option = yes
+		add_trait = psychological_affliction
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = twilight_rest_in_peace.100.b
+		add_trait = alcoholic
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	option = {
+		name = twilight_rest_in_peace.100.c
+		add_trait = opium_addiction
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	# What does not kill me makes me stronger!
+	option = {
+		name = twilight_rest_in_peace.100.z
+		trigger = {
+			owner = {
+				has_variable = var_je_grand_tomorrow_complete
+			}
+		}
+		add_trait = persistent
+		hidden_effect = {
+			remove_trait = alcoholic
+			remove_trait = cocaine_addiction
+			remove_trait = opium_addiction
+			remove_trait = psychological_affliction
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+}

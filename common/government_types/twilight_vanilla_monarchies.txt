@@ -1,0 +1,90 @@
+﻿gov_shogunate = {
+	possible = { always = no }
+}
+gov_hawaiian_monarchy_recognised = {
+	possible = { always = no }
+}
+gov_hawaiian_monarchy = {
+	possible = { always = no }
+}
+gov_maharaja = {
+	possible = { always = no }
+}
+gov_tsardom = {
+	possible = { always = no }
+}
+gov_sultanate = {
+	possible = { always = no }
+}
+gov_hakimate = {
+	possible = { always = no }
+}
+gov_sheikhdom = {
+	possible = { always = no }
+}
+gov_kongolese_kingdom = {
+	possible = { always = no }
+}
+gov_sunanate = {
+	possible = { always = no }
+}
+gov_balinese_monarchy = {
+	possible = { always = no }
+}
+gov_sikkimese_monarchy = {
+	possible = { always = no }
+}
+gov_bhutanese_monarchy = {
+	possible = { always = no }
+}
+gov_mughal_empire = {
+	possible = { always = no }
+}
+gov_caliphate = {
+	possible = { always = no }
+}
+gov_khedive = {
+	possible = { always = no }
+}
+gov_vilayet = {
+	possible = { always = no }
+}
+gov_shah = {
+	possible = { always = no }
+}
+gov_prince = {
+	possible = { always = no }
+}
+gov_bey = {
+	possible = { always = no }
+}
+gov_sharif = {
+	possible = { always = no }
+}
+gov_kaiser = {
+	possible = { always = no }
+}
+gov_decentralized_realm = {
+	possible = { always = no }
+}
+gov_hm_gov = {
+	possible = { always = no }
+}
+gov_constitutional_monarchy = {
+	possible = { always = no }
+}
+gov_princely_state_hindu = {
+	possible = { always = no }
+}
+gov_princely_state_muslim = {
+	possible = { always = no }
+}
+gov_khanate = {
+	possible = { always = no }
+}
+gov_zhuz = {
+	possible = { always = no }
+}
+gov_absolute_principality_muslim = {
+	possible = { always = no }
+}

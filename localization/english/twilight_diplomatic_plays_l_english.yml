@@ -1,0 +1,8 @@
+﻿l_english:
+ dp_unify_changelings: "Unify Changelings"
+ dp_unify_changelings_tooltip: "#header Start a $dp_unify_changelings$ [concept_diplomatic_play]#!\n$TOOLTIP_DELIMITER$\n$dp_unify_changelings_desc$"
+ dp_unify_changelings_desc: "Sets the initiating [concept_war_goal] to annex all lesser Changeling countries."
+
+ dp_leadership_changelings: "Changeling Leadership"
+ dp_leadership_changelings_desc: "Start a $dp_leadership_changelings$ [concept_diplomatic_play]\n$TOOLTIP_DELIMITER$\n$dp_leadership_changelings_tooltip_desc$"
+ dp_leadership_changelings_tooltip_desc: "Sets the initiating [concept_war_goal] to kick out the targeted [concept_country] as a [concept_unification_candidate] of the Changeling [Concept('concept_unification', '$concept_major_unification$')]."

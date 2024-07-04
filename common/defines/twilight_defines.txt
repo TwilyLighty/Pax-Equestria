@@ -1,0 +1,33 @@
+﻿# TODO: Enable this
+# NMilitary = {
+# 	BATTLE_BASE_MIN_PROVINCES_TAKEN = 1
+# 	BATTLE_BASE_MAX_PROVINCES_TAKEN = 2
+# }
+
+NPops = {
+	ASSIMILATION_RATE = 0  # Pops will never assimilate into a different culture
+	MIN_ASSIMILATION = 0  # Pops will never assimilate into a different culture
+	TABOO_DEMAND_MULT = 0  # Was 0.5
+	# TABOO_POP_NEED_EXPENSE_MULT = -1  # Was -0.25
+}
+
+NCharacters = {
+	# Trait Generation #
+
+	MAX_TRAITS_CONDITION = 3  # Was 2
+
+	# Life Expectancy #
+
+	# Baseline is 1.0 (meaning 100%), defined in the base_values modifier.
+	# 2.0 means +100% from baseline. [>= MIN_CHARACTER_HEALTH]
+	MAX_CHARACTER_HEALTH = 1000.0  # Was 2.0
+}
+
+NMapName = {
+	MIN_PROVINCES = 1  # minimum number of provinces for a name to be generated
+}
+
+NCities = {
+	GRID_SCALE = 2.2
+	MESH_SCALE = 2.0
+}

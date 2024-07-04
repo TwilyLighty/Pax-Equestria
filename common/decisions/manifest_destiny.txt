@@ -1,0 +1,8 @@
+﻿# Disabled
+
+manifest_destiny = {
+	is_shown = { always = no }
+	possible = { always = no }
+	when_taken = {}
+	ai_chance = { base = 0 }
+}

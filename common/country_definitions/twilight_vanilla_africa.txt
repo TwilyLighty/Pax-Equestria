@@ -1,0 +1,705 @@
+﻿ALD = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+EGY = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+ETH = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+MAD = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+LIB = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+MOR = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+NAL = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+ORA = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SAF = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SOK = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+TRI = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+TRN = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+TUN = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+ZAN = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+ZUL = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SIL = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+MTB = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+MSH = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+MNC = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+MSK = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+NAM = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+HRO = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+LZO = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+TSW = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+WBL = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+KZM = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BMB = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+KSN = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+OVM = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+CHK = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+LND = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+KBA = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+MNB = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+NYM = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+HHE = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+FTJ = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BUG = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+ASH = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+YKA = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+KON = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+LNG = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+FNG = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BNG = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BST = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+TKE = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BOB = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+LGA = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+HMB = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+LBA = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BNY = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+ANK = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+ACH = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+KRG = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+RWD = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BRD = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+MSI = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+TRK = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+LUO = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+GGO = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SNG = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+KKY = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+WSG = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+GLD = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+MJT = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+DFR = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+ISQ = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+HOB = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+DAK = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+ZND = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+DFT = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+DNK = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+NUE = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+TPS = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+AWS = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SHW = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+HAR = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BRN = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+KFA = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SDM = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+WLG = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+TGR = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+GJM = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+WLO = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BGM = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BOR = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BGI = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+WAD = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+AIR = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+MSN = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+OYO = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BEN = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+CAY = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+JLF = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+FTR = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+KNG = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+DAH = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+MOS = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+KRT = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SGU = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+TRZ = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+KBU = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BND = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SRR = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SSU = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+MDK = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+HAU = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BLE = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+KRU = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+KBD = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+AYI = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+EWE = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+IBO = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+DLA = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+TBI = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+AHG = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+TUA = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+OUA = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+ADG = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BSS = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+TIR = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+IBL = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+KSS = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+GAO = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+TIV = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SRA = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+EQU = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BJA = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+NBA = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SUD = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SKM = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+CHW = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+LMW = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+MKU = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SNA = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BTG = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+XHO = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+UYA = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+ZIM = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+MAL = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+AFS = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SAH = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}

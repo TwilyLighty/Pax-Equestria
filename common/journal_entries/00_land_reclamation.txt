@@ -1,0 +1,11 @@
+﻿# Disabled
+
+je_land_reclamation = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+}

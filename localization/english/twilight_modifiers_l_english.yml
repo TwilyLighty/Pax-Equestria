@@ -1,0 +1,71 @@
+﻿l_english:
+ modifier_building_input_weather_add: "@weather! Clouds input per level"
+ modifier_building_input_weather_add_desc: "The amount of @weather! Clouds consumed by buildings"
+ modifier_building_output_weather_add: "@weather! Clouds output per level"
+ modifier_building_output_weather_add_desc: "The amount of @weather! Clouds produced by buildings"
+
+ modifier_building_input_weather_service_add: "@weather_service! Weather input per level"
+ modifier_building_input_weather_service_add_desc: "The amount of @weather_service! Weather consumed by buildings"
+ modifier_building_output_weather_service_add: "@weather_service! Weather output per level"
+ modifier_building_output_weather_service_add_desc: "The amount of @weather_service! Weather produced by buildings"
+
+ modifier_building_input_crystals_add: "@crystals! Crystals input per level"
+ modifier_building_input_crystals_add_desc: "The amount of @crystals! Crystals consumed by buildings"
+ modifier_building_output_crystals_add: "@crystals! Crystals output per level"
+ modifier_building_output_crystals_add_desc: "The amount of @crystals! Crystals produced by buildings"
+
+ modifier_building_input_spells_add: "@spells! Magic input per level"
+ modifier_building_input_spells_add_desc: "The amount of @spells! Magic consumed by buildings"
+ modifier_building_output_spells_add: "@spells! Magic output per level"
+ modifier_building_output_spells_add_desc: "The amount of @spells! Magic produced by buildings"
+
+ modifier_building_input_jewelry_add: "@jewelry! Jewelry input per level"
+ modifier_building_input_jewelry_add_desc: "The amount of @jewelry! Jewelry consumed by buildings"
+ modifier_building_output_jewelry_add: "@jewelry! Jewelry output per level"
+ modifier_building_output_jewelry_add_desc: "The amount of @jewelry! Jewelry produced by buildings"
+
+ modifier_building_employment_flightponies_add: "$flightponies$ Per Level"
+ modifier_building_employment_flightponies_add_desc: "Modifies the amount of $flightponies$ a building can hire per level"
+ modifier_building_employment_weatherponies_add: "$weatherponies$ Per Level"
+ modifier_building_employment_weatherponies_add_desc: "Modifies the amount of $weatherponies$ a building can hire per level"
+ modifier_building_employment_mages_add: "$mages$ Per Level"
+ modifier_building_employment_mages_add_desc: "Modifies the amount of $mages$ a building can hire per level"
+ modifier_building_employment_archmages_add: "$archmages$ Per Level"
+ modifier_building_employment_archmages_add_desc: "Modifies the amount of $archmages$ a building can hire per level"
+
+ modifier_building_flightponies_shares_add: "$flightponies$ [Concept('concept_ownership_share', '$concept_ownership_shares$')]"
+ modifier_building_flightponies_shares_add_desc: "An increase or decrease in a $flightponies$ [Concept('concept_ownership_share', '$concept_ownership_shares$')]"
+ modifier_building_weatherponies_shares_add: "$weatherponies$ [Concept('concept_ownership_share', '$concept_ownership_shares$')]"
+ modifier_building_weatherponies_shares_add_desc: "An increase or decrease in a $weatherponies$ [Concept('concept_ownership_share', '$concept_ownership_shares$')]"
+ modifier_building_mages_shares_add: "$mages$ [Concept('concept_ownership_share', '$concept_ownership_shares$')]"
+ modifier_building_mages_shares_add_desc: "An increase or decrease in a $mages$ [Concept('concept_ownership_share', '$concept_ownership_shares$')]"
+ modifier_building_archmages_shares_add: "$archmages$ [Concept('concept_ownership_share', '$concept_ownership_shares$')]"
+ modifier_building_archmages_shares_add_desc: "An increase or decrease in a $archmages$ [Concept('concept_ownership_share', '$concept_ownership_shares$')]"
+
+ modifier_state_weatherponies_mortality_mult: "[Concept('concept_pop_growth', '$concept_pop_growth_mortality$')] of $weatherponies$"
+ modifier_state_weatherponies_mortality_mult_desc: "An increase or decrease in the [Concept('concept_pop_growth', '$concept_pop_growth_mortality$')] of $weatherponies$"
+ modifier_building_weatherponies_mortality_mult: "$modifier_state_weatherponies_mortality_mult$"
+ modifier_building_weatherponies_mortality_mult_desc: "$modifier_state_weatherponies_mortality_mult_desc$"
+ modifier_building_group_bg_manufacturing_weatherponies_mortality_mult: "[Concept('concept_pop_growth', '$concept_pop_growth_mortality$')] of $weatherponies$ employed in Manufacturing"
+ modifier_building_group_bg_manufacturing_weatherponies_mortality_mult_desc: "An increase or decrease in the $modifier_building_group_bg_manufacturing_weatherponies_mortality_mult$"
+
+ modifier_building_crystal_mine_throughput_mult: "$building_crystal_mine$ building [concept_throughput]"
+ modifier_building_crystal_mine_throughput_mult_desc: "A bonus or penalty to both input and output of $building_crystal_mine$"
+
+ modifier_building_weather_factory_throughput_mult: "$building_weather_factory$ building [concept_throughput]"
+ modifier_building_weather_factory_throughput_mult_desc: "A bonus or penalty to both input and output of $building_weather_factory$"
+
+ modifier_building_apple_plantation_throughput_mult: "$building_apple_plantation$ building [concept_throughput]"
+ modifier_building_apple_plantation_throughput_mult_desc: "A bonus or penalty to both input and output of $building_apple_plantation$"
+
+ modifier_building_weather_bureau_throughput_mult: "$building_weather_bureau$ building [concept_throughput]"
+ modifier_building_weather_bureau_throughput_mult_desc: "A bonus or penalty to both input and output of $building_weather_bureau$"
+
+ modifier_country_archmages_voting_power_add: "[concept_political_strength] from the [concept_votes] of $archmages$"
+ modifier_country_archmages_voting_power_add_desc: "An increase or decrease to amount of [concept_political_strength] gained from the [concept_votes] of $archmages$ in Elections"
+ modifier_country_flightponies_voting_power_add: "[concept_political_strength] from the [concept_votes] of $flightponies$"
+ modifier_country_flightponies_voting_power_add_desc: "An increase or decrease to amount of [concept_political_strength] gained from the [concept_votes] of $flightponies$ in Elections"
+ modifier_country_mages_voting_power_add: "[concept_political_strength] from the [concept_votes] of $mages$"
+ modifier_country_mages_voting_power_add_desc: "An increase or decrease to amount of [concept_political_strength] gained from the [concept_votes] of $mages$ in Elections"
+ modifier_country_weatherponies_voting_power_add: "[concept_political_strength] from the [concept_votes] of $weatherponies$"
+ modifier_country_weatherponies_voting_power_add_desc: "An increase or decrease to amount of [concept_political_strength] gained from the [concept_votes] of $weatherponies$ in Elections"

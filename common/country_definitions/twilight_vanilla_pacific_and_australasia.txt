@@ -1,0 +1,215 @@
+﻿HAW = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+NTU = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+NTO = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+KNK = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+PPU = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+HLA = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BLA = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BLG = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+KTI = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+FJI = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SKH = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+MCR = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+VNT = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+NRU = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+PLY = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+AOT = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+ULR = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+NSW = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+WAS = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SAS = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+UNT = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+NNG = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+GML = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+AST = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+NZL = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+TAS = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+DEI = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SAK = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+PON = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SMB = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+JMB = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+YOG = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SRK = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BTN = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SEL = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+PRK = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SUL = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+SLW = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+TID = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+STG = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+BNJ = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+IDN = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}
+MGD = {
+    country_type = unrecognized
+    tier = principality
+    cultures = { equus_minors }
+}

@@ -1,0 +1,58 @@
+﻿# 10.0 M
+
+POPS = {
+	s:STATE_PANTHERA = {
+		region_state:ABY = {
+			create_pop = {
+				culture = cat
+				religion = desert_legend
+				size = 2500000
+			}
+		}
+	}
+	s:STATE_SIAMESE_DELTA = {
+		region_state:ABY = {
+			create_pop = {
+				culture = cat
+				religion = desert_legend
+				size = 1500000
+			}
+		}
+	}
+	s:STATE_TABBYTOWN = {
+		region_state:ABY = {
+			create_pop = {
+				culture = cat
+				religion = desert_legend
+				size = 1500000
+			}
+		}
+	}
+	s:STATE_UPPER_SIAM = {
+		region_state:ABY = {
+			create_pop = {
+				culture = cat
+				religion = desert_legend
+				size = 1500000
+			}
+		}
+	}
+	s:STATE_EAST_DESERT = {
+		region_state:ABY = {
+			create_pop = {
+				culture = cat
+				religion = desert_legend
+				size = 1500000
+			}
+		}
+	}
+	s:STATE_LITTERBOX_RIDGE = {
+		region_state:ABY = {
+			create_pop = {
+				culture = cat
+				religion = desert_legend
+				size = 1500000
+			}
+		}
+	}
+}

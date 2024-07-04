@@ -1,0 +1,37 @@
+﻿# Disabled
+# TODO: Reimplement these as Grand Tomorrow JE?
+
+je_meiji_restoration = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+}
+
+je_meiji_main = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+}
+
+je_meiji_economy = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}
+
+je_meiji_army = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}
+
+je_meiji_diplomacy = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}

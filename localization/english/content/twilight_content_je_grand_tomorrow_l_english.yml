@@ -1,0 +1,429 @@
+﻿# **IMPORTANT**
+#
+# Read the `README.md` in the same folder first if you have not yet!!
+#
+# **Common Macros**
+#
+# | Macro                                      | Output              | Output Type       |
+# | ------------------------------------------ | ------------------- | ----------------- |
+# | [ROOT.GetCountry.GetName]                  | "[Flag] Equestria"  | Tooltip available |
+# | [ROOT.GetCountry.GetNameNoFlag]            | "Equestria"         | Tooltip available |
+# | [ROOT.GetCountry.GetNameNoFormatting]      | "Equestria"         | Plain text        |
+# | [ROOT.GetCountry.GetAdjective]             | "[Flag] Equestrian" | Tooltip available |
+# | [ROOT.GetCountry.GetAdjectiveNoFlag]       | "Equestrian"        | Tooltip available |
+# | [ROOT.GetCountry.GetAdjectiveNoFormatting] | "Equestrian"        | Plain text        |
+
+l_english:
+ # je_grand_tomorrow #
+
+ ## Main ##
+
+ # Flavor Text
+ je_grand_tomorrow: "The Grand Tomorrow"
+ je_grand_tomorrow_reason: "Throughout its history, Equestria and its ponies have endured and survived many hardships and horrors. Now, the world itself is rapidly changing all around us. We must adapt and once more ensure Equestria stands as a Beacon of Harmony. We will ready ourselves for this new age - together."
+ je_grand_tomorrow_goal: "$je_goal_complete_sub_jes$"
+
+ # Custom Tooltip
+ je_grand_tomorrow_advance_tt: "Advances the [concept_journal_entry] '$je_grand_tomorrow$'"
+ je_grand_tomorrow_complete_tt: "Completed the [concept_journal_entry] '$je_grand_tomorrow$'"
+
+ ## Magic ##
+
+ # Flavor Text
+ je_grand_tomorrow_magic: "Magic: The Spark of Knowledge"
+ je_grand_tomorrow_magic_reason: "With every passing week, the world around us grows more complex and intricate. Its machinations become harder to untangle and understand, and many ponies find it hard to keep up with the times. It is high time to reform our government, and ensure that everypony is given the necessary support they need to provide for themselves in this new age."
+ je_grand_tomorrow_magic_goal: "$je_goal_complete_sub_jes$"
+ je_grand_tomorrow_magic_bureaucracy: "Magic - Organising the Future"
+ je_grand_tomorrow_magic_bureaucracy_reason: "In a world where so much is changing so quickly, Equestria must remain aware and present in society and the economy to effectively upkeep its efforts in aiding this shift to go along smoothly. We must retain clarity amidst growing mountains of paperwork, and ensure we are ready for the bureaucratic nightmares soon to come."
+ je_grand_tomorrow_magic_education: "Magic - Preparing our Future"
+ je_grand_tomorrow_magic_education_reason: "The young fillies and colts of Equestria are our future - this much is clear to all. To that end, we must ensure they receive the schooling they need to be effectively prepared for the world that lies aheead of them. If Equestria is to truly succeed and remain true to itself, then the coming generations must be cared for."
+ je_grand_tomorrow_magic_standardization: "Magic - Standardization (Placeholder)"  # Help wanted
+ je_grand_tomorrow_magic_standardization_reason: "je_grand_tomorrow_magic_standardization_reason"  # Help wanted
+ je_grand_tomorrow_magic_standardization_goal: "All of the following must be true for #variable [JournalEntry.GetTotalGoalValue]#! total months:\n$EFFECT_LIST_BULLET$ (Currently #variable [JournalEntry.GetGoalProgressValue]#! [SelectLocalization(GreaterThan_CFixedPoint(JournalEntry.GetGoalProgressValue, '(CFixedPoint)0'), 'months', 'month')])"
+
+ # Custom Tooltip
+ je_grand_tomorrow_magic_advance_tt: "Advances the [concept_journal_entry] '$je_grand_tomorrow_magic$'"
+ je_grand_tomorrow_magic_complete_tt: "Completed the [concept_journal_entry] '$je_grand_tomorrow_magic$'"
+
+ ## Honesty ##
+
+ # Flavor Text
+ je_grand_tomorrow_honesty: "Honesty: Honest Work"
+ je_grand_tomorrow_honesty_reason: "Within many circles, the concept of 'honest work' is well-known and requires little introduction. Now, though, many fear that such a thing may be a thing of the past, and that those ponies previously enjoying a living in agriculture or mining would be out of a job in due time. We must dismiss these fears, and support the ponies in the farms, pastures and mines who will surely carry Equestria forward."
+ je_grand_tomorrow_honesty_goal: "$je_goal_complete_sub_jes$"
+ je_grand_tomorrow_honesty_taxation: "Honesty - A Fair Due"
+ je_grand_tomorrow_honesty_taxation_reason: "Some Ponies believe that the Equestrian State is exercising taxation that is too harsh on them, while others believe we do not take enough. The fact of the matter is that Equestria requires a little bit from all ponies, so that we can return these bits to Equestria where they are most needed. Taxes are the cornerstone of how we will finance building our future, but we cannot become extortionate or ineffective acquiring these hard-earned funds of other ponies."
+ je_grand_tomorrow_honesty_resources: "Honesty - Good Harvests"
+ je_grand_tomorrow_honesty_resources_reason: "Our Home is one of many pastures and fields, but also mines and lumber camps. Everywhere you look, ponies are hard at work extracting the honest worth out of the great land we call home. We must continue to support these ponies and their ventures to support a growing industrial workforce, and to reward these farmers and miners with the recognition they well deserve."
+
+ # Custom Tooltip
+ je_grand_tomorrow_honesty_advance_tt: "Advances the [concept_journal_entry] '$je_grand_tomorrow_honesty$'"
+ je_grand_tomorrow_honesty_complete_tt: "Completed the [concept_journal_entry] '$je_grand_tomorrow_honesty$'"
+
+ ## Kindness ##
+
+ # Flavor Text
+ je_grand_tomorrow_kindness: "Kindness: A Fair and Gentle Hoof"
+ je_grand_tomorrow_kindness_reason: "Equestria prides itself in being a Beacon of Harmony; that is, a home for any and all who wish to make it so. But although many ponies do indeed share this sentiment, reality can be disappointing, especially with the harsh new realities of new workplaces and entirely new concepts to work around. We cannot allow Equestria to descend down a path where some are treated unfairly, or with cruelty."
+ je_grand_tomorrow_kindness_goal: "$je_goal_complete_sub_jes$"
+ je_grand_tomorrow_kindness_multiculturalism: "Kindness - Hoof, Claw, Paw"
+ je_grand_tomorrow_kindness_multiculturalism_reason: "The Harmony we proudly claim to have built here in Equestria is indeed a beautiful thing - but it is not something that should be kept from others! We must take a more active stance in opening up to the nations of the world and connecting with other races as true equals - in mind and law both."
+ je_grand_tomorrow_kindness_labor_rights: "Kindness - Builders of Tomorrow"
+ je_grand_tomorrow_kindness_labor_rights_reason: "Our workers labour day and sometimes night to help us fulfill our growing vision for a grand tomorrow; an Equestria of a new age, one in which we live better than before. And yet, they are often mistreated by their superiors, given little care or thought or respect, and often paid so little that they have to make do with what they have. These hard-working ponies are heroes in their own right - it's time to show them our care and the recognition they deserve!"
+ je_grand_tomorrow_kindness_children_rights: "Kindness - Schools, not Factories"
+ je_grand_tomorrow_kindness_children_rights_reason: "The prospect of little fillies or colts working dangerous jobs in dirty factories, as opposed to attending school and preparing for a joyfoul future is dreadful and wrong. We cannot allow these practices of conscripting children as part of the workforce to continue; they are our future, and must be protected as such!"
+
+ # Custom Tooltip
+ je_grand_tomorrow_kindness_advance_tt: "Advances the [concept_journal_entry] '$je_grand_tomorrow_kindness$'"
+ je_grand_tomorrow_kindness_complete_tt: "Completed the [concept_journal_entry] '$je_grand_tomorrow_kindness$'"
+
+ ## Laughter ##
+
+ # Flavor Text
+ je_grand_tomorrow_laughter: "Laughter: Better Together"
+ je_grand_tomorrow_laughter_reason: "The world is vast and filled with many wonders - and horrors. And yet, the world is shrinking. Every day we grow more connected with our neighbors, and the world at large. We must not squander this chance to seek out old and new friends alike in the world now that we can grow together better than ever. Equestria has always been a friend of all - it will continue to be so!"
+ je_grand_tomorrow_laughter_goal: "$je_goal_complete_sub_jes$"
+ je_grand_tomorrow_laughter_alliance: "Laughter - Common Cause"
+ je_grand_tomorrow_laughter_alliance_reason: "There have been numerous hostile attacks against Equestria on various scales throughout the years, and so the call for formalising alliances with friends abroad are justified. With the legions of our friends and allies at hoof, Equestria will grow ever better and stronger!"
+ je_grand_tomorrow_laughter_alliance_goal: "All of the following must be true for #variable [JournalEntry.GetTotalGoalValue]#! total months:\n$EFFECT_LIST_BULLET$ (Currently #variable [JournalEntry.GetGoalProgressValue]#! [SelectLocalization(GreaterThan_CFixedPoint(JournalEntry.GetGoalProgressValue, '(CFixedPoint)0'), 'months', 'month')])"
+
+ # Custom Tooltip
+ je_grand_tomorrow_laughter_advance_tt: "Advances the [concept_journal_entry] '$je_grand_tomorrow_laughter$'"
+ je_grand_tomorrow_laughter_complete_tt: "Completed the [concept_journal_entry] '$je_grand_tomorrow_laughter$'"
+
+ ## Loyalty ##
+
+ # Flavor Text
+ je_grand_tomorrow_loyalty: "Loyalty: Defending our Friends"
+ je_grand_tomorrow_loyalty_reason: "For generations, the Royal Guards have been the primary defenders of Equestria and de-facto fighting force in the field. These many years have been hard on them though, and they now lack recruits, equipment and budget to effectively defend Equestria and protect its ponies. Equestria will not instigate conflict on its own, but we must come face to face with reality and ensure we are ready for those who might."
+ je_grand_tomorrow_loyalty_goal: "$je_goal_complete_sub_jes$"
+ je_grand_tomorrow_loyalty_modernization: "Loyalty - Rifles over Spears"
+ je_grand_tomorrow_loyalty_modernization_reason: "The Guards have long stagnated not just in terms of size, but in terms of equipment and tactics, too. Modern production methods allow us to create weaponry far more effective than the antiquated spears still in use today. If we intend to protect home, family and friends then we must adopt these new weapons as soon as possible, and not put ourselves at a disadvantage against any possible foe."
+ je_grand_tomorrow_loyalty_recruitment: "Loyalty - Your Friends need YOU!"
+ je_grand_tomorrow_loyalty_recruitment_reason: "Equestria's Defence is no laughing matter, and indeed the prospect of going to war is grim for most. But to fight for friends and family is a noble deed, and if nopony does it then we risk losing to disastrous forces of evil away from home. We must ensure we possess a stable, growing body of recruits and soldiers that are willing and trained to defend the Haven of Ponykind from harm."
+
+ # Custom Tooltip
+ je_grand_tomorrow_loyalty_advance_tt: "Advances the [concept_journal_entry] '$je_grand_tomorrow_loyalty$'"
+ je_grand_tomorrow_loyalty_complete_tt: "Completed the [concept_journal_entry] '$je_grand_tomorrow_loyalty$'"
+
+ ## Generosity ##
+
+ # Flavor Text
+ je_grand_tomorrow_generosity: "Generosity: The Needs of our Ponies"
+ je_grand_tomorrow_generosity_reason: "Industrialisation is many things - good and bad both. However, we cannot possibly shy away from it when it offers us the chance to achieve many great feats. By committing to it, we can achieve productivity never before conceived, and through it, we can provide for all the ponies in the nation with ease, and ensure all may get a share of the benefits of these new industries."
+ je_grand_tomorrow_generosity_goal: "$je_goal_complete_sub_jes$"
+ je_grand_tomorrow_generosity_economy: "Generosity - Open for Business"
+ je_grand_tomorrow_generosity_economy_reason: "Equestria features a vast economy already, and is far from ineffective by all means - but times are changing, and fast, and soon we may be caught off-guard by changing circumstances. Our administration and laws must be properly amended to account for a world in which productivity is far higher than before, and in which the world itself is growing closer together."
+ je_grand_tomorrow_generosity_industrialization: "Generosity - The Workshop of the World"
+ je_grand_tomorrow_generosity_industrialization_reason: "We have a great chance through industrial methods to provide food, water, clothes and more to all for generous prices. However, why should our dream necessarily stop with Equestria alone? We must grow our new industrial workshops to provide the goods that other creatures in the world need to live, so that they too can seek a good life outside the slums."
+
+ # Custom Tooltip
+ je_grand_tomorrow_generosity_advance_tt: "Advances the [concept_journal_entry] '$je_grand_tomorrow_generosity$'"
+ je_grand_tomorrow_generosity_complete_tt: "Completed the [concept_journal_entry] '$je_grand_tomorrow_generosity$'"
+
+ ## Events ##
+
+ ### Grand Tomorrow ###
+
+ # Grand Tomorrow - Prologue
+ twilight_grand_tomorrow_events.1.t: "The Coronation"
+ twilight_grand_tomorrow_events.1.d: "[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] [ROOT.GetCountry.GetRuler.GetFullName], formerly the Princess of Friendship, has been crowned Ruler of [ROOT.GetCountry.GetNameNoFlag] - after a rather chaotic mess of a ceremony."
+ twilight_grand_tomorrow_events.1.f: "#twilight "When I first began my studies, I had no idea about friendship, or the business of ruling an entire nation. It was my mentor, Princess Celestia, who tried her hardest to teach me what I was truly missing, and she sent me off to Ponyville. There, I discovered an entirely new kind of magic by connecting with my new friends. Together, we went on to face countless hardships and storms, braving them hoof-in-hoof, and cheered each other on when times got tough.\n\nNow, I stand here as your new Ruler, as the Princess of Equestria itself. I may not know everything about ruling, unlike the Two Sisters, but I do know a lot about friendship, and I know that all my friends will be with me on this journey all throughout. As before, we can and will overcome any obstacle and ensure a brighter tomorrow - together!"#!"
+ twilight_grand_tomorrow_events.1.a: "#bold To Twilight!#!"
+ twilight_grand_tomorrow_events.1.z: "Add all Journal Entries (Debug)"
+
+ # Grand Tomorrow - Epilogue
+ twilight_grand_tomorrow_events.2.t: "A Grand Tomorrow"
+ twilight_grand_tomorrow_events.2.d: "With [ROOT.GetCountry.GetNameNoFlag] newly secured, stabilised and modernised, we can finally rest well and easy in the knowledge that a greater tomorrow and brighter future yet awaits us."
+ twilight_grand_tomorrow_events.2.f: "Twilight sat on the balcony of the Canterlot Castle which overlooked the great, ancient capital of Ponykind, a teacup idly in her magical grasp before her. #twilight "I'm just so happy it all worked out, in the end."#! The alicorn turned her head to face Fluttershy, who was sat next to her around the coffee table out on the balcony, alongside all the other girls from Ponyville.\n\n#applejack "Hear, hear,"#! Applejack chimed in with a raised mug of cider, #applejack "been a whole lot of hard work, but damn if we've ever pulled through with it."#! #rarity "Quite right. Everypony is better off now than they were before, and I personally think it's a wonderful feeling indeed to know that we at least played a part in that change for good."#! Everypony nodded at Rarity's sentiment.\n\n#twilight "You're right, Rarity,"#! Twilight finally spoke. #twilight "I'm so glad it all worked out, and that we stayed together to take on this huge challenge."#! #rainbow "Come on now, Twi,"#! Rainbow interrupted her with a confident grin. #rainbow "Did you really think we'd have it any other way? We're with you! Always!"#! The Ruler of Equestria smiled, offering her pegasus friend a hearty chuckle. #twilight "No, that's not what I meant Rainbow."#! #pinkie "Then what did you mean exactly?"#! Pinkie asked.\n\n#twilight "Thank you. All of you, for everything."#! The others smiled at their friend with radiating warmth. They were smiles Twilight had seen all too often, but had never grown tired of seeing.#fluttershy "I'm so glad we're all still here doing things together. I don't know what I would do without you girls after all we've been through,"#! Fluttershy calmly said.#pinkie "Yeah! Imagine if we'd stopped seeing one another like we feared before your coronation, Twilight! We would be all over the place!"#!\n\n#twilight"I'm glad we didn't. Really, I am. I may be the Ruler of Equestria now, and everypony looks up to me in some way - for wisdom, answers, leadership and more - but I am still just a pony like anypony else. But... with you girls?"#! She smiled wider than before.#twilight "With you, I could tackle and challenge. No matter if it's a friendship problem, villain coming to take over Equestria, or defeating injustice all over Equestria."#!\n\nTwilight barely managed to finish her sentence before she was pulled into a surprise hug by Pinkie Pie who had somehow mysteriously appeared behind her. Uncaring, she was soon joined by all her other friends in a group hug. The lavender alicorn allowed herself to melt away in this brief moment of relief, love and togetherness. She once wondered what Friendship could be, but now she most definitely knew, and so did Equestria."
+ twilight_grand_tomorrow_events.2.a: "...and the Magic of Friendship grows."
+
+ ### Magic ###
+
+ # Magic - Prologue
+ twilight_grand_tomorrow_events.100.t: "Magic - Prologue"
+ twilight_grand_tomorrow_events.100.d: "Though [ROOT.GetCountry.GetNameNoFlag] was once known as the pinnacle of scientific research and effective governance, its institutions have become lackluster in this age of growing industrialisation. We must adapt, or risk falling behind - at the expense of our ponies."
+ twilight_grand_tomorrow_events.100.f: "#twilight "Spike! Spiiike!"#!\n\nThe #1 assistant to the Ruler of Equestria came rushing into the library of Twilight's castle in Ponyville, carrying and carefully balancing half a dozen books and charts stacked on top of one another. #spike "Sorry, Twi. These are heavy, you know? And... and..."#! Twilight's eyes widened as she witnessed the dragon recoil in preparation for a sneeze. Only then did Spike and Twilight both realise just how old, dusty and presumably untouched all these books and charts were. #twilight "Spike, no! Don't-"#! A brief gust of green fire flared up, then vanished again alongside a sneeze from the small dragon.\n\nBoth Spike and Twilight looked in horror at the now burnt, scorched books and papers. #twilight "This is going to take forever..."#! Twilight moaned, burying her face in the floor."
+ twilight_grand_tomorrow_events.100.a: "Time for an overhaul."
+
+ # Magic - Epilogue
+ twilight_grand_tomorrow_events.101.t: "Magic - Epilogue"
+ twilight_grand_tomorrow_events.101.d: "Much has been done to polish and retool our institutions of governance and learning, but at last we have reached a point that is at the very least adequate."
+ twilight_grand_tomorrow_events.101.f: "#twilight "Huh. Who'd have thought that even simple things could do so much for ginormous institutions like bureaucracy."#!\n\nTwilight scratched the side of her head ponderously whilst reviewing a fresh performance review for the latest reforms done to matters of education and governance. #spike "Not to mention that streamlining things really helped clean up around here. There's probably only half as many stats, graphs and reports in here now compared to before,"#! Spike commented. He looked around to double check, and sure enough it seemed as though the library in Twilight's Castle was only half as filled now compared to when they'd started this drive for reform. He, certainly, was glad not to be breaking his back carrying that many books again like last time. Or burning them all by accident.\n\n#twilight "Thanks again for all the help, Spike. I don't think I could have dealt with this on my own."#! #spike "Hey now, what are friends for, right?"#!"
+ twilight_grand_tomorrow_events.101.a: "Now we can get things done in time!"
+
+ # Magic - Bureaucracy - Prologue
+ # Sugestion: Twilight realizes that the census data and maps of Equestria are outdated and imperfect.
+ twilight_grand_tomorrow_events.110.t: "Magic - Bureaucracy - Prologue"
+ twilight_grand_tomorrow_events.110.d: "twilight_grand_tomorrow_events.110.d"
+ twilight_grand_tomorrow_events.110.f: "twilight_grand_tomorrow_events.110.f"
+ twilight_grand_tomorrow_events.110.a: "twilight_grand_tomorrow_events.110.a"
+
+ # Magic - Bureaucracy - Epilogue
+ twilight_grand_tomorrow_events.111.t: "Magic - Bureaucracy - Epilogue"
+ twilight_grand_tomorrow_events.111.d: "twilight_grand_tomorrow_events.111.d"
+ twilight_grand_tomorrow_events.111.f: "twilight_grand_tomorrow_events.111.f"
+ twilight_grand_tomorrow_events.111.a: "twilight_grand_tomorrow_events.111.a"
+
+ # Magic - Education - Prologue
+ twilight_grand_tomorrow_events.120.t: "Magic - Education - Prologue"
+ twilight_grand_tomorrow_events.120.d: "twilight_grand_tomorrow_events.120.d"
+ twilight_grand_tomorrow_events.120.f: "twilight_grand_tomorrow_events.120.f"
+ twilight_grand_tomorrow_events.120.a: "twilight_grand_tomorrow_events.120.a"
+
+ # Magic - Education - Epilogue
+ twilight_grand_tomorrow_events.121.t: "Magic - Education - Epilogue"
+ twilight_grand_tomorrow_events.121.d: "twilight_grand_tomorrow_events.121.d"
+ twilight_grand_tomorrow_events.121.f: "twilight_grand_tomorrow_events.121.f"
+ twilight_grand_tomorrow_events.121.a: "twilight_grand_tomorrow_events.121.a"
+
+ # Magic - Education - Focus
+ twilight_grand_tomorrow_events.122.t: "Magic - Education - Focus"
+ twilight_grand_tomorrow_events.122.d: "twilight_grand_tomorrow_events.122.d"
+ twilight_grand_tomorrow_events.122.f: "twilight_grand_tomorrow_events.122.f"
+ twilight_grand_tomorrow_events.122.a: "twilight_grand_tomorrow_events.122.a"  # Vertical Expansion
+ twilight_grand_tomorrow_events.122.b: "twilight_grand_tomorrow_events.122.b"  # Status Quo, Default option
+ twilight_grand_tomorrow_events.122.c: "twilight_grand_tomorrow_events.122.c"  # Horizontal Expansion
+
+ # Magic - Standardization - Prologue
+ twilight_grand_tomorrow_events.130.t: "Magic - Standardization - Prologue"
+ twilight_grand_tomorrow_events.130.d: "twilight_grand_tomorrow_events.130.d"
+ twilight_grand_tomorrow_events.130.f: "twilight_grand_tomorrow_events.130.f"
+ twilight_grand_tomorrow_events.130.a: "twilight_grand_tomorrow_events.130.a"
+
+ # Magic - Standardization - Epilogue
+ twilight_grand_tomorrow_events.131.t: "Magic - Standardization - Epilogue"
+ twilight_grand_tomorrow_events.131.d: "twilight_grand_tomorrow_events.131.d"
+ twilight_grand_tomorrow_events.131.f: "twilight_grand_tomorrow_events.131.f"
+ twilight_grand_tomorrow_events.131.a: "twilight_grand_tomorrow_events.131.a"
+
+ ### Honesty ###
+
+ # Honesty - Prologue
+ twilight_grand_tomorrow_events.200.t: "Honesty - Prologue"
+ twilight_grand_tomorrow_events.200.d: "With [ROOT.GetCountry.GetNameNoFlag] - even more so than most other nations in the world - having a rich history of extensive agriculture and mining, many ponies living in rural areas or working in these fields are in danger of being left behind by growing changes to society and the nation."
+ twilight_grand_tomorrow_events.200.f: "#applejack "For the last time, Granny, there ain't nopony out to take away our farm."#!\n\nApplejack kept a straight face, but internally sighed and frowned at Granny Smith who was sitting on the front porch in front of her with crossed hooves, clearly insulted in some way. #line #color:{0.81,0.90,0.52} "Yeah, yeah, that's what they all say, don't they? All them false promises, dime a dozen. And then they get ya! And they get ya good!"#!#! Applejack replied, #applejack "Oh come on, Granny, this is just ridiculous!"#! Granny Smith, however, was standing firm.#line #color:{0.81,0.90,0.52} "Ain't gonna look so ridiculous when those damn tootin stallions Flim and Flam show up to steal away our Sweet Apple Acres!"#!#! \n\nApplejack sighed, giving up on what was quickly becoming a shouting contest with Granny Smith. Surely there had to be a way to convince her things were changing for the better for everypony, not just the cityfolk."
+ twilight_grand_tomorrow_events.200.a: "Nopony should be left behind."
+
+ # Honesty - Epilogue
+ twilight_grand_tomorrow_events.201.t: "Honesty - Epilogue"
+ twilight_grand_tomorrow_events.201.d: "With all our reforms in place, and trust gained through targeted investments in rural areas, we have regained the trust of the rural ponies of [ROOT.GetCountry.GetNameNoFlag]."
+ twilight_grand_tomorrow_events.201.f: "#applejack "I told you it was all gonna work out in the end, Granny, but you just wouldn't hear of it."#!\n\nGranny Smith stood next to Applejack in front of a large, bulking machine. It was painted red to fit with the apple family, but still looked somewhat odd inside the barn nonetheless. #line #color:{0.81,0.90,0.52} "Well maybe if you'd mentioned anythin' like this I'd have listened sooner."#!#! She took a few steps towards the brand new aoparatus that the government had ordered for Sweet Apple Acres, which could intake apples and turn them into apple juice in a matter of seconds - no manual labor required. Granny inspected it closely, squinting at the heap of metal, all bolted or welded together. She'd initially refused to accept the offer, but after a particularly bad apple harvest in which she'd hurt her spine whilst bucking trees, and after Applejack and Apple Bloom had offered her a taste of the final product of the machine, she had relented, albeit begrudgingly.#line #color:{0.81,0.90,0.52} "It's... alright. Mmm, I guess."#!#!\n\n#applejack "I never figured you'd be willing to budge, but I guess miracles do happen sometimes, don't they?"#! #line #color:{0.81,0.90,0.52} "I ain't budgin'!"#!#! Granny quickly rebuffed. #line #color:{0.81,0.90,0.52} "But damn tootin' my old bones ain't what they used to be. If I have to choose between this piece of junk and bein' bedridden for months, I'll sure as hay choose this if I gotta."#!#! Applejack simply rolled her eyes before approaching the machine also, a smile on her face."
+ twilight_grand_tomorrow_events.201.a: "Raise those barns!"
+
+ # Honesty - Taxation - Prologue
+ # Suggestion: Applejack finds herself in the middle of a conflict
+ # between one of the Apples and their town's bureaucrat collecting annual taxes.
+ twilight_grand_tomorrow_events.210.t: "Honesty - Taxation - Prologue"
+ twilight_grand_tomorrow_events.210.d: "twilight_grand_tomorrow_events.210.d"
+ twilight_grand_tomorrow_events.210.f: "twilight_grand_tomorrow_events.210.f"
+ twilight_grand_tomorrow_events.210.a: "twilight_grand_tomorrow_events.210.a"
+
+ # Honesty - Taxation - Epilogue
+ twilight_grand_tomorrow_events.211.t: "Honesty - Taxation - Epilogue"
+ twilight_grand_tomorrow_events.211.d: "twilight_grand_tomorrow_events.211.d"
+ twilight_grand_tomorrow_events.211.f: "twilight_grand_tomorrow_events.211.f"
+ twilight_grand_tomorrow_events.211.a: "twilight_grand_tomorrow_events.211.a"
+
+ # Honesty - Resources - Prologue
+ twilight_grand_tomorrow_events.220.t: "Honesty - Resources - Prologue"
+ twilight_grand_tomorrow_events.220.d: "twilight_grand_tomorrow_events.220.d"
+ twilight_grand_tomorrow_events.220.f: "twilight_grand_tomorrow_events.220.f"
+ twilight_grand_tomorrow_events.220.a: "twilight_grand_tomorrow_events.220.a"
+
+ # Honesty - Resources - Epilogue
+ twilight_grand_tomorrow_events.221.t: "Honesty - Resources - Epilogue"
+ twilight_grand_tomorrow_events.221.d: "twilight_grand_tomorrow_events.221.d"
+ twilight_grand_tomorrow_events.221.f: "twilight_grand_tomorrow_events.221.f"
+ twilight_grand_tomorrow_events.221.a: "twilight_grand_tomorrow_events.221.a"
+
+ ### Kindness ###
+
+ # Kindness - Prologue
+ twilight_grand_tomorrow_events.300.t: "Kindness - Prologue"
+ twilight_grand_tomorrow_events.300.d: "With the rising tide of industrial might come many challenges both old and new. Inequality is already spiking to levels never seen before due to terrible working conditions, and even discrimination is surfacing in a supposedly harmonious society."
+ twilight_grand_tomorrow_events.300.f: "#fluttershy "Um, I'm afraid I didn't quite catch that. Could you repeat it, please?"#!\n\nFluttershy sat on her couch, opposite to a mare who seemed both sad and furious at the same time. #line "I said they're making him work like the stallions there. Can you imagine that? My poor little colt is out there in some shoddy factory building working from sunrise to the evening hours, and practically risks his life doing so, too!"#!\n\nFluttershy gulped in badly concealed horror. This was exactly what she'd heard this mother say the first time, but she hadn't wanted it to be true. #fluttershy "You said he works at the same place as your husband, right? At least they work together?"#! #line "I wish, but the unicorn that manages the place won't allow them in the same room at all. Says it 'lowers productivity' or some horseapples!"#!\n\nFluttershy pondered, a deep-running frown on her face. This was bad, very bad. She'd need to do something, ask for help to fix this terrible injustice. She wouldn't be able to sleep soundly knowing these sorts of things went unnoticed in Equestria."
+ twilight_grand_tomorrow_events.300.a: "Let's make a change for the better."
+
+ # Kindness - Epilogue
+ twilight_grand_tomorrow_events.301.t: "Kindness - Epilogue"
+ twilight_grand_tomorrow_events.301.d: "Though the industries and enterprises of tomorrow pose great risks for the common working pony in [ROOT.GetCountry.GetNameNoFlag], our extensive reforms and speeches to ponies have ensured a fruitful, happy existence that can cast a smile on their faces."
+ twilight_grand_tomorrow_events.301.f: "#fluttershy "You really mean that?"#!\n\nOnce more, Fluttershy was sat on her couch sitting opposite to the mother whom she had spoken with many months prior. This time though, the situation was far from tense. They both held coffee mugs in their hooves, and had smiles on their faces. #line "Oh, definitely! My young colt is enjoying elementary school lots. My husband's gotten a slightly shorter workday out of this too, and he wanted to thank you for all your help and efforts. It really means a lot to us."#!\n\nFluttershy, ever the introvert, shrank a little into her seat, blushing a scarlet tone as she did. #fluttershy "O-Oh. It was really nothing. Really."#! #line "Nonsense! You helped us get our son back, and out of those deadly, dark factories!"#! The mare shook her head wildly in rejection of Fluttershy's statement. #line "Thanks to you, I can sleep well tonight knowing he is meeting friends at school tomorrow, rather than enduring a harsh workday."#!\n\nThe yellow pegasus slowly managed a smile, though she hid half her face behind her mug. She didn't know what to say except..."
+ twilight_grand_tomorrow_events.301.a: ""Yay!""
+
+ # Kindness - Multiculturalism - Prologue
+ # Suggestion: Fluttershy witnesses a group of foals bullying a bat pony foal
+ twilight_grand_tomorrow_events.310.t: "Kindness - Multiculturalism - Prologue"
+ twilight_grand_tomorrow_events.310.d: "twilight_grand_tomorrow_events.310.d"
+ twilight_grand_tomorrow_events.310.f: "twilight_grand_tomorrow_events.310.f"
+ twilight_grand_tomorrow_events.310.a: "twilight_grand_tomorrow_events.310.a"
+
+ # Kindness - Multiculturalism - Epilogue
+ # Suggestion: The Protesters consisiting of various species outside of the Palace / the parliament
+ # cheers as the new citizenship law is being announced.
+ # Amidst the crowd, Fluttershy meets the bat pony foal before again.
+ # The foal thanks Fluttershy in Ponish, and in return Fluttershy thanks the foal in Bat Ponish
+ twilight_grand_tomorrow_events.311.t: "Kindness - Multiculturalism - Epilogue"
+ twilight_grand_tomorrow_events.311.d: "twilight_grand_tomorrow_events.311.d"
+ twilight_grand_tomorrow_events.311.f: "twilight_grand_tomorrow_events.311.f"
+ twilight_grand_tomorrow_events.311.a: "twilight_grand_tomorrow_events.311.a"
+
+ # Kindness - Multiculturalism - Method
+ # Context: New citizenship law is being enacted with a lot of arguing.
+ # Fluttershy should choose between the two methods of achieving multiculturalism,
+ # with both sides having good points.
+ twilight_grand_tomorrow_events.312.t: "Kindness - Multiculturalism - Method"
+ twilight_grand_tomorrow_events.312.d: "twilight_grand_tomorrow_events.312.d"
+ twilight_grand_tomorrow_events.312.f: "twilight_grand_tomorrow_events.312.f"
+ twilight_grand_tomorrow_events.312.a: "twilight_grand_tomorrow_events.312.a"  # Melting Pot Method
+ twilight_grand_tomorrow_events.312.b: "twilight_grand_tomorrow_events.312.b"  # Compromise
+ twilight_grand_tomorrow_events.312.c: "twilight_grand_tomorrow_events.312.c"  # Salad Bowl Method
+
+ # Kindness - Labor Rights - Prologue
+ twilight_grand_tomorrow_events.320.t: "Kindness - Labor Rights - Prologue"
+ twilight_grand_tomorrow_events.320.d: "twilight_grand_tomorrow_events.320.d"
+ twilight_grand_tomorrow_events.320.f: "twilight_grand_tomorrow_events.320.f"
+ twilight_grand_tomorrow_events.320.a: "twilight_grand_tomorrow_events.320.a"
+
+ # Kindness - Labor Rights - Epilogue
+ twilight_grand_tomorrow_events.321.t: "Kindness - Labor Rights - Epilogue"
+ twilight_grand_tomorrow_events.321.d: "twilight_grand_tomorrow_events.321.d"
+ twilight_grand_tomorrow_events.321.f: "twilight_grand_tomorrow_events.321.f"
+ twilight_grand_tomorrow_events.321.a: "twilight_grand_tomorrow_events.321.a"
+
+ # Kindness - Children Rights - Prologue
+ twilight_grand_tomorrow_events.330.t: "Kindness - Children Rights - Prologue"
+ twilight_grand_tomorrow_events.330.d: "twilight_grand_tomorrow_events.330.d"
+ twilight_grand_tomorrow_events.330.f: "twilight_grand_tomorrow_events.330.f"
+ twilight_grand_tomorrow_events.330.a: "twilight_grand_tomorrow_events.330.a"
+
+ # Kindness - Children Rights - Epilogue
+ twilight_grand_tomorrow_events.331.t: "Kindness - Children Rights - Epilogue"
+ twilight_grand_tomorrow_events.331.d: "twilight_grand_tomorrow_events.331.d"
+ twilight_grand_tomorrow_events.331.f: "twilight_grand_tomorrow_events.331.f"
+ twilight_grand_tomorrow_events.331.a: "twilight_grand_tomorrow_events.331.a"
+
+ ### Laughter ###
+
+ # Laughter - Prologue
+ twilight_grand_tomorrow_events.400.t: "Laughter - Prologue"
+ twilight_grand_tomorrow_events.400.d: "[ROOT.GetCountry.GetNameNoFlag] is a great power in the world by sheer size alone, but no nation nor people is ever complete without others to call their friends and allies."
+ twilight_grand_tomorrow_events.400.f: "#pinkie "Hmmm..."#!\n\nPinkie Pie studied a map of Equestria and its neighbors inside her room at Sugarcube Corner. She tapped the floor with one hoof and the map with another, as if deeply impatient or bothered by something. #pinkie "Going out to find friends for Equestria sounded a lot more exciting when Twilight talked about it, didn't it, Gummy?"#! Pinkie looked at the small alligator inquisitvely, and seemed very much satisfied when he slowly, meticulously blinked whilst otherwise entirely unmoving.\n\n#pinkie "You're right, I can't let Twilight down now! But..."#! the mare looked back at the map with renewed frustration, #pinkie "Where to go, even?"#!"
+ twilight_grand_tomorrow_events.400.a: "Surely there are others who would like to party together?"
+
+ # Laughter - Epilogue
+ twilight_grand_tomorrow_events.401.t: "Laughter - Epilogue"
+ twilight_grand_tomorrow_events.401.d: "Thanks to the constructive building of international relationships, and maintaining strong friendships abroad, we have ensured [ROOT.GetCountry.GetNameNoFlag] will never stand alone."
+ twilight_grand_tomorrow_events.401.f: "#pinkie "Wow! I never even knew a Yak could drink THAT much."#!\n\nPinkie laid on her bed, still half-covered with confetti and sticky sweets from having partied with Yak 'envoys' for much of the evening and night until that point. #pinkie "And here I thought they only partied by smashing things to pieces."#! The only response Pinkie received was Gummy's, which as usual consisted of him slowly blinking. #pinkie "Right!? I don't know how they did that either!"#! Pinkie giggled and sat up in her bed, eyeing Gummy who sat next to her on her blanket.\n\n#pinkie "Y'know, I think we should DEFINITELY invite a lot more creatures from abroad these days. If a yak can party like crazy, then imagine what the changelings or griffons can do!"#! Another slow, very 'enthusiastic' blink from the alligator. #pinkie "Great! I knew you'd agree, Gummy!"#!"
+ twilight_grand_tomorrow_events.401.a: "A toast to all our friends abroad!"
+
+ # Laughter - Alliance - Prologue
+ twilight_grand_tomorrow_events.410.t: "Laughter - Alliance - Prologue"
+ twilight_grand_tomorrow_events.410.d: "twilight_grand_tomorrow_events.410.d"
+ twilight_grand_tomorrow_events.410.f: "twilight_grand_tomorrow_events.410.f"
+ twilight_grand_tomorrow_events.410.a: "twilight_grand_tomorrow_events.410.a"
+
+ # Laughter - Alliance - Epilogue
+ twilight_grand_tomorrow_events.411.t: "Laughter - Alliance - Epilogue"
+ twilight_grand_tomorrow_events.411.d: "twilight_grand_tomorrow_events.411.d"
+ twilight_grand_tomorrow_events.411.f: "twilight_grand_tomorrow_events.411.f"
+ twilight_grand_tomorrow_events.411.a: "twilight_grand_tomorrow_events.411.a"
+
+ ### Loyalty ###
+
+ # Loyalty - Prologue
+ twilight_grand_tomorrow_events.500.t: "Loyalty - Prologue"
+ twilight_grand_tomorrow_events.500.d: "Though [ROOT.GetCountry.GetNameNoFlag] is huge and populous, it has long succumbed to stagnancy and degradation when it comes to matters of national defence. Rather than a standing army, pony lives have, for the most part, been saved by the Elements of Harmony over and over again, sometimes only barely so."
+ twilight_grand_tomorrow_events.500.f: "#line #color:{0.97,0.90,0.39} "Let me get the record straight, Crash,"#!#! Spitfire muttered as she put down her shades, #line #color:{0.97,0.90,0.39} "you're looking to rearm Equestria? And you want MY help in doing that?"#!#!\n\nRainbow Dash gave the Wonderbolt Captain a quick salute. #rainbow "Yes, ma'am!"#! #line #color:{0.97,0.90,0.39} "Why? I lead the Wonderbolts, not the Royal Guards."#!#! #rainbow "Exactly! The guards are, well, the guards. They're old and slow and all kinda hard to adopt new stuff. But you, and us Wonderbolts, we're quick on our hooves, right?"#!\n\nSpitfire eyed the cyan pegasus with intensity, squinting. #line #color:{0.97,0.90,0.39} "Continue."#!#!"
+ twilight_grand_tomorrow_events.500.a: "Time to whip up a proper fighting force."
+
+ # Loyalty - Epilogue
+ twilight_grand_tomorrow_events.501.t: "Loyalty - Epilogue"
+ twilight_grand_tomorrow_events.501.d: "While many armies in past and present have assembled to fight for glory and conquest, the newly revitalised armies of [ROOT.GetCountry.GetNameNoFlag] fight chiefly for Harmony, Friendship and Home. What was once an outdated relic has now become a truly modern staple for defence."
+ twilight_grand_tomorrow_events.501.f: "#line #color:{0.97,0.90,0.39} "Alright newbies, listen up!"#!#!\n\nSpitfire spat out to a line of ponies in army recruit uniforms. #line #color:{0.97,0.90,0.39} "You all signed up to defend Equestria in time of need, and to help protect your friends and families, is that right?"#!#! #line "Yes, ma'am!"#! came the resounding response.\n\n#line #color:{0.97,0.90,0.39} "And how do you plan on getting anywhere close to the point where you can do that effectively?"#!#! #line "Training, ma'am!"#! #line #color:{0.97,0.90,0.39} "Then what the hay are you all standing around here for!? Are your hooves glued to the ground or what?"#!#!\n\nThe painful, loud wheeze of a whistle was heard as Spitfire blew into hers. #line #color:{0.97,0.90,0.39} "Get out on that training course and don't come back until you've gone through it 10 times AT LEAST! Move! Go go!"#!#!"
+ twilight_grand_tomorrow_events.501.a: "For the Defence of Harmony!"
+
+ # Loyalty - Modernization - Prologue
+ twilight_grand_tomorrow_events.510.t: "Loyalty - Modernization - Prologue"
+ twilight_grand_tomorrow_events.510.d: "twilight_grand_tomorrow_events.510.d"
+ twilight_grand_tomorrow_events.510.f: "twilight_grand_tomorrow_events.510.f"
+ twilight_grand_tomorrow_events.510.a: "twilight_grand_tomorrow_events.510.a"
+
+ # Loyalty - Modernization - Epilogue
+ twilight_grand_tomorrow_events.511.t: "Loyalty - Modernization - Epilogue"
+ twilight_grand_tomorrow_events.511.d: "twilight_grand_tomorrow_events.511.d"
+ twilight_grand_tomorrow_events.511.f: "twilight_grand_tomorrow_events.511.f"
+ twilight_grand_tomorrow_events.511.a: "twilight_grand_tomorrow_events.511.a"
+
+ # Loyalty - Recruitment - Prologue
+ twilight_grand_tomorrow_events.520.t: "Loyalty - Recruitment - Prologue"
+ twilight_grand_tomorrow_events.520.d: "twilight_grand_tomorrow_events.520.d"
+ twilight_grand_tomorrow_events.520.f: "twilight_grand_tomorrow_events.520.f"
+ twilight_grand_tomorrow_events.520.a: "twilight_grand_tomorrow_events.520.a"
+
+ # Loyalty - Recruitment - Epilogue
+ # Suggestion: The first military parade celebrating the recent foundation of the defense forces
+ twilight_grand_tomorrow_events.521.t: "Loyalty - Recruitment - Epilogue"
+ twilight_grand_tomorrow_events.521.d: "twilight_grand_tomorrow_events.521.d"
+ twilight_grand_tomorrow_events.521.f: "twilight_grand_tomorrow_events.521.f"
+ twilight_grand_tomorrow_events.521.a: "twilight_grand_tomorrow_events.521.a"
+
+ # Loyalty - Recruitment - Objective
+ twilight_grand_tomorrow_events.522.t: "Loyalty - Recruitment - Objective"
+ twilight_grand_tomorrow_events.522.d: "twilight_grand_tomorrow_events.522.d"
+ twilight_grand_tomorrow_events.522.f: "twilight_grand_tomorrow_events.522.f"
+ twilight_grand_tomorrow_events.522.a: "(Collective Security)"
+ twilight_grand_tomorrow_events.522.b: "(Self-Defense)"
+
+ ### Generosity ###
+
+ # Generosity - Prologue
+ twilight_grand_tomorrow_events.600.t: "Generosity - Prologue"
+ twilight_grand_tomorrow_events.600.d: "With the advent of widespread industrialism, new industries have sprung forth, which in turn give birth to yet more industries. Many more goods are required now to feed the growing economy of [ROOT.GetCountry.GetNameNoFlag], creating a natural need to expand our industrial base to feed and supply our ponies."
+ twilight_grand_tomorrow_events.600.f: "#rarity "Coco, darling, this won't do, I'm afraid."#!\n\nRarity inspected a newly made dress put on a pony mannequin, though her trained eye quickly decided against it, seemingly. #rarity "Not at all. The fabric just doesn't match, you see?"#!\n\nCoco Pommel, a long-time friend to Rarity, nodded with a sense of guilt. #line #color:{0.98,0.95,0.88} "I know, I know. It's been hard to get any good, high-quality fabric though. Manehattan is even more lively than normal nowadays, and all the good silk is sold straight to big companies nowadays."#!#! Coco shrugged. #line #color:{0.98,0.95,0.88} "I guess they don't have enough to cover demand. Wouldn't surprise me."#!#!\n\nRarity eyed the dress for a bit longer, rubbing the side of her snout idly. #rarity "Perhaps a change in strategy is in order, my dear."#!"
+ twilight_grand_tomorrow_events.600.a: "Let's keep everypony fed, dressed, and warm."
+
+ # Generosity - Epilogue
+ twilight_grand_tomorrow_events.601.t: "Generosity - Epilogue"
+ twilight_grand_tomorrow_events.601.d: "With plumes of smoke rising across the chimneys of homes, we have ensured a steady supply of goods within our market, so that everypony is helped to be able to receive what goods they require to live or fulfill their dreams, passions or professions."
+ twilight_grand_tomorrow_events.601.f.1: "#rarity "Now THIS, my dear, is marvelous indeed."#!\n\nRarity and Coco Pommel both looked at"
+ twilight_grand_tomorrow_events.601.f.2.a: "a radiant, purple dress - a colour that was currently very much in fashion thanks to Twilight's ascension to the throne."
+ twilight_grand_tomorrow_events.601.f.2.b: "a sleek, professional silk dress fit for a up and coming stallion, complete with a stylish tophat - something that had very much come into fashion with the increasing growth of the business class."
+ twilight_grand_tomorrow_events.601.f.2.c: "a slender, form-fitting red dress, made to attract the eye to a mare in more of a middling venue."
+ twilight_grand_tomorrow_events.601.f.2.d: "a grand, pompous dress that paid homage to the times now gone by, with expertly sewn patterns and trimmings. A sort of classic, in a way, and popular especially among old aristocrats and officers who enjoyed a dive back into the past."
+ twilight_grand_tomorrow_events.601.f.3: "#line #color:{0.98,0.95,0.88} "You really think so, Rarity?"#!#! Coco asked hopefully. #rarity "Why of course! It is absolutely delightful, darling!"#!\n\nCoco blushed slightly as she smiled at that. #line #color:{0.98,0.95,0.88} "Wow, thanks. I mean I knew it'd be better than the last now that I could actually get my hooves on some proper silk for once, but... is it REALLY that good?"#!#!\n\n#rarity "Coco, darling, you really must start believing in yourself more with this, don't you think?"#! #line #color:{0.98,0.95,0.88} "D-Do I?"#!#! Rarity nodded readily. #rarity "Indeed you do. I believe we both still have much to do."#!"
+ twilight_grand_tomorrow_events.601.a: "Selling anything the heart could desire!"
+
+ # Generosity - Economy - Prologue
+ twilight_grand_tomorrow_events.610.t: "Generosity - Economy - Prologue"
+ twilight_grand_tomorrow_events.610.d: "twilight_grand_tomorrow_events.610.d"
+ twilight_grand_tomorrow_events.610.f: "twilight_grand_tomorrow_events.610.f"
+ twilight_grand_tomorrow_events.610.a: "twilight_grand_tomorrow_events.610.a"
+
+ # Generosity - Economy - Epilogue
+ twilight_grand_tomorrow_events.611.t: "Generosity - Economy - Epilogue"
+ twilight_grand_tomorrow_events.611.d: "twilight_grand_tomorrow_events.611.d"
+ twilight_grand_tomorrow_events.611.f: "twilight_grand_tomorrow_events.611.f"
+ twilight_grand_tomorrow_events.611.a: "twilight_grand_tomorrow_events.611.a"
+
+ # Generosity - Industrialization - Prologue
+ twilight_grand_tomorrow_events.620.t: "Generosity - Industrialization - Prologue"
+ twilight_grand_tomorrow_events.620.d: "twilight_grand_tomorrow_events.620.d"
+ twilight_grand_tomorrow_events.620.f: "twilight_grand_tomorrow_events.620.f"
+ twilight_grand_tomorrow_events.620.a: "twilight_grand_tomorrow_events.620.a"
+
+ # Generosity - Industrialization - Epilogue
+ twilight_grand_tomorrow_events.621.t: "Generosity - Industrialization - Epilogue"
+ twilight_grand_tomorrow_events.621.d: "twilight_grand_tomorrow_events.621.d"
+ twilight_grand_tomorrow_events.621.f: "twilight_grand_tomorrow_events.621.f"
+ twilight_grand_tomorrow_events.621.a: "twilight_grand_tomorrow_events.621.a"
+
+ ## Modifiers ##
+ modifier_country_law_compromise: "Compromised Law"
+ modifier_country_melting_pot_method: "Melting Pot Agenda"
+ modifier_country_salad_bowl_method: "Salad Bowl Agenda"
+ modifier_slumber_of_the_giant: "Slumber of the Giant"
+ modifier_slumber_of_the_giant_level_4: "Slumber of the Giant (Weakened)"
+ modifier_slumber_of_the_giant_level_3: "Slumber of the Giant (Weakened)"
+ modifier_slumber_of_the_giant_level_2: "Slumber of the Giant (Weakened)"
+ modifier_slumber_of_the_giant_level_1: "Slumber of the Giant (Weakened)"

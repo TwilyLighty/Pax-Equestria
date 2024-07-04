@@ -1,0 +1,71 @@
+﻿# Canterlot Castle #
+
+## Base ##
+
+pm_default_building_canterlot_castle = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	unlocking_laws = {
+		law_monarchy
+		law_theocracy
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_legitimacy_headofstate_add = 20
+			interest_group_ig_devout_pop_attraction_mult = 0.2
+			country_authority_add = 100
+			country_prestige_add = 100
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_bureaucrats_add = 1000
+			building_employment_clergymen_add = 1000
+		}
+	}
+}
+
+pm_prestige_only_building_canterlot_castle = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	unlocking_laws = {
+		law_presidential_republic
+		law_parliamentary_republic
+		law_council_republic
+	}
+
+	country_modifiers = {
+		throughput_scaled = {
+			country_prestige_add = 50
+		}
+	}
+}
+
+# Crystal Heart #
+
+## Base ##
+
+pm_default_building_crystal_heart = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 50
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			# TODO: Crank this up again when CRY's territory is further divided
+			building_group_bg_agriculture_throughput_mult = 0.2
+		}
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_clergymen_add = 250
+		}
+	}
+}

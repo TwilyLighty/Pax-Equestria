@@ -1,0 +1,83 @@
+﻿COUNTRIES = {
+	c:THR = {
+		effect_starting_technology_chn = yes
+
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_hereditary_bureaucrats
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_no_home_affairs
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_no_health_system
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_serfdom_banned
+		activate_law = law_type:law_child_labor_allowed
+		activate_law = law_type:law_womens_suffrage
+		activate_law = law_type:law_no_social_security
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_slavery_banned
+	}
+	c:PTR = {
+		effect_starting_technology_equus_tier_3_tech = yes
+		add_technology_researched = military_drill
+		add_technology_researched = law_enforcement
+		add_technology_researched = central_archives
+		add_technology_researched = mass_communication
+		add_technology_researched = nationalism
+		add_technology_researched = empiricism
+
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_ethnostate
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_hereditary_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_secret_police
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_no_health_system
+		activate_law = law_type:law_outlawed_dissent
+		activate_law = law_type:law_serfdom_banned
+		activate_law = law_type:law_child_labor_allowed
+		activate_law = law_type:law_men_in_the_workplace
+		activate_law = law_type:law_no_social_security
+		activate_law = law_type:law_closed_borders
+		activate_law = law_type:law_legacy_slavery
+	}
+	c:CRS = {
+		effect_starting_technology_equus_tier_4_tech = yes
+
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_hereditary_bureaucrats
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_no_home_affairs
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_no_health_system
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_serfdom_banned
+		activate_law = law_type:law_child_labor_allowed
+		activate_law = law_type:law_men_in_the_workplace
+		activate_law = law_type:law_no_social_security
+		activate_law = law_type:law_closed_borders
+		activate_law = law_type:law_legacy_slavery
+	}
+}

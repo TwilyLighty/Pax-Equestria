@@ -1,0 +1,7 @@
+﻿region_endless_ocean_left = {
+	states = { STATE_ENDLESS_OCEAN_LEFT }
+}
+
+region_endless_ocean_right = {
+	states = { STATE_ENDLESS_OCEAN_RIGHT }
+}

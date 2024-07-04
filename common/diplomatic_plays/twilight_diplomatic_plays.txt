@@ -1,0 +1,51 @@
+﻿dp_unify_changelings = {
+	war_goal = unification
+
+	requires_interest_marker = no
+	blocked_by_diplomatic_status = no
+
+	# TODO: Add a texture
+	texture = "gfx/interface/icons/war_goals/unify_germany.dds"
+
+	selectable_in_lens = {
+		always = no
+	}
+
+	possible = {
+		NOT = { exists = c:CHN }
+		NOT = {
+			is_country_type = decentralized
+		}
+		has_technology_researched = nationalism
+	}
+
+	on_weekly_pulse = {}
+
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_leadership_changelings = {
+	war_goal = unification_leadership
+
+	requires_interest_marker = no
+	mirror_war_goal = yes
+
+	# TODO: Add a texture
+	texture = "gfx/interface/icons/war_goals/unify_germany.dds"
+
+	selectable_in_lens = {
+		always = no
+	}
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+
+	on_weekly_pulse = {}
+
+	on_war_begins = {}
+
+	on_war_end = {}
+}

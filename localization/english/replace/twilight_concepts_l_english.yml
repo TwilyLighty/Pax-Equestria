@@ -1,0 +1,6 @@
+﻿l_english:
+ concept_cultural_heritage_trait: "Heritage Cultural Trait"
+ concept_cultural_heritage_traits: "Heritage Cultural Traits"
+ concept_cultural_heritage_trait_desc: "A type of [concept_cultural_trait] that specifies the biological race of the [concept_culture]. Certain [SelectLocalization(GetPlayer.IsValid,'concept_accepted_culture_desc_added','Citizenship')] [Concept('concept_law','$concept_laws$')] consider $concept_cultural_heritage_traits$ to be more important than other $concept_cultural_traits$ when determining whether a [concept_pop] should be [Concept('concept_discrimination','$concept_discriminated_against$')] or not."
+ concept_cultural_heritage_trait_desc_added: "[GetLawType('law_national_supremacy').GetGroup.GetName]"
+ concept_recovery_rate_desc: "The percentage of [concept_casualties] a [concept_unit] takes that survive, in some cases by becoming [concept_dependents]. Can be increased with #b $pmg_medical_aid$#! [Concept('concept_production_method','$concept_production_method$')] or certain #b $pmg_specialist_companies$#! and [Concept('concept_technology','$concept_technologies$')]. $concept_recovery_rate$ is countered by the enemy $concept_unit$'s [concept_kill_rate]."

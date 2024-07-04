@@ -1,0 +1,62 @@
+﻿CHARACTERS = {
+	c:HPP = {
+		create_character = {
+			first_name = Novo
+			last_name = no_last_name
+			ruler = yes
+			birth_date = 1786.1.1
+			female = yes
+			culture = cu:hippogriff
+			noble = yes
+			ideology = ideology_royalist
+			interest_group = ig_devout
+			traits = {
+				trait_no_culture_effects
+				cautious
+				imperious
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = Skystar
+			last_name = no_last_name
+			heir = yes
+			birth_date = 1811.1.1
+			female = yes
+			culture = cu:hippogriff
+			noble = yes
+			ideology = ideology_royalist
+			interest_group = ig_devout
+			traits = {
+				trait_no_culture_effects
+				direct
+				innovative
+			}
+		}
+
+		create_character = {
+			first_name = Seaspray
+			last_name = no_last_name
+			ig_leader = yes
+			is_admiral = yes
+			commander_rank = commander_rank_5
+			birth_date = 1811.1.1
+			female = no
+			culture = cu:hippogriff
+			noble = yes
+			ideology = ideology_royalist
+			interest_group = ig_armed_forces
+			traits = {
+				trait_no_culture_effects
+				imperious
+				experienced_naval_commander
+			}
+			on_created = {
+				set_variable = chief_of_staff
+			}
+		}
+	}
+}

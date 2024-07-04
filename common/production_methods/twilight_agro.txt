@@ -1,0 +1,210 @@
+﻿# General #
+
+## Weather Magic ##
+
+pm_weather_teams_grain = {
+	texture = "gfx/interface/icons/production_method_icons/twilight_weather.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_weather_service_add = 5  # x30 = 150
+
+			# output goods
+			building_output_grain_add = 20  # x20 = 400
+
+			# profit = 250
+		}
+	}
+}
+
+## Harvesting Process ##
+
+pm_thaumic_tractors = {
+	texture = "gfx/interface/icons/production_method_icons/tractors.dds"
+
+	unlocking_technologies = {
+		mechanized_farming
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_crystals_add = 2  # x40 = 80
+			building_input_spells_add = 2  # x30 = 60
+			building_input_engines_add = 2  # x60 = 120
+
+			# profit = -260 (+10 vs. pm_tractors, -20 vs. pm_compression_ignition_tractors)
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = -3000  # x1.0 = -3000
+
+			# wages = -2800 (-500 vs. pm_tractors, unchanged vs. pm_compression_ignition_tractors)
+		}
+
+		# Absolute advantage over pm_tractors
+		# Absolute disadvantage over pm_compression_ignition_tractors
+	}
+}
+
+# Crystal Corn Farm #
+
+## Secondary ##
+
+pm_crystalberry_orchards = {
+	texture = "gfx/interface/icons/production_method_icons/vineyards.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_grain_add = -20  # x20 = -400
+			building_output_fruit_add = 9  # x30 = 270
+			building_output_sugar_add = 6  # x30 = 180
+
+			# profit = 50
+		}
+	}
+}
+
+pm_gemstone_collection = {
+	# TODO: Add a texture
+	texture = "gfx/interface/icons/production_method_icons/precision_tools.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			building_output_grain_add = -20  # x20 = 400
+			building_output_crystals_add = 15  # x40 = 600
+
+			# profit = 200
+		}
+	}
+}
+
+# Livestock Ranches #
+
+## Slaughtering ##
+
+pm_no_slaughter = {
+	texture = "gfx/interface/icons/production_method_icons/twilight_no_slaughter.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# profit = 0 (-150 vs. pm_open_air_stockyards)
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = -1200  # x1.0 = -1200
+
+			# wages = -1200 (-1200 vs. pm_open_air_stockyards)
+		}
+
+		# minimum break-even unit wage = -150 * 52 / -1200 = 6.5
+	}
+}
+
+## Refrigeration ##
+
+pm_steam_rail_transport_building_livestock_ranch = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	pollution_generation = 10
+
+	unlocking_technologies = {
+		railways
+	}
+
+	unlocking_production_methods = {
+		pm_no_slaughter
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_transportation_add = 2  # x30 = 60
+
+			# profit = -60 (-60 vs. pm_unrefrigerated)
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = -600  # x1.0 = -600
+
+			# wages = -600 (-600 vs. pm_unrefrigerated)
+		}
+
+		# minimum break-even unit wage = -60 * 52 / -600 = 5.2
+	}
+}
+
+# Overwritten
+pm_refrigerated_storage_building_livestock_ranch = {
+	texture = "gfx/interface/icons/production_method_icons/refrigerated_storage.dds"
+
+	unlocking_technologies = {
+		pasteurization
+	}
+
+	unlocking_production_methods = {
+		pm_open_air_stockyards
+		pm_butchering_tools
+		pm_slaughterhouses
+		pm_mechanized_slaughtering
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_electricity_add = 4  # x30 = 120
+
+			# profit = -120 (-120 vs. pm_unrefrigerated)
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = -1000  # x1.0 = -1000
+
+			# wages = -1000 (-1000 vs. pm_unrefrigerated)
+		}
+
+		# minimum break-even unit wage = -120 * 52 / -1000 = 6.24
+	}
+}
+
+# Overwritten
+pm_refrigerated_rail_cars_building_livestock_ranch = {
+	texture = "gfx/interface/icons/production_method_icons/refrigerated_rail_cars.dds"
+
+	unlocking_technologies = {
+		flash_freezing
+	}
+
+	unlocking_production_methods = {
+		pm_open_air_stockyards
+		pm_butchering_tools
+		pm_slaughterhouses
+		pm_mechanized_slaughtering
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_electricity_add = 4  # x30 = 120
+			building_input_transportation_add = 3  # x30 = 90
+
+			# profit = -210 (-90 vs. pm_refrigerated_storage_building_livestock_ranch)
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = -1800  # -1.0 = -1800
+
+			# wages = -1800 (-800 vs. pm_refrigerated_storage_building_livestock_ranch)
+		}
+
+		# minimum break-even unit wage = -90 * 52 / -800 = 5.85
+	}
+}

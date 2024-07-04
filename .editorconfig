@@ -1,0 +1,32 @@
+root = true
+
+[common/coat_of_arms/**.txt]
+charset = utf-8
+
+[common/**.txt]
+charset = utf-8-bom
+
+[events/**.txt]
+charset = utf-8-bom
+
+[gui/**.gui]
+charset = utf-8
+
+[localization/**.yml]
+charset = utf-8-bom
+indent_style = space
+indent_size = 1
+
+[**.{!csv}]
+end_of_line = lf
+insert_final_newline = true
+
+[**.{txt,gui,map}]
+indent_style = tab
+
+[map_data/**.map]
+charset = utf-8
+
+[**.json]
+indent_style = space
+indent_size = 2

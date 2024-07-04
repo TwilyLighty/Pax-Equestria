@@ -1,0 +1,7 @@
+﻿# A convenient tech to disable anything requiring this technology
+debug_phlebotinum = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/unused/invention_placeholder.dds"
+	category = society
+	can_research = no
+}

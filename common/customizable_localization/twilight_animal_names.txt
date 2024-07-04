@@ -1,0 +1,239 @@
+﻿manipulator_loc = {
+	type = country
+	log_loc_errors = no
+	random_valid = no
+
+	text = {
+		trigger = {
+			exists = this
+			any_primary_culture = {
+				OR = {
+					has_discrimination_trait = pony_heritage
+					has_discrimination_trait = changeling_heritage
+					has_discrimination_trait = yak_heritage
+					has_discrimination_trait = buffalo_heritage
+				}
+			}
+			NOT = {
+				has_law = law_type:law_cultural_exclusion
+				has_law = law_type:law_multicultural
+			}
+		}
+		localization_key = custom_loc_hoof
+	}
+	text = {
+		trigger = {
+			exists = this
+			any_primary_culture = {
+				OR = {
+					has_discrimination_trait = dragon_heritage
+					has_discrimination_trait = griffon_heritage
+					has_discrimination_trait = hippogriff_heritage
+				}
+			}
+			NOT = {
+				has_law = law_type:law_cultural_exclusion
+				has_law = law_type:law_multicultural
+			}
+		}
+		localization_key = custom_loc_claw
+	}
+	text = {
+		localization_key = custom_loc_hand
+		fallback = yes
+	}
+}
+
+manipulator_plural_loc = {
+	type = country
+	log_loc_errors = no
+	random_valid = no
+
+	text = {
+		trigger = {
+			exists = this
+			any_primary_culture = {
+				OR = {
+					has_discrimination_trait = pony_heritage
+					has_discrimination_trait = changeling_heritage
+					has_discrimination_trait = yak_heritage
+					has_discrimination_trait = buffalo_heritage
+				}
+			}
+			NOT = {
+				has_law = law_type:law_cultural_exclusion
+				has_law = law_type:law_multicultural
+			}
+		}
+		localization_key = custom_loc_hooves
+	}
+	text = {
+		trigger = {
+			exists = this
+			any_primary_culture = {
+				OR = {
+					has_discrimination_trait = dragon_heritage
+					has_discrimination_trait = griffon_heritage
+					has_discrimination_trait = hippogriff_heritage
+				}
+			}
+			NOT = {
+				has_law = law_type:law_cultural_exclusion
+				has_law = law_type:law_multicultural
+			}
+		}
+		localization_key = custom_loc_claws
+	}
+	text = {
+		localization_key = custom_loc_hands
+		fallback = yes
+	}
+}
+
+male_loc = {
+	type = country
+	log_loc_errors = no
+	random_valid = no
+
+	text = {
+		trigger = {
+			exists = this
+			any_primary_culture = { has_discrimination_trait = pony_heritage }
+			NOT = {
+				has_law = law_type:law_cultural_exclusion
+				has_law = law_type:law_multicultural
+			}
+		}
+		localization_key = custom_loc_stallion
+	}
+	text = {
+		trigger = {
+			exists = this
+			any_primary_culture = {
+				OR = {
+					has_discrimination_trait = yak_heritage
+					has_discrimination_trait = buffalo_heritage
+				}
+			}
+			NOT = {
+				has_law = law_type:law_cultural_exclusion
+				has_law = law_type:law_multicultural
+			}
+		}
+		localization_key = custom_loc_bull
+	}
+	text = {
+		localization_key = custom_loc_male
+		fallback = yes
+	}
+}
+
+female_loc = {
+	type = country
+	log_loc_errors = no
+	random_valid = no
+
+	text = {
+		trigger = {
+			exists = this
+			any_primary_culture = { has_discrimination_trait = pony_heritage }
+			NOT = {
+				has_law = law_type:law_cultural_exclusion
+				has_law = law_type:law_multicultural
+			}
+		}
+		localization_key = custom_loc_mare
+	}
+	text = {
+		trigger = {
+			exists = this
+			any_primary_culture = {
+				OR = {
+					has_discrimination_trait = yak_heritage
+					has_discrimination_trait = buffalo_heritage
+				}
+			}
+			NOT = {
+				has_law = law_type:law_cultural_exclusion
+				has_law = law_type:law_multicultural
+			}
+		}
+		localization_key = custom_loc_cow
+	}
+	text = {
+		localization_key = custom_loc_female
+		fallback = yes
+	}
+}
+
+male_plural_loc = {
+	type = country
+	log_loc_errors = no
+	random_valid = no
+
+	text = {
+		trigger = {
+			any_primary_culture = { has_discrimination_trait = pony_heritage }
+			NOT = {
+				has_law = law_type:law_cultural_exclusion
+				has_law = law_type:law_multicultural
+			}
+		}
+		localization_key = custom_loc_stallions
+	}
+	text = {
+		trigger = {
+			any_primary_culture = {
+				OR = {
+					has_discrimination_trait = yak_heritage
+					has_discrimination_trait = buffalo_heritage
+				}
+			}
+			NOT = {
+				has_law = law_type:law_cultural_exclusion
+				has_law = law_type:law_multicultural
+			}
+		}
+		localization_key = custom_loc_bulls
+	}
+	text = {
+		localization_key = custom_loc_males
+		fallback = yes
+	}
+}
+
+female_plural_loc = {
+	type = country
+	log_loc_errors = no
+	random_valid = no
+
+	text = {
+		trigger = {
+			any_primary_culture = { has_discrimination_trait = pony_heritage }
+			NOT = {
+				has_law = law_type:law_cultural_exclusion
+				has_law = law_type:law_multicultural
+			}
+		}
+		localization_key = custom_loc_mares
+	}
+	text = {
+		trigger = {
+			any_primary_culture = {
+				OR = {
+					has_discrimination_trait = yak_heritage
+					has_discrimination_trait = buffalo_heritage
+				}
+			}
+			NOT = {
+				has_law = law_type:law_cultural_exclusion
+				has_law = law_type:law_multicultural
+			}
+		}
+		localization_key = custom_loc_cows
+	}
+	text = {
+		localization_key = custom_loc_females
+		fallback = yes
+	}
+}

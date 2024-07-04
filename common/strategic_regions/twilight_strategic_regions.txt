@@ -1,0 +1,122 @@
+﻿
+region_equestria = {
+    capital_province = x80C8E6
+    map_color = { 136 213 244 }
+    states = {
+        STATE_CANTERLOT
+        STATE_MANEHATTAN
+        STATE_FILLYDELPHIA
+        STATE_BALTIMARE
+        STATE_DODGE_CITY
+        STATE_LAS_PEGASUS
+        STATE_VANHOOVER
+        STATE_CLOUDSDALE
+        STATE_GRIFFISH_ISLES
+        STATE_PONYVILLE
+        STATE_SMOKEY_MOUNTAINS
+        STATE_SALT_LICK_CITY
+        STATE_WHITE_TAIL_WOODS
+        STATE_SOMNAMBULA
+        STATE_CHICOLTGO
+        STATE_NEW_HORSELEANS
+        STATE_YELLOW_RIVER
+        STATE_DAZZLE_ISLAND
+		STATE_DIAMONDIA
+    }
+}
+
+region_undiscovered_west = {
+    capital_province = x181892
+    map_color = { 24 24 146 }
+    states = {
+        STATE_UNDISCOVERED_WEST
+        STATE_TROTSYLVANIA
+        STATE_MANGO_VALE
+    }
+}
+
+region_frozen_north = {
+    capital_province = x71657A
+    map_color = { 127 87 183 }
+    states = {
+        STATE_CRYSTAL_CITY
+        STATE_CRYSTAL_PLAINS
+        STATE_YAK_CITY
+        STATE_YAK_COAST
+        STATE_YAK_MOUNTAIN
+        STATE_MOUNT_EVERHOOF
+		STATE_YAKET_RANGE
+        STATE_LUNA_ISLES
+    }
+}
+
+region_southern_equus = {
+    capital_province = xEEC957
+    map_color = { 238 201 87 }
+    states = {
+        STATE_MOUNT_ARIS
+        STATE_HIPPOGRIFF_PENINSULA
+        STATE_CANINIA
+        STATE_SLUG_TROLL_SWAMP
+        STATE_THUNDER_BAY
+        STATE_ROANISTAN
+        STATE_PANTHERA
+        STATE_SIAMESE_DELTA
+        STATE_UPPER_SIAM
+    }
+}
+
+region_forbidden_jungle = {
+    capital_province = xC17461
+    map_color = { 227 66 52 }
+    states = {
+        STATE_PEAKS_OF_PERIL
+        STATE_INNER_KIRIN_LANDS
+        STATE_BADLANDS
+        STATE_JUNGLE_COAST
+        STATE_WESTERN_JUNGLE
+        STATE_EASTERN_JUNGLE
+        STATE_JUNGLE_PASS
+    }
+}
+
+region_saddle_arabia = {
+    capital_province = xC8BE2B
+    map_color = { 255 247 156 }
+    states = {
+        STATE_CAVES_OF_CONUNDRUM
+        STATE_NIGHTMARE_CLIFFS
+        STATE_MARETONIA
+        STATE_HAYJAZ
+        STATE_NEIGHJID
+    }
+}
+
+region_changeling_lands = {
+    capital_province = x008200
+    map_color = { 203 241 104 }
+    states = {
+        STATE_WEST_FOREST_OF_LEOTA
+        STATE_NORTH_FOREST_OF_LEOTA
+        STATE_EAST_FOREST_OF_LEOTA
+        STATE_MOUNT_ARIMASPI
+        STATE_SOUTH_FOREST_OF_LEOTA
+    }
+}
+
+region_bone_dry_desert = {
+    capital_province = x9564A2
+    map_color = { 136 213 244 }
+    states = {
+        STATE_NORTHEAST_DESERT
+        STATE_NORTH_DESERT
+        STATE_NORTHWEST_DESERT
+        STATE_TABBYTOWN
+        STATE_EAST_DESERT
+        STATE_WEST_DESERT
+        STATE_KLUGETOWN
+        STATE_SEA_OF_CLOUDS
+        STATE_BLACK_SKULL_ISLAND
+        STATE_LITTERBOX_RIDGE
+    }
+}

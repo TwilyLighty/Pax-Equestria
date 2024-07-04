@@ -1,0 +1,145 @@
+﻿BUILDINGS = {
+	s:STATE_HAYJAZ = {
+		region_state:SDA = {
+			# Government
+			create_building = {
+				building = building_government_administration
+				level = 5
+			}
+			create_building = {
+				building = building_university
+				level = 1
+			}
+
+			# Industry
+			create_building = {
+				building = building_food_industry
+				level = 1
+			}
+			create_building = {
+				building = building_furniture_manufacturies
+				level = 1
+			}
+			create_building = {
+				building = building_glassworks
+				level = 1
+			}
+			create_building = {
+				building = building_jeweler
+				level = 1
+			}
+			create_building = {
+				building = building_paper_mills
+				level = 1
+			}
+			create_building = {
+				building = building_textile_mills
+				level = 1
+			}
+			create_building = {
+				building = building_tooling_workshops
+				level = 1
+			}
+
+			# Agriculture
+			create_building = {
+				building = building_millet_farm
+				level = 1
+			}
+
+			# Infrastructure
+			create_building = {
+				building = building_port
+				level = 2
+			}
+
+			# Military
+			create_building = {
+				building = building_barracks
+				level = 20
+			}
+		}
+	}
+
+	s:STATE_NIGHTMARE_CLIFFS = {
+		region_state:SDA = {
+			# Government
+			create_building = {
+				building = building_government_administration
+				level = 3
+			}
+
+			# Industry
+			create_building = {
+				building = building_food_industry
+				level = 1
+			}
+			create_building = {
+				building = building_paper_mills
+				level = 1
+			}
+			create_building = {
+				building = building_textile_mills
+				level = 1
+			}
+
+			# Agriculture
+			create_building = {
+				building = building_millet_farm
+				level = 1
+			}
+
+			# Infrastructure
+			create_building = {
+				building = building_construction_sector
+				level = 5
+			}
+			create_building = {
+				building = building_port
+				level = 1
+			}
+
+			# Military
+			create_building = {
+				building = building_barracks
+				level = 10
+			}
+		}
+	}
+
+	s:STATE_NEIGHJID = {
+		region_state:SDA = {
+			# Government
+			create_building = {
+				building = building_government_administration
+				level = 2
+			}
+
+			# Industry
+			create_building = {
+				building = building_paper_mills
+				level = 1
+			}
+			create_building = {
+				building = building_textile_mills
+				level = 1
+			}
+
+			# Agriculture
+			create_building = {
+				building = building_millet_farm
+				level = 1
+			}
+		}
+	}
+
+	s:STATE_CAVES_OF_CONUNDRUM = {
+		region_state:SDA = {
+			# Resources
+			create_building = {
+				building = building_lead_mine
+				level = 1
+			}
+		}
+	}
+}

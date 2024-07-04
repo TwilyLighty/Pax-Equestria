@@ -1,0 +1,73 @@
+﻿BUILDINGS = {
+	s:STATE_MOUNT_ARIMASPI = {
+		region_state:PTR = {
+			# Government
+			create_building = {
+				building = building_government_administration
+				level = 3
+			}
+			create_building = {
+				building = building_university
+				level = 1
+			}
+
+			# Industry
+			create_building = {
+				building = building_furniture_manufacturies
+				level = 1
+			}
+			create_building = {
+				building = building_paper_mills
+				level = 1
+			}
+			create_building = {
+				building = building_textile_mills
+				level = 1
+			}
+			create_building = {
+				building = building_tooling_workshops
+				level = 1
+			}
+
+			# Resources
+			create_building = {
+				building = building_coal_mine
+				level = 2
+			}
+			create_building = {
+				building = building_iron_mine
+				level = 1
+			}
+			create_building = {
+				building = building_logging_camp
+				level = 2
+			}
+
+			# Agriculture
+			create_building = {
+				building = building_livestock_ranch
+				level = 5
+			}
+			create_building = {
+				building = building_coffee_plantation
+				level = 2
+			}
+			create_building = {
+				building = building_tobacco_plantation
+				level = 1
+			}
+
+			# Military
+			create_building = {
+				building = building_barracks
+				level = 50
+			}
+
+			# Infrastructure
+			create_building = {
+				building = building_construction_sector
+				level = 2
+			}
+		}
+	}
+}

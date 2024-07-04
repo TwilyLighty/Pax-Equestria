@@ -1,0 +1,22 @@
+﻿l_english:
+ # Building #
+ building_weather_factory: "Weather Factory"
+ building_weather_factory_lens_option: "Expand $building_weather_factory$"
+ building_weather_bureau: "Weather Bureau"
+ building_magic_industry: "Magic Industries"
+ building_jeweler: "Jewelers"
+
+ # Agriculture #
+ building_crystal_corn_farm: "Crystal Corn Farm"
+ building_weather_bureau_lens_option: "Expand $building_weather_bureau$"
+ building_mango_plantation: "Mango Plantations"
+ building_mango_plantation_lens_option: "Expand $building_mango_plantation$"
+ building_apple_plantation: "Apple Orchards"
+ building_apple_plantation_lens_option: "Expand $building_apple_plantation$"
+
+ # Mining #
+ building_crystal_mine: "Crystal Mines"
+
+ # Monuments #
+ building_canterlot_castle: "Canterlot Castle"
+ building_crystal_heart: "Crystal Castle"

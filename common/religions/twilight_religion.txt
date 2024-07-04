@@ -1,0 +1,66 @@
+﻿# Typical #
+
+magic_of_friendship = {
+	texture = "gfx/interface/icons/religion_icons/magic_of_friendship.dds"
+	traits = { harmony philosophical }
+	color = { 237 60 149 }
+}
+
+# An altered form of the Magic of Friendship
+# with changelingified customs but generally the same foundation
+# For example, on Hearth's warming eve they *literally* hang trees, upside-down
+harmonism = {
+	# texture = "TBA"
+	traits = { harmony philosophical }
+	color = { 37 155 27 }
+}
+
+# Yak tell stories!
+yak_legend = {
+	# texture = "TBA"
+	traits = { legend }
+	color = { 207 78 78 }
+}
+
+# "We stampeded..."
+buffalo_legend = {
+	# texture = "TBA"
+	traits = { legend }
+	color = { 220 180 90 }
+}
+
+# PRAISE THE MOON!
+moon_worship = {
+	# texture = "TBA"
+	traits = { lunar cult }
+	color = { 24 24 146 }
+}
+
+desert_legend = {
+	# texture = "TBA"
+	traits = { legend }
+	color = { 128 128 128 }
+}
+
+# GEMS!
+gemstone_worship = {
+	# texture = "TBA"
+	traits = { cult }
+	color = hsv360 { 210 50 80 }
+}
+
+materialism = {
+	# texture = "TBA"
+	traits = { philosophical }
+	color = hsv360 { 0 0 35 }
+}
+
+# Taboo #
+# These religions only exist to set taboos for each culture
+# These should always include the 'forgotten' trait
+
+vegetarian = {
+	traits = { forgotten }
+	color = hsv360 { 0 0 0 }
+	taboos = { meat fish }
+}

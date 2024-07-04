@@ -1,0 +1,69 @@
+﻿BUILDINGS = {
+	s:STATE_JUNGLE_COAST = {
+		region_state:NGH = {
+			# Government
+			create_building = {
+				building = building_government_administration
+				level = 2
+			}
+
+			# Industry
+			create_building = {
+				building = building_furniture_manufacturies
+				level = 1
+			}
+
+			# Resources
+			create_building = {
+				building = building_logging_camp
+				level = 2
+			}
+
+			# Agriculture
+			create_building = {
+				building = building_coffee_plantation
+				level = 5
+			}
+			create_building = {
+				building = building_banana_plantation
+				level = 1
+			}
+
+			# Infrastructure
+			create_building = {
+				building = building_construction_sector
+				level = 1
+			}
+			create_building = {
+				building = building_port
+				level = 2
+			}
+			create_building = {
+				building = building_weather_bureau
+				level = 1
+			}
+		}
+	}
+
+	s:STATE_NORTHEAST_DESERT = {
+		region_state:NGH = {
+			# Government
+			create_building = {
+				building = building_government_administration
+				level = 1
+			}
+
+			# Industry
+			create_building = {
+				building = building_furniture_manufacturies
+				level = 1
+			}
+
+			# Infrastructure
+			create_building = {
+				building = building_weather_bureau
+				level = 1
+			}
+		}
+	}
+}

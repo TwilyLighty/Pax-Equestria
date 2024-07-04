@@ -1,0 +1,70 @@
+﻿# Heritage #
+
+pony_heritage = {
+	heritage = yes
+}
+
+cat_heritage = {
+	heritage = yes
+}
+
+changeling_heritage = {
+	heritage = yes
+}
+
+diamond_dog_heritage = {
+	heritage = yes
+}
+
+dragon_heritage = {
+	heritage = yes
+}
+
+griffon_heritage = {
+	heritage = yes
+}
+
+hippogriff_heritage = {
+	heritage = yes
+}
+
+yak_heritage = {
+	heritage = yes
+}
+
+buffalo_heritage = {
+	heritage = yes
+}
+
+no_heritage = {
+	heritage = yes
+}
+
+# Family #
+# TODO: We really need some sort of (vaguely) scientific criteria for this group of traits
+
+equine_family = {}
+
+insectoid_family = {}
+
+reptilian_family = {}
+
+avian_family = {}
+
+bovine_family = {}
+
+canine_family = {}
+
+feline_family = {}
+
+no_family = {}
+
+# Homeland #
+
+northern_equus_homeland = {}
+
+southern_equus_homeland = {}
+
+griffonia_homeland = {}
+
+no_homeland = {}

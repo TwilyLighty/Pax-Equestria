@@ -1,0 +1,12 @@
+# Workflows
+!.github/scripts
+.github/scripts/venv
+
+# Gimp files
+*.xcf
+
+# Scripts
+*.py
+
+# Vim temporary files
+*.swp

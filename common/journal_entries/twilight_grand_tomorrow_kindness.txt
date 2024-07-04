@@ -1,0 +1,237 @@
+﻿# **Kindness: A Fair and Gentle Hoof**
+# Society, Equality, Welfare
+
+# TODO: Remove the v0.1 code
+je_grand_tomorrow_kindness = {
+	icon = "gfx/interface/icons/event_icons/twilight_event_kindness.dds"
+
+	immediate = {
+		set_variable = {
+			name = var_je_grand_tomorrow_kindness_value
+			value = 0
+		}
+	}
+
+	on_monthly_pulse = {
+		# # Temporarily disabled for v0.1
+		# effect = {
+		# 	random_list = {
+		# 		11 = {}
+		# 		1 = {
+		# 			random_list = {
+		# 				# je_grand_tomorrow_kindness_multiculturalism
+		# 				1 = {
+		# 					trigger_event = {
+		# 						id = twilight_grand_tomorrow_events.310
+		# 						popup = yes
+		# 					}
+		# 				}
+		# 				# je_grand_tomorrow_kindness_labor_rights
+		# 				1 = {
+		# 					trigger_event = {
+		# 						id = twilight_grand_tomorrow_events.320
+		# 						popup = yes
+		# 					}
+		# 				}
+		# 				# je_grand_tomorrow_kindness_children_rights
+		# 				1 = {
+		# 					trigger_event = {
+		# 						id = twilight_grand_tomorrow_events.330
+		# 						popup = yes
+		# 					}
+		# 				}
+		# 			}
+		# 		}
+		# 	}
+		# }
+	}
+
+	current_value = {
+		value = var:var_je_grand_tomorrow_kindness_value
+	}
+
+	goal_add_value = {
+		add = 2
+	}
+
+	complete = {
+		# # Temporarily disabled for v0.1
+		# scope:journal_entry = {
+		# 	is_goal_complete = yes
+		# }
+		is_at_war = no
+		trigger_if = {
+			limit = {
+				has_law = law_type:law_outlawed_dissent
+			}
+			NOT = {
+				has_law = law_type:law_outlawed_dissent
+			}
+		}
+		trigger_if = {
+			limit = {
+				NOT = {
+					has_law = law_type:law_womens_suffrage
+				}
+			}
+			has_law = law_type:law_womens_suffrage
+		}
+		trigger_if = {
+			limit = {
+				NOT = {
+					has_law = law_type:law_slavery_banned
+				}
+			}
+			has_law = law_type:law_slavery_banned
+		}
+
+		# Temporarily added for v0.1
+		OR = {
+			# has_law = law_type:law_racial_segregation
+			has_law = law_type:law_cultural_exclusion
+			has_law = law_type:law_multicultural
+		}
+		OR = {
+			has_law = law_type:law_regulatory_bodies
+			has_law = law_type:law_worker_protections
+		}
+		NOT = {
+			has_law = law_type:law_child_labor_allowed
+		}
+	}
+
+	on_complete = {
+		effect_je_grand_tomorrow_advance = yes
+		effect_country_reduce_slumber_of_the_giant_effect = yes
+		trigger_event = {
+			id = twilight_grand_tomorrow_events.301
+			popup = yes
+		}
+	}
+
+	invalid = {
+		trigger_je_grand_tomorrow_complete = yes
+	}
+
+	# TODO: Add a fail contidion to activate alternative JEs
+	#   if the country's natural rights regress
+
+	progressbar = yes
+
+	weight = 5000
+
+	inheritable = no
+}
+
+# TODO: Divide this into multiple stages?
+# TODO: Luna should definitely play a major role here
+#   Bear in mind that does not mean Nightmare Moon should also appear
+je_grand_tomorrow_kindness_multiculturalism = {
+	icon = "gfx/interface/icons/event_icons/twilight_event_kindness.dds"
+
+	on_monthly_pulse = {
+		effect = {
+			random_list = {
+				2 = {}
+				1 = {
+					random_list = {
+						1 = {
+							trigger_event = {
+								id = twilight_grand_tomorrow_events.312
+								popup = yes
+							}
+						}
+						1 = {}
+					}
+				}
+			}
+		}
+	}
+
+	complete = {
+		OR = {
+			# has_law = law_type:law_racial_segregation
+			has_law = law_type:law_cultural_exclusion
+			has_law = law_type:law_multicultural
+		}
+	}
+
+	on_complete = {
+		effect_je_grand_tomorrow_kindness_advance = yes
+		trigger_event = {
+			id = twilight_grand_tomorrow_events.311
+			popup = yes
+		}
+	}
+
+	invalid = {
+		trigger_je_grand_tomorrow_complete = yes
+	}
+
+	weight = 1000
+
+	inheritable = no
+
+	should_be_pinned_by_default = yes
+}
+
+je_grand_tomorrow_kindness_labor_rights = {
+	icon = "gfx/interface/icons/event_icons/twilight_event_kindness.dds"
+
+	on_monthly_pulse = {}
+
+	complete = {
+		OR = {
+			has_law = law_type:law_regulatory_bodies
+			has_law = law_type:law_worker_protections
+		}
+	}
+
+	on_complete = {
+		effect_je_grand_tomorrow_kindness_advance = yes
+		trigger_event = {
+			id = twilight_grand_tomorrow_events.321
+			popup = yes
+		}
+	}
+
+	invalid = {
+		trigger_je_grand_tomorrow_complete = yes
+	}
+
+	weight = 1000
+
+	inheritable = no
+
+	should_be_pinned_by_default = yes
+}
+
+je_grand_tomorrow_kindness_children_rights = {
+	icon = "gfx/interface/icons/event_icons/twilight_event_kindness.dds"
+
+	on_monthly_pulse = {}
+
+	complete = {
+		NOT = {
+			has_law = law_type:law_child_labor_allowed
+		}
+	}
+
+	on_complete = {
+		effect_je_grand_tomorrow_kindness_advance = yes
+		trigger_event = {
+			id = twilight_grand_tomorrow_events.331
+			popup = yes
+		}
+	}
+
+	invalid = {
+		trigger_je_grand_tomorrow_complete = yes
+	}
+
+	weight = 1000
+
+	inheritable = no
+
+	should_be_pinned_by_default = yes
+}

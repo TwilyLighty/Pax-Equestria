@@ -1,0 +1,66 @@
+﻿CHARACTERS = {
+	c:EQS = {
+		create_character = {
+			first_name = Twilight
+			last_name = Sparkle
+			ruler = yes
+			birth_date = 1813.1.1
+			female = yes
+			culture = cu:pony
+			noble = yes
+			ideology = ideology_moderate
+			interest_group = ig_devout
+			traits = {
+				alicorn_immortal
+				charismatic
+				meticulous
+				innovative
+			}
+			on_created = {
+				set_variable = is_twilight
+				set_variable = plot_armor
+			}
+		}
+
+		create_character = {
+			first_name = Spike
+			last_name = no_last_name
+			heir = yes
+			birth_date = 1821.1.1
+			female = no
+			culture = cu:dragon
+			noble = yes
+			ideology = ideology_moderate
+			interest_group = ig_devout
+			traits = {
+				trait_dragon
+				arrogant
+				brave
+			}
+			on_created = {
+				set_variable = is_spike
+				set_variable = plot_armor
+			}
+		}
+
+		create_character = {
+			first_name = Fancy
+			last_name = Pants
+			ig_leader = yes
+			birth_date = 1796.1.1
+			female = no
+			culture = cu:pony
+			noble = yes
+			ideology = ideology_moderate
+			interest_group = ig_landowners
+			traits = {
+				trait_unicorn
+				tactful
+				expensive_tastes
+			}
+			on_created = {
+				set_variable = is_fancypants
+			}
+		}
+	}
+}

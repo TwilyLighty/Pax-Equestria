@@ -1,0 +1,58 @@
+﻿namespace = twilight_grand_tomorrow_events
+
+# Grand Tomorrow - Prologue
+# Twilight's Coronation
+twilight_grand_tomorrow_events.1 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.1.t
+	desc = twilight_grand_tomorrow_events.1.d
+	flavor = twilight_grand_tomorrow_events.1.f
+
+	placement = ROOT
+
+	duration = 3
+
+	gui_window = event_window_1char_tabloid
+	left_icon = ruler
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/airship"
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_magic.dds"
+
+	option = {
+		name = twilight_grand_tomorrow_events.1.a
+		default_option = yes
+		add_journal_entry = {
+			type = je_grand_tomorrow
+		}
+		remove_variable = old_flag
+	}
+}
+
+# Grand Tomorrow - Epilogue
+twilight_grand_tomorrow_events.2 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.2.t
+	desc = twilight_grand_tomorrow_events.2.d
+	flavor = twilight_grand_tomorrow_events.2.f
+
+	placement = ROOT
+
+	duration = 3
+
+	# URGENT: Create a new event window type for long flavor texts
+	gui_window = event_window_1char_tabloid
+	left_icon = ruler
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/airship"
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_magic.dds"
+
+	option = {
+		name = twilight_grand_tomorrow_events.2.a
+	}
+}

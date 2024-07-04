@@ -1,0 +1,29 @@
+﻿COUNTRIES = {
+	c:TRT = {
+		effect_starting_technology_equus_tier_5_tech = yes
+		add_technology_researched = cotton_gin
+		add_technology_researched = lathe
+
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_oligarchy  # Feudalism
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_hereditary_bureaucrats
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_no_home_affairs
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_isolationism  # Isolated society
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_no_health_system
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_serfdom  # Feudalism
+		activate_law = law_type:law_child_labor_allowed
+		activate_law = law_type:law_womens_suffrage
+		activate_law = law_type:law_no_social_security
+		activate_law = law_type:law_closed_borders  # Isolated society
+		activate_law = law_type:law_slavery_banned
+	}
+}

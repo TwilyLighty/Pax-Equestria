@@ -1,0 +1,13 @@
+﻿l_english:
+ ideology_royalist_ig: "$ideology_royalist$"
+ ideology_royalist_ig_desc: "This group's loyalties are to the monarchy and its rightful ruler."
+ ideology_friendship_moralist: "Friendship Moralist"
+ ideology_friendship_moralist_desc: "#lore This group believes in the magic of friendship and it is essential for the nation to follow the path of its teachings.#!"
+ ideology_constitutionalism: "Constitutionalism"
+ ideology_constitutionalism_desc: "#lore This group believes that representatives of the people should be elected by public vote.#!"
+ ideology_matriarchal: "Matriarchal"
+ ideology_matriarchal_desc: "#lore This group believes $female_plural_loc$ should have political authority and that $male_plural_loc$ should obey their mothers and wives.#!"
+ ideology_matriarchal_suffrage: "Modern Matriarchal"
+ ideology_matriarchal_suffrage_desc: "#lore This group believes $female_plural_loc$ should have political authority and that $male_plural_loc$ should obey their mothers and wives, but have accepted $male_plural_loc$' right to work.#!"
+ ideology_traditionalist_ig: "Hierarchical"
+ ideology_traditionalist_ig_desc: "#lore This group believes only a few should have political authority and that individuals should obey their parents, but do not favor one gender.#!"

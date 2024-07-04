@@ -1,0 +1,7 @@
+﻿l_english:
+ ideology_patriarchal: "Patriarchal"
+ ideology_patriarchal_desc: "#lore This group believes $male_plural_loc$ should have political authority and that $female_plural_loc$ should obey their fathers and husbands.#!"
+ ideology_patriarchal_suffrage: "Modern Patriarchal"
+ ideology_patriarchal_suffrage_desc: "#lore This group believes $male_plural_loc$ should have political authority and that $female_plural_loc$ should obey their fathers and husbands, but have accepted $female_plural_loc$' right to work.#!"
+ ideology_feminist_ig: "Gender Egalitarian"
+ ideology_feminist_ig_desc: "#lore This group holds that $female_plural_loc$ are equal to $male_plural_loc$ and strives for maintaining their rights as citizens.#!"

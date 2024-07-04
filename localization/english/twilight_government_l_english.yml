@@ -1,0 +1,75 @@
+﻿l_english:
+ # Shared #
+ absolute: "Absolute"
+ feudal: "Feudal"
+ constitutional: "Constitutional"
+
+ # Monarchies #
+
+ # Alicornarchy
+ alicornarchy: "Alicornarchy"
+ gov_absolute_alicornarchy: "$absolute$ $alicornarchy$"
+ gov_absolute_alicornarchy_desc: "This is a [concept_government] form where the power rests completely with the [Concept('concept_ruler','$alicorn$ $RULER_TITLE_PRINCE$')] or [Concept('concept_ruler','$alicorn$ $RULER_TITLE_PRINCESS$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_feudal_alicornarchy: "$feudal$ $alicornarchy$"
+ gov_feudal_alicornarchy_desc: "This is a [concept_government] form where the power rests completely with the [Concept('concept_ruler','$alicorn$ $RULER_TITLE_PRINCE$')] or [Concept('concept_ruler','$alicorn$ $RULER_TITLE_PRINCESS$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_alicornarchy: "$alicornarchy$"
+ gov_alicornarchy_desc: "This is a [concept_government] form where the power rests mainly with the [Concept('concept_ruler','$alicorn$ $RULER_TITLE_PRINCE$')] or [Concept('concept_ruler','$alicorn$ $RULER_TITLE_PRINCESS$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_constitutional_alicornarchy: "$constitutional$ $alicornarchy$"
+ gov_constitutional_alicornarchy_desc: "This is a [concept_government] form where the [Concept('concept_ruler','$alicorn$ $RULER_TITLE_PRINCE$')] or [Concept('concept_ruler','$alicorn$ $RULER_TITLE_PRINCESS$')] is the [concept_head_of_state], but [Concept('concept_votes','$concept_voting$')] and a constitution dictates the [Concept('concept_law','$concept_laws$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
+ # Petty Kingdom
+ petty_kingdom: "Petty Kindgom"
+ gov_absolute_petty_kingdom: "$absolute$ $petty_kingdom$"
+ gov_absolute_petty_kingdom_desc: "This is a [concept_government] form where the power rests completely with the [Concept('concept_ruler','$RULER_TITLE_KING$')] or [Concept('concept_ruler','$RULER_TITLE_QUEEN$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_petty_kingdom: "$petty_kingdom$"
+ gov_petty_kingdom_desc: "This is a [concept_government] form where the power rests mainly with the [Concept('concept_ruler','$RULER_TITLE_KING$')] or [Concept('concept_ruler','$RULER_TITLE_QUEEN$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_feudal_petty_kingdom: "$feudal$ $petty_kingdom$"
+ gov_feudal_petty_kingdom_desc: "This is a [concept_government] form where the power rests mainly with the feudal [Concept('concept_ruler','$RULER_TITLE_KING$')] or [Concept('concept_ruler','$RULER_TITLE_QUEEN$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_constitutional_petty_kingdom: "$constitutional$ $petty_kingdom$"
+ gov_constitutional_petty_kingdom_desc: "This is a [concept_government] form where the [Concept('concept_ruler','$RULER_TITLE_QUEEN$')] or [Concept('concept_ruler','$RULER_TITLE_KING$')] is the [concept_head_of_state], but [Concept('concept_votes','$concept_voting$')] and a constitution dictates the [Concept('concept_law','$concept_laws$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
+ # Princely Kingdom
+ princely_kingdom: "Princely Kingdom"
+ gov_absolute_princely_kingdom: "$absolute$ $princely_kingdom$"
+ gov_absolute_princely_kingdom_desc: "This is a [concept_government] form where the power rests completely with the [Concept('concept_ruler','$RULER_TITLE_PRINCE$')] or [Concept('concept_ruler','$RULER_TITLE_PRINCESS$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_princely_kingdom: "$princely_kingdom$"
+ gov_princely_kingdom_desc: "This is a [concept_government] form where the power rests mainly with the [Concept('concept_ruler','$RULER_TITLE_PRINCE$')] or [Concept('concept_ruler','$RULER_TITLE_PRINCESS$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_feudal_princely_kingdom: "$feudal$ $princely_kingdom$"
+ gov_feudal_princely_kingdom_desc: "This is a [concept_government] form where the power rests mainly with the feudal [Concept('concept_ruler','$RULER_TITLE_PRINCE$')] or [Concept('concept_ruler','$RULER_TITLE_PRINCESS$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_constitutional_princely_kingdom: "$constitutional$ $princely_kingdom$"
+ gov_constitutional_princely_kingdom_desc: "This is a [concept_government] form where the [Concept('concept_ruler','$RULER_TITLE_PRINCE$')] or [Concept('concept_ruler','$RULER_TITLE_PRINCESS$')] is the [concept_head_of_state], but [Concept('concept_votes','$concept_voting$')] and a constitution dictates the [Concept('concept_law','$concept_laws$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
+ # Grand Principality
+ grand_principality: "Grand Principality"
+ gov_feudal_grand_principality: "$feudal$ $grand_principality$"
+ gov_feudal_grand_principality_desc: "This is a [concept_government_type] where the power rests mainly with the feudal [Concept('concept_ruler','$RULER_TITLE_GRAND_PRINCE$')] or [Concept('concept_ruler','$RULER_TITLE_GRAND_PRINCESS$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
+ # Grand Duchy
+ grand_duchy: "Grand Duchy"
+ gov_feudal_grand_duchy: "$feudal$ $grand_duchy$"
+ gov_feudal_grand_duchy_desc: "This is a [concept_government_type] where the power rests mainly with the feudal [Concept('concept_ruler','$RULER_TITLE_GRAND_DUKE$')] or [Concept('concept_ruler','$RULER_TITLE_GRAND_DUCHESS$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
+ # Duchy
+ duchy: "Duchy"
+ gov_feudal_duchy: "$feudal$ $duchy$"
+ gov_feudal_duchy_desc: "This is a [concept_government_type] where the power rests mainly with the feudal [Concept('concept_ruler','$RULER_TITLE_DUKE$')] or [Concept('concept_ruler','$RULER_TITLE_DUCHESS$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
+ # Country
+ county: "County"
+ gov_feudal_county: "$feudal$ $county$"
+ gov_feudal_county_desc: "This is a [concept_government_type] where the power rests mainly with the feudal [Concept('concept_ruler','$RULER_TITLE_COUNT$')] or [Concept('concept_ruler','$RULER_TITLE_COUNTESS$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
+ # Parliamentary Republics #
+ gov_kirin_confederation: "Tribal Confederation"
+ gov_kirin_confederation_desc: "This is a [concept_government] form where the power rests with the [Concept('concept_ruler','$RULER_TITLE_CHAIRKIRIN$')].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
+ # Presidential Republics #
+
+ # Titular Kingdom
+ gov_titular_kingdom: "Titular Kingdom"
+ gov_titular_kingdom_desc: "This is a [concept_government_type] where the [concept_country] is ruled by the [Concept('concept_ruler','$RULER_TITLE_KING$')] or [Concept('concept_ruler','$RULER_TITLE_QUEEN$')] in name only, [Concept('concept_election','$concept_elected$')|l].\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
+ # Titles #
+ RULER_TITLE_ROYAL_ADVISOR: "Royal Advisor"
+ RULER_TITLE_CHAIRKIRIN: "Chairkirin"
+ RULER_TITLE_MAYOR: "Mayor"

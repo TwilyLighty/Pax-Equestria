@@ -1,0 +1,9 @@
+﻿l_english:
+ objective_tutorial_name_EQS:0 "#v $EQS$#!"
+ objective_tutorial_desc_EQS:0 "#lore $EQS_FLAVOR_TEXT$#!"
+ objective_economic_dominance_name_EQS:0 "#v $EQS$#!"
+ objective_economic_dominance_desc_EQS:0 "#lore $EQS_FLAVOR_TEXT$#!"
+ objective_hegemon_name_EQS:0 "#v $EQS$#!"
+ objective_hegemon_desc_EQS:0 "#lore $EQS_FLAVOR_TEXT$#!"
+ objective_egalitarian_society_name_EQS:0 "#v $EQS$#!"
+ objective_egalitarian_society_desc_EQS:0 "#lore $EQS_FLAVOR_TEXT$#!"

@@ -1,0 +1,37 @@
+﻿CHARACTERS = {
+	c:CNN = {
+		create_character = {
+			first_name = Katherina
+			last_name = Proudpaws
+			ruler = yes
+			birth_date = 1796.1.1
+			female = yes
+			culture = cu:diamond_dog
+			noble = yes
+			ideology = ideology_royalist
+			interest_group = ig_devout
+			traits = {
+				trait_no_culture_effects
+				imperious
+				cautious
+			}
+		}
+
+		create_character = {
+			first_name = Jennino
+			last_name = Lanternlight
+			heir = yes
+			birth_date = 1801.1.1
+			female = yes
+			culture = cu:diamond_dog
+			noble = yes
+			ideology = ideology_royalist  # TODO
+			interest_group = ig_devout
+			traits = {
+				trait_no_culture_effects
+				innovative
+				reckless
+			}
+		}
+	}
+}

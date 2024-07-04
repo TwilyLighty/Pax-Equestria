@@ -1,0 +1,7 @@
+﻿# This is executed last among all history
+
+GLOBAL = {
+    every_country = {
+        effect_new_country_setup = yes
+    }
+}

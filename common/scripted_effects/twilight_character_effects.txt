@@ -1,0 +1,133 @@
+﻿# Scope is character
+
+# Marriage #
+
+# CHARACTER_1 is character
+# CHARACTER_2 is character
+effect_character_set_marriage = {
+	# Parameters
+	$CHARACTER_1$ = {
+		save_scope_as = character_1
+	}
+	$CHARACTER_2$ = {
+		save_scope_as = character_2
+	}
+
+	# Remove any previous marriages
+	scope:character_1 = {
+		if = {
+			limit = {
+				trigger_character_is_married = yes
+			}
+			effect_character_remove_marriage = yes
+		}
+	}
+	scope:character_2 = {
+		if = {
+			limit = {
+				trigger_character_is_married = yes
+			}
+			effect_character_remove_marriage = yes
+		}
+	}
+
+	# Set marriage
+	scope:character_1 = {
+		set_variable = is_married
+		set_variable = {
+			name = scope_var_significant_other
+			value = scope:character_2
+		}
+	}
+	scope:character_2 = {
+		set_variable = is_married
+		set_variable = {
+			name = scope_var_significant_other
+			value = scope:character_1
+		}
+	}
+}
+
+effect_character_remove_marriage = {
+	var:scope_var_significant_other = {
+		remove_variable = is_married
+		remove_variable = scope_var_significant_other
+	}
+	remove_variable = is_married
+	remove_variable = scope_var_significant_other
+}
+
+# Typical #
+
+effect_remove_forgotten_religion = {
+	if = {
+		limit = {
+			NOT = {
+				has_variable = keep_religion
+			}
+
+			religion = {
+				has_discrimination_trait = forgotten
+			}
+		}
+
+		change_character_religion = scope:interest_group.owner.religion
+	}
+}
+
+effect_set_culture_trait = {
+	# Typical Ponies
+	if = {
+		limit = { culture = cu:pony }
+		if = {
+			limit = {
+				NOR = {
+					has_trait = alicorn_immortal
+					has_trait = trait_earth_pony
+					has_trait = trait_pegasus
+					has_trait = trait_unicorn
+				}
+			}
+			# Earth Pony : Pegasus : Unicorn = 1 : 1 : 1
+			random_list = {
+				1 = { add_trait = trait_earth_pony }
+				1 = { add_trait = trait_pegasus }
+				1 = { add_trait = trait_unicorn }
+			}
+		}
+	}
+	# Crystal Ponies
+	else_if = {
+		limit = { culture = cu:crystal_pony }
+		if = {
+			limit = {
+				NOR = {
+					has_trait = alicorn_immortal
+					has_trait = trait_earth_pony
+					has_trait = trait_pegasus
+					has_trait = trait_unicorn
+				}
+			}
+			# Earth Pony : Pegasus : Unicorn = 8 : 1 : 1
+			random_list = {
+				8 = { add_trait = trait_earth_pony }
+				1 = { add_trait = trait_pegasus }
+				1 = { add_trait = trait_unicorn }
+			}
+		}
+	}
+	# Dragons
+	else_if = {
+		limit = { culture = cu:dragon }
+		if = {
+			limit = {
+				NOT = { has_trait = trait_dragon }
+			}
+			add_trait = trait_dragon
+		}
+	}
+	# Other tribes
+	else = {
+		add_trait = trait_no_culture_effects
+	}
+}

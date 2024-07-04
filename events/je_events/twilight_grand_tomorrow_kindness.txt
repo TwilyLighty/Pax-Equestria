@@ -1,0 +1,330 @@
+﻿namespace = twilight_grand_tomorrow_events
+
+# Main #
+
+# Prologue
+twilight_grand_tomorrow_events.300 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.300.t
+	desc = twilight_grand_tomorrow_events.300.d
+	flavor = twilight_grand_tomorrow_events.300.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_politicians_arguing.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	trigger = {
+		NOT = {
+			has_variable = twilight_grand_tomorrow_events_300
+		}
+	}
+
+	immediate = {
+		set_variable = twilight_grand_tomorrow_events_300
+	}
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_kindness.dds"
+
+	option = {
+		name = twilight_grand_tomorrow_events.300.a
+		add_journal_entry = {
+			type = je_grand_tomorrow_kindness
+		}
+	}
+}
+
+# Epilogue
+twilight_grand_tomorrow_events.301 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.301.t
+	desc = twilight_grand_tomorrow_events.301.d
+	flavor = twilight_grand_tomorrow_events.301.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_london_center.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_kindness.dds"
+
+	option = {
+		name = twilight_grand_tomorrow_events.301.a
+	}
+}
+
+# Multiculturalism #
+
+# Multiculturalism - Prologue
+twilight_grand_tomorrow_events.310 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.310.t
+	desc = twilight_grand_tomorrow_events.310.d
+	flavor = twilight_grand_tomorrow_events.310.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_politicians_arguing.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	# on_opened_soundeffect = "event:/SFX/Events/____/____"
+
+	trigger = {
+		NOT = {
+			has_variable = twilight_grand_tomorrow_events_310
+		}
+	}
+
+	immediate = {
+		set_variable = twilight_grand_tomorrow_events_310
+	}
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_kindness.dds"
+
+	option = {
+		name = twilight_grand_tomorrow_events.310.a
+		add_journal_entry = {
+			type = je_grand_tomorrow_kindness_multiculturalism
+		}
+	}
+}
+
+# Multiculturalism - Epilogue
+twilight_grand_tomorrow_events.311 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.311.t
+	desc = twilight_grand_tomorrow_events.311.d
+	flavor = twilight_grand_tomorrow_events.311.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_london_center.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	# on_opened_soundeffect = "event:/SFX/Events/____/____"
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_kindness.dds"
+
+	option = {
+		name = twilight_grand_tomorrow_events.311.a
+	}
+}
+
+# Multiculturalism - Method
+twilight_grand_tomorrow_events.312 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.312.t
+	desc = twilight_grand_tomorrow_events.312.d
+	flavor = twilight_grand_tomorrow_events.312.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_politicians_arguing.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	# on_opened_soundeffect = "event:/SFX/Events/____/____"
+
+	trigger = {
+		NOT = {
+			has_variable = twilight_grand_tomorrow_events_312
+		}
+		OR = {
+			AND = {
+				is_enacting_law = law_type:law_racial_segregation
+				NOT = {
+					has_law = law_type:law_cultural_exclusion
+					has_law = law_type:law_multicultural
+				}
+			}
+			AND = {
+				is_enacting_law = law_type:law_cultural_exclusion
+				NOT = {
+					has_law = law_type:law_multicultural
+				}
+			}
+			is_enacting_law = law_type:law_multicultural
+		}
+	}
+
+	immediate = {
+		set_variable = twilight_grand_tomorrow_events_312
+	}
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_kindness.dds"
+
+	option = {
+		name = twilight_grand_tomorrow_events.312.a
+		add_modifier = {
+			name = modifier_country_melting_pot_method
+		}
+	}
+
+	option = {
+		name = twilight_grand_tomorrow_events.312.b
+		default_option = yes
+		add_enactment_modifier = {
+			name = modifier_country_law_compromise
+		}
+	}
+
+	option = {
+		name = twilight_grand_tomorrow_events.312.c
+		add_modifier = {
+			name = modifier_country_salad_bowl_method
+		}
+	}
+}
+
+# Labor Rights #
+
+# Labor Rights - Prologue
+twilight_grand_tomorrow_events.320 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.320.t
+	desc = twilight_grand_tomorrow_events.320.d
+	flavor = twilight_grand_tomorrow_events.320.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_politicians_arguing.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	# on_opened_soundeffect = "event:/SFX/Events/____/____"
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_kindness.dds"
+
+	trigger = {
+		NOT = {
+			has_variable = twilight_grand_tomorrow_events_320
+		}
+	}
+
+	immediate = {
+		set_variable = twilight_grand_tomorrow_events_320
+	}
+
+	option = {
+		name = twilight_grand_tomorrow_events.320.a
+		add_journal_entry = {
+			type = je_grand_tomorrow_kindness_labor_rights
+		}
+	}
+}
+
+# Labor Rights - Epilogue
+twilight_grand_tomorrow_events.321 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.321.t
+	desc = twilight_grand_tomorrow_events.321.d
+	flavor = twilight_grand_tomorrow_events.321.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_london_center.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	# on_opened_soundeffect = "event:/SFX/Events/____/____"
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_kindness.dds"
+
+	option = {
+		name = twilight_grand_tomorrow_events.321.a
+	}
+}
+
+# Children Rights #
+
+# Children Rights - Prologue
+twilight_grand_tomorrow_events.330 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.320.t
+	desc = twilight_grand_tomorrow_events.320.d
+	flavor = twilight_grand_tomorrow_events.320.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_politicians_arguing.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	# on_opened_soundeffect = "event:/SFX/Events/____/____"
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_kindness.dds"
+
+	trigger = {
+		NOT = {
+			has_variable = twilight_grand_tomorrow_events_320
+		}
+	}
+
+	immediate = {
+		set_variable = twilight_grand_tomorrow_events_320
+	}
+
+	option = {
+		name = twilight_grand_tomorrow_events.320.a
+		add_journal_entry = {
+			type = je_grand_tomorrow_kindness_children_rights
+		}
+	}
+}
+
+# Children Rights - Epilogue
+twilight_grand_tomorrow_events.331 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.321.t
+	desc = twilight_grand_tomorrow_events.321.d
+	flavor = twilight_grand_tomorrow_events.321.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_london_center.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	# on_opened_soundeffect = "event:/SFX/Events/____/____"
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_kindness.dds"
+
+	option = {
+		name = twilight_grand_tomorrow_events.321.a
+	}
+}

@@ -1,0 +1,17 @@
+﻿# Disabled
+# TODO: Reimplement these for CHN
+
+je_north_german_unification = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}
+
+je_german_unification = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}
+
+je_south_german_unification = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}

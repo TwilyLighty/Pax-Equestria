@@ -1,0 +1,25 @@
+﻿STATE_NORTH_CELESTIAL_SEA = {
+    id = 10001
+    provinces = { xF0F0F0 }
+}
+
+STATE_NORTH_LUNA_OCEAN = {
+    id = 10002
+    provinces = { xD0D0D0 }
+}
+
+STATE_SOUTH_LUNA_OCEAN = {
+    id = 10003
+    provinces = { xE0E0E0 }
+}
+
+STATE_FROZEN_SEA = {
+    id = 10004
+    provinces = { xC0C0C0 }
+    impassable = { xC0C0C0 }
+}
+
+STATE_SOUTH_CELESTIAL_SEA = {
+    id = 10005
+    provinces = { xB0B0B0 }
+}

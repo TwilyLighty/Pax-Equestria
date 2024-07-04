@@ -1,0 +1,16 @@
+﻿l_english:
+ TRIGGER_RELATIONS_GREATER_THAN: "Relations with [TARGET_COUNTRY.GetName] is greater than $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_GREATER_OR_EQUAL: "Relations with [TARGET_COUNTRY.GetName] is greater than, or equal to $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_GREATER_OR_EQUAL_FIRST: "Relations with [TARGET_COUNTRY.GetNameNoFlag] is greater than, or equal to $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_GREATER_OR_EQUAL_THIRD: "Relations with [TARGET_COUNTRY.GetName] is greater than, or equal to $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_LESS_THAN: "Relations with [TARGET_COUNTRY.GetName] is less than $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_LESS_OR_EQUAL: "Relations with [TARGET_COUNTRY.GetName] is less than, or equal to $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_EQUAL: "Relations with [TARGET_COUNTRY.GetName] is $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_NOT_EQUAL: "Relations with [TARGET_COUNTRY.GetName] is #bold not #!$TARGET_VALUE|0v$"
+
+ TRIGGER_RELATIONS_THRESHOLD_GREATER_THAN: "Relations with [TARGET_COUNTRY.GetName] is greater than $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_THRESHOLD_GREATER_OR_EQUAL: "Relations with [TARGET_COUNTRY.GetName] is greater than, or equal to $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_THRESHOLD_LESS_THAN: "Relations with [TARGET_COUNTRY.GetName] is less than $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_THRESHOLD_LESS_OR_EQUAL: "Relations with [TARGET_COUNTRY.GetName] is less than, or equal to $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_THRESHOLD_EQUAL: "Relations with [TARGET_COUNTRY.GetName] is $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_THRESHOLD_NOT_EQUAL: "Relations with [TARGET_COUNTRY.GetName] is #bold not #!$TARGET_VALUE|0v$"

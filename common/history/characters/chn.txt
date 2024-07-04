@@ -1,0 +1,87 @@
+﻿CHARACTERS = {
+	c:THR = {
+		create_character = {
+			first_name = Thorax
+			last_name = no_last_name
+			ruler = yes
+			birth_date = 1811.1.1
+			female = no
+			culture = cu:changeling
+			noble = yes
+			ideology = ideology_moderate
+			interest_group = ig_devout
+			traits = {
+				trait_no_culture_effects
+				brave
+				innovative
+			}
+			on_created = {
+				set_variable = is_thorax
+			}
+		}
+
+		create_character = {
+			first_name = Pharynx
+			last_name = no_last_name
+			ig_leader = yes
+			is_general = yes
+			commander_rank = commander_rank_5
+			birth_date = 1806.1.1
+			female = no
+			culture = cu:changeling
+			noble = yes
+			ideology = ideology_jingoist_leader
+			interest_group = ig_armed_forces
+			traits = {
+				trait_no_culture_effects
+				wrathful
+				traditionalist_commander
+			}
+		}
+	}
+
+	c:PTR = {
+		create_character = {
+			first_name = Ptera
+			last_name = no_last_name
+			ruler = yes
+			birth_date = 1816.1.1
+			female = yes
+			culture = cu:changeling
+			noble = yes
+			ideology = ideology_jingoist_leader
+			interest_group = ig_armed_forces
+			traits = {
+				trait_no_culture_effects
+				charismatic
+				ambitious
+				bigoted
+			}
+			on_created = {
+				set_variable = is_ptera
+			}
+		}
+	}
+
+	c:CRS = {
+		create_character = {
+			first_name = Ceras
+			last_name = no_last_name
+			ruler = yes
+			birth_date = 1806.1.1
+			female = no
+			culture = cu:changeling
+			noble = yes
+			ideology = ideology_royalist
+			interest_group = ig_armed_forces
+			traits = {
+				trait_no_culture_effects
+				tactful
+				reserved
+			}
+			on_created = {
+				set_variable = is_ceras
+			}
+		}
+	}
+}

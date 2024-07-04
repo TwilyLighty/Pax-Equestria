@@ -1,0 +1,41 @@
+﻿# Scope is pop
+
+will_be_accepted_culture = {
+	OR = {
+		AND = {
+			owner = { is_enacting_law = law_type:law_ethnostate }
+			culture = {
+				save_temporary_scope_as = target_culture
+				culture_accepted_under_law_ethnostate = yes
+			}
+		}
+		AND = {
+			owner = { is_enacting_law = law_type:law_national_supremacy }
+			culture = {
+				save_temporary_scope_as = target_culture
+				culture_accepted_under_law_national_supremacy = yes
+			}
+		}
+		AND = {
+			owner = { is_enacting_law = law_type:law_racial_segregation }
+			culture = {
+				save_temporary_scope_as = target_culture
+				culture_accepted_under_law_racial_segregation = yes
+			}
+		}
+		AND = {
+			owner = { is_enacting_law = law_type:law_cultural_exclusion }
+			culture = {
+				save_temporary_scope_as = target_culture
+				culture_accepted_under_law_cultural_exclusion = yes
+			}
+		}
+		AND = {
+			owner = { is_enacting_law = law_type:law_multicultural }
+			culture = {
+				save_temporary_scope_as = target_culture
+				culture_accepted_under_law_multicultural = yes
+			}
+		}
+	}
+}

@@ -1,0 +1,310 @@
+﻿namespace = twilight_grand_tomorrow_events
+
+# Main #
+
+# Prologue
+twilight_grand_tomorrow_events.100 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.100.t
+	desc = twilight_grand_tomorrow_events.100.d
+	flavor = twilight_grand_tomorrow_events.100.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_politicians_arguing.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	trigger = {
+		NOT = {
+			has_variable = twilight_grand_tomorrow_events_100
+		}
+	}
+
+	immediate = {
+		set_variable = twilight_grand_tomorrow_events_100
+	}
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_magic.dds"
+
+	option = {
+		name = twilight_grand_tomorrow_events.100.a
+		add_journal_entry = {
+			type = je_grand_tomorrow_magic
+		}
+	}
+}
+
+# Epilogue
+twilight_grand_tomorrow_events.101 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.101.t
+	desc = twilight_grand_tomorrow_events.101.d
+	flavor = twilight_grand_tomorrow_events.101.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_london_center.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/1Character_Banner"
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_magic.dds"
+
+	option = {
+		name = twilight_grand_tomorrow_events.101.a
+	}
+}
+
+# Government #
+
+# Government - Prologue
+twilight_grand_tomorrow_events.110 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.110.t
+	desc = twilight_grand_tomorrow_events.110.d
+	flavor = twilight_grand_tomorrow_events.110.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_politicians_arguing.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	# on_opened_soundeffect = "event:/SFX/Events/____/____"
+
+	trigger = {
+		NOT = {
+			has_variable = twilight_grand_tomorrow_events_110
+		}
+	}
+
+	immediate = {
+		set_variable = twilight_grand_tomorrow_events_110
+	}
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_magic.dds"
+
+	option = {
+		name = twilight_grand_tomorrow_events.110.a
+		add_journal_entry = {
+			type = je_grand_tomorrow_magic_bureaucracy
+		}
+	}
+}
+
+# Government - Epilogue
+twilight_grand_tomorrow_events.111 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.111.t
+	desc = twilight_grand_tomorrow_events.111.d
+	flavor = twilight_grand_tomorrow_events.111.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_london_center.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	# on_opened_soundeffect = "event:/SFX/Events/____/____"
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_magic.dds"
+
+	option = {
+		name = twilight_grand_tomorrow_events.111.a
+	}
+}
+
+# Education #
+
+# Education - Prologue
+twilight_grand_tomorrow_events.120 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.120.t
+	desc = twilight_grand_tomorrow_events.120.d
+	flavor = twilight_grand_tomorrow_events.120.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_politicians_arguing.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	# on_opened_soundeffect = "event:/SFX/Events/____/____"
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_magic.dds"
+
+	trigger = {
+		NOT = {
+			has_variable = twilight_grand_tomorrow_events_120
+		}
+	}
+
+	immediate = {
+		set_variable = twilight_grand_tomorrow_events_120
+	}
+
+	option = {
+		name = twilight_grand_tomorrow_events.120.a
+		add_journal_entry = {
+			type = je_grand_tomorrow_magic_education
+		}
+	}
+}
+
+# Education - Epilogue
+twilight_grand_tomorrow_events.121 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.121.t
+	desc = twilight_grand_tomorrow_events.121.d
+	flavor = twilight_grand_tomorrow_events.121.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_london_center.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	# on_opened_soundeffect = "event:/SFX/Events/____/____"
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_magic.dds"
+
+	option = {
+		name = twilight_grand_tomorrow_events.121.a
+	}
+}
+
+# Education - Focus
+twilight_grand_tomorrow_events.122 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.122.t
+	desc = twilight_grand_tomorrow_events.122.d
+	flavor = twilight_grand_tomorrow_events.122.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_politicians_arguing.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	# on_opened_soundeffect = "event:/SFX/Events/____/____"
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_magic.dds"
+
+	trigger = {
+		NOT = {
+			has_variable = twilight_grand_tomorrow_events_122
+		}
+	}
+
+	immediate = {
+		set_variable = twilight_grand_tomorrow_events_122
+		je:je_grand_tomorrow_magic_education = {
+			save_scope_as = scope_je
+		}
+	}
+
+	option = {
+		name = twilight_grand_tomorrow_events.122.a
+		custom_tooltip = je_condition_change_tt
+		set_variable = var_education_vertical_expansion
+	}
+	option = {
+		name = twilight_grand_tomorrow_events.122.b
+		default_option = yes
+	}
+	option = {
+		name = twilight_grand_tomorrow_events.122.c
+		custom_tooltip = je_condition_change_tt
+		set_variable = var_education_horizontal_expansion
+	}
+}
+
+# Standardization #
+
+# Standardization - Prologue
+twilight_grand_tomorrow_events.130 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.130.t
+	desc = twilight_grand_tomorrow_events.130.d
+	flavor = twilight_grand_tomorrow_events.130.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_politicians_arguing.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	# on_opened_soundeffect = "event:/SFX/Events/____/____"
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_magic.dds"
+
+	trigger = {
+		NOT = {
+			has_variable = twilight_grand_tomorrow_events_130
+		}
+	}
+
+	immediate = {
+		set_variable = twilight_grand_tomorrow_events_130
+	}
+
+	option = {
+		name = twilight_grand_tomorrow_events.130.a
+		add_journal_entry = {
+			type = je_grand_tomorrow_magic_standardization
+		}
+	}
+}
+
+# Standardization - Epilogue
+twilight_grand_tomorrow_events.131 = {
+	type = country_event
+
+	title = twilight_grand_tomorrow_events.131.t
+	desc = twilight_grand_tomorrow_events.131.d
+	flavor = twilight_grand_tomorrow_events.131.f
+
+	placement = ROOT
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_london_center.bk2"
+	}
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	# on_opened_soundeffect = "event:/SFX/Events/____/____"
+
+	icon = "gfx/interface/icons/event_icons/twilight_event_magic.dds"
+
+	option = {
+		name = twilight_grand_tomorrow_events.131.a
+	}
+}

@@ -1,0 +1,11 @@
+﻿STATE_ENDLESS_OCEAN_LEFT = {
+    id = 9999
+    provinces = { xFFFFFF }
+    impassable = { xFFFFFF }
+}
+
+STATE_ENDLESS_OCEAN_RIGHT = {
+    id = 10000
+    provinces = { xF8F8F8 }
+    impassable = { xF8F8F8 }
+}

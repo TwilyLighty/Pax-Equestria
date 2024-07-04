@@ -1,0 +1,26 @@
+﻿l_english:
+
+ flightponies: "@flightponies! $flightponies_no_icon$"
+ flightponies_only_icon: "@flightponies!"
+ flightponies_no_icon: "Flightponies"
+ flightponies_desc: "Both messengers and bulk labor, they offer a cheap source of ponypower in the sky. Seldomly engaged in politics, their interests are most often aligned with the Trade Unions."
+
+ weatherponies: "@weatherponies! $weatherponies_no_icon$"
+ weatherponies_only_icon: "@weatherponies!"
+ weatherponies_no_icon: "Weatherponies"
+ weatherponies_desc: "Masters of crafting clouds and making it rain, they ensure that the weather comes as forecasted. They most often support the Trade Unions."
+
+ mages: "@mages! $mages_no_icon$"
+ mages_only_icon: "@mages!"
+ mages_no_icon: "Mages"
+ mages_desc: "Possessing some from of magical talent and capable of telekinesis and simple spells. They tend to favor the Petite Bourgeoisie, with occasional support for Trade Unions."
+
+ archmages: "@archmages! $archmages_no_icon$"
+ archmages_only_icon: "@archmages!"
+ archmages_no_icon: "Archmages"
+ archmages_desc: "Masters of magic and powerful enough to cast even the most difficult workings. Their support belongs to the Landowners."
+
+ FLIGHTPONIES_QUALIFICATIONS_DESC: "Only pops with the Flight cultural trait can become #v $flightponies$#."
+ WEATHERPONIES_QUALIFICATIONS_DESC: "Any pop can become #v $weatherponies$#!. Potential increases with greater [concept_literacy]. #v $laborers$#! and #v $flightponies$#! have a particularly easy time becoming #v $weatherponies$#!."
+ MAGES_QUALIFICATIONS_DESC: "Pops with minimal [concept_literacy] can become #v $mages$#!. Potential increases with greater [concept_literacy]. #v $laborers$#! have a particularly easy time becoming #v $mages$#!."
+ ARCHMAGES_QUALIFICATIONS_DESC: "Only pops with adequate [concept_literacy] can become #v $archmages$#!. Potential increases with greater [concept_literacy] and [concept_wealth]. Pops whose [concept_culture] faces [concept_discrimination] take a much longer time. #v $mages$#! and #v $academics$#! have a particularly easy time becoming #v $archmages$#!."

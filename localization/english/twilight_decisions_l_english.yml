@@ -1,0 +1,6 @@
+﻿l_english:
+ decision_switch_flag: "Switch between the old and new flags (Debug)"
+ decision_switch_flag_desc: "Don't like the current flag? Let's change that!"
+ decision_switch_flag_tooltip: "$decision_switch_flag$"
+ decision_switch_flag_use_new_flag_tt: "Use the new flag of [Scope.GetCountry.GetNameNoFlag]"
+ decision_switch_flag_use_old_flag_tt: "Use the old flag of [Scope.GetCountry.GetNameNoFlag]"

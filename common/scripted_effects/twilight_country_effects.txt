@@ -1,0 +1,120 @@
+﻿# Scope is country
+
+set_initial_tribal_qualifications = {
+	every_scope_pop = {
+		limit = {
+			OR = {
+				is_pop_type = flightponies
+				is_pop_type = weatherponies
+				is_pop_type = mages
+				is_pop_type = archmages
+			}
+		}
+
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						is_pop_type = flightponies
+						NOT = {
+							culture = {
+								has_discrimination_trait = flight
+							}
+						}
+					}
+					AND = {
+						is_pop_type = weatherponies
+						NOT = {
+							culture = {
+								has_discrimination_trait = weather_magic
+							}
+						}
+					}
+					AND = {
+						is_pop_type = mages
+						NOT = {
+							culture = {
+								has_discrimination_trait = low_magic
+							}
+						}
+					}
+					AND = {
+						is_pop_type = archmages
+						NOT = {
+							culture = {
+								has_discrimination_trait = high_magic
+							}
+						}
+					}
+				}
+			}
+
+			change_poptype = pop_type:laborers
+		}
+	}
+}
+
+effect_country_reduce_slumber_of_the_giant_effect = {
+	if = {
+		limit = {
+			has_modifier = modifier_slumber_of_the_giant
+		}
+		remove_modifier = modifier_slumber_of_the_giant
+		add_modifier = {
+			name = modifier_slumber_of_the_giant_level_4
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = modifier_slumber_of_the_giant_level_4
+		}
+		remove_modifier = modifier_slumber_of_the_giant_level_4
+		add_modifier = {
+			name = modifier_slumber_of_the_giant_level_3
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = modifier_slumber_of_the_giant_level_3
+		}
+		remove_modifier = modifier_slumber_of_the_giant_level_3
+		add_modifier = {
+			name = modifier_slumber_of_the_giant_level_2
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = modifier_slumber_of_the_giant_level_2
+		}
+		remove_modifier = modifier_slumber_of_the_giant_level_2
+		add_modifier = {
+			name = modifier_slumber_of_the_giant_level_1
+		}
+	}
+	else_if = {
+		limit = {
+			has_modifier = modifier_slumber_of_the_giant_level_1
+		}
+		remove_modifier = modifier_slumber_of_the_giant_level_1
+	}
+}
+
+effect_give_claims_on_changeling_lands = {
+	every_state = {
+		limit = {
+			NOT = {
+				owner = ROOT
+			}
+			OR = {
+				state_region = s:STATE_WEST_FOREST_OF_LEOTA
+				state_region = s:STATE_NORTH_FOREST_OF_LEOTA
+				state_region = s:STATE_EAST_FOREST_OF_LEOTA
+				state_region = s:STATE_SOUTH_FOREST_OF_LEOTA
+				state_region = s:STATE_MOUNT_ARIMASPI
+			}
+		}
+		state_region = {
+			add_claim = ROOT
+		}
+	}
+}

@@ -1,0 +1,29 @@
+﻿# CRY #
+
+cry_sunburst_template = {
+	first_name = Sunburst
+	last_name = no_last_name
+	birth_date = 1811.1.1
+	female = no
+	culture = cu:pony
+	noble = no
+	ideology = ideology_royalist
+	interest_group = ig_devout
+	traits = {
+		trait_unicorn
+		reserved
+		innovative
+	}
+	interest_group_leader_usage = {
+		country_trigger = {
+			c:CRY ?= THIS
+		}
+		interest_group_trigger = {
+			# is_marginal = no
+			is_interest_group_type = ig_devout
+		}
+		earliest_usage_date = 1836.1.2
+		latest_usage_date = 1890.1.1
+		chance = 75
+	}
+}

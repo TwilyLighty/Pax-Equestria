@@ -1,0 +1,6 @@
+﻿# Disabled
+
+scramble_for_africa = {
+	is_shown_when_inactive = { always = no }
+	possible = { always = no }
+}

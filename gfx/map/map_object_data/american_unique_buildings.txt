@@ -1,0 +1,18 @@
+﻿game_object_locator={
+	name="capitol_hill_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="central_park_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}

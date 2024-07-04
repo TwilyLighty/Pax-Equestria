@@ -1,0 +1,12 @@
+﻿gov_bhutanese_dual_system_temporal = {
+	possible = { always = no }
+}
+gov_warlord_state = {
+	possible = { always = no }
+}
+gov_chartered_company = {
+	possible = { always = no }
+}
+gov_crown_colony = {
+	possible = { always = no }
+}

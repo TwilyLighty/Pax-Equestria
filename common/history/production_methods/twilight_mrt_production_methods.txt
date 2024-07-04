@@ -1,0 +1,27 @@
+﻿PRODUCTION_METHODS = {
+	c:MRT = {
+		# Government #
+
+		# Government Administration
+		activate_production_method = {
+			building_type = building_government_administration
+			production_method = pm_horizontal_drawer_cabinets
+		}
+
+		# Resources #
+
+		# Logging Camps
+		activate_production_method = {
+			building_type = building_logging_camp
+			production_method = pm_hardwood
+		}
+
+		# Agriculture #
+
+		# Dye Plantation
+		activate_production_method = {
+			building_type = building_dye_plantation
+			production_method = pm_weather_teams_dye
+		}
+	}
+}

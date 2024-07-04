@@ -1,0 +1,630 @@
+# 틀 #
+
+## 예시 ##
+
+# 아래와 같이 pdxmesh 랑 entity 합쳐
+# 한 묶음이 실제로 쓰일 이미지 한 장을 구성
+pdxmesh = {
+	# 겜이 알아들을 이 그림의 이름
+	name = "lia_pony_test_portrait_full_mesh"
+
+	# 이게 우리가 쓸 가상 '캔버스'(라고 그냥 내가 편하게 부르는것) 매쉬(3D물체)
+	# 현재 가로 세로 각각 3:4 비율의 캔버스를 사용중
+	# 여기에다가 텍스쳐를 입혀 띄우는식으로 유사 2D이미지를 구현
+	file = "canvas.mesh"
+
+	# # 이건 그냥 블렌더에서 캔버스 이리저리 늘려보고 옮겨보고 하는 실험할때 쓴 실험용 캔버스
+	# # 지금은 별로 쓸모없음
+	# file = "canvas_test.mesh"
+
+	# 이건 게임상에서 해당 캔버스가 어느정도 크기배율로 나올지 정하는 값
+	scale = 1.0
+
+	meshsettings = {
+		# 이건 캔버스 만들고 나서,
+		# 블렌더 안에서 해당 캔버스 물체의 Object Data Properties 탭에서 달아준 이름인데,
+		# 그 이름과 여기 이름이 완전히 일치해야만 함.
+		name = "pony_canvasShape"
+
+		# 이건 정확히 몬지 모르겠다,
+		# 아마도 한 pdxmesh 안에서 여러 meshsettings,
+		# 즉 두개 이상의 메쉬를 포함시켜 인식해야할때 달아주는 번호표 같은데,
+		# 일단 우리는 0 말곤 쓸일이 없을 것
+		index = 0
+
+		# 이 에셋 파일이 들어있는 폴더 안에서 이 캔버스 위에 어떤 텍스쳐를 입혀 띄울지 고르는것
+		texture_diffuse = "test_portrait_full.dds"
+
+		# 이건 원래 반사나 금속질감 혹은 거칠기 같은 값이 들어있는 텍스쳐용인데,
+		# 우린 그 데이터 안쓸거라서 별 의미는 없을것
+		texture_specular = "test_portrait_full.dds"
+
+		# # 이 바로 아래는 그냥 테스트용 텍스쳐
+		# texture_diffuse = "test_portrait.dds"
+		# texture_specular = "test_portrait.dds"
+
+		# 어떤 쉐이더를 이용해서 겜에 띄울지
+		shader = "portrait_attachment_alpha_to_coverage"
+
+		# 이건 우리가 쓸 쉐이더 파일이 어디있는지.
+		# 원래는 그냥 엔진 안에 있는 쉐이더중 골라쓰는데,
+		# 우리는 반사나 질감같은거 싹 빼고 그냥 2D이미지만 깔끔하게 띄울거라서
+		# 모드의 gfx폴더에다 잡다한 효과를 거세시킨 커스텀 쉐이더 파일을 사용하게 될 것
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	# 이제 이 엔티티 이름이 gfx/portraits/accessories/lia_pony.txt 로 넘겨질 예정
+	name = "lia_pony_test_portrait_full_entity"
+
+	# 위에서 정한 이름을 받아서 겜이 알아들을 수 있는 엔티티로 지정함
+	pdxmesh = "lia_pony_test_portrait_full_mesh"
+}
+
+## 실험용 ##
+
+# 몸+망토만
+pdxmesh = {
+	name = "lia_pony_test_portrait_base_cloak_mesh"
+	file = "canvas.mesh"
+	# file = "canvas_test.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvasShape"
+		index = 0
+		texture_diffuse = "test_portrait_base_cloak.dds"
+		texture_specular = "test_portrait_base_cloak.dds"
+		# texture_diffuse = "test_portrait.dds"
+		# texture_specular = "test_portrait.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_test_portrait_base_cloak_entity"
+	pdxmesh = "lia_pony_test_portrait_base_cloak_mesh"
+}
+
+# 실크햇+단안경
+pdxmesh = {
+	name = "lia_pony_test_portrait_accessory_mesh"
+	# 이건 쓰는 캔버스 파일이 다른데,
+	# 우리가 일종의 여러 층의 레이어를 구현하려고 할 때 한 캔버스에 다 띄워놓으면
+	# 서로 이상하게 곂치거나 혹은 앞에 가야할 이미지가 뒤로 간다거나 할 위험이 있으니,
+	# 블렌더 상에서 딱 0.1만큼만 캔버스를 통째로 앞으로 이동시켜서 따로 만든 캔버스가 이것
+	file = "canvas_F1.mesh"
+	# 윗말이 길어져서 이어서 말하자면,
+	# 아무튼 그 방식으로 일단 주로 캐릭터 기본 모습을 그릴 바로 위에서 쓰인 일반 캔버스와,
+	# 모자등의 악세서리 표현용으로 바로 윗층에 둘 캔버스F1,
+	# 한층 더 앞에 둘 F2, 그리고 기본 캐릭터 뒷면에 깔 캔버스B1까지 만들어서 넣어두었음.
+	# file = "canvas_test.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvas_F1Shape"
+		index = 0
+		texture_diffuse = "test_portrait_accessory.dds"
+		texture_specular = "test_portrait_accessory.dds"
+		#texture_diffuse = "test_portrait.dds"
+		#texture_specular = "test_portrait.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_test_portrait_accessory_entity"
+	pdxmesh = "lia_pony_test_portrait_accessory_mesh"
+}
+
+# 트와일라잇
+pdxmesh = {
+	name = "lia_pony_test_portrait_twilight_base_mesh"
+	file = "canvas.mesh"
+	# file = "canvas_test.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvasShape"
+		index = 0
+		texture_diffuse = "twilight_sparkle.dds"
+		# texture_specular = "metallic.dds"
+		# texture_diffuse = "test_portrait.dds"
+		# texture_specular = "test_portrait.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+		# shader_file = "gfx/FX/jomini/portrait.shader"
+		# shader_file = "gfx/simple_metallic_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_test_portrait_twilight_base_entity"
+	pdxmesh = "lia_pony_test_portrait_twilight_base_mesh"
+}
+
+# 트와일라잇 왕관
+pdxmesh = {
+	name = "lia_pony_test_portrait_twilight_crown_mesh"
+	file = "canvas_F1.mesh"
+	# file = "canvas_test.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvas_F1Shape"
+		index = 0
+		texture_diffuse = "twilight_crown.dds"
+		# texture_specular = "metallic.dds"
+		# texture_diffuse = "test_portrait.dds"
+		# texture_specular = "test_portrait.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+		# shader_file = "gfx/FX/jomini/portrait.shader"
+		# shader_file = "gfx/simple_metallic_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_test_portrait_twilight_crown_entity"
+	pdxmesh = "lia_pony_test_portrait_twilight_crown_mesh"
+}
+
+# 실제 파일 #
+
+## 실루엣 ##
+
+### 암컷 ###
+
+# 어스 포니
+pdxmesh = {
+	name = "lia_pony_test_silhouette_base_earthpony_mesh"
+	file = "canvas.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvasShape"
+		index = 0
+		texture_diffuse = "test_silhouette_base_earthpony.dds"
+		texture_specular = "test_silhouette_base_earthpony.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_test_silhouette_base_earthpony_entity"
+	pdxmesh = "lia_pony_test_silhouette_base_earthpony_mesh"
+}
+
+# 페가수스
+pdxmesh = {
+	name = "lia_pony_test_silhouette_base_pegasus_mesh"
+	file = "canvas.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvasShape"
+		index = 0
+		texture_diffuse = "test_silhouette_base_pegasus.dds"
+		texture_specular = "test_silhouette_base_pegasus.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_test_silhouette_base_pegasus_entity"
+	pdxmesh = "lia_pony_test_silhouette_base_pegasus_mesh"
+}
+
+# 유니콘
+pdxmesh = {
+	name = "lia_pony_test_silhouette_base_unicorn_mesh"
+	file = "canvas.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvasShape"
+		index = 0
+		texture_diffuse = "test_silhouette_base_unicorn.dds"
+		texture_specular = "test_silhouette_base_unicorn.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_test_silhouette_base_unicorn_entity"
+	pdxmesh = "lia_pony_test_silhouette_base_unicorn_mesh"
+}
+
+# 알리콘
+pdxmesh = {
+	name = "lia_pony_test_silhouette_base_alicorn_mesh"
+	file = "canvas.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvasShape"
+		index = 0
+		texture_diffuse = "test_silhouette_base_alicorn.dds"
+		texture_specular = "test_silhouette_base_alicorn.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_test_silhouette_base_alicorn_entity"
+	pdxmesh = "lia_pony_test_silhouette_base_alicorn_mesh"
+}
+
+# 뱃 포니
+pdxmesh = {
+	name = "lia_pony_test_silhouette_base_batpony_mesh"
+	file = "canvas.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvasShape"
+		index = 0
+		texture_diffuse = "test_silhouette_base_batpony.dds"
+		texture_specular = "test_silhouette_base_batpony.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_test_silhouette_base_batpony_entity"
+	pdxmesh = "lia_pony_test_silhouette_base_batpony_mesh"
+}
+
+### 수컷 ###
+
+# 어스 포니
+pdxmesh = {
+	name = "lia_pony_test_silhouette_base_earthponyMale_mesh"
+	file = "canvas.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvasShape"
+		index = 0
+		texture_diffuse = "test_silhouette_base_earthponyMale.dds"
+		texture_specular = "test_silhouette_base_earthponyMale.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_test_silhouette_base_earthponyMale_entity"
+	pdxmesh = "lia_pony_test_silhouette_base_earthponyMale_mesh"
+}
+
+# 페가수스
+pdxmesh = {
+	name = "lia_pony_test_silhouette_base_pegasusMale_mesh"
+	file = "canvas.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvasShape"
+		index = 0
+		texture_diffuse = "test_silhouette_base_pegasusMale.dds"
+		texture_specular = "test_silhouette_base_pegasusMale.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_test_silhouette_base_pegasusMale_entity"
+	pdxmesh = "lia_pony_test_silhouette_base_pegasusMale_mesh"
+}
+
+# 유니콘
+pdxmesh = {
+	name = "lia_pony_test_silhouette_base_unicornMale_mesh"
+	file = "canvas.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvasShape"
+		index = 0
+		texture_diffuse = "test_silhouette_base_unicornMale.dds"
+		texture_specular = "test_silhouette_base_unicornMale.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_test_silhouette_base_unicornMale_entity"
+	pdxmesh = "lia_pony_test_silhouette_base_unicornMale_mesh"
+}
+
+# 알리콘
+pdxmesh = {
+	name = "lia_pony_test_silhouette_base_alicornMale_mesh"
+	file = "canvas.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvasShape"
+		index = 0
+		texture_diffuse = "test_silhouette_base_alicornMale.dds"
+		texture_specular = "test_silhouette_base_alicornMale.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_test_silhouette_base_alicornMale_entity"
+	pdxmesh = "lia_pony_test_silhouette_base_alicornMale_mesh"
+}
+
+# 뱃 포니
+pdxmesh = {
+	name = "lia_pony_test_silhouette_base_batponyMale_mesh"
+	file = "canvas.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvasShape"
+		index = 0
+		texture_diffuse = "test_silhouette_base_batponyMale.dds"
+		texture_specular = "test_silhouette_base_batponyMale.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_test_silhouette_base_batponyMale_entity"
+	pdxmesh = "lia_pony_test_silhouette_base_batponyMale_mesh"
+}
+
+## 큐티 마크 ##
+
+# 애플잭
+pdxmesh = {
+	name = "lia_pony_CM_Applejack_mesh"
+	file = "canvas_F2.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvas_F2Shape"
+		index = 0
+		texture_diffuse = "CM_Applejack.dds"
+		texture_specular = "CM_Applejack.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_CM_Applejack_entity"
+	pdxmesh = "lia_pony_CM_Applejack_mesh"
+}
+
+# 플러터샤이
+pdxmesh = {
+	name = "lia_pony_CM_Fluttershy_mesh"
+	file = "canvas_F2.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvas_F2Shape"
+		index = 0
+		texture_diffuse = "CM_Fluttershy.dds"
+		texture_specular = "CM_Fluttershy.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_CM_Fluttershy_entity"
+	pdxmesh = "lia_pony_CM_Fluttershy_mesh"
+}
+
+# 핑키파이
+pdxmesh = {
+	name = "lia_pony_CM_PinkiePie_mesh"
+	file = "canvas_F2.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvas_F2Shape"
+		index = 0
+		texture_diffuse = "CM_PinkiePie.dds"
+		texture_specular = "CM_PinkiePie.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_CM_PinkiePie_entity"
+	pdxmesh = "lia_pony_CM_PinkiePie_mesh"
+}
+
+# 레인보우 대시
+pdxmesh = {
+	name = "lia_pony_CM_RainbowDash_mesh"
+	file = "canvas_F2.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvas_F2Shape"
+		index = 0
+		texture_diffuse = "CM_RainbowDash.dds"
+		texture_specular = "CM_RainbowDash.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_CM_RainbowDash_entity"
+	pdxmesh = "lia_pony_CM_RainbowDash_mesh"
+}
+
+# 래리티
+pdxmesh = {
+	name = "lia_pony_CM_Rarity_mesh"
+	file = "canvas_F2.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvas_F2Shape"
+		index = 0
+		texture_diffuse = "CM_Rarity.dds"
+		texture_specular = "CM_Rarity.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_CM_Rarity_entity"
+	pdxmesh = "lia_pony_CM_Rarity_mesh"
+}
+
+# 스타라이트 글리머
+pdxmesh = {
+	name = "lia_pony_CM_StarlightGlimmer_mesh"
+	file = "canvas_F2.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvas_F2Shape"
+		index = 0
+		texture_diffuse = "CM_StarlightGlimmer.dds"
+		texture_specular = "CM_StarlightGlimmer.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_CM_StarlightGlimmer_entity"
+	pdxmesh = "lia_pony_CM_StarlightGlimmer_mesh"
+}
+
+# 트와일라잇 스파클
+pdxmesh = {
+	name = "lia_pony_CM_TwilightSparkle_mesh"
+	file = "canvas_F2.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvas_F2Shape"
+		index = 0
+		texture_diffuse = "CM_TwilightSparkle.dds"
+		texture_specular = "CM_TwilightSparkle.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_CM_TwilightSparkle_entity"
+	pdxmesh = "lia_pony_CM_TwilightSparkle_mesh"
+}
+
+# 다이아몬드 티아라
+pdxmesh = {
+	name = "lia_pony_CM_DiamondTiara_mesh"
+	file = "canvas_F2.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvas_F2Shape"
+		index = 0
+		texture_diffuse = "CM_DiamondTiara.dds"
+		texture_specular = "CM_DiamondTiara.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_CM_DiamondTiara_entity"
+	pdxmesh = "lia_pony_CM_DiamondTiara_mesh"
+}
+
+# 팬시 팬츠
+pdxmesh = {
+	name = "lia_pony_CM_FancyPants_mesh"
+	file = "canvas_F2.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvas_F2Shape"
+		index = 0
+		texture_diffuse = "CM_FancyPants.dds"
+		texture_specular = "CM_FancyPants.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_CM_FancyPants_entity"
+	pdxmesh = "lia_pony_CM_FancyPants_mesh"
+}
+
+# 네이세이
+pdxmesh = {
+	name = "lia_pony_CM_Neighsay_mesh"
+	file = "canvas_F2.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvas_F2Shape"
+		index = 0
+		texture_diffuse = "CM_Neighsay.dds"
+		texture_specular = "CM_Neighsay.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_CM_Neighsay_entity"
+	pdxmesh = "lia_pony_CM_Neighsay_mesh"
+}
+
+# 케이던스
+pdxmesh = {
+	name = "lia_pony_CM_Cadence_mesh"
+	file = "canvas_F2.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvas_F2Shape"
+		index = 0
+		texture_diffuse = "CM_Cadence.dds"
+		texture_specular = "CM_Cadence.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_CM_Cadence_entity"
+	pdxmesh = "lia_pony_CM_Cadence_mesh"
+}
+
+# 샤이닝 아머
+pdxmesh = {
+	name = "lia_pony_CM_ShiningArmor_mesh"
+	file = "canvas_F2.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvas_F2Shape"
+		index = 0
+		texture_diffuse = "CM_ShiningArmor.dds"
+		texture_specular = "CM_ShiningArmor.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_CM_ShiningArmor_entity"
+	pdxmesh = "lia_pony_CM_ShiningArmor_mesh"
+}
+
+# 샌드바
+pdxmesh = {
+	name = "lia_pony_CM_Sandbar_mesh"
+	file = "canvas_F2.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvas_F2Shape"
+		index = 0
+		texture_diffuse = "CM_Sandbar.dds"
+		texture_specular = "CM_Sandbar.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_CM_Sandbar_entity"
+	pdxmesh = "lia_pony_CM_Sandbar_mesh"
+}
+
+# 일반
+pdxmesh = {
+	name = "lia_pony_CM_Generic_mesh"
+	file = "canvas_F2.mesh"
+	scale = 1.0
+	meshsettings = {
+		name = "pony_canvas_F2Shape"
+		index = 0
+		texture_diffuse = "CM_Generic.dds"
+		texture_specular = "CM_Generic.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/simple_portrait.shader"
+	}
+}
+entity = {
+	name = "lia_pony_CM_Generic_entity"
+	pdxmesh = "lia_pony_CM_Generic_mesh"
+}

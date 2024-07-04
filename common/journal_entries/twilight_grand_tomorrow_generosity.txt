@@ -1,0 +1,170 @@
+﻿# **Generosity: The Needs of our Ponies**
+# Economy, Industry, Urban Development
+
+# TODO: Remove the v0.1 code
+je_grand_tomorrow_generosity = {
+	icon = "gfx/interface/icons/event_icons/twilight_event_generosity.dds"
+
+	immediate = {
+		set_variable = {
+			name = var_je_grand_tomorrow_generosity_value
+			value = 0
+		}
+	}
+
+	on_monthly_pulse = {
+		# # Temporarily disabled for v0.1
+		# effect = {
+		# 	random_list = {
+		# 		11 = {}
+		# 		1 = {
+		# 			random_list = {
+		# 				# je_grand_tomorrow_generosity_economy
+		# 				1 = {
+		# 					trigger_event = {
+		# 						id = twilight_grand_tomorrow_events.610
+		# 						popup = yes
+		# 					}
+		# 				}
+		# 				# je_grand_tomorrow_generosity_industrialization
+		# 				1 = {
+		# 					trigger_event = {
+		# 						id = twilight_grand_tomorrow_events.620
+		# 						popup = yes
+		# 					}
+		# 				}
+		# 			}
+		# 		}
+		# 	}
+		# }
+	}
+
+	current_value = {
+		value = var:var_je_grand_tomorrow_generosity_value
+	}
+
+	goal_add_value = {
+		add = 2
+	}
+
+	complete = {
+		# # Temporarily disabled for v0.1
+		# scope:journal_entry = {
+		# 	is_goal_complete = yes
+		# }
+		is_at_war = no
+
+		# Temporarily added for v0.1
+		OR = {
+			has_law = law_type:law_interventionism
+			has_law = law_type:law_laissez_faire
+			has_law = law_type:law_command_economy
+		}
+		any_scope_state = {
+			filter = {
+				is_incorporated = yes
+			}
+			any_scope_building = {
+				OR = {
+					is_industry_building = yes
+					is_heavy_industry_building = yes
+				}
+				occupancy > 0.9
+				level >= 5
+			}
+			percent >= 0.75
+		}
+	}
+
+	on_complete = {
+		effect_je_grand_tomorrow_advance = yes
+		effect_country_reduce_slumber_of_the_giant_effect = yes
+		trigger_event = {
+			id = twilight_grand_tomorrow_events.601
+			popup = yes
+		}
+	}
+
+	invalid = {
+		trigger_je_grand_tomorrow_complete = yes
+	}
+
+	progressbar = yes
+
+	weight = 6000
+
+	inheritable = no
+}
+
+je_grand_tomorrow_generosity_economy = {
+	icon = "gfx/interface/icons/event_icons/twilight_event_generosity.dds"
+
+	on_monthly_pulse = {}
+
+	complete = {
+		OR = {
+			has_law = law_type:law_interventionism
+			has_law = law_type:law_laissez_faire
+			has_law = law_type:law_command_economy
+		}
+	}
+
+	on_complete = {
+		effect_je_grand_tomorrow_generosity_advance = yes
+		trigger_event = {
+			id = twilight_grand_tomorrow_events.611
+			popup = yes
+		}
+	}
+
+	invalid = {
+		trigger_je_grand_tomorrow_complete = yes
+	}
+
+	weight = 1000
+
+	inheritable = no
+
+	should_be_pinned_by_default = yes
+}
+
+je_grand_tomorrow_generosity_industrialization = {
+	icon = "gfx/interface/icons/event_icons/twilight_event_generosity.dds"
+
+	on_monthly_pulse = {}
+
+	complete = {
+		any_scope_state = {
+			filter = {
+				is_incorporated = yes
+			}
+			any_scope_building = {
+				OR = {
+					is_industry_building = yes
+					is_heavy_industry_building = yes
+				}
+				occupancy > 0.9
+				level >= 5
+			}
+			percent >= 0.75
+		}
+	}
+
+	on_complete = {
+		effect_je_grand_tomorrow_generosity_advance = yes
+		trigger_event = {
+			id = twilight_grand_tomorrow_events.621
+			popup = yes
+		}
+	}
+
+	invalid = {
+		trigger_je_grand_tomorrow_complete = yes
+	}
+
+	weight = 1000
+
+	inheritable = no
+
+	should_be_pinned_by_default = yes
+}

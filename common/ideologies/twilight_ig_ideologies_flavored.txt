@@ -1,0 +1,46 @@
+﻿# TODO: Add this to party preferences
+ideology_friendship_moralist = {
+    # icon = "gfx/interface/icons/ideology_icons/moralist.dds"
+
+    lawgroup_church_and_state = {
+        law_state_religion = strongly_approve
+        law_freedom_of_conscience = approve
+        law_total_separation = strongly_disapprove
+    }
+
+    lawgroup_citizenship = {
+        law_ethnostate = disapprove
+        law_national_supremacy = neutral
+        law_racial_segregation = neutral
+        law_cultural_exclusion = approve
+        law_multicultural = strongly_approve
+    }
+
+    lawgroup_health_system = {
+        law_no_health_system = disapprove
+        law_charitable_health_system = approve
+        law_private_health_insurance = neutral
+        law_public_health_insurance = approve
+    }
+
+    lawgroup_education_system = {
+        law_no_schools = disapprove
+        law_religious_schools = strongly_approve
+        law_private_schools = neutral
+        law_public_schools = approve
+    }
+}
+
+ideology_constitutionalism = {
+    # icon = ""
+
+    lawgroup_distribution_of_power = {
+        law_universal_suffrage = strongly_approve
+        law_census_voting = strongly_approve
+        law_wealth_voting = approve
+        law_landed_voting = neutral
+        law_oligarchy = disapprove
+        law_autocracy = disapprove
+        law_anarchy = strongly_disapprove
+    }
+}

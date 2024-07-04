@@ -1,0 +1,189 @@
+﻿game_object_locator={
+	name="angkor_wat_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="argebam_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="big_ben_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="canal_panama_locator"
+	clamp_to_water_level=no
+	render_under_water=yes
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="canal_suez_locator"
+	clamp_to_water_level=no
+	render_under_water=yes
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="chichen_itza_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="easter_island_heads_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="eiffel_tower_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="eye_of_sahara_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="forbidden_city_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="giza_necropolis_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="hagia_sophia_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="khaju_bridge_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="machu_picchu_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="mosque_of_djenne_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="petra_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="saint_basils_cathedral_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="statue_of_liberty_locator"
+	clamp_to_water_level=yes
+	render_under_water=yes
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="taj_mahal_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="vatican_city_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}
+game_object_locator={
+	name="white_house_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+	}
+}

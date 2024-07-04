@@ -1,0 +1,49 @@
+﻿namespace = friendship_event
+
+friendship_event.1 = {
+	type = country_event
+	placement = ROOT
+	title = friendship_event.1.t
+	desc = friendship_event.1.d
+	flavor = friendship_event.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_gold_prospectors.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/rich_and_poor"
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	trigger = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_pop = {
+				OR = {
+					culture_accepted = no
+					religion_accepted = yes
+				}
+				wealth > 20
+			}
+		}
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = friendship_event.1.a
+
+		ig:ig_devout = {
+			# interest_group_approval_add
+			add_modifier = {
+				name = friendship_blossoming
+				months = normal_modifier_time
+			}
+		}
+	}
+}

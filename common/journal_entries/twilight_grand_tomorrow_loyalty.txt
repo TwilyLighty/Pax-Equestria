@@ -1,0 +1,194 @@
+﻿# **Loyalty: Defending our Friends**
+# Military
+
+# TODO: Remove the v0.1 code
+je_grand_tomorrow_loyalty = {
+	icon = "gfx/interface/icons/event_icons/twilight_event_loyalty.dds"
+
+	immediate = {
+		set_variable = {
+			name = var_je_grand_tomorrow_loyalty_value
+			value = 0
+		}
+	}
+
+	on_monthly_pulse = {
+		# # Temporarily disabled for v0.1
+		# effect = {
+		# 	random_list = {
+		# 		11 = {}
+		# 		1 = {
+		# 			random_list = {
+		# 				# je_grand_tomorrow_loyalty_modernization
+		# 				1 = {
+		# 					trigger_event = {
+		# 						id = twilight_grand_tomorrow_events.510
+		# 						popup = yes
+		# 					}
+		# 				}
+		# 				# je_grand_tomorrow_loyalty_recruitment
+		# 				1 = {
+		# 					trigger_event = {
+		# 						id = twilight_grand_tomorrow_events.520
+		# 						popup = yes
+		# 					}
+		# 				}
+		# 			}
+		# 		}
+		# 	}
+		# }
+	}
+
+	current_value = {
+		value = var:var_je_grand_tomorrow_loyalty_value
+	}
+
+	goal_add_value = {
+		add = 2
+	}
+
+	complete = {
+		# # Temporarily disabled for v0.1
+		# scope:journal_entry = {
+		# 	is_goal_complete = yes
+		# }
+		is_at_war = no
+
+		# Temporarily added for v0.1
+		has_technology_researched = napoleonic_warfare
+		any_scope_building = {
+			filter = {
+				is_building_type = building_barracks
+			}
+			NOR = {
+				has_active_production_method = pm_irregular_infantry
+				has_active_production_method = pm_no_artillery
+			}
+			percent >= 0.8
+		}
+		army_size >= 100
+		OR = {
+			has_law = law_type:law_professional_army
+			has_law = law_type:law_national_militia
+			has_law = law_type:law_mass_conscription
+		}
+	}
+
+	on_complete = {
+		effect_je_grand_tomorrow_advance = yes
+		effect_country_reduce_slumber_of_the_giant_effect = yes
+		trigger_event = {
+			id = twilight_grand_tomorrow_events.501
+			popup = yes
+		}
+	}
+
+	invalid = {
+		trigger_je_grand_tomorrow_complete = yes
+	}
+
+	progressbar = yes
+
+	weight = 5000
+
+	inheritable = no
+}
+
+je_grand_tomorrow_loyalty_modernization = {
+	icon = "gfx/interface/icons/event_icons/twilight_event_loyalty.dds"
+
+	on_monthly_pulse = {}
+
+	complete = {
+		army_size >= 10
+		has_technology_researched = napoleonic_warfare
+		any_scope_building = {
+			filter = {
+				is_building_type = building_barracks
+			}
+			NOR = {
+				has_active_production_method = pm_irregular_infantry
+				has_active_production_method = pm_no_artillery
+			}
+			percent >= 0.8
+		}
+	}
+
+	on_complete = {
+		effect_je_grand_tomorrow_loyalty_advance = yes
+		trigger_event = {
+			id = twilight_grand_tomorrow_events.511
+			popup = yes
+		}
+	}
+
+	invalid = {
+		trigger_je_grand_tomorrow_complete = yes
+	}
+
+	weight = 1000
+
+	inheritable = no
+
+	should_be_pinned_by_default = yes
+}
+
+je_grand_tomorrow_loyalty_recruitment = {
+	icon = "gfx/interface/icons/event_icons/twilight_event_loyalty.dds"
+
+	immediate = {
+		scope:journal_entry = {
+			set_variable = {
+				name = armed_forces_name
+				value = 0
+			}
+		}
+	}
+
+	on_monthly_pulse = {
+		random_events = {
+			1 = twilight_grand_tomorrow_events.522
+		}
+	}
+
+	complete = {
+		army_size >= 100
+		OR = {
+			has_law = law_type:law_professional_army
+			has_law = law_type:law_national_militia
+			has_law = law_type:law_mass_conscription
+		}
+	}
+
+	on_complete = {
+		effect_je_grand_tomorrow_loyalty_advance = yes
+		ig:ig_armed_forces = {
+			switch = {
+				trigger = scope:journal_entry.var:armed_forces_name
+				0 = {
+					set_interest_group_name = ig_armed_forces
+				}
+				1 = {
+					set_interest_group_name = ig_defense_forces
+				}
+				fallback = {
+					set_interest_group_name = ig_armed_forces
+				}
+			}
+		}
+		trigger_event = {
+			id = twilight_grand_tomorrow_events.521
+			popup = yes
+		}
+	}
+
+	invalid = {
+		trigger_je_grand_tomorrow_complete = yes
+	}
+
+	weight = 1000
+
+	inheritable = no
+
+	should_be_pinned_by_default = yes
+}

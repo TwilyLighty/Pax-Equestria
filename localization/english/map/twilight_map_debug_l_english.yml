@@ -1,0 +1,9 @@
+﻿l_english:
+ STATE_DEBUG_STATE:0 "(Debug State)"
+ STATE_EMPTY_LAND:0 "Empty Land $STATE_DEBUG_STATE$"
+ STATE_ENDLESS_OCEAN_LEFT:0 "West Endless Ocean $STATE_DEBUG_STATE$"
+ STATE_ENDLESS_OCEAN_RIGHT:0 "East Endless Ocean $STATE_DEBUG_STATE$"
+ region_debug_region:0 "(Debug Region)"
+
+ region_endless_ocean_left: ""
+ region_endless_ocean_right: ""

@@ -1,0 +1,7 @@
+﻿concept_cultural_heritage_trait = {}
+
+concept_cultural_family_trait = {}
+
+concept_cultural_homeland_trait = {}
+
+concept_religious_heritage_trait = {}

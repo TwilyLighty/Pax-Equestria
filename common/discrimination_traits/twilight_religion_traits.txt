@@ -1,0 +1,9 @@
+﻿# Might be used to disallow certain laws
+philosophical = {}
+
+# Like `legend`, but these religions are 'incompatible' with each other instead
+# since this is not a heritage trait
+cult = {}
+
+# For the moment, pops should NEVER believe in a religion with this trait
+forgotten = {}
