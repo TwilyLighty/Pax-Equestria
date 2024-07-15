@@ -11,41 +11,23 @@ Make sure to edit the following files also:
 -->
 
 - Version: [0.2.0-alpha.1](CHANGELOG.md)
-- Workshop Page: [https://steamcommunity.com/sharedfiles/filedetails/?id=2879839359](https://steamcommunity.com/sharedfiles/filedetails/?id=2879839359)
-- Discord Server: [https://discord.gg/YxNak4Kpee](https://discord.gg/YxNak4Kpee)
+- Workshop Page: Pending
+- Discord Server: [https://discord.gg/dH4u8583kP](https://discord.gg/dH4u8583kP)
 
 ## Development Team
 
 - Head Developer
-  - [Haneul](https://github.com/HaneulCheong)
+  - [TwilyLighty(Starbro)](https://github.com/TwilyLighty)
 - Scripters
-  - [AJOSmilodon](https://github.com/AJOKitty)
-  - [Littleiceage](https://github.com/Littleiceage)
-  - [Kilgorio](https://github.com/Kilgorio)
-  - [Zh3sh1re](https://github.com/zh3sh1re)
+  - []()
 - Writers
-  - [LilPenpusher](https://github.com/LilPenpusher)
-  - [Sol](https://github.com/soilingnine09)
+  - [HeliusNine](https://github.com/HeliusNine)
 - Artists
-  - [starlight](https://github.com/MysticRat2002)
-- Technical Support
-  - [Prestige](https://github.com/Prestigexronize)
+  - []()
+- Mappers
+  - [ALpha-Arts](https://github.com/ALpha-Arts)
 
 ## Contribute
 
-- Read the [Wiki](https://github.com/HaneulCheong/project-twilight/wiki) first!
 - Always attribute someone else's work in [CREDITS.md](CREDITS.md)
 
-## Build
-
-We will one day implement an automated delivery system,
-but as of now, here is a--rather stupid indeed--instructions to manually created a build ready to be released.
-
-- Delete the following directories and files:
-  - Git
-    - `.git`
-    - `.github/`
-    - `.gitattributes`
-    - `.gitignore`
-  - Misc.
-    - `.editorconfig`
