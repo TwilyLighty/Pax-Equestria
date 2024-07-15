@@ -21,7 +21,7 @@ Make sure to edit the following files also:
 - Scripters
   - [HeliusNine](https://github.com/HeliusNine)
 - Writers
-  - 
+  - []()
 - Artists
   - []()
 - Mappers
