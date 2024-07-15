@@ -19,9 +19,9 @@ Make sure to edit the following files also:
 - Head Developer
   - [TwilyLighty(Starbro)](https://github.com/TwilyLighty)
 - Scripters
-  - []()
-- Writers
   - [HeliusNine](https://github.com/HeliusNine)
+- Writers
+  - 
 - Artists
   - []()
 - Mappers
