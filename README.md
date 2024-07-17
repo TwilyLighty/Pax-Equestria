@@ -26,6 +26,8 @@ Make sure to edit the following files also:
   - []()
 - Mappers
   - [ALpha-Arts](https://github.com/ALpha-Arts)
+  - [StardustGlowing](https://github.com/StardustGlowing)
+  - [Jerkycat](https://github.com/Jerkycat)
 
 ## Contribute
 
