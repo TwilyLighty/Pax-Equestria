@@ -1,0 +1,52 @@
+﻿STATE_SAN_SALVADOR = {
+	id = 1482
+	provinces = { }
+}
+STATE_GUATEMALA = {
+	id = 1483
+	provinces = { }
+}
+STATE_HONDURAS = {
+	id = 1484
+	provinces = { }
+}
+STATE_NICARAGUA = {
+	id = 1485
+	provinces = { }
+}
+STATE_COSTA_RICA = {
+	id = 1486
+	provinces = { }
+}
+STATE_PANAMA = {
+	id = 1487
+	provinces = { }
+}
+STATE_HAITI = {
+	id = 1488
+	provinces = { }
+}
+STATE_SANTO_DOMINGO = {
+	id = 1489
+	provinces = { }
+}
+STATE_PUERTO_RICO = {
+	id = 1490
+	provinces = { }
+}
+STATE_BAHAMAS = {
+	id = 1491
+	provinces = { }
+}
+STATE_WEST_INDIES = {
+	id = 1492
+	provinces = { }
+}
+STATE_JAMAICA = {
+	id = 1493
+	provinces = { }
+}
+STATE_CUBA = {
+	id = 1494
+	provinces = { }
+}

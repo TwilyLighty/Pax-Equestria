@@ -1,0 +1,300 @@
+﻿STATE_SVEALAND = {
+	id = 1155
+	provinces = { }
+}
+STATE_GOTALAND = {
+	id = 1156
+	provinces = { }
+}
+STATE_SCANIA = {
+	id = 1157
+	provinces = { }
+}
+STATE_NORRLAND = {
+	id = 1158
+	provinces = { }
+}
+STATE_GOTLAND = {
+	id = 1159
+	provinces = { }
+}
+STATE_JUTLAND = {
+	id = 1160
+	provinces = { }
+}
+STATE_ZEALAND = {
+	id = 1161
+	provinces = { }
+}
+STATE_WESTERN_NORWAY = {
+	id = 1162
+	provinces = { }
+}
+STATE_NORTHERN_NORWAY = {
+	id = 1163
+	provinces = { }
+}
+STATE_EASTERN_NORWAY = {
+	id = 1164
+	provinces = { }
+}
+STATE_ICELAND = {
+	id = 1165
+	provinces = { }
+}
+STATE_GREENLAND = {
+	id = 1166
+	provinces = { }
+}
+STATE_HOME_COUNTIES = {
+	id = 1167
+	provinces = { }
+}
+STATE_LANCASHIRE = {
+	id = 1168
+	provinces = { }
+}
+STATE_WALES = {
+	id = 1169
+	provinces = { }
+}
+STATE_YORKSHIRE = {
+	id = 1170
+	provinces = { }
+}
+STATE_HIGHLANDS = {
+	id = 1171
+	provinces = { }
+}
+STATE_MIDLANDS = {
+	id = 1172
+	provinces = { }
+}
+STATE_EAST_ANGLIA = {
+	id = 1173
+	provinces = { }
+}
+STATE_WEST_COUNTRY = {
+	id = 1174
+	provinces = { }
+}
+STATE_LOWLANDS = {
+	id = 1175
+	provinces = { }
+}
+STATE_ULSTER = {
+	id = 1176
+	provinces = { }
+}
+STATE_MUNSTER = {
+	id = 1177
+	provinces = { }
+}
+STATE_LEINSTER = {
+	id = 1178
+	provinces = { }
+}
+STATE_CONNAUGHT = {
+	id = 1179
+	provinces = { }
+}
+STATE_ILE_DE_FRANCE = {
+	id = 1180
+	provinces = { }
+}
+STATE_PROVENCE = {
+	id = 1181
+	provinces = { }
+}
+STATE_NORMANDY = {
+	id = 1182
+	provinces = { }
+}
+STATE_LANGUEDOC = {
+	id = 1183
+	provinces = { }
+}
+STATE_RHONE = {
+	id = 1184
+	provinces = { }
+}
+STATE_FRENCH_LOW_COUNTRIES = {
+	id = 1185
+	provinces = { }
+}
+STATE_PICARDY = {
+	id = 1186
+	provinces = { }
+}
+STATE_ALSACE_LORRAINE = {
+	id = 1187
+	provinces = { }
+}
+STATE_POITOU = {
+	id = 1188
+	provinces = { }
+}
+STATE_GUYENNE = {
+	id = 1189
+	provinces = { }
+}
+STATE_AUVERGNE_LIMOUSIN = {
+	id = 1190
+	provinces = { }
+}
+STATE_BRITTANY = {
+	id = 1191
+	provinces = { }
+}
+STATE_BURGUNDY = {
+	id = 1192
+	provinces = { }
+}
+STATE_CHAMPAGNE = {
+	id = 1193
+	provinces = { }
+}
+STATE_FRANCHE_COMTE = {
+	id = 1194
+	provinces = { }
+}
+STATE_LORRAINE = {
+	id = 1195
+	provinces = { }
+}
+STATE_AQUITAINE = {
+	id = 1196
+	provinces = { }
+}
+STATE_ORLEANS = {
+	id = 1197
+	provinces = { }
+}
+STATE_HOLLAND = {
+	id = 1198
+	provinces = { }
+}
+STATE_FRIESLAND = {
+	id = 1199
+	provinces = { }
+}
+STATE_GELRE = {
+	id = 1200
+	provinces = { }
+}
+STATE_WALLONIA = {
+	id = 1201
+	provinces = { }
+}
+STATE_FLANDERS = {
+	id = 1202
+	provinces = { }
+}
+STATE_AUSTRIA = {
+	id = 1203
+	provinces = { }
+}
+STATE_BOHEMIA = {
+	id = 1204
+	provinces = { }
+}
+STATE_MORAVIA = {
+	id = 1205
+	provinces = { }
+}
+STATE_STYRIA = {
+	id = 1206
+	provinces = { }
+}
+STATE_TYROL = {
+	id = 1207
+	provinces = { }
+}
+STATE_SOUTH_TYROL = {
+	id = 1208
+	provinces = { }
+}
+STATE_POMERANIA = {
+	id = 1209
+	provinces = { }
+}
+STATE_ELBE = {
+	id = 1210
+	provinces = { }
+}
+STATE_EAST_SWITZERLAND = {
+	id = 1211
+	provinces = { }
+}
+STATE_WEST_SWITZERLAND = {
+	id = 1212
+	provinces = { }
+}
+STATE_WESTPHALIA = {
+	id = 1213
+	provinces = { }
+}
+STATE_ANHALT = {
+	id = 1214
+	provinces = { }
+}
+STATE_RHINELAND = {
+	id = 1215
+	provinces = { }
+}
+STATE_NORTH_RHINE = {
+	id = 1216
+	provinces = { }
+}
+STATE_BRANDENBURG = {
+	id = 1217
+	provinces = { }
+}
+STATE_SCHLESWIG_HOLSTEIN = {
+	id = 1218
+	provinces = { }
+}
+STATE_WURTTEMBERG = {
+	id = 1219
+	provinces = { }
+}
+STATE_BADEN = {
+	id = 1220
+	provinces = { }
+}
+STATE_HANNOVER = {
+	id = 1221
+	provinces = { }
+}
+STATE_BRUNSWICK = {
+	id = 1222
+	provinces = { }
+}
+STATE_BAVARIA = {
+	id = 1223
+	provinces = { }
+}
+STATE_FRANCONIA = {
+	id = 1224
+	provinces = { }
+}
+STATE_SAXONY = {
+	id = 1225
+	provinces = { }
+}
+STATE_HESSE = {
+	id = 1226
+	provinces = { }
+}
+STATE_MECKLENBURG = {
+	id = 1227
+	provinces = { }
+}
+STATE_RUHR = {
+	id = 1228
+	provinces = { }
+}
+STATE_MAINE_ANJOU = {
+	id = 1229
+	provinces = { }
+}

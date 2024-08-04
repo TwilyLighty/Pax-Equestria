@@ -1,0 +1,212 @@
+﻿STATE_ECUADOR = {
+	id = 1495
+	provinces = { }
+}
+STATE_GUAYANA = {
+	id = 1496
+	provinces = { }
+}
+STATE_ZULIA = {
+	id = 1497
+	provinces = { }
+}
+STATE_MIRANDA = {
+	id = 1498
+	provinces = { }
+}
+STATE_BOLIVAR = {
+	id = 1499
+	provinces = { }
+}
+STATE_ANTIOQUIA = {
+	id = 1500
+	provinces = { }
+}
+STATE_GUAVIARE = {
+	id = 1501
+	provinces = { }
+}
+STATE_CUNDINAMARCA = {
+	id = 1502
+	provinces = { }
+}
+STATE_CAUCA = {
+	id = 1503
+	provinces = { }
+}
+STATE_PASTAZA = {
+	id = 1504
+	provinces = { }
+}
+STATE_TARAPACA = {
+	id = 1505
+	provinces = { }
+}
+STATE_ANTOFAGASTA = {
+	id = 1506
+	provinces = { }
+}
+STATE_SANTA_CRUZ = {
+	id = 1507
+	provinces = { }
+}
+STATE_LA_PAZ = {
+	id = 1508
+	provinces = { }
+}
+STATE_POTOSI = {
+	id = 1509
+	provinces = { }
+}
+STATE_CAJAMARCA = {
+	id = 1510
+	provinces = { }
+}
+STATE_LIMA = {
+	id = 1511
+	provinces = { }
+}
+STATE_ICA = {
+	id = 1512
+	provinces = { }
+}
+STATE_AREQUIPA = {
+	id = 1513
+	provinces = { }
+}
+STATE_URUGUAY = {
+	id = 1514
+	provinces = { }
+}
+STATE_JUJUY = {
+	id = 1515
+	provinces = { }
+}
+STATE_ALTO_PARAGUAY = {
+	id = 1516
+	provinces = { }
+}
+STATE_BAJO_PARAGUAY = {
+	id = 1517
+	provinces = { }
+}
+STATE_BUENOS_AIRES = {
+	id = 1518
+	provinces = { }
+}
+STATE_PATAGONIA = {
+	id = 1519
+	provinces = { }
+}
+STATE_RIO_NEGRO = {
+	id = 1520
+	provinces = { }
+}
+STATE_LA_PAMPA = {
+	id = 1521
+	provinces = { }
+}
+STATE_SANTA_FE = {
+	id = 1522
+	provinces = { }
+}
+STATE_CORRIENTES = {
+	id = 1523
+	provinces = { }
+}
+STATE_TUCUMAN = {
+	id = 1524
+	provinces = { }
+}
+STATE_CHACO = {
+	id = 1525
+	provinces = { }
+}
+STATE_SANTIAGO = {
+	id = 1526
+	provinces = { }
+}
+STATE_LOS_RIOS = {
+	id = 1527
+	provinces = { }
+}
+STATE_ARAUCANIA = {
+	id = 1528
+	provinces = { }
+}
+STATE_SOUTH_ATLANTIC_ISLANDS = {
+	id = 1529
+	provinces = { }
+}
+STATE_PARA = {
+	id = 1530
+	provinces = { }
+}
+STATE_MARANHAO = {
+	id = 1531
+	provinces = { }
+}
+STATE_AMAZONAS = {
+	id = 1532
+	provinces = { }
+}
+STATE_ACRE = {
+	id = 1533
+	provinces = { }
+}
+STATE_GOIAS = {
+	id = 1534
+	provinces = { }
+}
+STATE_MATO_GROSSO = {
+	id = 1535
+	provinces = { }
+}
+STATE_RIO_GRANDE_DO_SUL = {
+	id = 1536
+	provinces = { }
+}
+STATE_PARANA = {
+	id = 1537
+	provinces = { }
+}
+STATE_SANTA_CATARINA = {
+	id = 1538
+	provinces = { }
+}
+STATE_SAO_PAULO = {
+	id = 1539
+	provinces = { }
+}
+STATE_MINAS_GERAIS = {
+	id = 1540
+	provinces = { }
+}
+STATE_RIO_DE_JANEIRO = {
+	id = 1541
+	provinces = { }
+}
+STATE_BAHIA = {
+	id = 1542
+	provinces = { }
+}
+STATE_RIO_GRANDE_DO_NORTE = {
+	id = 1543
+	provinces = { }
+}
+STATE_CEARA = {
+	id = 1544
+	provinces = { }
+}
+STATE_PIAUI = {
+	id = 1545
+	provinces = { }
+}
+STATE_PARAIBA = {
+	id = 1546
+	provinces = { }
+}
+STATE_PERNAMBUCO = {
+	id = 1547
+	provinces = { }
+}

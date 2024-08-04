@@ -1,0 +1,240 @@
+﻿STATE_LOMBARDY = {
+	id = 1230
+	provinces = { }
+}
+STATE_PIEDMONT = {
+	id = 1231
+	provinces = { }
+}
+STATE_SARDINIA = {
+	id = 1232
+	provinces = { }
+}
+STATE_MALTA = {
+	id = 1233
+	provinces = { }
+}
+STATE_UMBRIA = {
+	id = 1234
+	provinces = { }
+}
+STATE_CORSICA = {
+	id = 1235
+	provinces = { }
+}
+STATE_CAMPANIA = {
+	id = 1236
+	provinces = { }
+}
+STATE_CALABRIA = {
+	id = 1237
+	provinces = { }
+}
+STATE_APULIA = {
+	id = 1238
+	provinces = { }
+}
+STATE_ABRUZZO = {
+	id = 1239
+	provinces = { }
+}
+STATE_SAVOY = {
+	id = 1240
+	provinces = { }
+}
+STATE_EMILIA = {
+	id = 1241
+	provinces = { }
+}
+STATE_TUSCANY = {
+	id = 1242
+	provinces = { }
+}
+STATE_ROMAGNA = {
+	id = 1243
+	provinces = { }
+}
+STATE_LAZIO = {
+	id = 1244
+	provinces = { }
+}
+STATE_VENETIA = {
+	id = 1245
+	provinces = { }
+}
+STATE_SICILY = {
+	id = 1246
+	provinces = { }
+}
+STATE_TOLEDO = {
+	id = 1247
+	provinces = { }
+}
+STATE_GALICIA = {
+	id = 1248
+	provinces = { }
+}
+STATE_ASTURIAS = {
+	id = 1249
+	provinces = { }
+}
+STATE_CASTILE = {
+	id = 1250
+	provinces = { }
+}
+STATE_NAVARRA = {
+	id = 1251
+	provinces = { }
+}
+STATE_ARAGON = {
+	id = 1252
+	provinces = { }
+}
+STATE_CATALONIA = {
+	id = 1253
+	provinces = { }
+}
+STATE_BALEARES = {
+	id = 1254
+	provinces = { }
+}
+STATE_ANDALUSIA = {
+	id = 1255
+	provinces = { }
+}
+STATE_GRANADA = {
+	id = 1256
+	provinces = { }
+}
+STATE_BADAJOZ = {
+	id = 1257
+	provinces = { }
+}
+STATE_VALENCIA = {
+	id = 1258
+	provinces = { }
+}
+STATE_BEIRA = {
+	id = 1259
+	provinces = { }
+}
+STATE_ESTREMADURA = {
+	id = 1260
+	provinces = { }
+}
+STATE_ALENTEJO = {
+	id = 1261
+	provinces = { }
+}
+STATE_CAPE_VERDE = {
+	id = 1262
+	provinces = { }
+}
+STATE_CANARY_ISLANDS = {
+	id = 1263
+	provinces = { }
+}
+STATE_AZORES = {
+	id = 1264
+	provinces = { }
+}
+STATE_MADEIRA = {
+	id = 1265
+	provinces = { }
+}
+STATE_EASTERN_THRACE = {
+	id = 1266
+	provinces = { }
+}
+STATE_DOBRUDJA = {
+	id = 1267
+	provinces = { }
+}
+STATE_ALBANIA = {
+	id = 1268
+	provinces = { }
+}
+STATE_BOSNIA = {
+	id = 1269
+	provinces = { }
+}
+STATE_NORTHERN_THRACE = {
+	id = 1270
+	provinces = { }
+}
+STATE_BULGARIA = {
+	id = 1271
+	provinces = { }
+}
+STATE_SLOVENIA = {
+	id = 1272
+	provinces = { }
+}
+STATE_DALMATIA = {
+	id = 1273
+	provinces = { }
+}
+STATE_CROATIA = {
+	id = 1274
+	provinces = { }
+}
+STATE_SLAVONIA = {
+	id = 1275
+	provinces = { }
+}
+STATE_ISTRIA = {
+	id = 1276
+	provinces = { }
+}
+STATE_MONTENEGRO = {
+	id = 1277
+	provinces = { }
+}
+STATE_NORTHERN_SERBIA = {
+	id = 1278
+	provinces = { }
+}
+STATE_SOUTHERN_SERBIA = {
+	id = 1279
+	provinces = { }
+}
+STATE_CRETE = {
+	id = 1280
+	provinces = { }
+}
+STATE_WEST_AEGEAN_ISLANDS = {
+	id = 1281
+	provinces = { }
+}
+STATE_EAST_AEGEAN_ISLANDS = {
+	id = 1282
+	provinces = { }
+}
+STATE_ATTICA = {
+	id = 1283
+	provinces = { }
+}
+STATE_THESSALIA = {
+	id = 1284
+	provinces = { }
+}
+STATE_SKOPIA = {
+	id = 1285
+	provinces = { }
+}
+STATE_MACEDONIA = {
+	id = 1286
+	provinces = { }
+}
+STATE_WESTERN_THRACE = {
+	id = 1287
+	provinces = { }
+}
+STATE_IONIAN_ISLANDS = {
+	id = 1288
+	provinces = { }
+}
+STATE_PELOPONNESE = {
+	id = 1289
+	provinces = { }
+}

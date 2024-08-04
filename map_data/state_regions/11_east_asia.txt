@@ -1,0 +1,264 @@
+﻿STATE_DZUNGARIA = {
+	id = 1634
+	provinces = { }
+}
+STATE_TIANSHAN = {
+	id = 1635
+	provinces = { }
+}
+STATE_SICHUAN = {
+	id = 1636
+	provinces = { }
+}
+STATE_YUNNAN = {
+	id = 1637
+	provinces = { }
+}
+STATE_GUIZHOU = {
+	id = 1638
+	provinces = { }
+}
+STATE_SHAOZHOU = {
+	id = 1639
+	provinces = { }
+}
+STATE_ALXA = {
+	id = 1640
+	provinces = { }
+}
+STATE_HINGGAN = {
+	id = 1641
+	provinces = { }
+}
+STATE_GUANGXI = {
+	id = 1642
+	provinces = { }
+}
+STATE_BEIJING = {
+	id = 1643
+	provinces = { }
+}
+STATE_SHENGJING = {
+	id = 1644
+	provinces = { }
+}
+STATE_OUTER_MANCHURIA = {
+	id = 1645
+	provinces = { }
+}
+STATE_SOUTHERN_MANCHURIA = {
+	id = 1646
+	provinces = { }
+}
+STATE_NORTHERN_MANCHURIA = {
+	id = 1647
+	provinces = { }
+}
+STATE_SHANXI = {
+	id = 1648
+	provinces = { }
+}
+STATE_NINGXIA = {
+	id = 1649
+	provinces = { }
+}
+STATE_GANSU = {
+	id = 1650
+	provinces = { }
+}
+STATE_XIAN = {
+	id = 1651
+	provinces = { }
+}
+STATE_QINGHAI = {
+	id = 1652
+	provinces = { }
+}
+STATE_CHONGQING = {
+	id = 1653
+	provinces = { }
+}
+STATE_GUANGDONG = {
+	id = 1654
+	provinces = { }
+}
+STATE_FUJIAN = {
+	id = 1655
+	provinces = { }
+}
+STATE_ZHEJIANG = {
+	id = 1656
+	provinces = { }
+}
+STATE_JIANGSU = {
+	id = 1657
+	provinces = { }
+}
+STATE_NANJING = {
+	id = 1658
+	provinces = { }
+}
+STATE_HENAN = {
+	id = 1659
+	provinces = { }
+}
+STATE_ZHILI = {
+	id = 1660
+	provinces = { }
+}
+STATE_JIANGXI = {
+	id = 1661
+	provinces = { }
+}
+STATE_SOUTHERN_ANHUI = {
+	id = 1662
+	provinces = { }
+}
+STATE_NORTHERN_ANHUI = {
+	id = 1663
+	provinces = { }
+}
+STATE_WESTERN_HUBEI = {
+	id = 1664
+	provinces = { }
+}
+STATE_EASTERN_HUBEI = {
+	id = 1665
+	provinces = { }
+}
+STATE_HUNAN = {
+	id = 1666
+	provinces = { }
+}
+STATE_FORMOSA = {
+	id = 1667
+	provinces = { }
+}
+STATE_SHANDONG = {
+	id = 1668
+	provinces = { }
+}
+STATE_SUZHOU = {
+	id = 1669
+	provinces = { }
+}
+STATE_ULIASTAI = {
+	id = 1670
+	provinces = { }
+}
+STATE_URGA = {
+	id = 1671
+	provinces = { }
+}
+STATE_CAMBODIA = {
+	id = 1672
+	provinces = { }
+}
+STATE_BANGKOK = {
+	id = 1673
+	provinces = { }
+}
+STATE_TONKIN = {
+	id = 1674
+	provinces = { }
+}
+STATE_ANNAM = {
+	id = 1675
+	provinces = { }
+}
+STATE_MEKONG = {
+	id = 1676
+	provinces = { }
+}
+STATE_LAOS = {
+	id = 1677
+	provinces = { }
+}
+STATE_CHIANG_MAI = {
+	id = 1678
+	provinces = { }
+}
+STATE_NAKHON_RATCHASIMA = {
+	id = 1679
+	provinces = { }
+}
+STATE_TENASSERIM = {
+	id = 1680
+	provinces = { }
+}
+STATE_KACHIN = {
+	id = 1681
+	provinces = { }
+}
+STATE_SHAN_STATES = {
+	id = 1682
+	provinces = { }
+}
+STATE_BURMA = {
+	id = 1683
+	provinces = { }
+}
+STATE_PEGU = {
+	id = 1684
+	provinces = { }
+}
+STATE_SAKHALIN = {
+	id = 1685
+	provinces = { }
+}
+STATE_HOKKAIDO = {
+	id = 1686
+	provinces = { }
+}
+STATE_TOHOKU = {
+	id = 1687
+	provinces = { }
+}
+STATE_KANTO = {
+	id = 1688
+	provinces = { }
+}
+STATE_CHUBU = {
+	id = 1689
+	provinces = { }
+}
+STATE_KANSAI = {
+	id = 1690
+	provinces = { }
+}
+STATE_KYUSHU = {
+	id = 1691
+	provinces = { }
+}
+STATE_RYUKYU_ISLANDS = {
+	id = 1692
+	provinces = { }
+}
+STATE_CHUGOKU = {
+	id = 1693
+	provinces = { }
+}
+STATE_SHIKOKU = {
+	id = 1694
+	provinces = { }
+}
+STATE_SEOUL = {
+	id = 1695
+	provinces = { }
+}
+STATE_BUSAN = {
+	id = 1696
+	provinces = { }
+}
+STATE_YANGHO = {
+	id = 1697
+	provinces = { }
+}
+STATE_SARIWON = {
+	id = 1698
+	provinces = { }
+}
+STATE_PYONGYANG = {
+	id = 1699
+	provinces = { }
+}

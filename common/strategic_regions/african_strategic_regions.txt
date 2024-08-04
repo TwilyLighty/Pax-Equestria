@@ -1,0 +1,40 @@
+﻿region_nile_basin = {
+	capital_province = x010201
+	graphical_culture = "arabic"
+
+}
+region_ethiopia = {
+	capital_province = x010201
+	graphical_culture = "arabic"
+
+}
+region_north_africa = {
+	capital_province = x010201
+	graphical_culture = "arabic"
+
+}
+region_senegal = {
+	capital_province = x010201
+	graphical_culture = "african"
+
+}
+region_niger = {
+	capital_province = x010201
+	graphical_culture = "african"
+
+}
+region_congo = {
+	capital_province = x010201
+	graphical_culture = "african"
+
+}
+region_southern_africa = {
+	capital_province = x010201
+	graphical_culture = "african"
+
+}
+region_zanj = {
+	capital_province = x010201
+	graphical_culture = "african"
+
+}

@@ -2,3 +2,10 @@
 *.txt text eol=lf
 *.json text eol=lf
 *.psd filter=lfs diff=lfs merge=lfs -text
+gfx/map/terrain/detail_index.tga filter=lfs diff=lfs merge=lfs -text
+gfx/map/terrain/detail_intensity.tga filter=lfs diff=lfs merge=lfs -text
+gfx/map/textures/flatmap.dds filter=lfs diff=lfs merge=lfs -text
+gfx/map/textures/flatmap_overlay.dds filter=lfs diff=lfs merge=lfs -text
+gfx/map/textures/land_mask.dds filter=lfs diff=lfs merge=lfs -text
+gfx/map/textures filter=lfs diff=lfs merge=lfs -text
+gfx/map/terrain filter=lfs diff=lfs merge=lfs -text

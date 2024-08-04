@@ -1,0 +1,36 @@
+﻿STATE_NEW_SOUTH_WALES = {
+	id = 1728
+	provinces = { }
+}
+STATE_VICTORIA = {
+	id = 1729
+	provinces = { }
+}
+STATE_TASMANIA = {
+	id = 1730
+	provinces = { }
+}
+STATE_QUEENSLAND = {
+	id = 1731
+	provinces = { }
+}
+STATE_SOUTH_AUSTRALIA = {
+	id = 1732
+	provinces = { }
+}
+STATE_WESTERN_AUSTRALIA = {
+	id = 1733
+	provinces = { }
+}
+STATE_NORTHERN_TERRITORY = {
+	id = 1734
+	provinces = { }
+}
+STATE_NORTH_ISLAND = {
+	id = 1735
+	provinces = { }
+}
+STATE_SOUTH_ISLAND = {
+	id = 1736
+	provinces = { }
+}

@@ -1,0 +1,160 @@
+﻿STATE_NEJD = {
+	id = 1548
+	provinces = { }
+}
+STATE_OMAN = {
+	id = 1549
+	provinces = { }
+}
+STATE_ABU_DHABI = {
+	id = 1550
+	provinces = { }
+}
+STATE_YEMEN = {
+	id = 1551
+	provinces = { }
+}
+STATE_HEDJAZ = {
+	id = 1552
+	provinces = { }
+}
+STATE_HAIL = {
+	id = 1553
+	provinces = { }
+}
+STATE_CYPRUS = {
+	id = 1554
+	provinces = { }
+}
+STATE_TRANSJORDAN = {
+	id = 1555
+	provinces = { }
+}
+STATE_PALESTINE = {
+	id = 1556
+	provinces = { }
+}
+STATE_LEBANON = {
+	id = 1557
+	provinces = { }
+}
+STATE_SYRIA = {
+	id = 1558
+	provinces = { }
+}
+STATE_ALEPPO = {
+	id = 1559
+	provinces = { }
+}
+STATE_BAGHDAD = {
+	id = 1560
+	provinces = { }
+}
+STATE_MOSUL = {
+	id = 1561
+	provinces = { }
+}
+STATE_DEIR_EZ_ZOR = {
+	id = 1562
+	provinces = { }
+}
+STATE_BASRA = {
+	id = 1563
+	provinces = { }
+}
+STATE_FARS = {
+	id = 1564
+	provinces = { }
+}
+STATE_LARISTAN = {
+	id = 1565
+	provinces = { }
+}
+STATE_KERMAN = {
+	id = 1566
+	provinces = { }
+}
+STATE_SISTAN = {
+	id = 1567
+	provinces = { }
+}
+STATE_KHORASAN = {
+	id = 1568
+	provinces = { }
+}
+STATE_KHUZESTAN = {
+	id = 1569
+	provinces = { }
+}
+STATE_ISFAHAN = {
+	id = 1570
+	provinces = { }
+}
+STATE_MAZANDARAN = {
+	id = 1571
+	provinces = { }
+}
+STATE_IRAKAJEMI = {
+	id = 1572
+	provinces = { }
+}
+STATE_SEMNAN = {
+	id = 1573
+	provinces = { }
+}
+STATE_TABRIZ = {
+	id = 1574
+	provinces = { }
+}
+STATE_URMIA = {
+	id = 1575
+	provinces = { }
+}
+STATE_LURISTAN = {
+	id = 1576
+	provinces = { }
+}
+STATE_PERSIAN_KURDISTAN = {
+	id = 1577
+	provinces = { }
+}
+STATE_HUDAVENDIGAR = {
+	id = 1578
+	provinces = { }
+}
+STATE_AYDIN = {
+	id = 1579
+	provinces = { }
+}
+STATE_KONYA = {
+	id = 1580
+	provinces = { }
+}
+STATE_KASTAMONU = {
+	id = 1581
+	provinces = { }
+}
+STATE_DIYARBAKIR = {
+	id = 1582
+	provinces = { }
+}
+STATE_ADANA = {
+	id = 1583
+	provinces = { }
+}
+STATE_TRABZON = {
+	id = 1584
+	provinces = { }
+}
+STATE_ERZURUM = {
+	id = 1585
+	provinces = { }
+}
+STATE_ANKARA = {
+	id = 1586
+	provinces = { }
+}
+STATE_KARS = {
+	id = 1587
+	provinces = { }
+}

@@ -1,0 +1,80 @@
+﻿region_england = {
+	capital_province = x010201
+
+}
+region_north_sea_coast = {
+	capital_province = x010201
+
+}
+region_iberia = {
+	capital_province = x010201
+
+}
+region_france = {
+	capital_province = x010201
+
+}
+region_occitania = {
+	capital_province = x010201
+
+}
+region_rhine = {
+	capital_province = x010201
+
+}
+region_italy = {
+	capital_province = x010201
+
+}
+region_balkans = {
+	capital_province = x010201
+
+}
+region_north_germany = {
+	capital_province = x010201
+
+}
+region_south_germany = {
+	capital_province = x010201
+
+}
+region_baltic = {
+	capital_province = x010201
+
+}
+region_danubia = {
+	capital_province = x010201
+
+}
+region_poland = {
+	capital_province = x010201
+
+}
+region_russia = {
+	capital_province = x010201
+
+}
+region_dnieper = {
+	capital_province = x010201
+
+}
+region_belarus = {
+	capital_province = x010201
+
+}
+region_baltic_states = {
+	capital_province = x010201
+
+}
+region_finland = {
+	capital_province = x010201
+
+}
+region_arctic_russia = {
+	capital_province = x010201
+
+}
+region_urals = {
+	capital_province = x010201
+
+}

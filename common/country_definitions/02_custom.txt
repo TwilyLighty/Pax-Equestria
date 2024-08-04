@@ -1,0 +1,1200 @@
+﻿ANM = {
+	color = { 242 3 149 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+ART = {
+	color = { 55 250 102 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+ASR = {
+	color = { 221 217 174 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+ATR = {
+	color = { 167 126 193 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+BAU = {
+	color = { 24 166 86 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+BES = {
+	color = { 223 139 178 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+BOI = {
+	color = { 105 10 73 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+BOS = {
+	color = { 10 168 104 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+CHE = {
+	color = { 49 193 45 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+CHI = {
+	color = { 32 141 20 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+CIU = {
+	color = { 61 55 132 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+CUS = {
+	color = { 212 161 139 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+DAA = {
+	color = { 113 0 35 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+DEA = {
+	color = { 51 102 108 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+DOA = {
+	color = { 65 113 240 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+DOI = {
+	color = { 75 80 51 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+DUA = {
+	color = { 105 136 175 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+DUE = {
+	color = { 191 148 135 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+DUO = {
+	color = { 83 211 46 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+EER = {
+	color = { 40 231 180 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+EFE = {
+	color = { 202 144 233 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+EMB = {
+	color = { 156 100 66 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+EMI = {
+	color = { 53 37 62 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+EMU = {
+	color = { 71 121 72 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+ENG = {
+	color = { 55 2 109 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+EPO = {
+	color = { 209 7 167 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+EST = {
+	color = { 18 12 227 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+FEE = {
+	color = { 249 104 165 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+FEO = {
+	color = { 176 178 202 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+FET = {
+	color = { 13 252 237 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+FIO = {
+	color = { 85 203 180 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+FRA = {
+	color = { 241 28 103 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+FRI = {
+	color = { 217 50 8 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+FRO = {
+	color = { 176 237 233 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+FRU = {
+	color = { 245 186 153 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+FUS = {
+	color = { 33 143 84 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+GAC = {
+	color = { 52 213 183 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+GEE = {
+	color = { 212 35 233 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+GEO = {
+	color = { 30 141 35 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+HAI = {
+	color = { 56 22 196 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+HAO = {
+	color = { 57 144 75 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+HEE = {
+	color = { 99 85 116 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+HET = {
+	color = { 221 226 153 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+HIA = {
+	color = { 226 14 94 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+HIC = {
+	color = { 70 148 87 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+HIE = {
+	color = { 189 119 185 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+HUA = {
+	color = { 179 33 70 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+HUT = {
+	color = { 44 6 228 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+HUU = {
+	color = { 133 129 94 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+ICH = {
+	color = { 227 88 110 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+IGU = {
+	color = { 199 85 96 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+ISH = {
+	color = { 117 176 252 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+JAU = {
+	color = { 69 188 205 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+JES = {
+	color = { 118 164 195 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+JET = {
+	color = { 8 51 189 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+JIO = {
+	color = { 37 185 107 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+KAU = {
+	color = { 108 10 131 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+KUE = {
+	color = { 58 174 115 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+LII = {
+	color = { 95 103 40 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+LIO = {
+	color = { 7 15 85 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+MAA = {
+	color = { 70 71 145 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+MAI = {
+	color = { 215 199 229 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+MAU = {
+	color = { 111 77 48 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+MEN = {
+	color = { 134 17 183 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+MUE = {
+	color = { 114 95 164 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+MUU = {
+	color = { 119 82 19 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+NAA = {
+	color = { 138 196 75 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+NAC = {
+	color = { 229 122 86 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+NEE = {
+	color = { 48 15 157 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+NOM = {
+	color = { 20 38 9 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+NOO = {
+	color = { 121 180 49 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+OND = {
+	color = { 126 122 63 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+OTI = {
+	color = { 152 142 23 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+PAU = {
+	color = { 158 41 54 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+PHA = {
+	color = { 4 97 48 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+PHO = {
+	color = { 240 44 88 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+PII = {
+	color = { 145 104 10 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+POE = {
+	color = { 164 209 62 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+PUA = {
+	color = { 233 180 88 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+PUI = {
+	color = { 137 42 6 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+PUU = {
+	color = { 161 104 123 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+QUE = {
+	color = { 151 46 123 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+QUO = {
+	color = { 76 213 202 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+RAN = {
+	color = { 203 168 124 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+RAU = {
+	color = { 7 142 31 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+REO = {
+	color = { 79 124 252 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+RIB = {
+	color = { 116 29 240 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+RIN = {
+	color = { 20 33 119 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+RUT = {
+	color = { 115 42 167 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+SHI = {
+	color = { 84 163 158 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+SHO = {
+	color = { 167 241 58 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+STA = {
+	color = { 203 131 37 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+STI = {
+	color = { 174 230 33 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+STO = {
+	color = { 230 152 188 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+STR = {
+	color = { 49 218 29 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+STU = {
+	color = { 198 135 82 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+SUE = {
+	color = { 55 60 153 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+SWA = {
+	color = { 141 122 112 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+SWO = {
+	color = { 167 102 215 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+TAP = {
+	color = { 241 42 54 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+TAS = {
+	color = { 202 77 13 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+TES = {
+	color = { 40 112 208 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+TEU = {
+	color = { 14 117 22 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+THA = {
+	color = { 223 186 9 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+THE = {
+	color = { 220 186 51 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+THU = {
+	color = { 3 117 96 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+TII = {
+	color = { 109 80 97 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+TOO = {
+	color = { 0 82 125 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+TOR = {
+	color = { 176 249 132 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+TRA = {
+	color = { 100 35 116 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+TRI = {
+	color = { 243 37 85 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+TRO = {
+	color = { 160 189 216 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+TUU = {
+	color = { 71 103 194 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+UBR = {
+	color = { 62 87 170 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+UHA = {
+	color = { 129 170 4 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+UMB = {
+	color = { 111 141 96 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+UOL = {
+	color = { 89 61 118 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+UOM = {
+	color = { 64 166 118 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+URB = {
+	color = { 102 110 156 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}
+USH = {
+	color = { 149 212 45 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { Onzart }
+	capital = STATE_Piutastan
+}

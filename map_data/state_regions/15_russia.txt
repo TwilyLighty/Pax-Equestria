@@ -1,0 +1,264 @@
+﻿STATE_TALINN = {
+	id = 1749
+	provinces = { }
+}
+STATE_TARTU = {
+	id = 1750
+	provinces = { }
+}
+STATE_RIGA = {
+	id = 1751
+	provinces = { }
+}
+STATE_COURLAND = {
+	id = 1752
+	provinces = { }
+}
+STATE_KAUNAS = {
+	id = 1753
+	provinces = { }
+}
+STATE_VILNIUS = {
+	id = 1754
+	provinces = { }
+}
+STATE_KUOPIO = {
+	id = 1755
+	provinces = { }
+}
+STATE_UUSIMAA = {
+	id = 1756
+	provinces = { }
+}
+STATE_WEST_KARELIA = {
+	id = 1757
+	provinces = { }
+}
+STATE_ALAND = {
+	id = 1758
+	provinces = { }
+}
+STATE_OSTROBOTHNIA = {
+	id = 1759
+	provinces = { }
+}
+STATE_OULU = {
+	id = 1760
+	provinces = { }
+}
+STATE_EAST_KARELIA = {
+	id = 1761
+	provinces = { }
+}
+STATE_KOLA = {
+	id = 1762
+	provinces = { }
+}
+STATE_INGRIA = {
+	id = 1763
+	provinces = { }
+}
+STATE_MOSCOW = {
+	id = 1764
+	provinces = { }
+}
+STATE_BREST = {
+	id = 1765
+	provinces = { }
+}
+STATE_VOLHYNIA = {
+	id = 1766
+	provinces = { }
+}
+STATE_KIEV = {
+	id = 1767
+	provinces = { }
+}
+STATE_ORYOL = {
+	id = 1768
+	provinces = { }
+}
+STATE_SMOLENSK = {
+	id = 1769
+	provinces = { }
+}
+STATE_MOGILEV = {
+	id = 1770
+	provinces = { }
+}
+STATE_ARKHANGELSK = {
+	id = 1771
+	provinces = { }
+}
+STATE_NOVGOROD = {
+	id = 1772
+	provinces = { }
+}
+STATE_CRIMEA = {
+	id = 1773
+	provinces = { }
+}
+STATE_KHARKOV = {
+	id = 1774
+	provinces = { }
+}
+STATE_KURSK = {
+	id = 1775
+	provinces = { }
+}
+STATE_TVER = {
+	id = 1776
+	provinces = { }
+}
+STATE_CHERSON = {
+	id = 1777
+	provinces = { }
+}
+STATE_GALICH = {
+	id = 1778
+	provinces = { }
+}
+STATE_MINSK = {
+	id = 1779
+	provinces = { }
+}
+STATE_ROSTOV = {
+	id = 1780
+	provinces = { }
+}
+STATE_PERM = {
+	id = 1781
+	provinces = { }
+}
+STATE_KAZAN = {
+	id = 1782
+	provinces = { }
+}
+STATE_URALSK = {
+	id = 1783
+	provinces = { }
+}
+STATE_KHIVA = {
+	id = 1784
+	provinces = { }
+}
+STATE_SEMIRECHE = {
+	id = 1785
+	provinces = { }
+}
+STATE_JETISY = {
+	id = 1786
+	provinces = { }
+}
+STATE_AKMOLINSK = {
+	id = 1787
+	provinces = { }
+}
+STATE_FERGANA = {
+	id = 1788
+	provinces = { }
+}
+STATE_MERZ = {
+	id = 1789
+	provinces = { }
+}
+STATE_SYRDARYA = {
+	id = 1790
+	provinces = { }
+}
+STATE_AKTOBE = {
+	id = 1791
+	provinces = { }
+}
+STATE_KALMYKIA = {
+	id = 1792
+	provinces = { }
+}
+STATE_NORTH_CAUCASUS = {
+	id = 1793
+	provinces = { }
+}
+STATE_TAURIDA = {
+	id = 1794
+	provinces = { }
+}
+STATE_TAMBOV = {
+	id = 1795
+	provinces = { }
+}
+STATE_RYAZAN = {
+	id = 1796
+	provinces = { }
+}
+STATE_VITEBSK = {
+	id = 1797
+	provinces = { }
+}
+STATE_PSKOV = {
+	id = 1798
+	provinces = { }
+}
+STATE_YAROSLAVL = {
+	id = 1799
+	provinces = { }
+}
+STATE_NIZHNY_NOVGOROD = {
+	id = 1800
+	provinces = { }
+}
+STATE_VYATKA = {
+	id = 1801
+	provinces = { }
+}
+STATE_UFA = {
+	id = 1802
+	provinces = { }
+}
+STATE_SURGUT = {
+	id = 1803
+	provinces = { }
+}
+STATE_KRASNOYARSK = {
+	id = 1804
+	provinces = { }
+}
+STATE_ALTAI = {
+	id = 1805
+	provinces = { }
+}
+STATE_BURYATIA = {
+	id = 1806
+	provinces = { }
+}
+STATE_KOLYMA = {
+	id = 1807
+	provinces = { }
+}
+STATE_AMUR = {
+	id = 1808
+	provinces = { }
+}
+STATE_CHELYABINSK = {
+	id = 1809
+	provinces = { }
+}
+STATE_ELIZAVETPOL = {
+	id = 1810
+	provinces = { }
+}
+STATE_STAVROPOL = {
+	id = 1811
+	provinces = { }
+}
+STATE_CHUVASHIA = {
+	id = 1812
+	provinces = { }
+}
+STATE_CHERNIHIV = {
+	id = 1813
+	provinces = { }
+}
+STATE_NENETSIA = {
+	id = 1814
+	provinces = { }
+}

@@ -1,0 +1,244 @@
+﻿STATE_IVORY_COAST = {
+	id = 1343
+	provinces = { }
+}
+STATE_WINDWARD_COAST = {
+	id = 1344
+	provinces = { }
+}
+STATE_SENEGAL = {
+	id = 1345
+	provinces = { }
+}
+STATE_GAMBIA = {
+	id = 1346
+	provinces = { }
+}
+STATE_SIERRA_LEONE = {
+	id = 1347
+	provinces = { }
+}
+STATE_VOLTA = {
+	id = 1348
+	provinces = { }
+}
+STATE_LIBERIA = {
+	id = 1349
+	provinces = { }
+}
+STATE_HAUSALAND = {
+	id = 1350
+	provinces = { }
+}
+STATE_BENIN = {
+	id = 1351
+	provinces = { }
+}
+STATE_YORUBA_STATES = {
+	id = 1352
+	provinces = { }
+}
+STATE_NIGER_DELTA = {
+	id = 1353
+	provinces = { }
+}
+STATE_OUTER_HAUSALAND = {
+	id = 1354
+	provinces = { }
+}
+STATE_BORNU = {
+	id = 1355
+	provinces = { }
+}
+STATE_NIGERIA = {
+	id = 1356
+	provinces = { }
+}
+STATE_EAST_HAUSALAND = {
+	id = 1357
+	provinces = { }
+}
+STATE_GUINEA = {
+	id = 1358
+	provinces = { }
+}
+STATE_GHANA = {
+	id = 1359
+	provinces = { }
+}
+STATE_TOGO = {
+	id = 1360
+	provinces = { }
+}
+STATE_DAHOMEY = {
+	id = 1361
+	provinces = { }
+}
+STATE_LINDI = {
+	id = 1362
+	provinces = { }
+}
+STATE_ZANZIBAR = {
+	id = 1363
+	provinces = { }
+}
+STATE_TANGANYIKA = {
+	id = 1364
+	provinces = { }
+}
+STATE_KENYA = {
+	id = 1365
+	provinces = { }
+}
+STATE_RIFT_VALLEY = {
+	id = 1366
+	provinces = { }
+}
+STATE_OROMIA = {
+	id = 1367
+	provinces = { }
+}
+STATE_AMHARA = {
+	id = 1368
+	provinces = { }
+}
+STATE_GONDER = {
+	id = 1369
+	provinces = { }
+}
+STATE_KAZEMBE = {
+	id = 1370
+	provinces = { }
+}
+STATE_SOMALILAND = {
+	id = 1371
+	provinces = { }
+}
+STATE_SOUTH_MADAGASCAR = {
+	id = 1372
+	provinces = { }
+}
+STATE_NORTH_MADAGASCAR = {
+	id = 1373
+	provinces = { }
+}
+STATE_UGANDA = {
+	id = 1374
+	provinces = { }
+}
+STATE_EQUATORIA = {
+	id = 1375
+	provinces = { }
+}
+STATE_MOCAMBIQUE = {
+	id = 1376
+	provinces = { }
+}
+STATE_WADDAI = {
+	id = 1377
+	provinces = { }
+}
+STATE_NORTH_CAMEROON = {
+	id = 1378
+	provinces = { }
+}
+STATE_SOUTH_CAMEROON = {
+	id = 1379
+	provinces = { }
+}
+STATE_UBANGI_SHARI = {
+	id = 1380
+	provinces = { }
+}
+STATE_CONGO = {
+	id = 1381
+	provinces = { }
+}
+STATE_CONGO_ORIENTALE = {
+	id = 1382
+	provinces = { }
+}
+STATE_KASAI = {
+	id = 1383
+	provinces = { }
+}
+STATE_BAS_CONGO = {
+	id = 1384
+	provinces = { }
+}
+STATE_EQUATEUR = {
+	id = 1385
+	provinces = { }
+}
+STATE_NORTH_ANGOLA = {
+	id = 1386
+	provinces = { }
+}
+STATE_SOUTH_ANGOLA = {
+	id = 1387
+	provinces = { }
+}
+STATE_EAST_ANGOLA = {
+	id = 1388
+	provinces = { }
+}
+STATE_KATANGA = {
+	id = 1389
+	provinces = { }
+}
+STATE_GABON = {
+	id = 1390
+	provinces = { }
+}
+STATE_ZAMBIA = {
+	id = 1391
+	provinces = { }
+}
+STATE_ZAMBEZIA = {
+	id = 1392
+	provinces = { }
+}
+STATE_ZAMBEZI = {
+	id = 1393
+	provinces = { }
+}
+STATE_NAMAQUALAND = {
+	id = 1394
+	provinces = { }
+}
+STATE_HEREROLAND = {
+	id = 1395
+	provinces = { }
+}
+STATE_ZULULAND = {
+	id = 1396
+	provinces = { }
+}
+STATE_VRYSTAAT = {
+	id = 1397
+	provinces = { }
+}
+STATE_TRANSVAAL = {
+	id = 1398
+	provinces = { }
+}
+STATE_EASTERN_CAPE = {
+	id = 1399
+	provinces = { }
+}
+STATE_CAPE_COLONY = {
+	id = 1400
+	provinces = { }
+}
+STATE_NORTHERN_CAPE = {
+	id = 1401
+	provinces = { }
+}
+STATE_BOTSWANA = {
+	id = 1402
+	provinces = { }
+}
+STATE_LOURENCO_MARQUES = {
+	id = 1403
+	provinces = { }
+}

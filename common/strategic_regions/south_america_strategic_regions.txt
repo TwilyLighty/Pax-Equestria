@@ -1,0 +1,20 @@
+﻿region_brazil = {
+	capital_province = x010201
+	graphical_culture = "latin"
+
+}
+region_andes = {
+	capital_province = x010201
+	graphical_culture = "latin"
+
+}
+region_la_plata = {
+	capital_province = x010201
+	graphical_culture = "latin"
+
+}
+region_gran_colombia = {
+	capital_province = x010201
+	graphical_culture = "latin"
+
+}

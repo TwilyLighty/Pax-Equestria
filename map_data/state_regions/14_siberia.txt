@@ -1,0 +1,48 @@
+﻿STATE_URAL = {
+	id = 1737
+	provinces = { }
+}
+STATE_TOMSK = {
+	id = 1738
+	provinces = { }
+}
+STATE_TUVA = {
+	id = 1739
+	provinces = { }
+}
+STATE_TOBOLSK = {
+	id = 1740
+	provinces = { }
+}
+STATE_UPPER_YENISEYSK = {
+	id = 1741
+	provinces = { }
+}
+STATE_OB = {
+	id = 1742
+	provinces = { }
+}
+STATE_CHUKOTKA = {
+	id = 1743
+	provinces = { }
+}
+STATE_KAMCHATKA = {
+	id = 1744
+	provinces = { }
+}
+STATE_OKHOTSK = {
+	id = 1745
+	provinces = { }
+}
+STATE_YAKUTSK = {
+	id = 1746
+	provinces = { }
+}
+STATE_TRANS_BAIKAL = {
+	id = 1747
+	provinces = { }
+}
+STATE_IRKUTSK = {
+	id = 1748
+	provinces = { }
+}

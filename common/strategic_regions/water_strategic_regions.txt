@@ -1,0 +1,471 @@
+﻿﻿region_baltic_sea = {
+	capital_province = x010201
+}
+region_hawaiian_seamount_chain = {
+	capital_province = x010201
+}
+region_micronesian_sea = {
+	capital_province = x010201
+}
+region_mascarenes = {
+	capital_province = x010201
+}
+region_indian_ocean_lane_01 = {
+	capital_province = x010201
+}
+region_indian_ocean_lane_02 = {
+	capital_province = x010201
+}
+region_indian_ocean_lane_05 = {
+	capital_province = x010201
+}
+region_indian_ocean_lane_06 = {
+	capital_province = x010201
+}
+region_south_atlantic_sea_lane_01 = {
+	capital_province = x010201
+}
+region_south_atlantic_sea_lane_02 = {
+	capital_province = x010201
+}
+region_south_atlantic_sea_lane_05 = {
+	capital_province = x010201
+}
+region_danish_straits = {
+	capital_province = x010201
+}
+region_south_pacific_lane_01 = {
+	capital_province = x010201
+}
+region_south_pacific_lane_02 = {
+	capital_province = x010201
+}
+region_easter_island_lane_01 = {
+	capital_province = x010201
+}
+region_easter_island_lane_02 = {
+	capital_province = x010201
+}
+region_easter_island_lane_03 = {
+	capital_province = x010201
+}
+region_pacific_lane_01 = {
+	capital_province = x010201
+}
+region_pacific_lane_02 = {
+	capital_province = x010201
+}
+region_pacific_lane_03 = {
+	capital_province = x010201
+}
+region_pacific_lane_04 = {
+	capital_province = x010201
+}
+region_pacific_lane_05 = {
+	capital_province = x010201
+}
+region_pacific_lane_06 = {
+	capital_province = x010201
+}
+region_north_atlantic_01 = {
+	capital_province = x010201
+}
+region_north_atlantic_02 = {
+	capital_province = x010201
+}
+region_north_atlantic_03 = {
+	capital_province = x010201
+}
+region_north_atlantic_04 = {
+	capital_province = x010201
+}
+region_north_atlantic_05 = {
+	capital_province = x010201
+}
+region_north_atlantic_06 = {
+	capital_province = x010201
+}
+region_north_atlantic_07 = {
+	capital_province = x010201
+}
+region_atlantic_ocean_01 = {
+	capital_province = x010201
+}
+region_atlantic_ocean_02 = {
+	capital_province = x010201
+}
+region_atlantic_ocean_03 = {
+	capital_province = x010201
+}
+region_atlantic_ocean_04 = {
+	capital_province = x010201
+}
+region_atlantic_ocean_05 = {
+	capital_province = x010201
+}
+region_horn_of_africa = {
+	capital_province = x010201
+}
+region_west_african_coast = {
+	capital_province = x010201
+}
+region_easter_island = {
+	capital_province = x010201
+}
+region_coast_of_saint_helena = {
+	capital_province = x010201
+}
+region_norwegian_sea = {
+	capital_province = x010201
+}
+region_labrador_sea = {
+	capital_province = x010201
+}
+region_irminger_sea = {
+	capital_province = x010201
+}
+region_north_sea = {
+	capital_province = x010201
+}
+region_english_channel = {
+	capital_province = x010201
+}
+region_bay_of_biscay = {
+	capital_province = x010201
+}
+region_irish_sea = {
+	capital_province = x010201
+}
+region_eastern_caribbean_sea = {
+	capital_province = x010201
+}
+region_western_caribbean_sea = {
+	capital_province = x010201
+}
+region_arctic_ocean_01 = {
+	capital_province = x010201
+}
+region_arctic_ocean_02 = {
+	capital_province = x010201
+}
+region_barents_sea = {
+	capital_province = x010201
+}
+region_arctic_ocean_04 = {
+	capital_province = x010201
+}
+region_arctic_ocean_05 = {
+	capital_province = x010201
+}
+region_arctic_ocean_06 = {
+	capital_province = x010201
+}
+region_arctic_ocean_07 = {
+	capital_province = x010201
+}
+region_gulf_of_maine = {
+	capital_province = x010201
+}
+region_davis_strait = {
+	capital_province = x010201
+}
+region_galapagos_rise = {
+	capital_province = x010201
+}
+region_straits_of_gibraltar = {
+	capital_province = x010201
+}
+region_western_mediterranean_sea = {
+	capital_province = x010201
+}
+region_central_mediterranean_sea = {
+	capital_province = x010201
+}
+region_eastern_mediterranean_sea = {
+	capital_province = x010201
+}
+region_sea_of_marmara = {
+	capital_province = x010201
+}
+region_black_sea = {
+	capital_province = x010201
+}
+region_hudson_bay = {
+	capital_province = x010201
+}
+region_gulf_of_saint_lawrence = {
+	capital_province = x010201
+}
+region_persian_gulf = {
+	capital_province = x010201
+}
+region_red_sea = {
+	capital_province = x010201
+}
+region_arabian_sea = {
+	capital_province = x010201
+}
+region_laccadive_sea = {
+	capital_province = x010201
+}
+region_bay_of_bengal = {
+	capital_province = x010201
+}
+region_andaman_sea = {
+	capital_province = x010201
+}
+region_gulf_of_siam = {
+	capital_province = x010201
+}
+region_gulf_of_tonkin = {
+	capital_province = x010201
+}
+region_sulu_sea = {
+	capital_province = x010201
+}
+region_south_china_sea = {
+	capital_province = x010201
+}
+region_yellow_sea = {
+	capital_province = x010201
+}
+region_east_china_sea = {
+	capital_province = x010201
+}
+region_sea_of_japan = {
+	capital_province = x010201
+}
+region_gulf_of_mexico = {
+	capital_province = x010201
+}
+region_caribbean_sea = {
+	capital_province = x010201
+}
+region_guiana_sea = {
+	capital_province = x010201
+}
+region_brazilian_sea_north = {
+	capital_province = x010201
+}
+region_brazilian_sea_south = {
+	capital_province = x010201
+}
+region_argentine_sea = {
+	capital_province = x010201
+}
+region_scotia_sea = {
+	capital_province = x010201
+}
+region_atlantic_seaboard = {
+	capital_province = x010201
+}
+region_sargasso_sea = {
+	capital_province = x010201
+}
+region_azores_sea = {
+	capital_province = x010201
+}
+region_north_atlantic_ocean_01 = {
+	capital_province = x010201
+}
+region_north_atlantic_ocean_02 = {
+	capital_province = x010201
+}
+region_north_atlantic_ocean_03 = {
+	capital_province = x010201
+}
+region_north_atlantic_ocean_04 = {
+	capital_province = x010201
+}
+region_north_atlantic_ocean_05 = {
+	capital_province = x010201
+}
+region_north_atlantic_ocean_06 = {
+	capital_province = x010201
+}
+region_southern_ocean_01 = {
+	capital_province = x010201
+}
+region_southern_ocean_02 = {
+	capital_province = x010201
+}
+region_faroe_bank = {
+	capital_province = x010201
+}
+region_macaronesian_sea = {
+	capital_province = x010201
+}
+region_central_atlantic_ocean = {
+	capital_province = x010201
+}
+region_gulf_of_guinea = {
+	capital_province = x010201
+}
+region_south_atlantic_ocean_01 = {
+	capital_province = x010201
+}
+region_south_atlantic_ocean_02 = {
+	capital_province = x010201
+}
+region_south_atlantic_ocean_03 = {
+	capital_province = x010201
+}
+region_south_atlantic_ocean_04 = {
+	capital_province = x010201
+}
+region_south_atlantic_ocean_05 = {
+	capital_province = x010201
+}
+region_south_atlantic_ocean_06 = {
+	capital_province = x010201
+}
+region_angolan_sea = {
+	capital_province = x010201
+}
+region_cape_of_good_hope = {
+	capital_province = x010201
+}
+region_natal_coast = {
+	capital_province = x010201
+}
+region_eastern_polynesia = {
+	capital_province = x010201
+}
+region_mozambique_channel = {
+	capital_province = x010201
+}
+region_indian_ocean_01 = {
+	capital_province = x010201
+}
+region_indian_ocean_02 = {
+	capital_province = x010201
+}
+region_indian_ocean_03 = {
+	capital_province = x010201
+}
+region_sea_of_okhotsk = {
+	capital_province = x010201
+}
+region_gulf_of_alaska = {
+	capital_province = x010201
+}
+region_sumatra_sea = {
+	capital_province = x010201
+}
+region_great_australian_bight = {
+	capital_province = x010201
+}
+region_tasman_sea = {
+	capital_province = x010201
+}
+region_java_sea = {
+	capital_province = x010201
+}
+region_timor_sea = {
+	capital_province = x010201
+}
+region_coral_sea = {
+	capital_province = x010201
+}
+region_molucca_sea = {
+	capital_province = x010201
+}
+region_arafura_sea = {
+	capital_province = x010201
+}
+region_philippines_sea = {
+	capital_province = x010201
+}
+region_north_philippines_sea = {
+	capital_province = x010201
+}
+region_south_philippines_sea = {
+	capital_province = x010201
+}
+region_patagonian_lakes = {
+	capital_province = x010201
+}
+region_lake_nicaragua = {
+	capital_province = x010201
+}
+region_bering_sea = {
+	capital_province = x010201
+}
+region_solomon_sea = {
+	capital_province = x010201
+}
+region_north_pacific_ocean_01 = {
+	capital_province = x010201
+}
+region_north_pacific_ocean_02 = {
+	capital_province = x010201
+}
+region_north_pacific_ocean_03 = {
+	capital_province = x010201
+}
+region_north_pacific_ocean_04 = {
+	capital_province = x010201
+}
+region_north_pacific_ocean_05 = {
+	capital_province = x010201
+}
+region_north_pacific_ocean_06 = {
+	capital_province = x010201
+}
+region_north_pacific_ocean_07 = {
+	capital_province = x010201
+}
+region_north_pacific_ocean_08 = {
+	capital_province = x010201
+}
+region_north_pacific_ocean_09 = {
+	capital_province = x010201
+}
+region_north_pacific_ocean_10 = {
+	capital_province = x010201
+}
+region_north_pacific_ocean_11 = {
+	capital_province = x010201
+}
+region_south_pacific_ocean_01 = {
+	capital_province = x010201
+}
+region_south_pacific_ocean_02 = {
+	capital_province = x010201
+}
+region_south_pacific_ocean_03 = {
+	capital_province = x010201
+}
+region_south_pacific_ocean_04 = {
+	capital_province = x010201
+}
+region_south_pacific_ocean_05 = {
+	capital_province = x010201
+}
+region_south_pacific_ocean_06 = {
+	capital_province = x010201
+}
+region_south_pacific_ocean_07 = {
+	capital_province = x010201
+}
+region_south_pacific_ocean_08 = {
+	capital_province = x010201
+}
+region_south_pacific_ocean_09 = {
+	capital_province = x010201
+}
+region_chiliean_sea = {
+	capital_province = x010201
+}
+region_peruvian_sea = {
+	capital_province = x010201
+}
+region_pacific_seaboard_01 = {
+	capital_province = x010201
+}
+region_pacific_seaboard_02 = {
+	capital_province = x010201
+}
+region_centroamerican_sea = {
+	capital_province = x010201
+}

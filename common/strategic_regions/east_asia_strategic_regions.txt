@@ -1,0 +1,42 @@
+﻿region_indochina = {
+	capital_province = x010201
+	graphical_culture = "asian"
+
+}
+region_indonesia = {
+	capital_province = x010201
+	graphical_culture = "asian"
+
+}
+region_south_china = {
+	capital_province = x010201
+	graphical_culture = "asian"
+
+}
+region_north_china = {
+	capital_province = x010201
+	graphical_culture = "asian"
+
+}
+region_manchuria = {
+	capital_province = x010201
+	graphical_culture = "asian"
+
+}
+region_japan = {
+	capital_province = x010201
+	graphical_culture = "asian"
+
+}
+region_west_siberia = {
+	capital_province = x010201
+
+}
+region_east_siberia = {
+	capital_province = x010201
+
+}
+region_oceania = {
+	capital_province = x010201
+
+}

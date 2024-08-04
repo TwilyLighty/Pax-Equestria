@@ -1,0 +1,96 @@
+﻿STATE_DAGESTAN = {
+	id = 1588
+	provinces = { }
+}
+STATE_KUBAN = {
+	id = 1589
+	provinces = { }
+}
+STATE_ARMENIA = {
+	id = 1590
+	provinces = { }
+}
+STATE_AZERBAIJAN = {
+	id = 1591
+	provinces = { }
+}
+STATE_GREATER_CAUCASUS = {
+	id = 1592
+	provinces = { }
+}
+STATE_SAMARA = {
+	id = 1593
+	provinces = { }
+}
+STATE_TARTARIA = {
+	id = 1594
+	provinces = { }
+}
+STATE_ASTRAKHAN = {
+	id = 1595
+	provinces = { }
+}
+STATE_UZBEKIA = {
+	id = 1596
+	provinces = { }
+}
+STATE_TAJIKISTAN = {
+	id = 1597
+	provinces = { }
+}
+STATE_KIRGHIZIA = {
+	id = 1598
+	provinces = { }
+}
+STATE_TURKMENIA = {
+	id = 1599
+	provinces = { }
+}
+STATE_PASHTUNISTAN = {
+	id = 1600
+	provinces = { }
+}
+STATE_CENTRAL_HIGHLANDS = {
+	id = 1601
+	provinces = { }
+}
+STATE_NORTHERN_BALUCHISTAN = {
+	id = 1602
+	provinces = { }
+}
+STATE_HERAT = {
+	id = 1603
+	provinces = { }
+}
+STATE_BALKH = {
+	id = 1604
+	provinces = { }
+}
+STATE_QUETTA = {
+	id = 1605
+	provinces = { }
+}
+STATE_KANDAHAR = {
+	id = 1606
+	provinces = { }
+}
+STATE_KABUL = {
+	id = 1607
+	provinces = { }
+}
+STATE_BALUCHISTAN = {
+	id = 1608
+	provinces = { }
+}
+STATE_LHASA = {
+	id = 1609
+	provinces = { }
+}
+STATE_NGARI = {
+	id = 1610
+	provinces = { }
+}
+STATE_HIMALAYAS = {
+	id = 1611
+	provinces = { }
+}

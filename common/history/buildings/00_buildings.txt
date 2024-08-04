@@ -1,0 +1,2783 @@
+﻿BUILDINGS={
+		s:STATE_Piutastan={
+		region_state:TAS={
+
+		}
+	}
+	s:STATE_Swehistsheputh={
+		region_state:TOR={
+
+		}
+	}
+	s:STATE_Elibri={
+		region_state:RIN={
+
+		}
+	}
+	s:STATE_Trejustung={
+		region_state:TAS={
+
+		}
+	}
+	s:STATE_Jeob={
+		region_state:NAA={
+
+		}
+	}
+	s:STATE_Bappio={
+		region_state:UOM={
+
+		}
+	}
+	s:STATE_Theakstaut={
+		region_state:BAU={
+
+		}
+	}
+	s:STATE_Seungaond={
+		region_state:NAA={
+
+		}
+	}
+	s:STATE_Ittettu={
+		region_state:HET={
+
+		}
+	}
+	s:STATE_Essuss={
+		region_state:HET={
+
+		}
+	}
+	s:STATE_Riobwierd={
+		region_state:FRI={
+
+		}
+	}
+	s:STATE_Leumoy={
+		region_state:DOI={
+
+		}
+	}
+	s:STATE_Eshissa={
+		region_state:RIN={
+
+		}
+	}
+	s:STATE_Ciongiand={
+		region_state:THE={
+
+		}
+	}
+	s:STATE_Quatathirt={
+		region_state:BAU={
+
+		}
+	}
+	s:STATE_Fashai={
+		region_state:JIO={
+
+		}
+	}
+	s:STATE_Oborte={
+		region_state:UOM={
+
+		}
+	}
+	s:STATE_Keapand={
+		region_state:TRA={
+
+		}
+	}
+	s:STATE_Gastrea={
+		region_state:TAS={
+
+		}
+	}
+	s:STATE_Cuetuss={
+		region_state:TAS={
+
+		}
+	}
+	s:STATE_Deebay={
+		region_state:HIC={
+
+		}
+	}
+	s:STATE_Bonzoa={
+		region_state:EER={
+
+		}
+	}
+	s:STATE_Distroi={
+		region_state:NAA={
+
+		}
+	}
+	s:STATE_Franuthelt={
+		region_state:TOR={
+
+		}
+	}
+	s:STATE_Thaekstaeb={
+		region_state:SWA={
+
+		}
+	}
+	s:STATE_Stoar={
+		region_state:DOI={
+
+		}
+	}
+	s:STATE_Swifath={
+		region_state:FRI={
+
+		}
+	}
+	s:STATE_Nathenoo={
+		region_state:UOM={
+
+		}
+	}
+	s:STATE_Rounind={
+		region_state:STI={
+
+		}
+	}
+	s:STATE_Steus={
+		region_state:TOR={
+
+		}
+	}
+	s:STATE_Irtiltirbond={
+		region_state:BAU={
+
+		}
+	}
+	s:STATE_Tuaciz={
+		region_state:STO={
+
+		}
+	}
+	s:STATE_Reitteuss={
+		region_state:BAU={
+
+		}
+	}
+	s:STATE_Gaochteipp={
+		region_state:UOM={
+
+		}
+	}
+	s:STATE_Quasithchohith={
+		region_state:BAU={
+
+		}
+	}
+	s:STATE_Rothinuo={
+		region_state:STO={
+
+		}
+	}
+	s:STATE_Ejucci={
+		region_state:UOM={
+
+		}
+	}
+	s:STATE_Alashu={
+		region_state:STA={
+
+		}
+	}
+	s:STATE_Doojuz={
+		region_state:GEE={
+
+		}
+	}
+	s:STATE_Otruss={
+		region_state:HIE={
+
+		}
+	}
+	s:STATE_Doifostan={
+		region_state:NAA={
+
+		}
+	}
+	s:STATE_Hiirbiestan={
+		region_state:BAU={
+
+		}
+	}
+	s:STATE_Naas={
+		region_state:JIO={
+
+		}
+	}
+	s:STATE_Hebwua={
+		region_state:JIO={
+
+		}
+	}
+	s:STATE_Ceonand={
+		region_state:HIE={
+
+		}
+	}
+	s:STATE_Tendie={
+		region_state:EMU={
+
+		}
+	}
+	s:STATE_Arorru={
+		region_state:THE={
+
+		}
+	}
+	s:STATE_Igastru={
+		region_state:FRI={
+
+		}
+	}
+	s:STATE_Guatoy={
+		region_state:EER={
+
+		}
+	}
+	s:STATE_Peebiq={
+		region_state:RIN={
+
+		}
+	}
+	s:STATE_Foeppoang={
+		region_state:TAS={
+
+		}
+	}
+	s:STATE_Duubfeih={
+		region_state:TAS={
+
+		}
+	}
+	s:STATE_Phafustpharist={
+		region_state:RIN={
+
+		}
+	}
+	s:STATE_Bootirt={
+		region_state:HIC={
+
+		}
+	}
+	s:STATE_Ekambo={
+		region_state:EMU={
+
+		}
+	}
+	s:STATE_Thiib={
+		region_state:TOR={
+
+		}
+	}
+	s:STATE_Keusriang={
+		region_state:TRA={
+
+		}
+	}
+	s:STATE_Lathikue={
+		region_state:BAU={
+
+		}
+	}
+	s:STATE_Stuopthoen={
+		region_state:SWA={
+
+		}
+	}
+	s:STATE_Photothelt={
+		region_state:KUE={
+
+		}
+	}
+	s:STATE_Foolex={
+		region_state:NAA={
+
+		}
+	}
+	s:STATE_Swachord={
+		region_state:FRI={
+
+		}
+	}
+	s:STATE_Miltoe={
+		region_state:EMU={
+
+		}
+	}
+	s:STATE_Laoshoeng={
+		region_state:FRU={
+
+		}
+	}
+	s:STATE_Phukistart={
+		region_state:KUE={
+
+		}
+	}
+	s:STATE_Tathufau={
+		region_state:STA={
+
+		}
+	}
+	s:STATE_Pairdeult={
+		region_state:TRA={
+
+		}
+	}
+	s:STATE_Lestofoa={
+		region_state:TUU={
+
+		}
+	}
+	s:STATE_Kiel={
+		region_state:THE={
+
+		}
+	}
+	s:STATE_Phehethind={
+		region_state:THE={
+
+		}
+	}
+	s:STATE_Jithufue={
+		region_state:KUE={
+
+		}
+	}
+	s:STATE_Issorba={
+		region_state:RIN={
+
+		}
+	}
+	s:STATE_Bengeo={
+		region_state:STA={
+
+		}
+	}
+	s:STATE_Abword={
+		region_state:RIN={
+
+		}
+	}
+	s:STATE_Mastumea={
+		region_state:KUE={
+
+		}
+	}
+	s:STATE_Guthipuo={
+		region_state:RIN={
+
+		}
+	}
+	s:STATE_Eppartu={
+		region_state:HIE={
+
+		}
+	}
+	s:STATE_Ingendo={
+		region_state:HIE={
+
+		}
+	}
+	s:STATE_Rastadau={
+		region_state:NAA={
+
+		}
+	}
+	s:STATE_Atrubru={
+		region_state:KUE={
+
+		}
+	}
+	s:STATE_Raelax={
+		region_state:HIC={
+
+		}
+	}
+	s:STATE_Pathobii={
+		region_state:HIE={
+
+		}
+	}
+	s:STATE_Nuos={
+		region_state:EMU={
+
+		}
+	}
+	s:STATE_Kiedeng={
+		region_state:EMU={
+
+		}
+	}
+	s:STATE_Feufilt={
+		region_state:STO={
+
+		}
+	}
+	s:STATE_Fremestoss={
+		region_state:FRI={
+
+		}
+	}
+	s:STATE_Dothegou={
+		region_state:PUU={
+
+		}
+	}
+	s:STATE_Trardalt={
+		region_state:NAA={
+
+		}
+	}
+	s:STATE_Chikestond={
+		region_state:PUU={
+
+		}
+	}
+	s:STATE_Baestruard={
+		region_state:HET={
+
+		}
+	}
+	s:STATE_Sianax={
+		region_state:JIO={
+
+		}
+	}
+	s:STATE_Asappu={
+		region_state:HIC={
+
+		}
+	}
+	s:STATE_Phorrolt={
+		region_state:JIO={
+
+		}
+	}
+	s:STATE_Loet={
+		region_state:EFE={
+
+		}
+	}
+	s:STATE_Thiurstief={
+		region_state:FRI={
+
+		}
+	}
+	s:STATE_Toaquaart={
+		region_state:THE={
+
+		}
+	}
+	s:STATE_Coorind={
+		region_state:TRO={
+
+		}
+	}
+	s:STATE_Stoatstiih={
+		region_state:PUU={
+
+		}
+	}
+	s:STATE_Echtard={
+		region_state:JIO={
+
+		}
+	}
+	s:STATE_Leefaz={
+		region_state:TUU={
+
+		}
+	}
+	s:STATE_Strurruland={
+		region_state:PUU={
+
+		}
+	}
+	s:STATE_Isrulandesrustan={
+		region_state:STA={
+
+		}
+	}
+	s:STATE_Buiduy={
+		region_state:STA={
+
+		}
+	}
+	s:STATE_Orunma={
+		region_state:DUA={
+
+		}
+	}
+	s:STATE_Swopisteland={
+		region_state:EFE={
+
+		}
+	}
+	s:STATE_Iquelt={
+		region_state:DUA={
+
+		}
+	}
+	s:STATE_Lutrie={
+		region_state:STU={
+
+		}
+	}
+	s:STATE_Cothunoa={
+		region_state:HIE={
+
+		}
+	}
+	s:STATE_Essalt={
+		region_state:STO={
+
+		}
+	}
+	s:STATE_Luulteard={
+		region_state:STA={
+
+		}
+	}
+	s:STATE_Muechoing={
+		region_state:ASR={
+
+		}
+	}
+	s:STATE_Enziss={
+		region_state:HAI={
+
+		}
+	}
+	s:STATE_Jeasroostan={
+		region_state:PUU={
+
+		}
+	}
+	s:STATE_Stropost={
+		region_state:LII={
+
+		}
+	}
+	s:STATE_Puokiy={
+		region_state:EFE={
+
+		}
+	}
+	s:STATE_Trobasturt={
+		region_state:EER={
+
+		}
+	}
+	s:STATE_Otrolt={
+		region_state:EFE={
+
+		}
+	}
+	s:STATE_Hiethaud={
+		region_state:SWA={
+
+		}
+	}
+	s:STATE_Enmeppi={
+		region_state:ASR={
+
+		}
+	}
+	s:STATE_Thoorthaom={
+		region_state:EFE={
+
+		}
+	}
+	s:STATE_Paibwuoss={
+		region_state:CUS={
+
+		}
+	}
+	s:STATE_Loemalt={
+		region_state:OTI={
+
+		}
+	}
+	s:STATE_Kialirt={
+		region_state:LII={
+
+		}
+	}
+	s:STATE_Fendoe={
+		region_state:SWA={
+
+		}
+	}
+	s:STATE_Feotraind={
+		region_state:EMU={
+
+		}
+	}
+	s:STATE_Quitast={
+		region_state:JET={
+
+		}
+	}
+	s:STATE_Dothikui={
+		region_state:KUE={
+
+		}
+	}
+	s:STATE_Seirdiund={
+		region_state:RAU={
+
+		}
+	}
+	s:STATE_Chinzaland={
+		region_state:SWO={
+
+		}
+	}
+	s:STATE_Lauttoult={
+		region_state:KUE={
+
+		}
+	}
+	s:STATE_Giirdaird={
+		region_state:EFE={
+
+		}
+	}
+	s:STATE_Trodithuss={
+		region_state:FIO={
+
+		}
+	}
+	s:STATE_Siisart={
+		region_state:SWA={
+
+		}
+	}
+	s:STATE_Jothasue={
+		region_state:TUU={
+
+		}
+	}
+	s:STATE_Ibrirt={
+		region_state:GEE={
+
+		}
+	}
+	s:STATE_Caastroult={
+		region_state:GEE={
+
+		}
+	}
+	s:STATE_Stresust={
+		region_state:PII={
+
+		}
+	}
+	s:STATE_Swituth={
+		region_state:FRU={
+
+		}
+	}
+	s:STATE_Thuerthoam={
+		region_state:PUU={
+
+		}
+	}
+	s:STATE_Joat={
+		region_state:HUT={
+
+		}
+	}
+	s:STATE_Baik={
+		region_state:DUA={
+
+		}
+	}
+	s:STATE_Ceaquoang={
+		region_state:EFE={
+
+		}
+	}
+	s:STATE_Acinzi={
+		region_state:KUE={
+
+		}
+	}
+	s:STATE_Seuchteuss={
+		region_state:CIU={
+
+		}
+	}
+	s:STATE_Puucipp={
+		region_state:HIC={
+
+		}
+	}
+	s:STATE_Trudustond={
+		region_state:RUT={
+
+		}
+	}
+	s:STATE_Nothuluu={
+		region_state:HEE={
+
+		}
+	}
+	s:STATE_Abwotre={
+		region_state:URB={
+
+		}
+	}
+	s:STATE_Ostrirt={
+		region_state:DOI={
+
+		}
+	}
+	s:STATE_Sounepp={
+		region_state:PHA={
+
+		}
+	}
+	s:STATE_Inzibra={
+		region_state:EFE={
+
+		}
+	}
+	s:STATE_Baaf={
+		region_state:ASR={
+
+		}
+	}
+	s:STATE_Ebrilandobrard={
+		region_state:ANM={
+
+		}
+	}
+	s:STATE_Staenthuun={
+		region_state:DEA={
+
+		}
+	}
+	s:STATE_Abosso={
+		region_state:ISH={
+
+		}
+	}
+	s:STATE_Piosroind={
+		region_state:UBR={
+
+		}
+	}
+	s:STATE_Utrand={
+		region_state:DOA={
+
+		}
+	}
+	s:STATE_Lustaluu={
+		region_state:FRO={
+
+		}
+	}
+	s:STATE_Hailtuirt={
+		region_state:RUT={
+
+		}
+	}
+	s:STATE_Thuedthuoj={
+		region_state:ART={
+
+		}
+	}
+	s:STATE_Swolustert={
+		region_state:ATR={
+
+		}
+	}
+	s:STATE_Peabweult={
+		region_state:EER={
+
+		}
+	}
+	s:STATE_Osrucco={
+		region_state:SUE={
+
+		}
+	}
+	s:STATE_Pechia={
+		region_state:CUS={
+
+		}
+	}
+	s:STATE_Kaagroaj={
+		region_state:BOI={
+
+		}
+	}
+	s:STATE_Nuthohie={
+		region_state:SUE={
+
+		}
+	}
+	s:STATE_Nuthoroi={
+		region_state:KAU={
+
+		}
+	}
+	s:STATE_Ungurt={
+		region_state:FIO={
+
+		}
+	}
+	s:STATE_Nirroe={
+		region_state:MAI={
+
+		}
+	}
+	s:STATE_Hoekuss={
+		region_state:ASR={
+
+		}
+	}
+	s:STATE_Sistafii={
+		region_state:STO={
+
+		}
+	}
+	s:STATE_Achtassu={
+		region_state:UMB={
+
+		}
+	}
+	s:STATE_Fraguthshegast={
+		region_state:KAU={
+
+		}
+	}
+	s:STATE_Huordaung={
+		region_state:FRU={
+
+		}
+	}
+	s:STATE_Moultiistan={
+		region_state:EPO={
+
+		}
+	}
+	s:STATE_Shasrass={
+		region_state:BOI={
+
+		}
+	}
+	s:STATE_Otrurt={
+		region_state:UHA={
+
+		}
+	}
+	s:STATE_Daeppoir={
+		region_state:FEO={
+
+		}
+	}
+	s:STATE_Faelox={
+		region_state:ENG={
+
+		}
+	}
+	s:STATE_Jistroo={
+		region_state:KAU={
+
+		}
+	}
+	s:STATE_Strocist={
+		region_state:ASR={
+
+		}
+	}
+	s:STATE_Andupp={
+		region_state:LIO={
+
+		}
+	}
+	s:STATE_Leep={
+		region_state:BOI={
+
+		}
+	}
+	s:STATE_Swusuth={
+		region_state:HIC={
+
+		}
+	}
+	s:STATE_Meoltealt={
+		region_state:ENG={
+
+		}
+	}
+	s:STATE_Posheo={
+		region_state:MAI={
+
+		}
+	}
+	s:STATE_Strojast={
+		region_state:PAU={
+
+		}
+	}
+	s:STATE_Guccoi={
+		region_state:EMU={
+
+		}
+	}
+	s:STATE_Mienapp={
+		region_state:CUS={
+
+		}
+	}
+	s:STATE_Louf={
+		region_state:DUA={
+
+		}
+	}
+	s:STATE_Theubthoed={
+		region_state:EER={
+
+		}
+	}
+	s:STATE_Maechoord={
+		region_state:BOS={
+
+		}
+	}
+	s:STATE_Tiiney={
+		region_state:TUU={
+
+		}
+	}
+	s:STATE_Thaanstoor={
+		region_state:PAU={
+
+		}
+	}
+	s:STATE_Reambaapp={
+		region_state:EFE={
+
+		}
+	}
+	s:STATE_Luachialand={
+		region_state:BOI={
+
+		}
+	}
+	s:STATE_Unoqua={
+		region_state:RUT={
+
+		}
+	}
+	s:STATE_Teujult={
+		region_state:UHA={
+
+		}
+	}
+	s:STATE_Amulti={
+		region_state:BOI={
+
+		}
+	}
+	s:STATE_Baetriund={
+		region_state:RIB={
+
+		}
+	}
+	s:STATE_Itritto={
+		region_state:UHA={
+
+		}
+	}
+	s:STATE_Shihethelt={
+		region_state:SWA={
+
+		}
+	}
+	s:STATE_Thuulstoah={
+		region_state:EER={
+
+		}
+	}
+	s:STATE_Shashipp={
+		region_state:FEO={
+
+		}
+	}
+	s:STATE_Strunostchefast={
+		region_state:FRO={
+
+		}
+	}
+	s:STATE_Steuhthiep={
+		region_state:BOS={
+
+		}
+	}
+	s:STATE_Afucho={
+		region_state:PII={
+
+		}
+	}
+	s:STATE_Frechard={
+		region_state:FEO={
+
+		}
+	}
+	s:STATE_Ucestru={
+		region_state:BOI={
+
+		}
+	}
+	s:STATE_Itrestro={
+		region_state:ATR={
+
+		}
+	}
+	s:STATE_Andund={
+		region_state:TRA={
+
+		}
+	}
+	s:STATE_Efachti={
+		region_state:RUT={
+
+		}
+	}
+	s:STATE_Daachtaung={
+		region_state:URB={
+
+		}
+	}
+	s:STATE_Ubrungaccert={
+		region_state:DUA={
+
+		}
+	}
+	s:STATE_Irtippisselt={
+		region_state:TRA={
+
+		}
+	}
+	s:STATE_Asrass={
+		region_state:ENG={
+
+		}
+	}
+	s:STATE_Stiag={
+		region_state:RUT={
+
+		}
+	}
+	s:STATE_Phadith={
+		region_state:EER={
+
+		}
+	}
+	s:STATE_Naitroart={
+		region_state:CUS={
+
+		}
+	}
+	s:STATE_Bairreeng={
+		region_state:ART={
+
+		}
+	}
+	s:STATE_Hiltou={
+		region_state:ART={
+
+		}
+	}
+	s:STATE_Phokestepp={
+		region_state:FEO={
+
+		}
+	}
+	s:STATE_Ichtilandusrastan={
+		region_state:PAU={
+
+		}
+	}
+	s:STATE_Switest={
+		region_state:EFE={
+
+		}
+	}
+	s:STATE_Trisustupp={
+		region_state:FEO={
+
+		}
+	}
+	s:STATE_Rostelui={
+		region_state:ATR={
+
+		}
+	}
+	s:STATE_Soegox={
+		region_state:HET={
+
+		}
+	}
+	s:STATE_Theec={
+		region_state:FRO={
+
+		}
+	}
+	s:STATE_Miabix={
+		region_state:HET={
+
+		}
+	}
+	s:STATE_Jebrue={
+		region_state:ENG={
+
+		}
+	}
+	s:STATE_Diiguy={
+		region_state:CUS={
+
+		}
+	}
+	s:STATE_Umbenzo={
+		region_state:ATR={
+
+		}
+	}
+	s:STATE_Staijsteac={
+		region_state:RIB={
+
+		}
+	}
+	s:STATE_Puccau={
+		region_state:BOS={
+
+		}
+	}
+	s:STATE_Beojoz={
+		region_state:SUE={
+
+		}
+	}
+	s:STATE_Phahuthong={
+		region_state:ATR={
+
+		}
+	}
+	s:STATE_Luochtoang={
+		region_state:PAU={
+
+		}
+	}
+	s:STATE_Thioksteub={
+		region_state:DUA={
+
+		}
+	}
+	s:STATE_Chorothtrutost={
+		region_state:ENG={
+
+		}
+	}
+	s:STATE_Phorost={
+		region_state:FEO={
+
+		}
+	}
+	s:STATE_Trochtupp={
+		region_state:EFE={
+
+		}
+	}
+	s:STATE_Jeoktued={
+		region_state:KAU={
+
+		}
+	}
+	s:STATE_Buom={
+		region_state:ENG={
+
+		}
+	}
+	s:STATE_Eltitre={
+		region_state:FRO={
+
+		}
+	}
+	s:STATE_Suthusua={
+		region_state:TRA={
+
+		}
+	}
+	s:STATE_Trucith={
+		region_state:DUA={
+
+		}
+	}
+	s:STATE_Hooj={
+		region_state:CUS={
+
+		}
+	}
+	s:STATE_Andard={
+		region_state:RUT={
+
+		}
+	}
+	s:STATE_Joebwoird={
+		region_state:UHA={
+
+		}
+	}
+	s:STATE_Guuhang={
+		region_state:QUO={
+
+		}
+	}
+	s:STATE_Ostring={
+		region_state:RUT={
+
+		}
+	}
+	s:STATE_Strangustan={
+		region_state:EST={
+
+		}
+	}
+	s:STATE_Lothebai={
+		region_state:EFE={
+
+		}
+	}
+	s:STATE_Ahundo={
+		region_state:HET={
+
+		}
+	}
+	s:STATE_Swinostolt={
+		region_state:UMB={
+
+		}
+	}
+	s:STATE_Luopuq={
+		region_state:NAC={
+
+		}
+	}
+	s:STATE_Onmess={
+		region_state:EFE={
+
+		}
+	}
+	s:STATE_Swabosteng={
+		region_state:UMB={
+
+		}
+	}
+	s:STATE_Jaecind={
+		region_state:DUA={
+
+		}
+	}
+	s:STATE_Fioltaapp={
+		region_state:UMB={
+
+		}
+	}
+	s:STATE_Shossurd={
+		region_state:ART={
+
+		}
+	}
+	s:STATE_Traniststrocath={
+		region_state:RIB={
+
+		}
+	}
+	s:STATE_Ojumbi={
+		region_state:DAA={
+
+		}
+	}
+	s:STATE_Charest={
+		region_state:DUA={
+
+		}
+	}
+	s:STATE_Quobuthshufost={
+		region_state:SUE={
+
+		}
+	}
+	s:STATE_Purreo={
+		region_state:RIB={
+
+		}
+	}
+	s:STATE_Frafathort={
+		region_state:OND={
+
+		}
+	}
+	s:STATE_Ilestre={
+		region_state:PII={
+
+		}
+	}
+	s:STATE_Mathitou={
+		region_state:NAC={
+
+		}
+	}
+	s:STATE_Jeerduert={
+		region_state:FRO={
+
+		}
+	}
+	s:STATE_Rostitoi={
+		region_state:HEE={
+
+		}
+	}
+	s:STATE_Buucox={
+		region_state:ART={
+
+		}
+	}
+	s:STATE_Stridist={
+		region_state:KAU={
+
+		}
+	}
+	s:STATE_Stoilthiub={
+		region_state:TOO={
+
+		}
+	}
+	s:STATE_Gobrou={
+		region_state:FRO={
+
+		}
+	}
+	s:STATE_Oltapp={
+		region_state:DUA={
+
+		}
+	}
+	s:STATE_Chundoss={
+		region_state:TOO={
+
+		}
+	}
+	s:STATE_Duertiult={
+		region_state:EFE={
+
+		}
+	}
+	s:STATE_Ifetre={
+		region_state:DOA={
+
+		}
+	}
+	s:STATE_Theujthoip={
+		region_state:EFE={
+
+		}
+	}
+	s:STATE_Liolix={
+		region_state:KAU={
+
+		}
+	}
+	s:STATE_Bothonoo={
+		region_state:EFE={
+
+		}
+	}
+	s:STATE_Reep={
+		region_state:BOS={
+
+		}
+	}
+	s:STATE_Shejuth={
+		region_state:ART={
+
+		}
+	}
+	s:STATE_Rioney={
+		region_state:PII={
+
+		}
+	}
+	s:STATE_Inderra={
+		region_state:PAU={
+
+		}
+	}
+	s:STATE_Faanduind={
+		region_state:DUA={
+
+		}
+	}
+	s:STATE_Soiquailt={
+		region_state:UHA={
+
+		}
+	}
+	s:STATE_Ruetort={
+		region_state:OND={
+
+		}
+	}
+	s:STATE_Hondoe={
+		region_state:ART={
+
+		}
+	}
+	s:STATE_Enzurt={
+		region_state:RIB={
+
+		}
+	}
+	s:STATE_Neidepp={
+		region_state:UMB={
+
+		}
+	}
+	s:STATE_Miokay={
+		region_state:DUO={
+
+		}
+	}
+	s:STATE_Mual={
+		region_state:MAI={
+
+		}
+	}
+	s:STATE_Chejosturt={
+		region_state:DAA={
+
+		}
+	}
+	s:STATE_Duipaland={
+		region_state:DUE={
+
+		}
+	}
+	s:STATE_Swekethert={
+		region_state:FIO={
+
+		}
+	}
+	s:STATE_Babroi={
+		region_state:HEE={
+
+		}
+	}
+	s:STATE_Soetix={
+		region_state:IGU={
+
+		}
+	}
+	s:STATE_Jobwei={
+		region_state:ANM={
+
+		}
+	}
+	s:STATE_Maibwioss={
+		region_state:HAO={
+
+		}
+	}
+	s:STATE_Baulistan={
+		region_state:FRU={
+
+		}
+	}
+	s:STATE_Huigelt={
+		region_state:NOM={
+
+		}
+	}
+	s:STATE_Huohix={
+		region_state:HEE={
+
+		}
+	}
+	s:STATE_Heul={
+		region_state:PUI={
+
+		}
+	}
+	s:STATE_Tooquoird={
+		region_state:IGU={
+
+		}
+	}
+	s:STATE_Trogest={
+		region_state:TAP={
+
+		}
+	}
+	s:STATE_Mirrua={
+		region_state:NOM={
+
+		}
+	}
+	s:STATE_Anmotro={
+		region_state:MEN={
+
+		}
+	}
+	s:STATE_Kuutroapp={
+		region_state:RAN={
+
+		}
+	}
+	s:STATE_Phebething={
+		region_state:SWO={
+
+		}
+	}
+	s:STATE_Usrippu={
+		region_state:PUI={
+
+		}
+	}
+	s:STATE_Ossichti={
+		region_state:NOM={
+
+		}
+	}
+	s:STATE_Stroduthuland={
+		region_state:CHI={
+
+		}
+	}
+	s:STATE_Puedaq={
+		region_state:NOM={
+
+		}
+	}
+	s:STATE_Thuojstoem={
+		region_state:HEE={
+
+		}
+	}
+	s:STATE_Taertaing={
+		region_state:NOM={
+
+		}
+	}
+	s:STATE_Joartiupp={
+		region_state:JET={
+
+		}
+	}
+	s:STATE_Frenothard={
+		region_state:HEE={
+
+		}
+	}
+	s:STATE_Buorruang={
+		region_state:HAO={
+
+		}
+	}
+	s:STATE_Bithaguu={
+		region_state:HEE={
+
+		}
+	}
+	s:STATE_Trerbuland={
+		region_state:EMB={
+
+		}
+	}
+	s:STATE_Etichti={
+		region_state:NOM={
+
+		}
+	}
+	s:STATE_Kiemiq={
+		region_state:MAU={
+
+		}
+	}
+	s:STATE_Puottuend={
+		region_state:CHI={
+
+		}
+	}
+	s:STATE_Thoof={
+		region_state:ICH={
+
+		}
+	}
+	s:STATE_Theukthuej={
+		region_state:PUI={
+
+		}
+	}
+	s:STATE_Duuley={
+		region_state:IGU={
+
+		}
+	}
+	s:STATE_Asondo={
+		region_state:FUS={
+
+		}
+	}
+	s:STATE_Dardao={
+		region_state:DUE={
+
+		}
+	}
+	s:STATE_Kestriedurdou={
+		region_state:NOO={
+
+		}
+	}
+	s:STATE_Umirri={
+		region_state:REO={
+
+		}
+	}
+	s:STATE_Shumithurt={
+		region_state:TAP={
+
+		}
+	}
+	s:STATE_Jiuhguar={
+		region_state:THA={
+
+		}
+	}
+	s:STATE_Artang={
+		region_state:JES={
+
+		}
+	}
+	s:STATE_Stropothess={
+		region_state:IGU={
+
+		}
+	}
+	s:STATE_Nouhess={
+		region_state:NOM={
+
+		}
+	}
+	s:STATE_Geup={
+		region_state:HIA={
+
+		}
+	}
+	s:STATE_Essosho={
+		region_state:USH={
+
+		}
+	}
+	s:STATE_Appinze={
+		region_state:NOO={
+
+		}
+	}
+	s:STATE_Chenethard={
+		region_state:NOM={
+
+		}
+	}
+	s:STATE_Thoicthiel={
+		region_state:DUE={
+
+		}
+	}
+	s:STATE_Stuuhstief={
+		region_state:HAO={
+
+		}
+	}
+	s:STATE_Swimuthort={
+		region_state:CHI={
+
+		}
+	}
+	s:STATE_Ustricho={
+		region_state:TOO={
+
+		}
+	}
+	s:STATE_Ekalto={
+		region_state:JAU={
+
+		}
+	}
+	s:STATE_Tuirdiupp={
+		region_state:MAU={
+
+		}
+	}
+	s:STATE_Umisre={
+		region_state:CIU={
+
+		}
+	}
+	s:STATE_Uquuss={
+		region_state:DUO={
+
+		}
+	}
+	s:STATE_Stoos={
+		region_state:HUA={
+
+		}
+	}
+	s:STATE_Mualgeef={
+		region_state:DEA={
+
+		}
+	}
+	s:STATE_Merraa={
+		region_state:EMB={
+
+		}
+	}
+	s:STATE_Acitra={
+		region_state:ICH={
+
+		}
+	}
+	s:STATE_Jaobeng={
+		region_state:CIU={
+
+		}
+	}
+	s:STATE_Okossi={
+		region_state:FRU={
+
+		}
+	}
+	s:STATE_Muupiz={
+		region_state:NOO={
+
+		}
+	}
+	s:STATE_Fricoth={
+		region_state:DEA={
+
+		}
+	}
+	s:STATE_Meib={
+		region_state:RAN={
+
+		}
+	}
+	s:STATE_Shucest={
+		region_state:FRU={
+
+		}
+	}
+	s:STATE_Freputh={
+		region_state:CIU={
+
+		}
+	}
+	s:STATE_Roandeoland={
+		region_state:QUO={
+
+		}
+	}
+	s:STATE_Opuchti={
+		region_state:ICH={
+
+		}
+	}
+	s:STATE_Kuij={
+		region_state:DUE={
+
+		}
+	}
+	s:STATE_Jeiquiupp={
+		region_state:FUS={
+
+		}
+	}
+	s:STATE_Thoabstuod={
+		region_state:PUA={
+
+		}
+	}
+	s:STATE_Tabwao={
+		region_state:EPO={
+
+		}
+	}
+	s:STATE_Huittiart={
+		region_state:CHI={
+
+		}
+	}
+	s:STATE_Moomboiss={
+		region_state:HAO={
+
+		}
+	}
+	s:STATE_Riebraund={
+		region_state:HAO={
+
+		}
+	}
+	s:STATE_Piekux={
+		region_state:SWO={
+
+		}
+	}
+	s:STATE_Lotholeu={
+		region_state:EMI={
+
+		}
+	}
+	s:STATE_Jeirreepp={
+		region_state:ICH={
+
+		}
+	}
+	s:STATE_Maur={
+		region_state:EMI={
+
+		}
+	}
+	s:STATE_Mieseland={
+		region_state:NOO={
+
+		}
+	}
+	s:STATE_Iltapp={
+		region_state:TAP={
+
+		}
+	}
+	s:STATE_Guijeq={
+		region_state:NOO={
+
+		}
+	}
+	s:STATE_Leijjuas={
+		region_state:PUA={
+
+		}
+	}
+	s:STATE_Trirbordfrengolt={
+		region_state:CIU={
+
+		}
+	}
+	s:STATE_Tronustard={
+		region_state:EPO={
+
+		}
+	}
+	s:STATE_Dastagii={
+		region_state:EMB={
+
+		}
+	}
+	s:STATE_Uchtichto={
+		region_state:PUA={
+
+		}
+	}
+	s:STATE_Uchtipp={
+		region_state:MAU={
+
+		}
+	}
+	s:STATE_Kothemeo={
+		region_state:ANM={
+
+		}
+	}
+	s:STATE_Frafoth={
+		region_state:NOM={
+
+		}
+	}
+	s:STATE_Ostreng={
+		region_state:PHA={
+
+		}
+	}
+	s:STATE_Lathimue={
+		region_state:FUS={
+
+		}
+	}
+	s:STATE_Froduth={
+		region_state:NOM={
+
+		}
+	}
+	s:STATE_Dethucua={
+		region_state:DUE={
+
+		}
+	}
+	s:STATE_Phorrult={
+		region_state:UOL={
+
+		}
+	}
+	s:STATE_Struttoland={
+		region_state:CHI={
+
+		}
+	}
+	s:STATE_Gausroilt={
+		region_state:FRU={
+
+		}
+	}
+	s:STATE_Rolteu={
+		region_state:EMI={
+
+		}
+	}
+	s:STATE_Destelui={
+		region_state:EPO={
+
+		}
+	}
+	s:STATE_Trajest={
+		region_state:DEA={
+
+		}
+	}
+	s:STATE_Jiirroond={
+		region_state:RAN={
+
+		}
+	}
+	s:STATE_Shotistird={
+		region_state:SWO={
+
+		}
+	}
+	s:STATE_Stiotthuas={
+		region_state:HAO={
+
+		}
+	}
+	s:STATE_Quendistan={
+		region_state:JET={
+
+		}
+	}
+	s:STATE_Bualtuung={
+		region_state:IGU={
+
+		}
+	}
+	s:STATE_Trandult={
+		region_state:ICH={
+
+		}
+	}
+	s:STATE_Swijethord={
+		region_state:FUS={
+
+		}
+	}
+	s:STATE_Junzei={
+		region_state:JES={
+
+		}
+	}
+	s:STATE_Jethujau={
+		region_state:CHI={
+
+		}
+	}
+	s:STATE_Guirroastan={
+		region_state:MEN={
+
+		}
+	}
+	s:STATE_Festusui={
+		region_state:JET={
+
+		}
+	}
+	s:STATE_Kuopelt={
+		region_state:PUI={
+
+		}
+	}
+	s:STATE_Essubra={
+		region_state:SWO={
+
+		}
+	}
+	s:STATE_Hietelt={
+		region_state:ICH={
+
+		}
+	}
+	s:STATE_Leuc={
+		region_state:FIO={
+
+		}
+	}
+	s:STATE_Stoodstial={
+		region_state:NOO={
+
+		}
+	}
+	s:STATE_Kittai={
+		region_state:PII={
+
+		}
+	}
+	s:STATE_Haobruupp={
+		region_state:TAP={
+
+		}
+	}
+	s:STATE_Piittiolt={
+		region_state:DEA={
+
+		}
+	}
+	s:STATE_Goudceik={
+		region_state:TAP={
+
+		}
+	}
+	s:STATE_Tiinind={
+		region_state:PUI={
+
+		}
+	}
+	s:STATE_Shosathustan={
+		region_state:JES={
+
+		}
+	}
+	s:STATE_Chimath={
+		region_state:HIA={
+
+		}
+	}
+	s:STATE_Sear={
+		region_state:PUA={
+
+		}
+	}
+	s:STATE_Nibruu={
+		region_state:PUI={
+
+		}
+	}
+	s:STATE_Frejoth={
+		region_state:DEA={
+
+		}
+	}
+	s:STATE_Boaniz={
+		region_state:CIU={
+
+		}
+	}
+	s:STATE_Nomboa={
+		region_state:EMB={
+
+		}
+	}
+	s:STATE_Quonzang={
+		region_state:QUO={
+
+		}
+	}
+	s:STATE_Nanzoi={
+		region_state:PHA={
+
+		}
+	}
+	s:STATE_Taunguass={
+		region_state:RAN={
+
+		}
+	}
+	s:STATE_Poujung={
+		region_state:DUE={
+
+		}
+	}
+	s:STATE_Heomez={
+		region_state:MUE={
+
+		}
+	}
+	s:STATE_Morria={
+		region_state:DUO={
+
+		}
+	}
+	s:STATE_Esrussachtuss={
+		region_state:UMB={
+
+		}
+	}
+	s:STATE_Neishaiss={
+		region_state:NOO={
+
+		}
+	}
+	s:STATE_Fieloz={
+		region_state:HIA={
+
+		}
+	}
+	s:STATE_Ashelti={
+		region_state:MUE={
+
+		}
+	}
+	s:STATE_Goocceeland={
+		region_state:DUE={
+
+		}
+	}
+	s:STATE_Stios={
+		region_state:DOA={
+
+		}
+	}
+	s:STATE_Querith={
+		region_state:PII={
+
+		}
+	}
+	s:STATE_Riasastan={
+		region_state:MUE={
+
+		}
+	}
+	s:STATE_Reindoostan={
+		region_state:PHA={
+
+		}
+	}
+	s:STATE_Niimass={
+		region_state:QUO={
+
+		}
+	}
+	s:STATE_Deusiq={
+		region_state:ICH={
+
+		}
+	}
+	s:STATE_Uppequa={
+		region_state:EPO={
+
+		}
+	}
+	s:STATE_Teisroond={
+		region_state:NEE={
+
+		}
+	}
+	s:STATE_Missoo={
+		region_state:IGU={
+
+		}
+	}
+	s:STATE_Sworrepp={
+		region_state:DOI={
+
+		}
+	}
+	s:STATE_Soengaort={
+		region_state:FIO={
+
+		}
+	}
+	s:STATE_Upportu={
+		region_state:DOA={
+
+		}
+	}
+	s:STATE_Seappeing={
+		region_state:EMI={
+
+		}
+	}
+	s:STATE_Thaurstear={
+		region_state:REO={
+
+		}
+	}
+	s:STATE_Jethupou={
+		region_state:TOO={
+
+		}
+	}
+	s:STATE_Thaugstair={
+		region_state:NAC={
+
+		}
+	}
+	s:STATE_Ceoc={
+		region_state:EMB={
+
+		}
+	}
+	s:STATE_Onoccu={
+		region_state:DEA={
+
+		}
+	}
+	s:STATE_Dautraang={
+		region_state:EMB={
+
+		}
+	}
+	s:STATE_Poibroalt={
+		region_state:REO={
+
+		}
+	}
+	s:STATE_Puacheart={
+		region_state:JES={
+
+		}
+	}
+	s:STATE_Arbotta={
+		region_state:DOI={
+
+		}
+	}
+	s:STATE_Ecubre={
+		region_state:ANM={
+
+		}
+	}
+	s:STATE_Goirtuustan={
+		region_state:SWO={
+
+		}
+	}
+	s:STATE_Trejastord={
+		region_state:EPO={
+
+		}
+	}
+	s:STATE_Guanzoond={
+		region_state:FIO={
+
+		}
+	}
+	s:STATE_Etrecco={
+		region_state:DOA={
+
+		}
+	}
+	s:STATE_Thaaftheef={
+		region_state:RAU={
+
+		}
+	}
+	s:STATE_Tribastilt={
+		region_state:STO={
+
+		}
+	}
+	s:STATE_Paic={
+		region_state:HUT={
+
+		}
+	}
+	s:STATE_Assenzu={
+		region_state:ASR={
+
+		}
+	}
+	s:STATE_Shakastapp={
+		region_state:MAI={
+
+		}
+	}
+	s:STATE_Swichtilt={
+		region_state:PHA={
+
+		}
+	}
+	s:STATE_Frarbelt={
+		region_state:RAU={
+
+		}
+	}
+	s:STATE_Miechtaerd={
+		region_state:DUA={
+
+		}
+	}
+	s:STATE_Tringerd={
+		region_state:LII={
+
+		}
+	}
+	s:STATE_Staicstail={
+		region_state:STO={
+
+		}
+	}
+	s:STATE_Uchtord={
+		region_state:PHA={
+
+		}
+	}
+	s:STATE_Phidost={
+		region_state:MAI={
+
+		}
+	}
+	s:STATE_Swacestung={
+		region_state:BOS={
+
+		}
+	}
+	s:STATE_Jarree={
+		region_state:GEE={
+
+		}
+	}
+	s:STATE_Thoubstoep={
+		region_state:ATR={
+
+		}
+	}
+	s:STATE_Chebrong={
+		region_state:HUU={
+
+		}
+	}
+	s:STATE_Liunziuss={
+		region_state:DOI={
+
+		}
+	}
+	s:STATE_Trerdond={
+		region_state:TAP={
+
+		}
+	}
+	s:STATE_Duefird={
+		region_state:PUA={
+
+		}
+	}
+	s:STATE_Anerduaforbu={
+		region_state:DAA={
+
+		}
+	}
+	s:STATE_Loum={
+		region_state:JES={
+
+		}
+	}
+	s:STATE_Mithedau={
+		region_state:DOI={
+
+		}
+	}
+	s:STATE_Disturou={
+		region_state:DAA={
+
+		}
+	}
+	s:STATE_Feactioj={
+		region_state:NOO={
+
+		}
+	}
+	s:STATE_Goinmiess={
+		region_state:FUS={
+
+		}
+	}
+	s:STATE_Fout={
+		region_state:ENG={
+
+		}
+	}
+	s:STATE_Angorde={
+		region_state:EST={
+
+		}
+	}
+	s:STATE_Strecath={
+		region_state:PAU={
+
+		}
+	}
+	s:STATE_Quakaststrubuth={
+		region_state:DOI={
+
+		}
+	}
+	s:STATE_Ubross={
+		region_state:LII={
+
+		}
+	}
+	s:STATE_Suegord={
+		region_state:GEE={
+
+		}
+	}
+	s:STATE_Dustubau={
+		region_state:ANM={
+
+		}
+	}
+	s:STATE_Obrerro={
+		region_state:HUT={
+
+		}
+	}
+	s:STATE_Theafthear={
+		region_state:RAU={
+
+		}
+	}
+	s:STATE_Jistitio={
+		region_state:ANM={
+
+		}
+	}
+	s:STATE_Gorduo={
+		region_state:PII={
+
+		}
+	}
+	s:STATE_Imirtu={
+		region_state:BOS={
+
+		}
+	}
+	s:STATE_Ejanza={
+		region_state:NAC={
+
+		}
+	}
+	s:STATE_Peid={
+		region_state:DAA={
+
+		}
+	}
+	s:STATE_Thietthuoc={
+		region_state:EST={
+
+		}
+	}
+	s:STATE_Fustefei={
+		region_state:JET={
+
+		}
+	}
+	s:STATE_Maoltaupp={
+		region_state:LII={
+
+		}
+	}
+	s:STATE_Quurethswuroth={
+		region_state:BOS={
+
+		}
+	}
+	s:STATE_Quegistphujost={
+		region_state:LII={
+
+		}
+	}
+	s:STATE_Afonmi={
+		region_state:DOI={
+
+		}
+	}
+	s:STATE_Jistadaa={
+		region_state:DUO={
+
+		}
+	}
+	s:STATE_Phugethswidust={
+		region_state:JET={
+
+		}
+	}
+	s:STATE_Ilanzi={
+		region_state:QUO={
+
+		}
+	}
+	s:STATE_Jabwuu={
+		region_state:NAC={
+
+		}
+	}
+	s:STATE_Paodez={
+		region_state:DUO={
+
+		}
+	}
+	s:STATE_Oquessu={
+		region_state:QUO={
+
+		}
+	}
+	s:STATE_Thiomthuem={
+		region_state:RAU={
+
+		}
+	}
+	s:STATE_Staal={
+		region_state:PAU={
+
+		}
+	}
+	s:STATE_Ardarda={
+		region_state:DAA={
+
+		}
+	}
+	s:STATE_Swuchort={
+		region_state:EMI={
+
+		}
+	}
+	s:STATE_Phikust={
+		region_state:MUE={
+
+		}
+	}
+	s:STATE_Diidiy={
+		region_state:EST={
+
+		}
+	}
+	s:STATE_Usralt={
+		region_state:EST={
+
+		}
+	}
+	s:STATE_Omesse={
+		region_state:HUU={
+
+		}
+	}
+	s:STATE_Uninmi={
+		region_state:PAU={
+
+		}
+	}
+	s:STATE_Usrechi={
+		region_state:RAN={
+
+		}
+	}
+	s:STATE_Kiab={
+		region_state:TOO={
+
+		}
+	}
+	s:STATE_Frubest={
+		region_state:HUU={
+
+		}
+	}
+	s:STATE_Fitholoi={
+		region_state:HUU={
+
+		}
+	}
+	s:STATE_Leiceland={
+		region_state:RAU={
+
+		}
+	}
+	s:STATE_Phobosttrebist={
+		region_state:MEN={
+
+		}
+	}
+	s:STATE_Thoamthuop={
+		region_state:HUT={
+
+		}
+	}
+	s:STATE_Staidthoih={
+		region_state:NAC={
+
+		}
+	}
+	s:STATE_Eccirtepposs={
+		region_state:EST={
+
+		}
+	}
+	s:STATE_Neappeart={
+		region_state:DUO={
+
+		}
+	}
+	s:STATE_Etroppu={
+		region_state:DAA={
+
+		}
+	}
+	s:STATE_Steisthaut={
+		region_state:DUE={
+
+		}
+	}
+	s:STATE_Teesrourd={
+		region_state:NOO={
+
+		}
+	}
+	s:STATE_Noegux={
+		region_state:MUE={
+
+		}
+	}
+	s:STATE_Stiecthuog={
+		region_state:FIO={
+
+		}
+	}
+	s:STATE_Nuurtoipp={
+		region_state:DOI={
+
+		}
+	}
+	s:STATE_Muurdiih={
+		region_state:QUO={
+
+		}
+	}
+	s:STATE_Apequa={
+		region_state:PUA={
+
+		}
+	}
+	s:STATE_Foabiy={
+		region_state:HUU={
+
+		}
+	}
+	s:STATE_Ungenzi={
+		region_state:HUT={
+
+		}
+	}
+	s:STATE_Jeostraistan={
+		region_state:MEN={
+
+		}
+	}
+	s:STATE_Kithateu={
+		region_state:DOA={
+
+		}
+	}
+	s:STATE_Ashuss={
+		region_state:EST={
+
+		}
+	}
+	s:STATE_Liatoy={
+		region_state:DAA={
+
+		}
+	}
+	s:STATE_Boasriipp={
+		region_state:TOO={
+
+		}
+	}
+	s:STATE_Quequiland={
+		region_state:DAA={
+
+		}
+	}
+	s:STATE_Onmoss={
+		region_state:HUU={
+
+		}
+	}
+	s:STATE_Astrestro={
+		region_state:DUE={
+
+		}
+	}
+	s:STATE_Stoic={
+		region_state:TOO={
+
+		}
+	}
+	s:STATE_Frangond={
+		region_state:RAN={
+
+		}
+	}
+	s:STATE_Bunmeo={
+		region_state:FUS={
+
+		}
+	}
+	s:STATE_Strirostelt={
+		region_state:MEN={
+
+		}
+	}
+	s:STATE_Hambii={
+		region_state:HUT={
+
+		}
+	}
+	s:STATE_Ashoss={
+		region_state:MUE={
+
+		}
+	}
+	s:STATE_Fauraq={
+		region_state:GEE={
+
+		}
+	}
+	s:STATE_Fuurboipp={
+		region_state:EMI={
+
+		}
+	}
+
+}

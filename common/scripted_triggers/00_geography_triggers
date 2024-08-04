@@ -1,0 +1,268 @@
+﻿### State geography triggers
+
+state_is_in_europe = {
+	OR = {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+}
+
+state_is_in_north_america = {
+	OR = {
+
+
+
+
+
+
+	}
+}
+
+state_is_in_central_america = {
+	OR = {
+
+
+
+	}
+}
+
+state_is_in_south_america = {
+	OR = {
+
+
+
+
+	}
+}
+
+state_is_in_americas = {
+	OR = {
+		state_is_in_north_america = yes
+		state_is_in_central_america = yes
+		state_is_in_south_america = yes
+	}
+}
+
+state_is_in_africa = {
+	OR = {
+
+
+
+
+
+
+
+
+	}
+}
+
+state_is_in_middle_east = {
+	OR = {
+
+
+
+
+	}
+}
+
+state_is_in_central_asia = {
+	OR = {
+
+
+	}
+}
+
+state_is_in_india = {
+	OR = {
+
+
+	}
+}
+
+state_is_in_east_asia = {
+	OR = {
+
+
+
+
+
+
+	}
+}
+
+state_is_in_china = {
+	OR = {
+
+
+		# not counting manchuria here deliberately
+	}
+}
+
+state_is_in_southeast_asia = {
+	OR = {
+
+
+	}
+}
+### Country geography triggers
+# exists = capital checks are necessary only because we may test these triggers and scope switch to capitals before states are initialized properly
+
+country_is_in_china = {
+	exists = capital
+	capital = {
+		state_is_in_china = yes
+	}
+}
+
+country_is_in_europe = {
+	exists = capital
+	capital = {
+		state_is_in_europe = yes
+	}
+}
+
+country_is_in_north_america = {
+	exists = capital
+	capital = {
+		state_is_in_north_america = yes
+	}
+}
+
+country_is_in_central_america = {
+	exists = capital
+	capital = {
+		state_is_in_central_america = yes
+	}
+}
+
+country_is_in_south_america = {
+	exists = capital
+	capital = {
+		state_is_in_south_america = yes
+	}
+}
+
+country_is_in_africa = {
+	exists = capital
+	capital = {
+		state_is_in_africa = yes
+	}
+}
+
+country_is_in_middle_east = {
+	exists = capital
+	capital = {
+		state_is_in_middle_east = yes
+	}
+}
+
+country_is_in_central_asia = {
+	exists = capital
+	capital = {
+		state_is_in_central_asia = yes
+	}
+}
+
+country_is_in_india = {
+	exists = capital
+	capital = {
+		state_is_in_india = yes
+	}
+}
+
+country_is_in_east_asia = {
+	exists = capital
+	capital = {
+		state_is_in_east_asia = yes
+	}
+}
+
+country_is_in_southeast_asia = {
+	exists = capital
+	capital = {
+		state_is_in_southeast_asia = yes
+	}
+}
+
+### Climate triggers
+
+is_arabic_farmland = {
+	OR = {
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+}
+
+is_jungle_hills = {
+	OR = {
+
+
+
+
+	}
+}
+
+is_asian_farmland = {
+	OR = {
+
+
+
+
+
+
+	}
+}
+
+is_subtropic_farmland = {
+	OR = {
+
+
+
+
+
+
+
+	}
+}
+
+is_arid_region = {
+	OR = {
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+}

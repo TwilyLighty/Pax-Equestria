@@ -1,0 +1,128 @@
+﻿STATE_LOWER_EGYPT = {
+	id = 1311
+	provinces = { }
+}
+STATE_UPPER_EGYPT = {
+	id = 1312
+	provinces = { }
+}
+STATE_MIDDLE_EGYPT = {
+	id = 1313
+	provinces = { }
+}
+STATE_EGYPTIAN_DESERT = {
+	id = 1314
+	provinces = { }
+}
+STATE_MATRUH = {
+	id = 1315
+	provinces = { }
+}
+STATE_SINAI = {
+	id = 1316
+	provinces = { }
+}
+STATE_ERITREA = {
+	id = 1317
+	provinces = { }
+}
+STATE_DONGOLA = {
+	id = 1318
+	provinces = { }
+}
+STATE_KORDOFAN = {
+	id = 1319
+	provinces = { }
+}
+STATE_DARFUR = {
+	id = 1320
+	provinces = { }
+}
+STATE_BLUE_NILE = {
+	id = 1321
+	provinces = { }
+}
+STATE_MARRAKECH = {
+	id = 1322
+	provinces = { }
+}
+STATE_FEZ = {
+	id = 1323
+	provinces = { }
+}
+STATE_AL_RIF = {
+	id = 1324
+	provinces = { }
+}
+STATE_INNER_MOROCCO = {
+	id = 1325
+	provinces = { }
+}
+STATE_ALGIERS = {
+	id = 1326
+	provinces = { }
+}
+STATE_CONSTANTINE = {
+	id = 1327
+	provinces = { }
+}
+STATE_ORAN = {
+	id = 1328
+	provinces = { }
+}
+STATE_TUNISIA = {
+	id = 1329
+	provinces = { }
+}
+STATE_TRIPOLI = {
+	id = 1330
+	provinces = { }
+}
+STATE_LIBYA = {
+	id = 1331
+	provinces = { }
+}
+STATE_LIBYAN_DESERT = {
+	id = 1332
+	provinces = { }
+}
+STATE_SAHARA = {
+	id = 1333
+	provinces = { }
+}
+STATE_EAST_SAHARA = {
+	id = 1334
+	provinces = { }
+}
+STATE_WEST_SAHARA = {
+	id = 1335
+	provinces = { }
+}
+STATE_MAURITANIA = {
+	id = 1336
+	provinces = { }
+}
+STATE_INNER_MAURITANIA = {
+	id = 1337
+	provinces = { }
+}
+STATE_EASTERN_MALI = {
+	id = 1338
+	provinces = { }
+}
+STATE_WESTERN_MALI = {
+	id = 1339
+	provinces = { }
+}
+STATE_TIMBUKTU = {
+	id = 1340
+	provinces = { }
+}
+STATE_NIGER = {
+	id = 1341
+	provinces = { }
+}
+STATE_CHAD = {
+	id = 1342
+	provinces = { }
+}

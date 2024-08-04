@@ -1,0 +1,38 @@
+﻿region_anatolia = {
+	capital_province = x010201
+	graphical_culture = "arabic"
+
+}
+region_arabic = {
+	capital_province = x010201
+	graphical_culture = "arabic"
+}
+region_persia = {
+	capital_province = x010201
+	graphical_culture = "arabic"
+}
+region_central_asia = {
+	capital_province = x010201
+	graphical_culture = "arabic"
+
+}
+region_caucasus = {
+	capital_province = x010201
+	# European graphical culture
+
+}
+region_south_india = {
+	capital_province = x010201
+	graphical_culture = "arabic"
+
+}
+region_north_india = {
+	capital_province = x010201
+	graphical_culture = "arabic"
+
+}
+region_himalayas = {
+	capital_province = x010201
+	graphical_culture = "asian"
+
+}

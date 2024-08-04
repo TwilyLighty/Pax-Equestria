@@ -1,0 +1,112 @@
+﻿STATE_MALAYA = {
+	id = 1700
+	provinces = { }
+}
+STATE_NORTH_BORNEO = {
+	id = 1701
+	provinces = { }
+}
+STATE_WEST_BORNEO = {
+	id = 1702
+	provinces = { }
+}
+STATE_EAST_BORNEO = {
+	id = 1703
+	provinces = { }
+}
+STATE_WEST_JAVA = {
+	id = 1704
+	provinces = { }
+}
+STATE_EAST_JAVA = {
+	id = 1705
+	provinces = { }
+}
+STATE_CENTRAL_JAVA = {
+	id = 1706
+	provinces = { }
+}
+STATE_NORTH_SUMATRA = {
+	id = 1707
+	provinces = { }
+}
+STATE_SOUTH_SUMATRA = {
+	id = 1708
+	provinces = { }
+}
+STATE_ACEH = {
+	id = 1709
+	provinces = { }
+}
+STATE_WESTERN_NEW_GUINEA = {
+	id = 1710
+	provinces = { }
+}
+STATE_MOLUCCAS = {
+	id = 1711
+	provinces = { }
+}
+STATE_CELEBES = {
+	id = 1712
+	provinces = { }
+}
+STATE_EASTERN_NEW_GUINEA = {
+	id = 1713
+	provinces = { }
+}
+STATE_SUNDA_ISLANDS = {
+	id = 1714
+	provinces = { }
+}
+STATE_MINDANAO = {
+	id = 1715
+	provinces = { }
+}
+STATE_LUZON = {
+	id = 1716
+	provinces = { }
+}
+STATE_VISAYAS = {
+	id = 1717
+	provinces = { }
+}
+STATE_WEST_MICRONESIA = {
+	id = 1718
+	provinces = { }
+}
+STATE_EAST_MICRONESIA = {
+	id = 1719
+	provinces = { }
+}
+STATE_SOLOMON_ISLANDS = {
+	id = 1720
+	provinces = { }
+}
+STATE_NAURU = {
+	id = 1721
+	provinces = { }
+}
+STATE_FIJI = {
+	id = 1722
+	provinces = { }
+}
+STATE_VANUATU = {
+	id = 1723
+	provinces = { }
+}
+STATE_KANAK = {
+	id = 1724
+	provinces = { }
+}
+STATE_BOUGAINVILLE = {
+	id = 1725
+	provinces = { }
+}
+STATE_TAHITI = {
+	id = 1726
+	provinces = { }
+}
+STATE_TONGA = {
+	id = 1727
+	provinces = { }
+}

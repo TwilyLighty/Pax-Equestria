@@ -1,0 +1,39 @@
+﻿region_canada = {
+	capital_province = x010201
+
+}
+region_new_england = {
+	capital_province = x010201
+
+}
+region_pacific_coast = {
+	capital_province = x010201
+
+}
+region_great_plains = {
+	capital_province = x010201
+
+}
+region_the_midwest = {
+	capital_province = x010201
+
+}
+region_dixie = {
+	capital_province = x010201
+
+}
+region_mexico = {
+	capital_province = x010201
+	graphical_culture = "latin"
+
+}
+region_central_america = {
+	capital_province = x010201
+	graphical_culture = "latin"
+
+}
+region_caribbean = {
+	capital_province = x010201
+	graphical_culture = "latin"
+
+}

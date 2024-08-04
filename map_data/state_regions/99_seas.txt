@@ -1,0 +1,628 @@
+﻿STATE_BALTIC_SEA = {
+	id = 1815
+	provinces = { }
+}
+STATE_HAWAIIAN_SEAMOUNT_CHAIN = {
+	id = 1816
+	provinces = { }
+}
+STATE_MICRONESIAN_SEA = {
+	id = 1817
+	provinces = { }
+}
+STATE_SOUTH_PACIFIC_LANE_1 = {
+	id = 1818
+	provinces = { }
+}
+STATE_SOUTH_PACIFIC_LANE_2 = {
+	id = 1819
+	provinces = { }
+}
+STATE_EASTER_ISLAND_LANE_1 = {
+	id = 1820
+	provinces = { }
+}
+STATE_EASTER_ISLAND_LANE_2 = {
+	id = 1821
+	provinces = { }
+}
+STATE_EASTER_ISLAND_LANE_3 = {
+	id = 1822
+	provinces = { }
+}
+STATE_PACIFIC_LANE_01 = {
+	id = 1823
+	provinces = { }
+}
+STATE_PACIFIC_LANE_02 = {
+	id = 1824
+	provinces = { }
+}
+STATE_PACIFIC_LANE_03 = {
+	id = 1825
+	provinces = { }
+}
+STATE_PACIFIC_LANE_04 = {
+	id = 1826
+	provinces = { }
+}
+STATE_PACIFIC_LANE_05 = {
+	id = 1827
+	provinces = { }
+}
+STATE_PACIFIC_LANE_06 = {
+	id = 1828
+	provinces = { }
+}
+STATE_SOUTHERN_OCEAN_01 = {
+	id = 1829
+	provinces = { }
+}
+STATE_SOUTHERN_OCEAN_02 = {
+	id = 1830
+	provinces = { }
+}
+STATE_FAROE_BANK = {
+	id = 1831
+	provinces = { }
+}
+STATE_GULF_OF_MAINE = {
+	id = 1832
+	provinces = { }
+}
+STATE_HORN_OF_AFRICA = {
+	id = 1833
+	provinces = { }
+}
+STATE_DANISH_STRAITS = {
+	id = 1834
+	provinces = { }
+}
+STATE_NORWEGIAN_SEA = {
+	id = 1835
+	provinces = { }
+}
+STATE_LABRADOR_SEA = {
+	id = 1836
+	provinces = { }
+}
+STATE_IRMINGER_SEA = {
+	id = 1837
+	provinces = { }
+}
+STATE_DAVIS_STRAIT = {
+	id = 1838
+	provinces = { }
+}
+STATE_GALAPAGOS_RISE = {
+	id = 1839
+	provinces = { }
+}
+STATE_EASTERN_CARIBBEAN_SEA = {
+	id = 1840
+	provinces = { }
+}
+STATE_WESTERN_CARIBBEAN_SEA = {
+	id = 1841
+	provinces = { }
+}
+STATE_NORTH_SEA = {
+	id = 1842
+	provinces = { }
+}
+STATE_ENGLISH_CHANNEL = {
+	id = 1843
+	provinces = { }
+}
+STATE_BAY_OF_BISCAY = {
+	id = 1844
+	provinces = { }
+}
+STATE_IRISH_SEA = {
+	id = 1845
+	provinces = { }
+}
+STATE_STRAIT_OF_GIBRALTAR = {
+	id = 1846
+	provinces = { }
+}
+STATE_WESTERN_MEDITERRANEAN_SEA = {
+	id = 1847
+	provinces = { }
+}
+STATE_CENTRAL_MEDITERRANEAN_SEA = {
+	id = 1848
+	provinces = { }
+}
+STATE_EASTERN_MEDITERRANEAN_SEA = {
+	id = 1849
+	provinces = { }
+}
+STATE_SEA_OF_MARMARA = {
+	id = 1850
+	provinces = { }
+}
+STATE_BLACK_SEA = {
+	id = 1851
+	provinces = { }
+}
+STATE_ARCTIC_OCEAN_01 = {
+	id = 1852
+	provinces = { }
+}
+STATE_ARCTIC_OCEAN_02 = {
+	id = 1853
+	provinces = { }
+}
+STATE_BARENTS_SEA = {
+	id = 1854
+	provinces = { }
+}
+STATE_ARCTIC_OCEAN_04 = {
+	id = 1855
+	provinces = { }
+}
+STATE_ARCTIC_OCEAN_05 = {
+	id = 1856
+	provinces = { }
+}
+STATE_ARCTIC_OCEAN_06 = {
+	id = 1857
+	provinces = { }
+}
+STATE_ARCTIC_OCEAN_07 = {
+	id = 1858
+	provinces = { }
+}
+STATE_HUDSON_BAY = {
+	id = 1859
+	provinces = { }
+}
+STATE_GULF_OF_SAINT_LAWRENCE = {
+	id = 1860
+	provinces = { }
+}
+STATE_PERSIAN_GULF = {
+	id = 1861
+	provinces = { }
+}
+STATE_RED_SEA = {
+	id = 1862
+	provinces = { }
+}
+STATE_ARABIAN_SEA = {
+	id = 1863
+	provinces = { }
+}
+STATE_LACCADIVE_SEA = {
+	id = 1864
+	provinces = { }
+}
+STATE_BAY_OF_BENGAL = {
+	id = 1865
+	provinces = { }
+}
+STATE_ANDAMAN_SEA = {
+	id = 1866
+	provinces = { }
+}
+STATE_JAVA_SEA = {
+	id = 1867
+	provinces = { }
+}
+STATE_GULF_OF_SIAM = {
+	id = 1868
+	provinces = { }
+}
+STATE_GULF_OF_TONKIN = {
+	id = 1869
+	provinces = { }
+}
+STATE_SULU_SEA = {
+	id = 1870
+	provinces = { }
+}
+STATE_SOUTH_CHINA_SEA = {
+	id = 1871
+	provinces = { }
+}
+STATE_YELLOW_SEA = {
+	id = 1872
+	provinces = { }
+}
+STATE_EAST_CHINA_SEA = {
+	id = 1873
+	provinces = { }
+}
+STATE_SEA_OF_JAPAN = {
+	id = 1874
+	provinces = { }
+}
+STATE_GULF_OF_MEXICO = {
+	id = 1875
+	provinces = { }
+}
+STATE_CARIBBEAN_SEA = {
+	id = 1876
+	provinces = { }
+}
+STATE_GUIANA_SEA = {
+	id = 1877
+	provinces = { }
+}
+STATE_BRAZILIAN_SEA_NORTH = {
+	id = 1878
+	provinces = { }
+}
+STATE_BRAZILIAN_SEA_SOUTH = {
+	id = 1879
+	provinces = { }
+}
+STATE_ARGENTINE_SEA = {
+	id = 1880
+	provinces = { }
+}
+STATE_SCOTIA_SEA = {
+	id = 1881
+	provinces = { }
+}
+STATE_ATLANTIC_SEABOARD = {
+	id = 1882
+	provinces = { }
+}
+STATE_SARGASSO_SEA = {
+	id = 1883
+	provinces = { }
+}
+STATE_AZORES_SEA = {
+	id = 1884
+	provinces = { }
+}
+STATE_NORTH_ATLANTIC_OCEAN_01 = {
+	id = 1885
+	provinces = { }
+}
+STATE_NORTH_ATLANTIC_OCEAN_02 = {
+	id = 1886
+	provinces = { }
+}
+STATE_NORTH_ATLANTIC_OCEAN_03 = {
+	id = 1887
+	provinces = { }
+}
+STATE_NORTH_ATLANTIC_OCEAN_04 = {
+	id = 1888
+	provinces = { }
+}
+STATE_NORTH_ATLANTIC_OCEAN_05 = {
+	id = 1889
+	provinces = { }
+}
+STATE_NORTH_ATLANTIC_OCEAN_06 = {
+	id = 1890
+	provinces = { }
+}
+STATE_NORTH_ATLANTIC_01 = {
+	id = 1891
+	provinces = { }
+}
+STATE_NORTH_ATLANTIC_02 = {
+	id = 1892
+	provinces = { }
+}
+STATE_NORTH_ATLANTIC_03 = {
+	id = 1893
+	provinces = { }
+}
+STATE_NORTH_ATLANTIC_04 = {
+	id = 1894
+	provinces = { }
+}
+STATE_NORTH_ATLANTIC_05 = {
+	id = 1895
+	provinces = { }
+}
+STATE_NORTH_ATLANTIC_06 = {
+	id = 1896
+	provinces = { }
+}
+STATE_NORTH_ATLANTIC_07 = {
+	id = 1897
+	provinces = { }
+}
+STATE_ATLANTIC_OCEAN_01 = {
+	id = 1898
+	provinces = { }
+}
+STATE_ATLANTIC_OCEAN_02 = {
+	id = 1899
+	provinces = { }
+}
+STATE_ATLANTIC_OCEAN_03 = {
+	id = 1900
+	provinces = { }
+}
+STATE_ATLANTIC_OCEAN_04 = {
+	id = 1901
+	provinces = { }
+}
+STATE_ATLANTIC_OCEAN_05 = {
+	id = 1902
+	provinces = { }
+}
+STATE_WEST_AFRICAN_COAST = {
+	id = 1903
+	provinces = { }
+}
+STATE_MACARONESIAN_SEA = {
+	id = 1904
+	provinces = { }
+}
+STATE_CENTRAL_ATLANTIC_OCEAN = {
+	id = 1905
+	provinces = { }
+}
+STATE_GULF_OF_GUINEA = {
+	id = 1906
+	provinces = { }
+}
+STATE_SOUTH_ATLANTIC_OCEAN_01 = {
+	id = 1907
+	provinces = { }
+}
+STATE_SOUTH_ATLANTIC_OCEAN_02 = {
+	id = 1908
+	provinces = { }
+}
+STATE_SOUTH_ATLANTIC_OCEAN_03 = {
+	id = 1909
+	provinces = { }
+}
+STATE_SOUTH_ATLANTIC_OCEAN_04 = {
+	id = 1910
+	provinces = { }
+}
+STATE_SOUTH_ATLANTIC_OCEAN_05 = {
+	id = 1911
+	provinces = { }
+}
+STATE_SOUTH_ATLANTIC_OCEAN_06 = {
+	id = 1912
+	provinces = { }
+}
+STATE_SOUTH_ATLANTIC_SEA_LANE_01 = {
+	id = 1913
+	provinces = { }
+}
+STATE_SOUTH_ATLANTIC_SEA_LANE_02 = {
+	id = 1914
+	provinces = { }
+}
+STATE_SOUTH_ATLANTIC_SEA_LANE_05 = {
+	id = 1915
+	provinces = { }
+}
+STATE_COAST_OF_SAINT_HELENA = {
+	id = 1916
+	provinces = { }
+}
+STATE_ANGOLAN_SEA = {
+	id = 1917
+	provinces = { }
+}
+STATE_CAPE_OF_GOOD_HOPE = {
+	id = 1918
+	provinces = { }
+}
+STATE_NATAL_COAST = {
+	id = 1919
+	provinces = { }
+}
+STATE_MOZAMBIQUE_CHANNEL = {
+	id = 1920
+	provinces = { }
+}
+STATE_INDIAN_OCEAN_01 = {
+	id = 1921
+	provinces = { }
+}
+STATE_INDIAN_OCEAN_02 = {
+	id = 1922
+	provinces = { }
+}
+STATE_INDIAN_OCEAN_03 = {
+	id = 1923
+	provinces = { }
+}
+STATE_MASCARENES = {
+	id = 1924
+	provinces = { }
+}
+STATE_INDIAN_OCEAN_LANE_01 = {
+	id = 1925
+	provinces = { }
+}
+STATE_INDIAN_OCEAN_LANE_02 = {
+	id = 1926
+	provinces = { }
+}
+STATE_INDIAN_OCEAN_LANE_05 = {
+	id = 1927
+	provinces = { }
+}
+STATE_INDIAN_OCEAN_LANE_06 = {
+	id = 1928
+	provinces = { }
+}
+STATE_SEA_OF_OKHOTSK = {
+	id = 1929
+	provinces = { }
+}
+STATE_GULF_OF_ALASKA = {
+	id = 1930
+	provinces = { }
+}
+STATE_SUMATRA_SEA = {
+	id = 1931
+	provinces = { }
+}
+STATE_GREAT_AUSTRALIAN_BIGHT = {
+	id = 1932
+	provinces = { }
+}
+STATE_TASMAN_SEA = {
+	id = 1933
+	provinces = { }
+}
+STATE_TIMOR_SEA = {
+	id = 1934
+	provinces = { }
+}
+STATE_CORAL_SEA = {
+	id = 1935
+	provinces = { }
+}
+STATE_MOLUCCA_SEA = {
+	id = 1936
+	provinces = { }
+}
+STATE_ARAFURA_SEA = {
+	id = 1937
+	provinces = { }
+}
+STATE_PHILIPPINES_SEA = {
+	id = 1938
+	provinces = { }
+}
+STATE_BERING_SEA = {
+	id = 1939
+	provinces = { }
+}
+STATE_SOLOMON_SEA = {
+	id = 1940
+	provinces = { }
+}
+STATE_NORTH_PACIFIC_OCEAN_01 = {
+	id = 1941
+	provinces = { }
+}
+STATE_NORTH_PACIFIC_OCEAN_02 = {
+	id = 1942
+	provinces = { }
+}
+STATE_NORTH_PACIFIC_OCEAN_03 = {
+	id = 1943
+	provinces = { }
+}
+STATE_NORTH_PACIFIC_OCEAN_04 = {
+	id = 1944
+	provinces = { }
+}
+STATE_NORTH_PACIFIC_OCEAN_05 = {
+	id = 1945
+	provinces = { }
+}
+STATE_NORTH_PACIFIC_OCEAN_06 = {
+	id = 1946
+	provinces = { }
+}
+STATE_NORTH_PACIFIC_OCEAN_07 = {
+	id = 1947
+	provinces = { }
+}
+STATE_NORTH_PACIFIC_OCEAN_08 = {
+	id = 1948
+	provinces = { }
+}
+STATE_NORTH_PACIFIC_OCEAN_09 = {
+	id = 1949
+	provinces = { }
+}
+STATE_NORTH_PACIFIC_OCEAN_10 = {
+	id = 1950
+	provinces = { }
+}
+STATE_NORTH_PACIFIC_OCEAN_11 = {
+	id = 1951
+	provinces = { }
+}
+STATE_SOUTH_PACIFIC_OCEAN_01 = {
+	id = 1952
+	provinces = { }
+}
+STATE_SOUTH_PACIFIC_OCEAN_02 = {
+	id = 1953
+	provinces = { }
+}
+STATE_SOUTH_PACIFIC_OCEAN_03 = {
+	id = 1954
+	provinces = { }
+}
+STATE_SOUTH_PACIFIC_OCEAN_04 = {
+	id = 1955
+	provinces = { }
+}
+STATE_SOUTH_PACIFIC_OCEAN_05 = {
+	id = 1956
+	provinces = { }
+}
+STATE_SOUTH_PACIFIC_OCEAN_06 = {
+	id = 1957
+	provinces = { }
+}
+STATE_SOUTH_PACIFIC_OCEAN_07 = {
+	id = 1958
+	provinces = { }
+}
+STATE_SOUTH_PACIFIC_OCEAN_08 = {
+	id = 1959
+	provinces = { }
+}
+STATE_EASTER_ISLAND = {
+	id = 1960
+	provinces = { }
+}
+STATE_EASTERN_POLYNESIA = {
+	id = 1961
+	provinces = { }
+}
+STATE_CHILEAN_SEA = {
+	id = 1962
+	provinces = { }
+}
+STATE_PERUVIAN_SEA = {
+	id = 1963
+	provinces = { }
+}
+STATE_PACIFIC_SEABOARD_01 = {
+	id = 1964
+	provinces = { }
+}
+STATE_PACIFIC_SEABOARD_02 = {
+	id = 1965
+	provinces = { }
+}
+STATE_CENTROAMERICAN_SEA = {
+	id = 1966
+	provinces = { }
+}
+STATE_SOUTH_PACIFIC_OCEAN_09 = {
+	id = 1967
+	provinces = { }
+}
+STATE_NORTH_PHILIPPINES_SEA = {
+	id = 1968
+	provinces = { }
+}
+STATE_SOUTH_PHILIPPINES_SEA = {
+	id = 1969
+	provinces = { }
+}
+STATE_PATAGONIAN_LAKES = {
+	id = 1970
+	provinces = { }
+}
+STATE_LAKE_NICARAGUA = {
+	id = 1971
+	provinces = { }
+}

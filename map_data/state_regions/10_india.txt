@@ -1,0 +1,88 @@
+﻿STATE_BIHAR = {
+	id = 1612
+	provinces = { }
+}
+STATE_NORTH_BENGAL = {
+	id = 1613
+	provinces = { }
+}
+STATE_ASSAM = {
+	id = 1614
+	provinces = { }
+}
+STATE_DELHI = {
+	id = 1615
+	provinces = { }
+}
+STATE_AWADH = {
+	id = 1616
+	provinces = { }
+}
+STATE_GUJARAT = {
+	id = 1617
+	provinces = { }
+}
+STATE_CENTRAL_INDIA = {
+	id = 1618
+	provinces = { }
+}
+STATE_KASHMIR = {
+	id = 1619
+	provinces = { }
+}
+STATE_PUNJAB = {
+	id = 1620
+	provinces = { }
+}
+STATE_NAGPUR = {
+	id = 1621
+	provinces = { }
+}
+STATE_SOUTH_BENGAL = {
+	id = 1622
+	provinces = { }
+}
+STATE_SINDH = {
+	id = 1623
+	provinces = { }
+}
+STATE_RAJPUTANA = {
+	id = 1624
+	provinces = { }
+}
+STATE_CEYLON = {
+	id = 1625
+	provinces = { }
+}
+STATE_INDIAN_OCEAN_TERRITORY = {
+	id = 1626
+	provinces = { }
+}
+STATE_ORISSA = {
+	id = 1627
+	provinces = { }
+}
+STATE_CIRCARS = {
+	id = 1628
+	provinces = { }
+}
+STATE_MYSORE = {
+	id = 1629
+	provinces = { }
+}
+STATE_TRAVANCORE = {
+	id = 1630
+	provinces = { }
+}
+STATE_MADRAS = {
+	id = 1631
+	provinces = { }
+}
+STATE_HYDERABAD = {
+	id = 1632
+	provinces = { }
+}
+STATE_BOMBAY = {
+	id = 1633
+	provinces = { }
+}

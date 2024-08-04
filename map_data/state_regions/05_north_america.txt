@@ -1,0 +1,312 @@
+﻿STATE_DISTRICT_OF_COLUMBIA = {
+	id = 1404
+	provinces = { }
+}
+STATE_LOUISIANA = {
+	id = 1405
+	provinces = { }
+}
+STATE_NEW_YORK = {
+	id = 1406
+	provinces = { }
+}
+STATE_VIRGINIA = {
+	id = 1407
+	provinces = { }
+}
+STATE_ALASKA = {
+	id = 1408
+	provinces = { }
+}
+STATE_WASHINGTON = {
+	id = 1409
+	provinces = { }
+}
+STATE_OREGON = {
+	id = 1410
+	provinces = { }
+}
+STATE_IDAHO = {
+	id = 1411
+	provinces = { }
+}
+STATE_COLORADO = {
+	id = 1412
+	provinces = { }
+}
+STATE_WYOMING = {
+	id = 1413
+	provinces = { }
+}
+STATE_MONTANA = {
+	id = 1414
+	provinces = { }
+}
+STATE_NORTH_DAKOTA = {
+	id = 1415
+	provinces = { }
+}
+STATE_SOUTH_DAKOTA = {
+	id = 1416
+	provinces = { }
+}
+STATE_NEBRASKA = {
+	id = 1417
+	provinces = { }
+}
+STATE_KANSAS = {
+	id = 1418
+	provinces = { }
+}
+STATE_OKLAHOMA = {
+	id = 1419
+	provinces = { }
+}
+STATE_ARKANSAS = {
+	id = 1420
+	provinces = { }
+}
+STATE_MISSOURI = {
+	id = 1421
+	provinces = { }
+}
+STATE_IOWA = {
+	id = 1422
+	provinces = { }
+}
+STATE_MINNESOTA = {
+	id = 1423
+	provinces = { }
+}
+STATE_WISCONSIN = {
+	id = 1424
+	provinces = { }
+}
+STATE_INDIANA = {
+	id = 1425
+	provinces = { }
+}
+STATE_MICHIGAN = {
+	id = 1426
+	provinces = { }
+}
+STATE_OHIO = {
+	id = 1427
+	provinces = { }
+}
+STATE_KENTUCKY = {
+	id = 1428
+	provinces = { }
+}
+STATE_TENNESSEE = {
+	id = 1429
+	provinces = { }
+}
+STATE_MISSISSIPPI = {
+	id = 1430
+	provinces = { }
+}
+STATE_ALABAMA = {
+	id = 1431
+	provinces = { }
+}
+STATE_FLORIDA = {
+	id = 1432
+	provinces = { }
+}
+STATE_GEORGIA = {
+	id = 1433
+	provinces = { }
+}
+STATE_WEST_VIRGINIA = {
+	id = 1434
+	provinces = { }
+}
+STATE_MARYLAND = {
+	id = 1435
+	provinces = { }
+}
+STATE_DELAWARE = {
+	id = 1436
+	provinces = { }
+}
+STATE_PENNSYLVANIA = {
+	id = 1437
+	provinces = { }
+}
+STATE_NEW_JERSEY = {
+	id = 1438
+	provinces = { }
+}
+STATE_ILLINOIS = {
+	id = 1439
+	provinces = { }
+}
+STATE_RHODE_ISLAND = {
+	id = 1440
+	provinces = { }
+}
+STATE_CONNECTICUT = {
+	id = 1441
+	provinces = { }
+}
+STATE_MASSACHUSETTS = {
+	id = 1442
+	provinces = { }
+}
+STATE_NEW_HAMPSHIRE = {
+	id = 1443
+	provinces = { }
+}
+STATE_VERMONT = {
+	id = 1444
+	provinces = { }
+}
+STATE_MAINE = {
+	id = 1445
+	provinces = { }
+}
+STATE_NORTH_CAROLINA = {
+	id = 1446
+	provinces = { }
+}
+STATE_UTAH = {
+	id = 1447
+	provinces = { }
+}
+STATE_SOUTH_CAROLINA = {
+	id = 1448
+	provinces = { }
+}
+STATE_HAWAIIAN_ISLANDS = {
+	id = 1449
+	provinces = { }
+}
+STATE_ONTARIO = {
+	id = 1450
+	provinces = { }
+}
+STATE_NEW_BRUNSWICK = {
+	id = 1451
+	provinces = { }
+}
+STATE_QUEBEC = {
+	id = 1452
+	provinces = { }
+}
+STATE_NEWFOUNDLAND = {
+	id = 1453
+	provinces = { }
+}
+STATE_ALBERTA = {
+	id = 1454
+	provinces = { }
+}
+STATE_BRITISH_COLUMBIA = {
+	id = 1455
+	provinces = { }
+}
+STATE_SASKATCHEWAN = {
+	id = 1456
+	provinces = { }
+}
+STATE_MANITOBA = {
+	id = 1457
+	provinces = { }
+}
+STATE_YUKON_TERRITORY = {
+	id = 1458
+	provinces = { }
+}
+STATE_NORTHWEST_TERRITORIES = {
+	id = 1459
+	provinces = { }
+}
+STATE_NUNAVUT = {
+	id = 1460
+	provinces = { }
+}
+STATE_BERMUDA = {
+	id = 1461
+	provinces = { }
+}
+STATE_TEXAS = {
+	id = 1462
+	provinces = { }
+}
+STATE_NEVADA = {
+	id = 1463
+	provinces = { }
+}
+STATE_ARIZONA = {
+	id = 1464
+	provinces = { }
+}
+STATE_NEW_MEXICO = {
+	id = 1465
+	provinces = { }
+}
+STATE_CALIFORNIA = {
+	id = 1466
+	provinces = { }
+}
+STATE_SONORA = {
+	id = 1467
+	provinces = { }
+}
+STATE_CHIHUAHUA = {
+	id = 1468
+	provinces = { }
+}
+STATE_RIO_GRANDE = {
+	id = 1469
+	provinces = { }
+}
+STATE_DURANGO = {
+	id = 1470
+	provinces = { }
+}
+STATE_SINALOA = {
+	id = 1471
+	provinces = { }
+}
+STATE_BAJIO = {
+	id = 1472
+	provinces = { }
+}
+STATE_YUCATAN = {
+	id = 1473
+	provinces = { }
+}
+STATE_MEXICO = {
+	id = 1474
+	provinces = { }
+}
+STATE_VERACRUZ = {
+	id = 1475
+	provinces = { }
+}
+STATE_GUERRERO = {
+	id = 1476
+	provinces = { }
+}
+STATE_OAXACA = {
+	id = 1477
+	provinces = { }
+}
+STATE_JALISCO = {
+	id = 1478
+	provinces = { }
+}
+STATE_ZACATECAS = {
+	id = 1479
+	provinces = { }
+}
+STATE_CHIAPAS = {
+	id = 1480
+	provinces = { }
+}
+STATE_BAJA_CALIFORNIA = {
+	id = 1481
+	provinces = { }
+}

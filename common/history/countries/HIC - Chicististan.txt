@@ -1,0 +1,12 @@
+﻿COUNTRIES = {
+	c:HIC = {
+		set_next_election_date = 1837.11.4
+		
+		effect_starting_technology_tier_3_tech = yes
+
+		set_tax_level = medium
+
+		# Laws
+
+	}
+}

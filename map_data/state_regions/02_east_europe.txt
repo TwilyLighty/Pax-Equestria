@@ -1,0 +1,84 @@
+﻿STATE_MAZOVIA = {
+	id = 1290
+	provinces = { }
+}
+STATE_SILESIA = {
+	id = 1291
+	provinces = { }
+}
+STATE_GREATER_POLAND = {
+	id = 1292
+	provinces = { }
+}
+STATE_LESSER_POLAND = {
+	id = 1293
+	provinces = { }
+}
+STATE_WEST_PRUSSIA = {
+	id = 1294
+	provinces = { }
+}
+STATE_EAST_PRUSSIA = {
+	id = 1295
+	provinces = { }
+}
+STATE_POSEN = {
+	id = 1296
+	provinces = { }
+}
+STATE_WEST_GALICIA = {
+	id = 1297
+	provinces = { }
+}
+STATE_EAST_GALICIA = {
+	id = 1298
+	provinces = { }
+}
+STATE_CENTRAL_HUNGARY = {
+	id = 1299
+	provinces = { }
+}
+STATE_BEKES = {
+	id = 1300
+	provinces = { }
+}
+STATE_TRANSDANUBIA = {
+	id = 1301
+	provinces = { }
+}
+STATE_DELVIDEK = {
+	id = 1302
+	provinces = { }
+}
+STATE_BANAT = {
+	id = 1303
+	provinces = { }
+}
+STATE_WEST_SLOVAKIA = {
+	id = 1304
+	provinces = { }
+}
+STATE_EAST_SLOVAKIA = {
+	id = 1305
+	provinces = { }
+}
+STATE_SOUTHERN_TRANSYLVANIA = {
+	id = 1306
+	provinces = { }
+}
+STATE_NORTHERN_TRANSYLVANIA = {
+	id = 1307
+	provinces = { }
+}
+STATE_MOLDAVIA = {
+	id = 1308
+	provinces = { }
+}
+STATE_WALLACHIA = {
+	id = 1309
+	provinces = { }
+}
+STATE_BESSARABIA = {
+	id = 1310
+	provinces = { }
+}
