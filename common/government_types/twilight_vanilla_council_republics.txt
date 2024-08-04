@@ -1,9 +1,0 @@
-﻿gov_papal_commune = {
-	possible = { always = no }
-}
-gov_soviet_dictatorship = {
-	possible = { always = no }
-}
-gov_soviet_republic = {
-	possible = { always = no }
-}

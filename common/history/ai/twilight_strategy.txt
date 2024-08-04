@@ -1,8 +1,0 @@
-﻿AI = {
-	# TODO: Change this once we add more nations so EQS doesn't need to industrialize first-hand
-	c:EQS = {
-		set_strategy = ai_strategy_industrial_expansion
-		set_strategy = ai_strategy_twilight_progressive_agenda
-		set_strategy = ai_strategy_maintain_power_balance
-	}
-}

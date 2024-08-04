@@ -1,7 +1,0 @@
-﻿POPULATION = {
-	c:TRT = {
-		effect_starting_pop_wealth_low = yes
-		effect_starting_pop_literacy_middling = yes
-		set_initial_tribal_qualifications = yes
-	}
-}

@@ -1,4 +1,0 @@
-﻿assign_taiping_states = {}
-create_taiping_characters = {}
-ai_expedition_simulator_start = {}
-ai_expedition_simulator_end = {}

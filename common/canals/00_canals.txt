@@ -1,4 +1,0 @@
-﻿# Vanilla canals (Disabled)
-
-canal_suez = {}
-canal_panama = {}

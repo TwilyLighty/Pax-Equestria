@@ -1,1 +1,0 @@
-﻿krakatoa_tsunami_effect = {}

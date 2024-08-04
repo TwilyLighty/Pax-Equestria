@@ -1,8 +1,0 @@
-﻿# Disabled
-
-net_expand_east_indies = {
-	is_shown = { always = no }
-	possible = { always = no }
-	when_taken = {}
-	ai_chance = { base = 0 }
-}

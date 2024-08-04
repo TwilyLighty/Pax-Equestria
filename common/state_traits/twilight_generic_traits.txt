@@ -1,7 +1,0 @@
-﻿state_trait_debug_uncolonizable = {
-    icon = "gfx/interface/icons/state_trait_icons/unused/poor_soils.dds"
-
-	required_techs_for_colonization = {
-		debug_phlebotinum
-	}
-}

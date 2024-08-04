@@ -1,4 +1,0 @@
-﻿je_indian_removal = {
-	is_shown_when_inactive = { always = no }
-	possible = { always = no }
-}

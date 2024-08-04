@@ -1,8 +1,0 @@
-﻿PRODUCTION_METHODS = {
-	c:YKY = {
-		activate_production_method = {
-			building_type = building_rye_farm
-			production_method = pm_apple_orchards
-		}
-	}
-}

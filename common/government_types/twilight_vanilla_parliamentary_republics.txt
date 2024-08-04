@@ -1,3 +1,0 @@
-﻿gov_circassian_federation = {
-	possible = { always = no }
-}

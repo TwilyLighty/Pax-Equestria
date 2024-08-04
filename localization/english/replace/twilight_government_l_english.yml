@@ -1,9 +1,0 @@
-﻿l_english:
- monarchy: "Kingdom"
- gov_absolute_kingdom:0 "$absolute$ $monarchy$"
- gov_feudal_kingdom:0 "$feudal$ $monarchy$"
- gov_kingdom:0 "$monarchy$"
- gov_constitutional_kingdom:0 "$constitutional$ $monarchy$"
-
- gov_free_city:0 "Free City"
- gov_free_city_desc:0 "This is a [concept_government_type] where the [concept_country] is ruled by a [Concept('concept_ruler','$RULER_TITLE_MAYOR$')] chosen by a democratically [Concept('concept_election','$concept_elected$')] council.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
